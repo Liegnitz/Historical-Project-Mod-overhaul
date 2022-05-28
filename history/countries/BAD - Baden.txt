@@ -1,9 +1,9 @@
 capital = 586
 primary_culture = south_german
 religion = catholic
-government = absolute_monarchy
+government = hms_government
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_equality
 literacy = 0.8
 civilized = yes
 prestige = 5
@@ -11,12 +11,12 @@ prestige = 5
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = none_voting
+vote_franschise = wealth_voting
 public_meetings = yes_meeting
-press_rights = state_press
+press_rights = free_press
 trade_unions = no_trade_unions
-voting_system = first_past_the_post
-political_parties = underground_parties
+voting_system = jefferson_method
+political_parties = gerrymandering
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -25,7 +25,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-school_reforms = no_schools
+school_reforms = low_schools
 
 
 #New Reforms
@@ -38,12 +38,13 @@ border_policy = open_borders
 
 set_country_flag = catholic_country
 
-ruling_party = BAD_conservative_2
+ruling_party = BAD_liberal
+last_election = 1834.12.10
 upper_house = {
     fascist = 0
-    liberal = 32
-    conservative = 58
-    reactionary = 10
+    liberal = 45
+    conservative = 15
+    reactionary = 40
     anarcho_liberal = 0
     socialist = 0
     communist = 0

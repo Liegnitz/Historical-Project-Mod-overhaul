@@ -2838,67 +2838,67 @@
 #Darmstadt (360000/90000 POPS)
 2560 = {
     aristocrats = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 500
     }
 
     bureaucrats = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 400
     }
 
     officers = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 200
     }
 
     clergymen = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 500
     }
 
     artisans = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 3600
     }
 
     soldiers = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 1000
     }
 
     farmers = {
-        culture = north_german
+        culture = south_german
         religion = protestant
         size = 47300
     }
 
     clergymen = {
-        culture = north_german
+        culture = south_german
         religion = catholic
         size = 375
     }
 
     artisans = {
-        culture = north_german
+        culture = south_german
         religion = catholic
         size = 2400
     }
 
     soldiers = {
-        culture = north_german
+        culture = south_german
         religion = catholic
         size = 350
     }
 
     farmers = {
-        culture = north_german
+        culture = south_german
         religion = catholic
         size = 33875
     }

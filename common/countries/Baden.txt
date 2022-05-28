@@ -2,9 +2,39 @@ color = { 118  229  215 }
 graphical_culture = EuropeanGC
 
 party = {
-    name = "BAD_liberal"
+    name = "BAD_liberal" #hallgarten
     start_date = 1830.1.1
-    end_date = 2000.1.1
+    end_date = 1848.1.1
+
+    ideology = liberal
+
+    social_policy = no_position_set
+    economic_policy = interventionism
+    trade_policy = free_trade
+    religious_policy = secularized
+    citizenship_policy = full_citizenship
+    war_policy = pro_military
+}
+
+party = {
+    name = "BAD_conservative" #konservative
+    start_date = 1836.1.1
+    end_date = 1875.1.1
+
+    ideology = conservative
+
+    social_policy = no_position_set
+    economic_policy = laissez_faire
+    trade_policy = protectionism
+    religious_policy = moralism
+    citizenship_policy = residency
+    war_policy = pro_military
+}
+
+party = {
+    name = "BAD_liberal_2" #liberale
+    start_date = 1836.1.1
+    end_date = 1866.1.1
 
     ideology = liberal
 
@@ -13,27 +43,12 @@ party = {
     trade_policy = free_trade
     religious_policy = pluralism
     citizenship_policy = limited_citizenship
-    war_policy = anti_military
+    war_policy = pro_military
 }
 
 party = {
-    name = "BAD_conservative"
-    start_date = 1878.1.1
-    end_date = 2000.1.1
-
-    ideology = conservative
-
-    social_policy = no_position_set
-    economic_policy = laissez_faire
-    trade_policy = protectionism
-    religious_policy = moralism
-    citizenship_policy = limited_citizenship
-    war_policy = anti_military
-}
-
-party = {
-    name = "BAD_liberal_2"
-    start_date = 1861.1.1
+    name = "BAD_liberal_3" #nlp
+    start_date = 1866.1.1
     end_date = 2000.1.1
 
     ideology = liberal
@@ -47,39 +62,39 @@ party = {
 }
 
 party = {
-    name = "BAD_liberal_3"
-    start_date = 1861.1.1
+    name = "BAD_liberal_4" #dvp
+    start_date = 1868.1.1
+    end_date = 1930.1.1
+
+    ideology = liberal
+
+    social_policy = welfare_state
+    economic_policy = interventionism
+    trade_policy = free_trade
+    religious_policy = secularized
+    citizenship_policy = full_citizenship
+    war_policy = jingoism
+}
+
+party = {
+    name = "BAD_liberal_5" #freisinnige
+    start_date = 1866.1.1
     end_date = 2000.1.1
 
     ideology = liberal
 
     social_policy = no_position_set
-    economic_policy = laissez_faire
+    economic_policy = interventionism
     trade_policy = free_trade
-    religious_policy = pluralism
-    citizenship_policy = limited_citizenship
+    religious_policy = secularized
+    citizenship_policy = full_citizenship
     war_policy = pro_military
 }
 
 party = {
-    name = "BAD_socialist"
-    start_date = 1860.1.1
-    end_date = 1875.1.1
-
-    ideology = socialist
-
-    social_policy = welfare_state
-    economic_policy = planned_economy
-    trade_policy = free_trade
-    religious_policy = pluralism
-    citizenship_policy = full_citizenship
-    war_policy = anti_military
-}
-
-party = {
-    name = "BAD_socialist_2"
-    start_date = 1848.1.1
-    end_date = 1875.1.1
+    name = "BAD_socialist" #sdap
+    start_date = 1869.1.1
+    end_date = 1890.1.1
 
     ideology = socialist
 
@@ -92,24 +107,24 @@ party = {
 }
 
 party = {
-    name = "BAD_socialist_3"
-    start_date = 1875.1.1
+    name = "BAD_socialist2" #spd
+    start_date = 1890.1.1
     end_date = 2000.1.1
 
     ideology = socialist
 
-    social_policy = welfare_state
-    economic_policy = planned_economy
+	social_policy = welfare_state
+    economic_policy = state_capitalism
     trade_policy = free_trade
     religious_policy = secularized
     citizenship_policy = full_citizenship
-    war_policy = anti_military
+    war_policy = pro_military
 }
 
 party = {
-    name = "BAD_reactionary"
+    name = "BAD_reactionary" #reaktionäre
     start_date = 1830.1.1
-    end_date = 2000.1.1
+    end_date = 1876.1.1
 
     ideology = reactionary
 
@@ -118,41 +133,56 @@ party = {
     trade_policy = protectionism
     religious_policy = moralism
     citizenship_policy = residency
-    war_policy = jingoism
+    war_policy = pro_military
 }
 
 party = {
-    name = "BAD_conservative_2"
-    start_date = 1830.1.1
+    name = "BAD_reactionary2" #dkp
+    start_date = 1876.1.1
     end_date = 2000.1.1
 
-    ideology = conservative
+    ideology = reactionary
 
     social_policy = no_position_set
-    economic_policy = interventionism
+    economic_policy = state_capitalism
     trade_policy = protectionism
-    religious_policy = moralism
-    citizenship_policy = residency
-    war_policy = jingoism
-}
-
-party = {
-    name = "BAD_conservative_3"
-    start_date = 1878.1.1
-    end_date = 2000.1.1
-
-    ideology = conservative
-
-    social_policy = no_position_set
-    economic_policy = interventionism
-    trade_policy = protectionism
-    religious_policy = moralism
+    religious_policy = pluralism
     citizenship_policy = residency
     war_policy = pro_military
 }
 
 party = {
-    name = "BAD_anarcho_liberal"
+    name = "BAD_conservative_2" #kvp
+    start_date = 1869.1.1
+    end_date = 1888.1.1
+
+    ideology = conservative
+
+    social_policy = no_position_set
+    economic_policy = interventionism
+    trade_policy = protectionism
+    religious_policy = moralism
+    citizenship_policy = limited_citizenship
+    war_policy = pro_military
+}
+
+party = {
+    name = "BAD_conservative_3" #Zentrum
+    start_date = 1887.1.1
+    end_date = 2000.1.1
+
+    ideology = conservative
+
+    social_policy = no_position_set
+    economic_policy = interventionism
+    trade_policy = protectionism
+    religious_policy = moralism
+    citizenship_policy = limited_citizenship
+    war_policy = pro_military
+}
+
+party = {
+    name = "BAD_anarcho_liberal" #Radikale
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -167,8 +197,38 @@ party = {
 }
 
 party = {
-    name = "BAD_communist"
+    name = "BAD_communist" #BdK
     start_date = 1848.1.1
+    end_date = 1900.1.1
+
+    ideology = communist
+
+    social_policy = populist_welfare
+    economic_policy = planned_economy
+    trade_policy = protectionism
+    religious_policy = secularized
+    citizenship_policy = limited_citizenship
+    war_policy = pro_military
+}
+
+party = {
+    name = "BAD_communist2" #USPD
+    start_date = 1900.1.1
+    end_date = 1930.1.1
+
+    ideology = communist
+
+    social_policy = populist_welfare
+    economic_policy = planned_economy
+    trade_policy = protectionism
+    religious_policy = pro_atheism
+    citizenship_policy = full_citizenship
+    war_policy = pacifist
+}
+
+party = {
+    name = "BAD_communist3" #KPD
+    start_date = 1919.1.1
     end_date = 2000.1.1
 
     ideology = communist
@@ -182,8 +242,23 @@ party = {
 }
 
 party = {
-    name = "BAD_fascist"
+    name = "BAD_fascist" #DVLP
     start_date = 1900.1.1
+    end_date = 2000.1.1
+
+    ideology = fascist
+
+    social_policy = no_position_set
+    economic_policy = state_capitalism
+    trade_policy = protectionism
+    religious_policy = pluralism
+    citizenship_policy = limited_citizenship
+    war_policy = jingoism
+}
+
+party = {
+    name = "BAD_fascist2" #NSDAP
+    start_date = 1920.1.1
     end_date = 2000.1.1
 
     ideology = fascist
@@ -191,7 +266,7 @@ party = {
     social_policy = populist_welfare
     economic_policy = state_capitalism
     trade_policy = protectionism
-    religious_policy = moralism
+    religious_policy = pluralism
     citizenship_policy = residency
     war_policy = jingoism
 }

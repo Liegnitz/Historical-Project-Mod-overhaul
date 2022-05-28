@@ -10,13 +10,13 @@ civilized = yes
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = appointed
+upper_house_composition = state_equal_weight
 vote_franschise = wealth_voting
 public_meetings = yes_meeting
-press_rights = free_press
+press_rights = censored_press
 trade_unions = no_trade_unions
-voting_system = jefferson_method
-political_parties = gerrymandering
+voting_system = first_past_the_post
+political_parties = harassment
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -28,7 +28,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms
-conscription = one_year_draft
+conscription = two_year_draft
 debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legal
@@ -37,12 +37,12 @@ border_policy = open_borders
 
 set_country_flag = catholic_country
 
-ruling_party = BAN_liberal
+ruling_party = BAN_conservative
 upper_house = {
     fascist = 0
-    liberal = 45
+    liberal = 31
     conservative = 49
-    reactionary = 6
+    reactionary = 18
     anarcho_liberal = 0
     socialist = 0
     communist = 0

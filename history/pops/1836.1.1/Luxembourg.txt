@@ -29,19 +29,19 @@
     artisans = {
         culture = north_german
         religion = catholic
-        size = 750
+        size = 1050
     }
 
     soldiers = {
         culture = north_german
         religion = catholic
-        size = 2000
+        size = 2200
     }
 
     farmers = {
         culture = north_german
         religion = catholic
-        size = 13580
+        size = 36150
     }
 
     farmers = {
@@ -77,19 +77,19 @@
     artisans = {
         culture = french
         religion = catholic
-        size = 1750
+        size = 1450
     }
 
     soldiers = {
         culture = french
         religion = catholic
-        size = 250
+        size = 50
     }
 
     farmers = {
         culture = french
         religion = catholic
-        size = 23375
+        size = 805
     }
 
     ######Jews

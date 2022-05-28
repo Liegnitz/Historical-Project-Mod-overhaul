@@ -906,7 +906,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 14950
+        size = 16750
     }
 
     clergymen = {
@@ -930,7 +930,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 5400
+        size = 3600
     }
 }
 #Friuli-Istria Region (292000) #see Croatia.txt for balance of region
