@@ -10,7 +10,7 @@ PROV3321;Nukutavake;;;;;;;;;;;;;x
 PROV3322;Pinaki;;;;;;;;;;;;;x
 FRA_411;Ardennes;;;;;;;;;;;;x
 PROV934;Samawah;;;;;;;;;;;;x
-AUS_627;Lower Silesia;;;;;;;;;;;;x
+AUS_627;Upper Silesia;;;;;;;;;;;;x
 ABU_1162;Arabian Gulf;;;;;;;;;;;;x
 EGY_897;Western Syria;;;;;;;;;;;;x
 EGY_903;Eastern Syria;;;;;;;;;;;;x
@@ -156,8 +156,7 @@ BUR_1334;Mandalay;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2623;Midway and Wake Islands;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2524;Kirikiriroa;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV579;Neuwied;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV574;Koblenz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV547;Greifswald;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV574;Coblenz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV57;Bytown;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2036;Mzizima;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2681;Taipei;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -454,9 +453,9 @@ PRU_546;Pomerania;;;;;;;;;;;;x
 PRU_553;Anhalt;;;;;;;;;;;;x
 PRU_554;Thuringia;;;;;;;;;;;;x
 SAX_558;Saxony;;;;;;;;;;;;x
-PRU_570;Palatinate;;;;;;;;;;;;x
-PRU_575;Rheinland;;;;;;;;;;;;x
-PRU_578;Eastern Rheinland;;;;;;;;;;;;x
+PRU_570;Southern Rhineland;;;;;;;;;;;;x
+PRU_575;Northern Rhineland;;;;;;;;;;;;x
+PRU_578;Eastern Rhineland;;;;;;;;;;;;x
 BAV_595;Franconia;;;;;;;;;;;;x
 BAV_599;Upper Bavaria;;;;;;;;;;;;x
 SPA_610;Caroline Islands;;;;;;;;;;;;x
@@ -464,12 +463,12 @@ AUS_652;Banat;;;;;;;;;;;;x
 AUS_654;Western Transylvania;;;;;;;;;;;;x
 AUS_657;Eastern Transylvania;;;;;;;;;;;;x
 MOL_676;Bessarabia;;;;;;;;;;;;x
-PRU_682;Silesia;;;;;;;;;;;;x
-AUS_702;Galicia-Lodomeria;;;;;;;;;;;;x
+PRU_682;Lower Silesia;;;;;;;;;;;;x
+AUS_702;West Galicia;;;;;;;;;;;;x
 PROV704;Nowy Sacz;;;;;;;;;;;;x
 RUS_706;Masovia;;;;;;;;;;;;x
 PROV711;Siedlce;;;;;;;;;;;;x
-RUS_715;West Galicia;;;;;;;;;;;;x
+RUS_715;Lesser Poland;;;;;;;;;;;;x
 PROV719;Bialystok;;;;;;;;;;;;x
 PROV748;Grosseto;;;;;;;;;;;;x
 SAR_765;Thyrrenian Islands;;;;;;;;;;;;x
