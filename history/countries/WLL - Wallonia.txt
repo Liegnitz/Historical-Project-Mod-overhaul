@@ -1,4 +1,4 @@
-capital = 392
+capital = 395
 primary_culture = wallonian
 culture = picard
 religion = catholic
