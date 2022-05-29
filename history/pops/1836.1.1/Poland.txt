@@ -687,19 +687,19 @@
     artisans = {
         culture = north_german
         religion = protestant
-        size = 500
+        size = 700
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 100
+        size = 125
     }
 
     farmers = {
         culture = north_german
         religion = protestant
-        size = 7575
+        size = 12250
     }
 
     clergymen = {
@@ -711,13 +711,13 @@
     artisans = {
         culture = south_german
         religion = catholic
-        size = 1100
+        size = 1200
     }
 
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 1000
+        size = 1025
     }
 
     farmers = {
@@ -729,49 +729,25 @@
     clergymen = {
         culture = polish
         religion = catholic
-        size = 675
+        size = 775
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 3650
+        size = 3850
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 2000
+        size = 2050
     }
 
     farmers = {
         culture = polish
         religion = catholic
-        size = 67675
-    }
-
-    clergymen = {
-        culture = czech
-        religion = catholic
-        size = 100
-    }
-
-    artisans = {
-        culture = czech
-        religion = catholic
-        size = 500
-    }
-
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 100
-    }
-
-    farmers = {
-        culture = czech
-        religion = catholic
-        size = 9350
+        size = 72350
     }
 }
 #under the rule of Austria in 1836
@@ -988,6 +964,12 @@
         religion = protestant
         size = 250
     }
+	
+	artisans = {
+        culture = north_german
+        religion = protestant
+        size = 200
+    }
 
     soldiers = {
         culture = north_german
@@ -998,7 +980,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 23825
+        size = 15325
     }
 
     clergymen = {
@@ -1010,7 +992,7 @@
     farmers = {
         culture = western_slavic
         religion = protestant
-        size = 3200
+        size = 3700
     }
 
     clergymen = {
@@ -1046,7 +1028,7 @@
     artisans = {
         culture = polish
         religion = catholic
-        size = 2200
+        size = 2000
     }
 
     soldiers = {
@@ -1058,7 +1040,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 13425
+        size = 21425
     }
 }
 #Deutsche Krone (128000/32000 POPS)
