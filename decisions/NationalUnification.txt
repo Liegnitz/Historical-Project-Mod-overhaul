@@ -168,6 +168,7 @@ political_decisions = {
                         tag = BAD
                         tag = BAV
                         tag = SGM
+						tag = HES
                     }
                     in_sphere = THIS
                 }
@@ -1031,7 +1032,7 @@ political_decisions = {
 
         effect = {
             410 = {
-                change_province_name = "Kolmar"
+                change_province_name = "Mülhausen"
             }
             409 = {
                 change_province_name = "Straßburg"
@@ -1059,7 +1060,7 @@ political_decisions = {
 
         effect = {
             410 = {
-                change_province_name = "Colmar"
+                change_province_name = "Mulhouse"
             }
             409 = {
                 change_province_name = "Strasbourg"
