@@ -780,7 +780,7 @@
     aristocrats = {
         culture = polish
         religion = catholic
-        size = 750
+        size = 700
     }
 
     officers = {
@@ -798,7 +798,7 @@
     artisans = {
         culture = polish
         religion = catholic
-        size = 2500
+        size = 2000
     }
 
     soldiers = {
@@ -810,7 +810,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 53715
+        size = 45015
     }
 
     serfs = {
@@ -822,7 +822,7 @@
     aristocrats = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 150
     }
 
     officers = {
@@ -840,7 +840,7 @@
     artisans = {
         culture = south_german
         religion = catholic
-        size = 250
+        size = 750
     }
 
     soldiers = {
@@ -852,7 +852,13 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 1675
+        size = 10175
+    }
+	
+	farmers = {
+        culture = czech
+        religion = catholic
+        size = 200
     }
 }
 #West Prussia Region (688000)
