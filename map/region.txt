@@ -202,7 +202,7 @@ FRA_404 = { 399 400 401 404 } #Nord-Pas-De-Calais/Artois
 
 FRA_411 = { 411 413 414 } #Ardennes
 
-FRA_412 = { 412 409 410 } #Alsace-Lorraine
+FRA_412 = { 409 412 410 } #Alsace-Lorraine
 
 FRA_418 = { 418 415 416 417 } #Normandie
 

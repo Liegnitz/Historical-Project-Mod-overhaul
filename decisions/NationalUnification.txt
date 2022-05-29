@@ -83,6 +83,7 @@ political_decisions = {
                 }
             }
             change_tag = SGF
+			567 = { secede_province = PRU }
             any_country = {
                 limit = {
                     primary_culture = south_german
@@ -179,6 +180,7 @@ political_decisions = {
                     OR = {
                         culture = south_german
                         province_id = 412
+						province_id = 570
                     }
                     is_core = GER
                     NOT = {
@@ -188,6 +190,7 @@ political_decisions = {
                     NOT = { has_country_flag = post_colonial_country }
                 }
                 add_core = SGF
+				567 = { secede_province = PRU }
             }
             release_vassal = SGF
             diplomatic_influence = {
@@ -271,6 +274,7 @@ political_decisions = {
                 add_core = SGF
             }
             change_tag = SGF
+			567 = { secede_province = PRU }
             any_country = {
                 limit = {
                     primary_culture = south_german
@@ -369,6 +373,7 @@ political_decisions = {
                     OR = {
                         primary_culture = north_german
                         tag = SCH
+						tag = HES
                     }
                     in_sphere = THIS
                     NOT = { tag = THIS }
