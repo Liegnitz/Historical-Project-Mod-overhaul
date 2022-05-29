@@ -274,7 +274,7 @@ HAN_540 = { 540 543 542 541 1743 533 } #East Friesland
 
 PRU_544 = { 544 545 } #Mecklenburg
 
-PRU_546 = { 546 547 548 679 680 } #Pomerania
+PRU_546 = { 547 679 548 546 680 } #Pomerania
 
 PRU_549 = { 549 550 551 552 681 } #Brandenburg
 
@@ -302,7 +302,7 @@ BAV_595 = { 595 596 597 598 } #Franconia
 
 BAV_599 = { 599 592 600 601 602 } #Upper Bavaria
 
-SWI_603 = { 603 606 611 2568 605 604 607 608 609 } #Switzerland
+SWI_603 = { 603 606 605 2568 611 604 607 608 609 } #Switzerland
 
 PRU_682 = { 682 683 687 } #Silesia
 
@@ -310,7 +310,7 @@ PRU_690 = { 690 691 694 693 692 } #Westpreuﬂen
 
 PRU_695 = { 695 696 697 698 } #Ostpreuﬂen
 
-PRU_701 = { 701 699 700 } #Posen
+PRU_701 = { 699 700 701 } #Posen
 
 
 ### Austria
