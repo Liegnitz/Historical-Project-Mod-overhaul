@@ -98,12 +98,6 @@ army = {
         home = 392 #Liege
     }
 
-    regiment = {
-        name= "3e Cavalerie Brigade"
-        type = cuirassier
-        home = 391 #Hasselt
-    }
-
 }
 
 navy = {

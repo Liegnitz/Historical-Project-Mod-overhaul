@@ -5,49 +5,31 @@
     aristocrats = {
         culture = north_german
         religion = protestant
-        size = 1250
-    }
-
-    bureaucrats = {
-        culture = north_german
-        religion = protestant
-        size = 1300
-    }
-
-    officers = {
-        culture = north_german
-        religion = protestant
-        size = 350
+        size = 450
     }
 
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 1125
+        size = 250
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 8250
+        size = 600
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 3300
+        size = 700
     }
 
     farmers = {
         culture = north_german
         religion = protestant
-        size = 117125
-    }
-
-    clergymen = {
-        culture = polish
-        religion = catholic
-        size = 100
+        size = 24250
     }
 
     artisans = {
@@ -56,55 +38,11 @@
         size = 100
     }
 
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 100
-    }
-
     farmers = {
         culture = polish
         religion = catholic
-        size = 920
+        size = 200
     }
-
-    ######Jews
-    aristocrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    officers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    clergymen = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    artisans = {
-        culture = ashkenazi
-        religion = jewish
-        size = 300
-    }
-
-    farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 300
-    }
-    ########
 }
 #Kolberg (160000/40000 POPS) #Part of Poland since 1945
 679 = {

@@ -1230,32 +1230,81 @@
     aristocrats = {
         culture = north_german
         religion = protestant
-        size = 300
+        size = 700
+    }
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 1300
+    }
+
+    officers = {
+        culture = north_german
+        religion = protestant
+        size = 350
     }
 
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 325
+        size = 1325
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 1650
+        size = 9550
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 1000
+        size = 3600
     }
 
     farmers = {
         culture = north_german
         religion = protestant
-        size = 29725
+        size = 122600
     }
+	
+	######Jews
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    officers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 300
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 300
+    }
+    ########
 }
 #Stralsund (157000/39250 POPS)
 548 = {
