@@ -249,7 +249,7 @@ army = {
     regiment = {
         name= "I. Kavalleriebrigade"
         type = cuirassier
-        home = 687
+        home = 682
     }
 
     regiment = {
@@ -321,7 +321,7 @@ army = {
     regiment = {
         name= "XIV. Linieninfanteriebrigade"
         type = infantry
-        home = 696
+        home = 549
     }
 
     regiment = {
@@ -351,13 +351,13 @@ army = {
     regiment = {
         name= "XVIII. Linieninfanteriebrigade"
         type = infantry
-        home = 698
+        home = 556
     }
 
     regiment = {
         name= "III. Artilleriebrigade"
         type = artillery
-        home = 698
+        home = 683
     }
 
 }

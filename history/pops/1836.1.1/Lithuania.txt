@@ -644,87 +644,60 @@
     aristocrats = {
         culture = north_german
         religion = protestant
-        size = 750
-    }
-
-    clergymen = {
-        culture = north_german
-        religion = protestant
         size = 200
     }
 
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 66
+    }
+
     artisans = {
         culture = north_german
         religion = protestant
-        size = 2400
+        size = 530
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 1100
+        size = 356
     }
 
     farmers = {
         culture = north_german
         religion = protestant
-        size = 19500
-    }
-
-    ######Jews
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
+        size = 5650
     }
 
     clergymen = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
+        culture = lithuanian
+        religion = protestant
+        size = 125
     }
 
     artisans = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-    ########
-
-    clergymen = {
-        culture = lithuanian
-        religion = catholic
-        size = 150
-    }
-
-    artisans = {
-        culture = lithuanian
-        religion = catholic
-        size = 950
-    }
-
-    soldiers = {
-        culture = lithuanian
-        religion = catholic
-        size = 1100
-    }
-
-    farmers = {
-        culture = lithuanian
-        religion = catholic
-        size = 16100
-    }
-
-    farmers = {
         culture = lithuanian
         religion = protestant
         size = 1000
+    }
+
+    soldiers = {
+        culture = lithuanian
+        religion = protestant
+        size = 675
+    }
+
+    farmers = {
+        culture = lithuanian
+        religion = protestant
+        size = 9600
+    }
+
+    farmers = {
+        culture = lithuanian
+        religion = catholic
+        size = 1100
     }
 }
