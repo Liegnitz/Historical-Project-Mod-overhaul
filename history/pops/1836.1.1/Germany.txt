@@ -2092,7 +2092,7 @@
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 2055
+        size = 1855
     }
 
     clerks = {
@@ -2122,7 +2122,7 @@
     labourers = {
         culture = north_german
         religion = protestant
-        size = 172630
+        size = 152630
     }
 
     aristocrats = {
@@ -2142,41 +2142,53 @@
         religion = catholic
         size = 100
     }
+	
+    clerks = {
+        culture = north_german
+        religion = catholic
+        size = 100
+    }
+	
+	clergymen = {
+        culture = western_slavic
+        religion = catholic
+        size = 200
+    }
+	
+	labourers = {
+        culture = north_german
+        religion = protestant
+        size = 27470
+    }
 
     clergymen = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     craftsmen = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 1000
     }
 
     soldiers = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 100
     }
 
     labourers = {
-        culture = north_german
+        culture = western_slavic
         religion = catholic
         size = 5470
-    }
-
-    clerks = {
-        culture = north_german
-        religion = catholic
-        size = 100
     }
 
     ######Jews
@@ -5639,13 +5651,13 @@
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 671
+        size = 1100
     }
 
     farmers = {
         culture = north_german
         religion = protestant
-        size = 56707
+        size = 56278
     }
 
     clergymen = {
