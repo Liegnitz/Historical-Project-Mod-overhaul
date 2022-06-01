@@ -1,4 +1,4 @@
 name = "HPM overhaul"
-path = "mod/HPM"
-user_dir = "HPM"
+path = "mod/HPM_overhaul"
+user_dir = "HPM_overhaul"
 replace_path = "history/provinces"
