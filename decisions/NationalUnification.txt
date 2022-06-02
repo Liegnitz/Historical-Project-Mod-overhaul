@@ -170,6 +170,8 @@ political_decisions = {
                         tag = BAV
                         tag = SGM
 						tag = HES
+						tag = MEI
+						tag = COB
                     }
                     in_sphere = THIS
                 }
@@ -374,6 +376,8 @@ political_decisions = {
                         primary_culture = north_german
                         tag = SCH
 						tag = HES
+						tag = MEI
+						tag = COB
                     }
                     in_sphere = THIS
                     NOT = { tag = THIS }

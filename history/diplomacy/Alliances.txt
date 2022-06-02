@@ -43,8 +43,50 @@ alliance = {
 
 alliance = {
     first = AUS
+    second = MEI
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+
+alliance = {
+    first = AUS
     second = WUR
     start_date = 1836.1.1 #1386.9.5
+    end_date = 1936.1.1
+}
+
+alliance = {
+    first = AUS
+    second = COB
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+	
+alliance = {
+    first = AUS
+    second = HEK
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+	
+alliance = {
+    first = AUS
+    second = HES
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+	
+alliance = {
+    first = AUS
+    second = NAS
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+	
+alliance = {
+    first = AUS
+    second = FRM
+    start_date = 1836.1.1
     end_date = 1936.1.1
 }
 
@@ -127,14 +169,12 @@ alliance = {
         start_date = 1835.1.1
         end_date = 1867.1.1
     }
-
 alliance = {
         first = PRU
         second = ANH
         start_date = 1835.1.1
         end_date = 1867.1.1
     }
-
 alliance = {
         first = PRU
         second = BRE
@@ -149,43 +189,7 @@ alliance = {
     }
 alliance = {
         first = PRU
-        second = COB
-        start_date = 1835.1.1
-        end_date = 1867.1.1
-    }
-alliance = {
-        first = PRU
-        second = FRM
-        start_date = 1835.1.1
-        end_date = 1867.1.1
-    }
-alliance = {
-        first = PRU
-        second = HEK
-        start_date = 1835.1.1
-        end_date = 1867.1.1
-    }
-alliance = {
-        first = PRU
-        second = HES
-        start_date = 1835.1.1
-        end_date = 1867.1.1
-    }
-alliance = {
-        first = PRU
         second = LIP
-        start_date = 1835.1.1
-        end_date = 1867.1.1
-    }
-alliance = {
-        first = PRU
-        second = MEI
-        start_date = 1835.1.1
-        end_date = 1867.1.1
-    }
-alliance = {
-        first = PRU
-        second = NAS
         start_date = 1835.1.1
         end_date = 1867.1.1
     }

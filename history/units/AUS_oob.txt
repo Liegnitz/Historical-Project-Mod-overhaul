@@ -15,22 +15,22 @@ WAL = {
 BAD = {
     value = 125
     level = 5
-    influence_value = 0
+    influence_value = 25
 }
 BAV = {
-    value = 125
+    value = 150
     level = 5
-    influence_value = 0
+    influence_value = 25
 }
 WUR = {
-    value = 125
+    value = 100
     level = 5
-    influence_value = 0
+    influence_value = 25
 }
 SAX = {
-    value = 125
+    value = 150
     level = 5
-    influence_value = 0
+    influence_value = 25
 }
 ANH = {
     value = 125
@@ -45,11 +45,13 @@ BRE = {
     military_access = yes
 }
 COB = {
-    value = 125
+    value = 150
+	level = 5
     military_access = yes
 }
 FRM = {
     value = 125
+	level = 5
     military_access = yes
 }
 HAM = {
@@ -58,14 +60,20 @@ HAM = {
 }
 HAN = {
     value = 125
+	level = 4
+	influence_value = 25
     military_access = yes
 }
 HEK = {
     value = 125
+	level = 5
+    influence_value = 0
     military_access = yes
 }
 HES = {
     value = 125
+	level = 5
+	influence_value = =
     military_access = yes
 }
 LIP = {
@@ -81,11 +89,15 @@ MEC = {
     military_access = yes
 }
 MEI = {
-    value = 125
+    value = 150
+	level = 5
+	influence_value = 25
     military_access = yes
 }
 NAS = {
     value = 125
+	level = 5
+	influence_value = 0
     military_access = yes
 }
 OLD = {
@@ -94,6 +106,8 @@ OLD = {
 }
 WEI = {
     value = 125
+	level = 4
+	influence_value = 25
     military_access = yes
 }
 
