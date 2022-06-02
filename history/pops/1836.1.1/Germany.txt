@@ -2571,43 +2571,43 @@
     aristocrats = {
         culture = north_german
         religion = protestant
-        size = 200
+        size = 319
     }
 
     bureaucrats = {
         culture = north_german
         religion = protestant
-        size = 135
+        size = 145
     }
 
     officers = {
         culture = north_german
         religion = protestant
-        size = 100
+        size = 218
     }
 
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 138
+        size = 263
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 8175
+        size = 9100
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 475
+        size = 624
     }
 
     farmers = {
         culture = north_german
         religion = protestant
-        size = 1550
+        size = 2400
     }
 
     clergymen = {
@@ -2619,13 +2619,13 @@
     artisans = {
         culture = north_german
         religion = catholic
-        size = 900
+        size = 1100
     }
 
     farmers = {
         culture = north_german
         religion = catholic
-        size = 500
+        size = 343
     }
 
     ######Jews

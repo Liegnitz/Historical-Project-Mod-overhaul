@@ -300,7 +300,7 @@ army = {
     regiment = {
         name= "II. Artilleriebrigade"
         type = artillery
-        home = 685
+        home = 683
     }
 
 }
@@ -360,7 +360,7 @@ army = {
     regiment = {
         name= "III. Artilleriebrigade"
         type = artillery
-        home = 683
+        home = 681
     }
 
 }
