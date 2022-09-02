@@ -914,6 +914,12 @@
         religion = catholic
         size = 4300
     }
+	
+    craftsmen = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
 
     soldiers = {
         culture = south_german
@@ -930,7 +936,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 31000
+        size = 30900
     }
 
     clergymen = {

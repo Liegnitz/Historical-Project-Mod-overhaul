@@ -278,7 +278,7 @@ SWI_603;Switzerland;;;;;;;;;;;;x
 PROV2625;North West River;;;;;;;;;;;;x
 PROV2580;Novaya Ladoga;;;;;;;;;;;;x
 PROV995;Petrozavodsk;;;;;;;;;;;;x
-PROV965;Kherson;;;;;;;;;;;;x
+PROV965;Aleshki;;;;;;;;;;;;x
 PROV1048;Yekaterinodar;;;;;;;;;;;;x
 PROV1045;Migulinskaya;;;;;;;;;;;;x
 PROV950;Ungv·r;;;;;;;;;;;;x
@@ -1000,4 +1000,7 @@ PROV410;Mulhouse;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV680;Stolp;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV628;Auﬂig;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV546;Stargard;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV547;Stettin;;;;;;;;;;;;;x
+PROV547;Stettin;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV50;Port Arthur;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV984;Sorotskaya;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV986;Pechenga;;;;;;;;;;;;;x
