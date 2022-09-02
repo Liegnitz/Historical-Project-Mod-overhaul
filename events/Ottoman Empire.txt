@@ -3448,7 +3448,6 @@ country_event = {
                 limit = {
                     OR = {
                         province_id = 802
-                        province_id = 803
                         province_id = 804
                     }
                 }
@@ -3507,7 +3506,6 @@ country_event = {
                 limit = {
                     OR = {
                         province_id = 802
-                        province_id = 803
                         province_id = 804
                         province_id = 798
                         province_id = 799

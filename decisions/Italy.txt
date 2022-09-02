@@ -618,10 +618,9 @@ political_decisions = {
 
         effect = {
             set_country_flag = italia_ulterior
-            AUS_733 = { add_core = ITA } #Friuli
+            AUS_733 = { add_core = ITA } #Litoral
             AUS_729 = { add_core = ITA } #Venetia
             #AUS_734 = { add_core = ITA } #South Tirol
-            #AUS_736 = { add_core = ITA } #Istria
             #781 = { add_core = ITA } #Zadar
         }
     }
@@ -651,8 +650,7 @@ political_decisions = {
         effect = {
             set_country_flag = italian_balkans
             AUS_734 = { add_core = ITA } #South Tirol
-            AUS_736 = { add_core = ITA } #Istria
-            AUS_733 = { add_core = ITA } #Friuli
+            AUS_733 = { add_core = ITA } #Litoral
             781 = { add_core = ITA } #Zadar
         }
     }

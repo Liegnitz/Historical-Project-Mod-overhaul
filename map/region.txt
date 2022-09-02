@@ -319,21 +319,21 @@ AUS_612 = { 612 613 614 615 } #Tirol
 
 AUS_613 = { 616 617 618 } #Kärnten-Steiermark
 
-AUS_619 = { 619 620 621 622 624 } #Österreich
+AUS_619 = { 619 620 621 622 } #Österreich
 
-AUS_623 = { 639 623 640 642 643 644 } #Transdanubia
+AUS_623 = { 639 640 642 643 644 } #Transdanubia
 
-AUS_625 = { 625 626 631 } #Bohemia
+AUS_625 = { 625 626 631 791 } #Bohemia
 
-AUS_626 = { 627 628 629 630 632 } #Moravia/Sudetes
+AUS_626 = { 627 628 629 630 632 803 } #Moravia/Sudetes
 
 AUS_627 = { 684 688 689 685 2584 } #Lower Silesia
 
-AUS_633 = { 633 634 635 636 637 638 950 } #Slovakia
+AUS_633 = { 633 634 635 636 637 638 } #Slovakia
 
-AUS_641 = { 641 645 646 648 649 650 } #Central Hungary
+AUS_641 = { 641 645 646 } #Central Hungary
 
-AUS_652 = { 652 653 } #Banat
+AUS_652 = { 652 653 792 } #Banat
 
 AUS_654 = { 651 647 } #Partium
 
@@ -347,23 +347,23 @@ RUS_715 = { 715 711 713 716 } #West Galicia
 
 AUS_726 = { 726 727 728 2669 } #Lombardia
 
-AUS_733 = { 736 737 } #Friuli
+AUS_733 = { 736 737 770 778 } #Litoral
 
 AUS_729 = { 729 730 731 732 733 8 } #Venetia
 
 AUS_734 = { 734 735 } #South Tirol
 
-AUS_736 = { 769 770 778 } #Istria
+AUS_736 = { 623 624 } #Burgenland
 
-AUS_768 = { 767 768 } #Slovenia
+AUS_768 = { 768 767 769 } #Slovenia
 
 AUS_771 = { 771 772 773 775 776 } #Croatia
 
-AUS_777 = { 779 793 777 } #Slavonia
+AUS_777 = { 779 793 777 2538 } #Slavonia
 
 AUS_780 = { 780 781 782 774 2582 } #Dalmatia
 
-AUS_2538 = { 2538 791 792 } #Vojvodina
+AUS_2538 = { 648 649 650 950 } #Transtisia
 
 
 ### Italy
@@ -403,7 +403,7 @@ SER_794 = { 794 797 795 796 } #Northern Serbia
 
 MON_2582 = { 2583 2569 2577 800 } #Montenegro
 
-TUR_803 = { 803 804 798 802 799 } #Southern Serbia
+TUR_803 = { 798 804 802 799 } #Southern Serbia
 
 TUR_805 = { 805 819 820 821 822 } #Southern Macedonia
 

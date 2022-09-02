@@ -169,9 +169,6 @@ political_decisions = {
             802 = { #Pristina
                 add_core = ALB
             }
-            803 = { #Prizren
-                add_core = ALB
-            }
             807 = { #Bitola
                 add_core = ALB
             }
@@ -936,7 +933,6 @@ political_decisions = {
         effect = {
             badboy = 10
             set_country_flag = claimed_greater_croatia
-            791 = { add_core = CRO }
             TUR_788 = { add_core = CRO }
         }
         ai_will_do = { factor = 1 }
@@ -995,7 +991,7 @@ political_decisions = {
         effect = {
             badboy = 3
             2538 = { add_core = BAN }
-            791 = { add_core = BAN }
+            793 = { add_core = BAN }
         }
         ai_will_do = { factor = 1 }
     }
@@ -1077,7 +1073,7 @@ political_decisions = {
             owns = 664
             any_core = {
                 any_neighbor_province = {
-                    province_id = 792
+                    province_id = 648
                     any_pop = { has_pop_culture = romanian }
                 }
             }
@@ -1093,7 +1089,6 @@ political_decisions = {
             648 = { add_core = ROM }
             650 = { add_core = ROM }
             649 = { add_core = ROM }
-            792 = { add_core = ROM }
             795 = { add_core = ROM }
         }
         ai_will_do = { factor = 1 }

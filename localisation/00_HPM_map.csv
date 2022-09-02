@@ -11,6 +11,7 @@ PROV3322;Pinaki;;;;;;;;;;;;;x
 FRA_411;Ardennes;;;;;;;;;;;;x
 PROV934;Samawah;;;;;;;;;;;;x
 AUS_627;Upper Silesia;;;;;;;;;;;;x
+AUS_736;Burgenland;;;;;;;;;;;;x
 ABU_1162;Arabian Gulf;;;;;;;;;;;;x
 EGY_897;Western Syria;;;;;;;;;;;;x
 EGY_903;Eastern Syria;;;;;;;;;;;;x
@@ -41,7 +42,7 @@ PROV1739;An Nuhud;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV1806;Bayuda;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2046;Mbeya;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV1850;Keren;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-AUS_733;Friuli;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+AUS_733;Küstenlande;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PAP_741;Emilia-Romagna;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 mining_district;Mining District;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 new_world_semidesert;Desert Scrublands;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
@@ -664,7 +665,7 @@ BRZ_2461;Santa Catarina;;;;;;;;;;;;x
 SPA_2517;Mariana Islands;;;;;;;;;;;;x
 AST_2534;Solomon Islands;;;;;;;;;;;;x
 AST_2535;Melanesian Islands;;;;;;;;;;;;x
-AUS_2538;Vojvodina;;;;;;;;;;;;x
+AUS_2538;Transtisia;;;;;;;;;;;;x
 TON_2540;Tonga;;;;;;;;;;;;x
 USA_2543;Samoa;;;;;;;;;;;;x
 PROV2554;Misiones;;;;;;;;;;;;x
@@ -975,7 +976,7 @@ PROV701;Gnesen;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV685;Königshütte;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2584;Bielitz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV632;Olmütz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV629;Pilsen;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV629;Tachau;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV767;Marburg;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV768;Laibach;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV623;Ödenburg;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -1003,4 +1004,6 @@ PROV546;Stargard;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV547;Stettin;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV50;Port Arthur;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV984;Sorotskaya;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV986;Pechenga;;;;;;;;;;;;;x
+PROV986;Pechenga;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV803;Znaim;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV791;Pilsen;;;;;;;;;;;;x

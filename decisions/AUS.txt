@@ -570,7 +570,7 @@ political_decisions = {
                     NOT = { is_core = THIS }
                     NOT = { any_core = { primary_culture = THIS } }
                     province_id = 804
-                    TUR = { exists = yes owns = 802 owns = 803 }
+                    TUR = { exists = yes owns = 802 }
                 }
                 secede_province = TUR
             }
@@ -579,7 +579,7 @@ political_decisions = {
                     NOT = { is_core = THIS }
                     NOT = { any_core = { primary_culture = THIS } }
                     province_id = 2577
-                    TUR = { exists = yes owns = 802 owns = 803 }
+                    TUR = { exists = yes owns = 802 }
                 }
                 secede_province = TUR
             }

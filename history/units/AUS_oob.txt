@@ -328,7 +328,7 @@ army = {
     regiment = {
         name= "2.4. Infanteriedivision"
         type = infantry
-        home = 629
+        home = 622
     }
 
     regiment = {

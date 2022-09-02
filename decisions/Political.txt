@@ -1078,7 +1078,6 @@ political_decisions = {
                         has_pop_culture = turkish
                         OR = {
                             province_id = 802
-                            province_id = 803
                             province_id = 804
                             province_id = 798
                             province_id = 799
@@ -1175,10 +1174,6 @@ political_decisions = {
                 AND = {
                     NOT = { MON_2582 = { NOT = { owned_by = THIS } } }
                     NOT = { TUR = { has_country_flag = montenegro_exchange } }
-                }
-                AND = {
-                    NOT = { TUR_803 = { NOT = { owned_by = THIS } } }
-                    NOT = { TUR = { has_country_flag = southern_serbia_exchange } }
                 }
                 AND = {
                     NOT = { TUR_806 = { NOT = { owned_by = THIS } } }
@@ -1301,7 +1296,6 @@ political_decisions = {
                 limit = {
                     owner = {
                         owns = 802
-                        owns = 803
                         owns = 804
                         owns = 798
                         owns = 799
@@ -1309,7 +1303,6 @@ political_decisions = {
                             has_pop_culture = turkish
                             OR = {
                                 province_id = 802
-                                province_id = 803
                                 province_id = 804
                                 province_id = 798
                                 province_id = 799

@@ -587,6 +587,18 @@
         religion = catholic
         size = 50700
     }
+	
+    clergymen = {
+        culture = czech
+        religion = catholic
+        size = 100
+    }
+	
+    farmers = {
+        culture = czech
+        religion = catholic
+        size = 200
+    }
 }
 #Linz (588000/147000 POPS)
 622 = {

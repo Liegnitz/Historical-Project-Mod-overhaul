@@ -1214,7 +1214,6 @@ political_decisions = {
                         OR = {
                             state_id = 771
                             state_id = 777
-                            state_id = 2538
                             state_id = 652
                             state_id = 654
                             state_id = 657

@@ -147,7 +147,7 @@ army = {
     regiment = {
         name= "5. Tümeni Firkasi"
         type = infantry
-        home = 803
+        home = 802
     }
 
     regiment = {
@@ -171,7 +171,7 @@ army = {
     regiment = {
         name= "3. Süvari Firkasi"
         type = cuirassier
-        home = 853
+        home = 804
     }
 
     regiment = {
@@ -201,19 +201,19 @@ army = {
     regiment = {
         name= "9. Tümeni Firkasi"
         type = infantry
-        home = 849
+        home = 923
     }
 
     regiment = {
         name= "10. Tümeni Firkasi"
         type = infantry
-        home = 850
+        home = 818
     }
 
     regiment = {
         name= "11. Tümeni Firkasi"
         type = infantry
-        home = 851
+        home = 798
     }
 
     regiment = {

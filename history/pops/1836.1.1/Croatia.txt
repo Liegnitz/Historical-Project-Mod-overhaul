@@ -1129,25 +1129,25 @@
     clergymen = {
         culture = croat
         religion = catholic
-        size = 150
+        size = 250
     }
 
     artisans = {
         culture = croat
         religion = catholic
-        size = 800
+        size = 1000
     }
 
     soldiers = {
         culture = croat
         religion = catholic
-        size = 175
+        size = 275
     }
 
     farmers = {
         culture = croat
         religion = catholic
-        size = 10775
+        size = 14450
     }
 
     serfs = {
@@ -1165,54 +1165,60 @@
     clergymen = {
         culture = serb
         religion = orthodox
-        size = 100
+        size = 250
     }
 
     artisans = {
+        culture = serb
+        religion = orthodox
+        size = 1100
+    }
+
+    soldiers = {
         culture = serb
         religion = orthodox
         size = 350
     }
 
-    soldiers = {
-        culture = serb
-        religion = orthodox
-        size = 100
-    }
-
     farmers = {
         culture = serb
         religion = orthodox
-        size = 7475
+        size = 22825
+    }
+	
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 500
     }
 
     aristocrats = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 400
     }
 
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 200
     }
 
     artisans = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 450
     }
 
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 250
     }
 
     farmers = {
         culture = south_german
         religion = catholic
-        size = 1785
+        size = 7010
     }
 }
