@@ -304,7 +304,7 @@ BAV_599 = { 599 592 600 601 602 } #Upper Bavaria
 
 SWI_603 = { 603 606 605 2568 611 604 607 608 609 } #Switzerland
 
-PRU_682 = { 682 683 687 } #Silesia
+PRU_682 = { 682 683 687 } #Lower Silesia
 
 PRU_690 = { 690 691 694 693 692 } #Westpreuﬂen
 
@@ -327,9 +327,9 @@ AUS_625 = { 625 626 631 791 } #Bohemia
 
 AUS_626 = { 627 628 629 630 632 803 } #Moravia/Sudetes
 
-AUS_627 = { 684 688 689 685 2584 } #Lower Silesia
+AUS_627 = { 684 688 689 685 } #Upper Silesia
 
-AUS_633 = { 633 634 635 636 637 638 } #Slovakia
+AUS_633 = { 636 633 634 635 637 638 } #Slovakia
 
 AUS_641 = { 641 645 646 } #Central Hungary
 
@@ -353,7 +353,7 @@ AUS_729 = { 729 730 731 732 733 8 } #Venetia
 
 AUS_734 = { 734 735 } #South Tirol
 
-AUS_736 = { 623 624 } #Burgenland
+AUS_736 = { 623 624 2584 } #Burgenland
 
 AUS_768 = { 768 767 769 } #Slovenia
 

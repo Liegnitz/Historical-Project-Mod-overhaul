@@ -1,6 +1,6 @@
 #Slovakia Region (1588000)
 #under the rule of Austria in 1836
-#Bratislava (691060/172765 POPS)
+#Trnava (691060/172765 POPS)
 633 = {
     bureaucrats = {
         culture = slovak
@@ -29,31 +29,31 @@
     clergymen = {
         culture = slovak
         religion = catholic
-        size = 1100
+        size = 1050
     }
 
     artisans = {
         culture = slovak
         religion = catholic
-        size = 6200
+        size = 6100
     }
 
     soldiers = {
         culture = slovak
         religion = catholic
-        size = 1250
+        size = 1200
     }
 
     farmers = {
         culture = slovak
         religion = catholic
-        size = 19150
+        size = 18650
     }
 
     serfs = {
         culture = slovak
         religion = catholic
-        size = 80000
+        size = 79000
     }
 
     serfs = {
@@ -65,43 +65,43 @@
     aristocrats = {
         culture = hungarian
         religion = catholic
-        size = 1550
+        size = 1400
     }
 
     bureaucrats = {
         culture = hungarian
         religion = catholic
-        size = 200
+        size = 100
     }
 
     officers = {
         culture = hungarian
         religion = catholic
-        size = 135
+        size = 75
     }
 
     clergymen = {
         culture = hungarian
         religion = catholic
-        size = 135
+        size = 100
     }
 
     artisans = {
         culture = hungarian
         religion = catholic
-        size = 750
+        size = 600
     }
 
     soldiers = {
         culture = hungarian
         religion = catholic
-        size = 135
+        size = 100
     }
 
     farmers = {
         culture = hungarian
         religion = catholic
-        size = 7300
+        size = 5550
     }
 
     craftsmen = {
@@ -149,13 +149,13 @@
     artisans = {
         culture = ashkenazi
         religion = jewish
-        size = 10000
+        size = 200
     }
 
     artisans = {
         culture = ashkenazi
         religion = jewish
-        size = 1000
+        size = 200
     }
 
     soldiers = {
@@ -173,55 +173,37 @@
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 8525
+        size = 3025
     }
 
     aristocrats = {
         culture = south_german
         religion = catholic
-        size = 1250
-    }
-
-    bureaucrats = {
-        culture = south_german
-        religion = catholic
-        size = 275
-    }
-
-    officers = {
-        culture = south_german
-        religion = catholic
-        size = 150
+        size = 100
     }
 
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 150
+        size = 100
     }
 
     artisans = {
         culture = south_german
         religion = catholic
-        size = 1000
-    }
-
-    craftsmen = {
-        culture = south_german
-        religion = catholic
-        size = 100
+        size = 200
     }
 
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 175
+        size = 100
     }
 
     farmers = {
         culture = south_german
         religion = catholic
-        size = 13000
+        size = 2000
     }
 }
 #Trencin (342540/85635 POPS)
@@ -369,7 +351,7 @@
     farmers = {
         culture = slovak
         religion = catholic
-        size = 20300
+        size = 19300
     }
 
     serfs = {
@@ -381,7 +363,7 @@
     serfs = {
         culture = slovak
         religion = catholic
-        size = 32000
+        size = 31200
     }
 
     aristocrats = {

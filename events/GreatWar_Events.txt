@@ -2821,7 +2821,6 @@ country_event = {
             682 = { add_core = POL }
             684 = { add_core = POL }
             685 = { add_core = POL }
-            2584 = { add_core = POL }
         }
 
         random_country = {
@@ -2836,7 +2835,7 @@ country_event = {
             682 = { add_core = PLC }
             684 = { add_core = PLC }
             685 = { add_core = PLC }
-            2584 = { add_core = PLC }
+            689 = { add_core = PLC }
         }
 
         random_country = {
