@@ -956,3 +956,181 @@
         size = 4000
     }
 }
+
+#Pressburg (204000/52000 POPS)
+2584 = {
+    aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 1150
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = catholic
+        size = 275
+    }
+
+    officers = {
+        culture = south_german
+        religion = catholic
+        size = 150
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 1000
+    }
+
+    craftsmen = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 200
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 16000
+    }
+	
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 175
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 800
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 200
+    }
+
+    craftsmen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 500
+    }
+
+    clergymen = {
+        culture = slovak
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = slovak
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = slovak
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = slovak
+        religion = catholic
+        size = 2000
+    }
+
+    serfs = {
+        culture = slovak
+        religion = catholic
+        size = 1300
+    }
+	
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = hungarian
+        religion = catholic
+        size = 100
+    }
+
+    officers = {
+        culture = hungarian
+        religion = catholic
+        size = 75
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 150
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 1750
+    }
+	
+    clergymen = {
+        culture = croat
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = croat
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = croat
+        religion = catholic
+        size = 200
+    }
+
+}

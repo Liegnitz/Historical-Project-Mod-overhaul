@@ -321,7 +321,7 @@ AUS_613 = { 616 617 618 } #Kärnten-Steiermark
 
 AUS_619 = { 619 620 621 622 } #Österreich
 
-AUS_623 = { 639 640 642 643 644 } #Transdanubia
+AUS_623 = { 643 640 642 639 644 } #Transdanubia
 
 AUS_625 = { 625 626 631 791 } #Bohemia
 

@@ -1100,3 +1100,246 @@
         size = 17650
     }
 }
+
+#Pilsen (108000/27000 POPS) #part of Serbia today
+791 = {
+
+	aristocrats = {
+        culture = czech
+        religion = catholic
+        size = 1000
+    }
+	
+    capitalists = {
+        culture = czech
+        religion = catholic
+        size = 50
+    }
+
+    clergymen = {
+        culture = czech
+        religion = catholic
+        size = 1350
+    }
+
+    artisans = {
+        culture = czech
+        religion = catholic
+        size = 8300
+    }
+
+    craftsmen = {
+        culture = czech
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = czech
+        religion = catholic
+        size = 850
+    }
+
+    farmers = {
+        culture = czech
+        religion = catholic
+        size = 105000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = catholic
+        size = 5100
+    }
+
+    serfs = {
+        culture = czech
+        religion = catholic
+        size = 51500
+    }
+
+    aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 1300
+    }
+
+    craftsmen = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 300
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 8500
+    }
+	
+	clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 2600
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    craftsmen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 1375
+    }
+
+}
+
+#Znaim (186000/46000 POPS)
+803 = {
+
+    clergymen = {
+        culture = czech
+        religion = catholic
+        size = 300
+    }
+
+    artisans = {
+        culture = czech
+        religion = catholic
+        size = 1125
+    }
+
+    soldiers = {
+        culture = czech
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = czech
+        religion = catholic
+        size = 9800
+    }
+
+    serfs = {
+        culture = czech
+        religion = catholic
+        size = 5000
+    }
+
+    aristocrats = {
+        culture = south_german
+        religion = catholic
+        size = 500
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = catholic
+        size = 50
+    }
+
+    officers = {
+        culture = south_german
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = south_german
+        religion = catholic
+        size = 2800
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = catholic
+        size = 200
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 36925
+    }
+	
+    clergymen = {
+        culture = croat
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = croat
+        religion = catholic
+        size = 250
+    }
+
+    farmers = {
+        culture = croat
+        religion = catholic
+        size = 3200
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 300
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 450
+    }
+}

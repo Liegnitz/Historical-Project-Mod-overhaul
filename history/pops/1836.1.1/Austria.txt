@@ -389,7 +389,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 186250
+        size = 181250
     }
 
     ####Czechs
@@ -517,6 +517,30 @@
         size = 100
     }
     ########
+	
+    clergymen = {
+        culture = croat
+        religion = catholic
+        size = 200
+    }
+
+    soldiers = {
+        culture = croat
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = croat
+        religion = catholic
+        size = 300
+    }
+
+    farmers = {
+        culture = croat
+        religion = catholic
+        size = 5600
+    }
 }
 #Sankt Polten (88000/22000 POPS)
 620 = {
@@ -663,13 +687,13 @@
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 475
+        size = 325
     }
 
     artisans = {
         culture = south_german
         religion = catholic
-        size = 2350
+        size = 1700
     }
 
     craftsmen = {
@@ -681,13 +705,37 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 2100
+        size = 1900
     }
 
     farmers = {
         culture = south_german
         religion = catholic
-        size = 40075
+        size = 27975
+    }
+	
+    clergymen = {
+        culture = croat
+        religion = catholic
+        size = 150
+    }
+
+    artisans = {
+        culture = croat
+        religion = catholic
+        size = 650
+    }
+
+    soldiers = {
+        culture = croat
+        religion = catholic
+        size = 200
+    }
+
+    farmers = {
+        culture = croat
+        religion = catholic
+        size = 12100
     }
 
     clergymen = {
