@@ -147,6 +147,30 @@
         religion = orthodox
         size = 45675
     }
+	
+    clergymen = {
+        culture = ukrainian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = ukrainian
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = ukrainian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = ukrainian
+        religion = orthodox
+        size = 3750
+    }
 
     serfs = {
         culture = romanian

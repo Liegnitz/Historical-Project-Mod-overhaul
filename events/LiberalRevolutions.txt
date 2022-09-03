@@ -3913,7 +3913,6 @@ country_event = {
 
     option = {
         name = "EVT10225OPTA"
-        778 = { remove_core = HUN }
         any_owned = {
             limit = {
                 is_core = HUN

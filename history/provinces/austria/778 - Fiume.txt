@@ -1,9 +1,6 @@
-owner = AUS
-controller = AUS
-add_core = AUS
-add_core = CRO
-add_core = FIU
-add_core = HUN
-add_core = VEN
-trade_goods = fruit
-life_rating = 35
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = FLA
+trade_goods = fish
+life_rating = 31

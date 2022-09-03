@@ -137,9 +137,10 @@ political_decisions = {
         potential = {
             tag = NET
                 owns = 399 #Lille
-                owns = 400 #Dunkirk
+                owns = 400 #Calais
                 owns = 401 #Arras
-                owns = 404 #Cambrai
+                owns = 404 #St. Quentin
+				owns = 778 #Dunkirk
             NOT = { has_global_flag = dutch_artois }
         }
 
@@ -151,10 +152,11 @@ political_decisions = {
         effect = {
             prestige = 5
             399 = { change_province_name = "Rijsel" }
-            400 = { change_province_name = "Duinkerke" }
+            400 = { change_province_name = "Kales" }
             401 = { change_province_name = "Atrecht" }
+			778 = { change_province_name = "Duinkerke" }
             404 = {
-                change_province_name = "Kamerijk"
+                change_province_name = "Sint-Kwintens"
                 state_scope = {    change_region_name = "Artesie"    }
             }
             set_global_flag = dutch_artois
@@ -170,7 +172,8 @@ political_decisions = {
                 owns = 399 #Lille
                 owns = 400 #Dunkirk
                 owns = 401 #Arras
-                owns = 404 #Cambrai
+                owns = 404 #St. Quentin
+				owns = 778 #Dunkirk
             has_global_flag = dutch_artois
         }
 
@@ -183,10 +186,11 @@ political_decisions = {
             prestige = 5
             set_global_flag = french_artois
             399 = { change_province_name = "Lille" }
-            400 = { change_province_name = "Dunkerque" }
+            400 = { change_province_name = "Calais" }
             401 = { change_province_name = "Arras" }
+			778 = { change_province_name = "Dunkerque" }
             404 = {
-                change_province_name = "Cambrai"
+                change_province_name = "Saint Quentin"
                 state_scope = {    change_region_name = "Artois"    }
             }
             clr_global_flag = dutch_artois

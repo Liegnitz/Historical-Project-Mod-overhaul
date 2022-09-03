@@ -198,7 +198,7 @@ FRA_399 = { 403 402 2570 } #Picardie - used to be { 403 405 406 408 402 2570 }
 
 FRA_400 = { 408 405 406 407 432 } #Champagne
 
-FRA_404 = { 399 400 401 404 } #Nord-Pas-De-Calais/Artois
+FRA_404 = { 399 400 401 404 778 } #Nord-Pas-De-Calais/Artois
 
 FRA_411 = { 411 413 414 } #Ardennes
 
@@ -347,7 +347,7 @@ RUS_715 = { 715 711 713 716 } #West Galicia
 
 AUS_726 = { 726 727 728 2669 } #Lombardia
 
-AUS_733 = { 736 737 770 778 } #Litoral
+AUS_733 = { 736 737 770 } #Litoral
 
 AUS_729 = { 729 730 731 732 733 8 } #Venetia
 

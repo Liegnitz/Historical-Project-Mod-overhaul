@@ -44,7 +44,6 @@ political_decisions = {
             }
             #AUS_771 = { remove_core = HUN }
             624 = { remove_core = HUN }
-            778 = { remove_core = HUN }
             HUN = {
                 all_core = { add_core = KUK }
             }

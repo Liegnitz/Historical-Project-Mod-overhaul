@@ -321,7 +321,6 @@ country_event = {
                 OR = {
                     NOT = { is_core = HUN }
                     province_id = 624
-                    province_id = 778
                 }
             }
             add_core = GER
@@ -331,7 +330,6 @@ country_event = {
                 is_core = HUN
                 OR = {
                     province_id = 624
-                    province_id = 778
                 }
             }
             remove_core = HUN
