@@ -10960,24 +10960,6 @@ country_event = {
                 add_core = FLA
                 secede_province = THIS
             }
-            400 = {
-                add_core = THIS
-                add_core = FLA
-                secede_province = THIS
-            }
-            401 = {
-                add_core = THIS
-                add_core = FLA
-                secede_province = THIS
-            }
-            404 = {
-                add_core = THIS
-                secede_province = THIS
-            }
-            405 = {
-                add_core = THIS
-                secede_province = THIS
-            }
 			778 = {
                 add_core = THIS
                 secede_province = THIS
