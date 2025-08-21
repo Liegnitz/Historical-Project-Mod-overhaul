@@ -32,7 +32,7 @@ EGY_1758;Western Desert;;;;;;;;;;;;x
 PROV1895;Daloa;;;;;;;;;;;;x
 FRA_1775;Trab el Beidan;;;;;;;;;;;;x
 PROV2721;Heligoland Bight;;;;;;;;;;;;x
-RUS_959;Volyn;;;;;;;;;;;;x
+RUS_959;Volhynia;;;;;;;;;;;;x
 druze;Druze;;;;;;;;;;;;x
 PROV911;Ma'an;;;;;;;;;;;;x
 PROV910;Azraq;;;;;;;;;;;;x
@@ -182,7 +182,7 @@ PROV2496;Nullarbor;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2603;Chanamee;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2507;Mparntwe;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2505;Port Essington;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-RUS_973;Kherson-Zaporizhia;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+RUS_973;Kherson;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 RUS_955;Yekaterinoslav;;;;;;;;;;;;x
 PROV3107;Lake Baikal;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 PROV2589;Tsushima;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -363,9 +363,9 @@ PROV900;Antakya;;;;;;;;;;;;;;;;;;;;;;;x
 PROV689;Teschen;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1773;Saguia el-Hamra;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1178;Sana'a;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV969;Olviopol;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV969;Starodub;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV972;Yekaterinoslav;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV974;Bachmut;;;;;;;;;;;;;;;;;;;x;
+PROV974;Bakhmut;;;;;;;;;;;;;;;;;;;x;
 PROV1041;Elista;;;;;;;;;;;;;;;;;;;x;
 PROV745;Leghorn;;;;;;;;;;;;;;;;;;;x;
 PROV2436;Salvador da Bahia;;;;;;;;;;;;;;;;;;;x;
@@ -485,9 +485,9 @@ TUR_890;Van;;;;;;;;;;;;x
 TUR_893;Diyarbakir;;;;;;;;;;;;x
 TUR_894;Adana;;;;;;;;;;;;x
 RUS_940;Pinsk;;;;;;;;;;;;x
-RUS_968;Transnistria;;;;;;;;;;;;x
-RUS_978;Kharkov;;;;;;;;;;;;x
-RUS_979;Donbass;;;;;;;;;;;;x
+RUS_968;Poltava;;;;;;;;;;;;x
+RUS_978;Taurida;;;;;;;;;;;;x
+RUS_979;Don Host;;;;;;;;;;;;x
 PROV1082;Haishenwai;;;;;;;;;;;;x
 JAP_1086;Sakhalin;;;;;;;;;;;;x
 PROV1087;Otomari;;;;;;;;;;;;x
@@ -1011,5 +1011,8 @@ PROV705;Rzeszów;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV404;Saint Quentin;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV626;Königgrätz;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV631;Brünn;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV400;Calais;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV778;Dunkirk;;;;;;;;;;;;x
+PROV678;Akkerman;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV980;Starobelsk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV400;Calais;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV975;Aleksandrovsk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
