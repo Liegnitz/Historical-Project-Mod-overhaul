@@ -1705,3 +1705,174 @@
     }
 
 }
+#Volkovysk (288000/72000 POPS) #placeholder numbers
+3323 = {
+
+    aristocrats = {
+        culture = byelorussian
+        religion = orthodox
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = byelorussian
+        religion = orthodox
+        size = 200
+    }
+
+    officers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = byelorussian
+        religion = orthodox
+        size = 425
+    }
+
+    artisans = {
+        culture = byelorussian
+        religion = orthodox
+        size = 550
+    }
+
+    soldiers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 3200
+    }
+
+    farmers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 30025
+    }
+
+    aristocrats = {
+        culture = polish
+        religion = catholic
+        size = 1750
+    }
+
+    officers = {
+        culture = polish
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = polish
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 1250
+    }
+
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 100
+    }
+
+    serfs = {
+        culture = polish
+        religion = catholic
+        size = 15550
+    }
+
+    clergymen = {
+        culture = byelorussian
+        religion = catholic
+        size = 125
+    }
+
+    artisans = {
+        culture = byelorussian
+        religion = catholic
+        size = 700
+    }
+
+    soldiers = {
+        culture = byelorussian
+        religion = catholic
+        size = 150
+    }
+
+    farmers = {
+        culture = byelorussian
+        religion = catholic
+        size = 13025
+    }
+
+    clergymen = {
+        culture = lithuanian
+        religion = orthodox
+        size = 100
+    }
+
+    officers = {
+        culture = lithuanian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = lithuanian
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = lithuanian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = lithuanian
+        religion = orthodox
+        size = 4700
+    }
+
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    officers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 1250
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 8575
+    }
+}

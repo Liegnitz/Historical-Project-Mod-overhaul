@@ -469,7 +469,7 @@ PROV704;Nowy Sacz;;;;;;;;;;;;x
 RUS_706;Masovia;;;;;;;;;;;;x
 PROV711;Siedlce;;;;;;;;;;;;x
 RUS_715;Lesser Poland;;;;;;;;;;;;x
-PROV719;Bialystok;;;;;;;;;;;;x
+PROV719;Belostok;;;;;;;;;;;;x
 PROV748;Grosseto;;;;;;;;;;;;x
 SAR_765;Thyrrenian Islands;;;;;;;;;;;;x
 FRA_801;Tahiti;;;;;;;;;;;;x
@@ -700,7 +700,6 @@ PROV704;Nowy Sacz;;;;;;;;;;;;x
 RUS_706;Masovia;;;;;;;;;;;;x
 PROV711;Siedlce;;;;;;;;;;;;x
 RUS_715;West Galicia;;;;;;;;;;;;x
-PROV719;Bialystok;;;;;;;;;;;;x
 PROV748;Grosseto;;;;;;;;;;;;x
 FRA_801;Tahiti;;;;;;;;;;;;x
 TUR_805;Southern Macedonia;;;;;;;;;;;;x
@@ -878,7 +877,6 @@ USA_2543;Samoa;;;;;;;;;;;;x
 PROV2554;Misiones;;;;;;;;;;;;x
 HES_2560;Hessen;;;;;;;;;;;;x
 RUS_2587;Kola;;;;;;;;;;;;x
-CHI_2678;Outer Mongolia;;;;;;;;;;;;x
 PROV2834;Bay of Ayan;;;;;;;;;;;;x
 PROV2836;Coast of Kamchatka;;;;;;;;;;;;x
 PROV2837;Sea of Okhotsk;;;;;;;;;;;;x
@@ -1016,3 +1014,16 @@ PROV678;Akkerman;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV980;Starobelsk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV400;Calais;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV975;Aleksandrovsk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV938;Novogrodek;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3323;Volkovysk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV946;Lepel;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV360;Vilna;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+RUS_707;Vilna;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+RUS_947;Vitebsk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV356;Dinaburg;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV358;Windau;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV359;Libau;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV357;Mitau;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV355;Wolmar;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV351;Pernau;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV365;Kretinga;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,

@@ -1571,3 +1571,131 @@
     }
 
 }
+#Volkovysk (288000/72000 POPS) #placeholder
+3323 = {
+    clergymen = {
+        culture = byelorussian
+        religion = orthodox
+        size = 437.75
+    }
+
+    artisans = {
+        culture = byelorussian
+        religion = orthodox
+        size = 1081.5
+    }
+
+    soldiers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 463.5
+    }
+
+    farmers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 42307.25
+    }
+
+    aristocrats = {
+        culture = polish
+        religion = catholic
+        size = 1802.5
+    }
+
+    clergymen = {
+        culture = polish
+        religion = catholic
+        size = 51.5
+    }
+
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 412.0
+    }
+
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 77.25
+    }
+
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 5896.75
+    }
+
+    clergymen = {
+        culture = byelorussian
+        religion = catholic
+        size = 128.75
+    }
+
+    artisans = {
+        culture = byelorussian
+        religion = catholic
+        size = 721.0
+    }
+
+    soldiers = {
+        culture = byelorussian
+        religion = catholic
+        size = 154.5
+    }
+
+    farmers = {
+        culture = byelorussian
+        religion = catholic
+        size = 13415.75
+    }
+
+    clergymen = {
+        culture = lithuanian
+        religion = orthodox
+        size = 51.5
+    }
+
+    artisans = {
+        culture = lithuanian
+        religion = orthodox
+        size = 206.0
+    }
+
+    soldiers = {
+        culture = lithuanian
+        religion = orthodox
+        size = 51.5
+    }
+
+    farmers = {
+        culture = lithuanian
+        religion = orthodox
+        size = 4841.0
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 77.25
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 1287.5
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 103.0
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 8832.25
+    }
+}
