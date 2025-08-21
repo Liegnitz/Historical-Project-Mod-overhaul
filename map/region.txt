@@ -549,7 +549,7 @@ RUS_968 = { 962 963 969 } #Poltava
 
 RUS_973 = { 968 970 971 } #Kherson
 
-RUS_955 = { 972 976 978 965 980 974 } #Yekaterinoslav
+RUS_955 = { 972 976 978 980 974 } #Yekaterinoslav
 
 RUS_977 = { 977 1017 1018 1019 } #Kursk
 
