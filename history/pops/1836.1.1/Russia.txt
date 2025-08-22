@@ -4307,7 +4307,7 @@
     artisans = {
         culture = north_german
         religion = protestant
-        size = 3000
+        size = 2700
     }
 
     soldiers = {
@@ -4319,7 +4319,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 14650
+        size = 12650
     }
 
     clergymen = {
@@ -4343,7 +4343,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 6750
+        size = 6000
     }
 
     clergymen = {
@@ -4370,7 +4370,7 @@
         size = 1425
     }
 }
-#Novo Usensk (340000/85000 POPS)
+#Novo Uzensk (340000/85000 POPS)
 1038 = {
     aristocrats = {
         culture = russian
@@ -4381,13 +4381,13 @@
     clergymen = {
         culture = russian
         religion = orthodox
-        size = 825
+        size = 525
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 4250
+        size = 3450
     }
 
     soldiers = {
@@ -4399,7 +4399,54 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 77725
+        size = 47725
+    }
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 150
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 3100
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 100
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 19500
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 1900
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 7750
     }
 }
 #Tsaritsyn (1072000/268000 POPS)

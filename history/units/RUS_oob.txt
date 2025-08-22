@@ -231,19 +231,19 @@ army = {
     regiment = {
         name= "2.6-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 946
+        home = 945
     }
 
     regiment = {
         name = "2.1-ya Artilleriiskii Diviziya"
         type = artillery
-        home = 946
+        home = 945
     }
 
     regiment = {
         name = "2.2-ya Artilleriiskii Diviziya"
         type = artillery
-        home = 946
+        home = 945
     }
 }
 

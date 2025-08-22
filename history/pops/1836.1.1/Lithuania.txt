@@ -5,49 +5,37 @@
     aristocrats = {
         culture = lithuanian
         religion = catholic
-        size = 500
+        size = 50
     }
 
     officers = {
         culture = lithuanian
         religion = catholic
-        size = 150
-    }
-
-    bureaucrats = {
-        culture = lithuanian
-        religion = catholic
-        size = 150
+        size = 50
     }
 
     clergymen = {
         culture = lithuanian
         religion = catholic
-        size = 150
+        size = 100
     }
 
     artisans = {
         culture = lithuanian
         religion = catholic
-        size = 2500
-    }
-
-    soldiers = {
-        culture = lithuanian
-        religion = catholic
-        size = 1100
+        size = 500
     }
 
     farmers = {
         culture = lithuanian
         religion = catholic
-        size = 12400
+        size = 2300
     }
 
     aristocrats = {
         culture = polish
         religion = catholic
-        size = 450
+        size = 900
     }
 
     bureaucrats = {
@@ -59,43 +47,31 @@
     officers = {
         culture = polish
         religion = catholic
-        size = 250
+        size = 350
     }
 
     clergymen = {
         culture = polish
         religion = catholic
-        size = 100
+        size = 150
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 3750
+        size = 5750
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 100
+        size = 500
     }
 
     farmers = {
         culture = polish
         religion = catholic
-        size = 4325
-    }
-
-    aristocrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    officers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
+        size = 10325
     }
 
     clergymen = {
@@ -119,7 +95,7 @@
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 12450
+        size = 8450
     }
 
     aristocrats = {
@@ -157,6 +133,55 @@
         religion = protestant
         size = 100
     }
+
+    aristocrats = {
+        culture = byelorussian
+        religion = orthodox
+        size = 100
+    }
+
+    officers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 100
+    }
+	
+    clergymen = {
+        culture = byelorussian
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = byelorussian
+        religion = orthodox
+        size = 5100
+    }
+	
+    soldiers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 1100
+    }
+	
+    farmers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 12325
+    }
+	
+    soldiers = {
+        culture = tatar
+        religion = sunni
+        size = 200
+    }
+
+    farmers = {
+        culture = tatar
+        religion = sunni
+        size = 1250
+    }
+	
 }
 #Kaunas (204000/51000 POPS)
 361 = {
@@ -474,6 +499,12 @@
         culture = russian
         religion = orthodox
         size = 1825
+    }
+	
+    farmers = {
+        culture = latvian
+        religion = catholic
+        size = 200
     }
 }
 #Siauliai (200000/50000 POPS)

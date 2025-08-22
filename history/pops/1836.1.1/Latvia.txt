@@ -128,7 +128,7 @@
         size = 800
     }
 }
-#Valmeira (516000/129000 POPS)
+#Valmiera (516000/129000 POPS)
 355 = {
     clergymen = {
         culture = latvian
