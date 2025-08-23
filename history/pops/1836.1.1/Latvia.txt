@@ -452,6 +452,12 @@
         religion = jewish
         size = 750
     }
+	
+    farmers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 4100
+    }
 }
 #Ventspils (140000/35000 POPS) #uralic = Livonian
 358 = {
@@ -605,6 +611,12 @@
         culture = ashkenazi
         religion = jewish
         size = 750
+    }
+	
+    farmers = {
+        culture = lithuanian
+        religion = catholic
+        size = 100
     }
 
 }

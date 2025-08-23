@@ -549,7 +549,7 @@
     artisans = {
         culture = polish
         religion = catholic
-        size = 100
+        size = 200
     }
 
     soldiers = {
@@ -561,7 +561,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 100
+        size = 4100
     }
 
     aristocrats = {
@@ -1307,19 +1307,25 @@
     officers = {
         culture = polish
         religion = catholic
-        size = 200
+        size = 100
     }
 
     clergymen = {
         culture = polish
         religion = catholic
-        size = 50
+        size = 150
     }
-
-    soldiers = {
+	
+    artisans = {
         culture = polish
         religion = catholic
-        size = 25
+        size = 200
+    }
+	
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 525
     }
 
     clergymen = {
@@ -1399,30 +1405,7 @@
         religion = orthodox
         size = 2850
     }
-
-    clergymen = {
-        culture = lithuanian
-        religion = catholic
-        size = 100
-    }
-
-    artisans = {
-        culture = lithuanian
-        religion = catholic
-        size = 250
-    }
-
-    soldiers = {
-        culture = lithuanian
-        religion = catholic
-        size = 100
-    }
-
-    farmers = {
-        culture = lithuanian
-        religion = catholic
-        size = 4625
-    }
+	
 }
 #Pastavy (348000/87000 POPS)
 947 = {

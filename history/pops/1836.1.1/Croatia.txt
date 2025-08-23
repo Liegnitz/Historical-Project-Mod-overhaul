@@ -55,11 +55,17 @@
         religion = catholic
         size = 25325
     }
+	
+    farmers = {
+        culture = slovene
+        religion = catholic
+        size = 200
+    }
 
     farmers = {
         culture = gypsy
         religion = catholic
-        size = 300
+        size = 200
     }
 }
 #Croatia Region (870000)

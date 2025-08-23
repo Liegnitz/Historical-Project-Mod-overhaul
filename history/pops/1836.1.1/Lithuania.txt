@@ -316,7 +316,7 @@
     farmers = {
         culture = lithuanian
         religion = catholic
-        size = 23000
+        size = 25000
     }
 
     aristocrats = {
@@ -346,7 +346,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 13225
+        size = 11225
     }
 
     clergymen = {
