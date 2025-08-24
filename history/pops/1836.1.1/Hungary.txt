@@ -726,7 +726,7 @@
         size = 15400
     }
 }
-#Gyor (384000/96000 POPS)
+#Gyor/Raab (384000/96000 POPS)
 642 = {
     aristocrats = {
         culture = hungarian
@@ -743,7 +743,7 @@
     artisans = {
         culture = hungarian
         religion = catholic
-        size = 2750
+        size = 3250
     }
 
     soldiers = {
@@ -767,7 +767,7 @@
     farmers = {
         culture = hungarian
         religion = catholic
-        size = 45325
+        size = 55325
     }
 
     clergymen = {
@@ -779,7 +779,7 @@
     artisans = {
         culture = hungarian
         religion = protestant
-        size = 350
+        size = 550
     }
 
     soldiers = {
@@ -791,7 +791,7 @@
     serfs = {
         culture = hungarian
         religion = protestant
-        size = 4525
+        size = 14525
     }
 
     clergymen = {
@@ -863,7 +863,7 @@
     artisans = {
         culture = slovak
         religion = catholic
-        size = 1400
+        size = 700
     }
 
     soldiers = {
@@ -875,7 +875,7 @@
     serfs = {
         culture = slovak
         religion = catholic
-        size = 29925
+        size = 9925
     }
 }
 #Szekesfehervar (364000/91000 POPS)

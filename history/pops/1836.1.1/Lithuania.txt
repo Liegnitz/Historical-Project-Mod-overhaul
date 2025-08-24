@@ -218,7 +218,7 @@
     aristocrats = {
         culture = polish
         religion = catholic
-        size = 250
+        size = 1250
     }
 
     clergymen = {
@@ -230,19 +230,19 @@
     artisans = {
         culture = polish
         religion = catholic
-        size = 150
+        size = 9150
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 100
+        size = 300
     }
 
     farmers = {
         culture = polish
         religion = catholic
-        size = 550
+        size = 7550
     }
 
     clergymen = {
@@ -298,7 +298,7 @@
     clergymen = {
         culture = lithuanian
         religion = catholic
-        size = 250
+        size = 475
     }
 
     artisans = {
@@ -322,31 +322,19 @@
     aristocrats = {
         culture = polish
         religion = catholic
-        size = 1950
-    }
-
-    clergymen = {
-        culture = polish
-        religion = catholic
-        size = 275
+        size = 850
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 1200
-    }
-
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 300
+        size = 100
     }
 
     farmers = {
         culture = polish
         religion = catholic
-        size = 11225
+        size = 3525
     }
 
     clergymen = {
@@ -506,6 +494,13 @@
         religion = catholic
         size = 200
     }
+	
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 1100
+    }
+	
 }
 #Siauliai (200000/50000 POPS)
 364 = {
@@ -586,8 +581,14 @@
         religion = protestant
         size = 100
     }
+	
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 450
+    }
 }
-#Palanga (84000/21000 POPS)
+#Kretinga (84000/21000 POPS)
 365 = {
     aristocrats = {
         culture = lithuanian
@@ -665,6 +666,12 @@
         culture = north_german
         religion = protestant
         size = 850
+    }
+	
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 100
     }
 
 }

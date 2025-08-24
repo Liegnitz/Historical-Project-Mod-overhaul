@@ -368,8 +368,8 @@
     }
 
     farmers = {
-        culture = lithuanian
-        religion = catholic
+        culture = byelorussian
+        religion = orthodox
         size = 3850
     }
 
@@ -456,7 +456,13 @@
     farmers = {
         culture = byelorussian
         religion = orthodox
-        size = 4100
+        size = 2100
+    }
+	
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 2000
     }
 }
 #Ventspils (140000/35000 POPS) #uralic = Livonian

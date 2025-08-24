@@ -327,31 +327,25 @@
     clergymen = {
         culture = slovak
         religion = catholic
-        size = 850
+        size = 450
     }
 
     artisans = {
         culture = slovak
         religion = catholic
-        size = 4300
-    }
-
-    craftsmen = {
-        culture = slovak
-        religion = catholic
-        size = 100
+        size = 1900
     }
 
     soldiers = {
         culture = slovak
         religion = catholic
-        size = 650
+        size = 100
     }
 
     farmers = {
         culture = slovak
         religion = catholic
-        size = 19300
+        size = 9300
     }
 
     serfs = {
@@ -363,7 +357,7 @@
     serfs = {
         culture = slovak
         religion = catholic
-        size = 31200
+        size = 15200
     }
 
     aristocrats = {
@@ -387,19 +381,19 @@
     clergymen = {
         culture = hungarian
         religion = catholic
-        size = 140
+        size = 340
     }
 
     artisans = {
         culture = hungarian
         religion = catholic
-        size = 1250
+        size = 3650
     }
 
     soldiers = {
         culture = hungarian
         religion = catholic
-        size = 190
+        size = 390
     }
 
     craftsmen = {
@@ -411,13 +405,13 @@
     farmers = {
         culture = hungarian
         religion = catholic
-        size = 16937
+        size = 36937
     }
 
     clergymen = {
         culture = hungarian
         religion = protestant
-        size = 115
+        size = 315
     }
 
     artisans = {
@@ -435,7 +429,7 @@
     farmers = {
         culture = hungarian
         religion = protestant
-        size = 17712
+        size = 23712
     }
 
     clergymen = {
@@ -483,7 +477,7 @@
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 300
     }
 
     craftsmen = {
@@ -640,7 +634,7 @@
 }
 #Felvidek Region (860000) #see Hungary.txt and Ukraine.txt for balance of Region
 #under the rule of Austria in 1836
-#Kosice (497628/124407POPS)
+#Kassa (497628/124407POPS)
 637 = {
     bureaucrats = {
         culture = slovak
@@ -687,7 +681,7 @@
     farmers = {
         culture = slovak
         religion = catholic
-        size = 29875
+        size = 22875
     }
 
     aristocrats = {
@@ -735,7 +729,7 @@
     farmers = {
         culture = hungarian
         religion = catholic
-        size = 19066
+        size = 22066
     }
 
     clergymen = {
@@ -759,7 +753,7 @@
     farmers = {
         culture = hungarian
         religion = protestant
-        size = 19762
+        size = 23762
     }
 
     clergymen = {

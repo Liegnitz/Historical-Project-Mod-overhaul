@@ -131,61 +131,61 @@
     aristocrats = {
         culture = north_italian
         religion = catholic
-        size = 175
+        size = 100
     }
 
     clergymen = {
         culture = north_italian
         religion = catholic
-        size = 150
+        size = 50
     }
 
     artisans = {
         culture = north_italian
         religion = catholic
-        size = 775
-    }
-
-    soldiers = {
-        culture = north_italian
-        religion = catholic
-        size = 150
+        size = 250
     }
 
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 14250
+        size = 4250
     }
 
     aristocrats = {
         culture = french
         religion = catholic
-        size = 275
+        size = 350
     }
 
     clergymen = {
         culture = french
         religion = catholic
-        size = 225
+        size = 325
     }
 
     artisans = {
         culture = french
         religion = catholic
-        size = 1175
+        size = 1700
     }
 
     soldiers = {
         culture = french
         religion = catholic
-        size = 225
+        size = 375
     }
 
     farmers = {
         culture = french
         religion = catholic
-        size = 21600
+        size = 31600
+    }
+	
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 950
     }
 }
 #Novara (212000/53000 POPS)

@@ -3279,89 +3279,90 @@
 #Annecy (258400/64600 POPS)
 465 = {
     aristocrats = {
-        culture = north_italian
+        culture = french
         religion = catholic
         size = 600
     }
 
     officers = {
-        culture = north_italian
+        culture = french
         religion = catholic
         size = 100
     }
 
     bureaucrats = {
-        culture = north_italian
+        culture = french
         religion = catholic
         size = 200
     }
 
     clergymen = {
-        culture = north_italian
+        culture = french
         religion = catholic
         size = 350
     }
 
     artisans = {
-        culture = north_italian
+        culture = french
         religion = catholic
         size = 3250
     }
 
     soldiers = {
-        culture = north_italian
+        culture = french
         religion = catholic
         size = 1000
     }
 
     farmers = {
-        culture = north_italian
-        religion = catholic
-        size = 28100
-    }
-
-    farmers = {
         culture = french
         religion = catholic
-        size = 27800
+        size = 51800
     }
+	
+    farmers = {
+        culture = north_italian
+        religion = catholic
+        size = 4100
+    }
+	
 }
 #Chambery (228400/57100 POPS)
 466 = {
     aristocrats = {
-        culture = north_italian
+        culture = french
         religion = catholic
         size = 550
     }
 
     clergymen = {
-        culture = north_italian
+        culture = french
         religion = catholic
         size = 375
     }
 
     artisans = {
-        culture = north_italian
+        culture = french
         religion = catholic
         size = 2800
     }
 
     soldiers = {
-        culture = north_italian
+        culture = french
         religion = catholic
         size = 1000
     }
 
     farmers = {
-        culture = north_italian
-        religion = catholic
-        size = 26375
-    }
-
-    farmers = {
         culture = french
         religion = catholic
-        size = 26175
+        size = 49175
+    }
+	
+    farmers = {
+        culture = north_italian
+        religion = catholic
+        size = 3375
     }
 
 }

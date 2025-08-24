@@ -107,7 +107,7 @@
     farmers = {
         culture = swedish
         religion = protestant
-        size = 400
+        size = 600
     }
 
     aristocrats = {
@@ -370,7 +370,7 @@
         size = 1325
     }
 }
-#Kuressaare (16000/4000 POPS)
+#Kuressaare/Ösel (16000/4000 POPS)
 353 = {
 
     clergymen = {
@@ -419,6 +419,12 @@
         culture = estonian
         religion = protestant
         size = 3225
+    }
+	
+    farmers = {
+        culture = swedish
+        religion = protestant
+        size = 250
     }
 
 }

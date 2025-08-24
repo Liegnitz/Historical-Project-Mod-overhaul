@@ -3163,6 +3163,13 @@
         religion = orthodox
         size = 14375
     }
+	
+    farmers = {
+        culture = swedish
+        religion = protestant
+        size = 300
+    }
+	
 }
 #Krivoy Rog (244000/61000 POPS)
 971 = {
