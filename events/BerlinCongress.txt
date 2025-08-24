@@ -1224,7 +1224,7 @@ country_event = {
         }
         random_owned = {
             limit = {
-                province_id = 799 #Leskovac
+                province_id = 799 #Vranje
                 owned_by = TUR
             }
             secede_province = SER

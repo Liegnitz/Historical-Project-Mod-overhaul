@@ -540,7 +540,7 @@
 }
 #Galicia Region (2576000) #see Poland.txt for balance of region
 #under the rule of Austria in 1836
-#Lvov (660000/165000 POPS) #now part of Ukraine
+#Lemberg (660000/165000 POPS) #now part of Ukraine
 702 = {
     clergymen = {
         culture = ukrainian
@@ -668,7 +668,7 @@
         size = 1825
     }
 }
-#Stryi (404000/101000 POPS) #now part of Ukraine
+#Drohobycz (404000/101000 POPS) #now part of Ukraine
 951 = {
     clergymen = {
         culture = ukrainian
@@ -772,7 +772,7 @@
         size = 920
     }
 }
-#Ternopil (1136000/284000 POPS) #now part of Ukraine
+#Tarnopol (1136000/284000 POPS) #now part of Ukraine
 952 = {
     clergymen = {
         culture = ukrainian
@@ -795,7 +795,7 @@
     farmers = {
         culture = ukrainian
         religion = catholic
-        size = 156200
+        size = 126200
     }
 
     serfs = {
@@ -837,7 +837,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 56700
+        size = 80700
     }
 
     clergymen = {
@@ -861,7 +861,7 @@
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 13275
+        size = 19275
     }
 
     clergymen = {
@@ -3674,7 +3674,7 @@
         size = 3750
     }
 }
-#Mariopol (248000/62000 POPS)
+#Mariupol (248000/62000 POPS)
 976 = {
     aristocrats = {
         culture = ukrainian
@@ -3703,7 +3703,7 @@
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 50150
+        size = 45150
     }
 
     serfs = {
@@ -3789,6 +3789,37 @@
         religion = catholic
         size = 875
     }
+	
+    aristocrats = {
+        culture = russian
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = russian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = russian
+        religion = orthodox
+        size = 350
+    }
+
+    soldiers = {
+        culture = russian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = russian
+        religion = orthodox
+        size = 6750
+    }
+	
 }
 #Kursk Region (596000) #see Russia.txt for balance of region
 #under the rule of Russia in 1836
@@ -3916,7 +3947,7 @@
 }
 #Donbass Region (652000) #see Russia.txt for balance of region
 #under the rule of Russia in 1836
-#Luhansk (652000/163000 POPS) #now part of Ukraine
+#Starobelsk (652000/163000 POPS) #now part of Ukraine
 980 = {
     aristocrats = {
         culture = ukrainian

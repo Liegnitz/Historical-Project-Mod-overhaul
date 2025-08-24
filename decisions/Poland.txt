@@ -223,6 +223,7 @@ political_decisions = {
             955 = { add_core = POL }
             956 = { add_core = POL }
             957 = { add_core = POL }
+			3324 = { add_core = POL }
             any_pop = {
                 limit = { has_pop_culture = polish }
                 militancy = -6
