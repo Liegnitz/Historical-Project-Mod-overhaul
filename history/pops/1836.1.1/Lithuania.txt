@@ -466,39 +466,27 @@
     }
 
     clergymen = {
-        culture = russian
-        religion = orthodox
+        culture = polish
+        religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = russian
-        religion = orthodox
-        size = 100
-    }
-
-    soldiers = {
-        culture = russian
-        religion = orthodox
+        culture = polish
+        religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = russian
-        religion = orthodox
-        size = 1825
+        culture = polish
+        religion = catholic
+        size = 1625
     }
 	
     farmers = {
         culture = latvian
         religion = catholic
         size = 200
-    }
-	
-    farmers = {
-        culture = polish
-        religion = catholic
-        size = 1100
     }
 	
 }

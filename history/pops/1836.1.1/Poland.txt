@@ -2972,7 +2972,13 @@
     artisans = {
         culture = polish
         religion = catholic
-        size = 1500
+        size = 1750
+    }
+
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 5525
     }
 
     serfs = {
@@ -3005,18 +3011,6 @@
         size = 12350
     }
 
-    farmers = {
-        culture = polish
-        religion = orthodox
-        size = 4525
-    }
-
-    artisans = {
-        culture = polish
-        religion = orthodox
-        size = 250
-    }
-
     aristocrats = {
         culture = ashkenazi
         religion = jewish
@@ -3026,13 +3020,13 @@
     clergymen = {
         culture = ashkenazi
         religion = jewish
-        size = 100
+        size = 225
     }
 
     artisans = {
         culture = ashkenazi
         religion = jewish
-        size = 1250
+        size = 4250
     }
 
     soldiers = {
@@ -3044,7 +3038,13 @@
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 8575
+        size = 18300
+    }
+	
+    soldiers = {
+        culture = tatar
+        religion = sunni
+        size = 300
     }
 
     farmers = {

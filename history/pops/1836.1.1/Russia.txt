@@ -5,13 +5,13 @@
     aristocrats = {
         culture = russian
         religion = orthodox
-        size = 3700
+        size = 1700
     }
 
     bureaucrats = {
         culture = russian
         religion = orthodox
-        size = 800
+        size = 600
     }
 
     officers = {
@@ -29,13 +29,7 @@
     artisans = {
         culture = russian
         religion = orthodox
-        size = 3700
-    }
-
-    soldiers = {
-        culture = russian
-        religion = orthodox
-        size = 3000
+        size = 1700
     }
 
     soldiers = {
@@ -47,11 +41,47 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 40550
+        size = 24550
+    }
+	
+    aristocrats = {
+        culture = byelorussian
+        religion = orthodox
+        size = 2000
+    }
+
+    bureaucrats = {
+        culture = byelorussian
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = byelorussian
+        religion = orthodox
+        size = 325
+    }
+
+    artisans = {
+        culture = byelorussian
+        religion = orthodox
+        size = 2000
+    }
+
+    soldiers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 3000
+    }
+
+    farmers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 16550
     }
 
     serfs = {
-        culture = russian
+        culture = byelorussian
         religion = orthodox
         size = 40000
     }
@@ -2638,37 +2668,67 @@
     aristocrats = {
         culture = russian
         religion = orthodox
-        size = 2000
+        size = 1800
     }
 
     clergymen = {
         culture = russian
         religion = orthodox
-        size = 650
+        size = 550
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 4550
+        size = 4150
     }
 
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 1150
+        size = 1050
     }
 
     farmers = {
         culture = russian
         religion = orthodox
-        size = 54500
+        size = 44000
     }
 
     serfs = {
         culture = russian
         religion = orthodox
         size = 50000
+    }
+	
+    aristocrats = {
+        culture = byelorussian
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = byelorussian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = byelorussian
+        religion = orthodox
+        size = 350
+    }
+
+    soldiers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 11500
     }
 
     clergymen = {
@@ -2751,37 +2811,61 @@
     aristocrats = {
         culture = russian
         religion = orthodox
-        size = 1525
+        size = 1025
     }
 
     clergymen = {
         culture = russian
         religion = orthodox
-        size = 800
+        size = 600
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 4000
+        size = 3800
     }
 
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 800
+        size = 600
     }
 
     farmers = {
         culture = russian
         religion = orthodox
-        size = 42875
+        size = 40875
+    }
+	
+    aristocrats = {
+        culture = byelorussian
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = byelorussian
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = byelorussian
+        religion = orthodox
+        size = 1200
+    }
+
+    soldiers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 200
     }
 
     serfs = {
-        culture = russian
+        culture = byelorussian
         religion = orthodox
-        size = 30000
+        size = 32000
     }
 
 }
@@ -10506,3 +10590,98 @@
     }
 
 }
+
+#Starodub (496000/124000 POPS)
+969 = {
+
+    aristocrats = {
+        culture = ukrainian
+        religion = orthodox
+        size = 1400
+    }
+
+    clergymen = {
+        culture = ukrainian
+        religion = orthodox
+        size = 1700
+    }
+
+    artisans = {
+        culture = ukrainian
+        religion = orthodox
+        size = 1900
+    }
+
+    soldiers = {
+        culture = ukrainian
+        religion = orthodox
+        size = 4100
+    }
+
+    farmers = {
+        culture = ukrainian
+        religion = orthodox
+        size = 58800
+    }
+
+    aristocrats = {
+        culture = byelorussian
+        religion = orthodox
+        size = 600
+    }
+
+    clergymen = {
+        culture = byelorussian
+        religion = orthodox
+        size = 400
+    }
+
+    artisans = {
+        culture = byelorussian
+        religion = orthodox
+        size = 750
+    }
+
+    soldiers = {
+        culture = byelorussian
+        religion = orthodox
+        size = 2000
+    }
+
+    serfs = {
+        culture = byelorussian
+        religion = orthodox
+        size = 40000
+    }
+
+    clergymen = {
+        culture = russian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = russian
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = russian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = russian
+        religion = orthodox
+        size = 4625
+    }
+	
+    farmers = {
+        culture = gypsy
+        religion = orthodox
+        size = 175
+    }
+}
+

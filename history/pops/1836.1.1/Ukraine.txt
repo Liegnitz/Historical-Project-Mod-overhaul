@@ -1,6 +1,6 @@
 #Bukovina Region (164000) #See Romania.txt for balance of region
 #under the rule of Austria in 1836
-#Cernauti (164000/41000 POPS)
+#Czernowitz (164000/41000 POPS)
 662 = {
     clergymen = {
         culture = romanian
@@ -1121,6 +1121,31 @@
         religion = orthodox
         size = 100
     }
+	
+    clergymen = {
+        culture = romanian
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = romanian
+        religion = orthodox
+        size = 350
+    }
+
+    soldiers = {
+        culture = romanian
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = romanian
+        religion = orthodox
+        size = 2375
+    }
+	
 }
 #Proskorov (496000/124000 POPS)
 955 = {
@@ -2889,117 +2914,33 @@
         religion = catholic
         size = 1175
     }
-}
-#Pervomaisk (496000/124000 POPS)
-969 = {
-    farmers = {
-        culture = gypsy
-        religion = orthodox
-        size = 175
-    }
-
-    aristocrats = {
-        culture = ukrainian
-        religion = orthodox
-        size = 2000
-    }
-
+	
     clergymen = {
-        culture = ukrainian
+        culture = romanian
         religion = orthodox
-        size = 1100
-    }
-
-    artisans = {
-        culture = ukrainian
-        religion = orthodox
-        size = 2650
-    }
-
-    soldiers = {
-        culture = ukrainian
-        religion = orthodox
-        size = 6100
-    }
-
-    farmers = {
-        culture = ukrainian
-        religion = orthodox
-        size = 58800
-    }
-
-    serfs = {
-        culture = ukrainian
-        religion = orthodox
-        size = 40000
-    }
-
-    aristocrats = {
-        culture = polish
-        religion = catholic
-        size = 750
-    }
-
-    clergymen = {
-        culture = polish
-        religion = catholic
-        size = 100
-    }
-
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 100
-    }
-
-    clergymen = {
-        culture = ashkenazi
-        religion = jewish
         size = 125
     }
 
     artisans = {
-        culture = ashkenazi
-        religion = jewish
-        size = 3000
+        culture = romanian
+        religion = orthodox
+        size = 350
     }
 
     soldiers = {
-        culture = ashkenazi
-        religion = jewish
+        culture = romanian
+        religion = orthodox
         size = 150
     }
 
     farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 11725
-    }
-
-    clergymen = {
         culture = romanian
         religion = orthodox
-        size = 100
+        size = 6000
     }
-
-    artisans = {
-        culture = romanian
-        religion = orthodox
-        size = 200
-    }
-
-    soldiers = {
-        culture = romanian
-        religion = orthodox
-        size = 100
-    }
-
-    farmers = {
-        culture = romanian
-        religion = orthodox
-        size = 4625
-    }
+	
 }
+
 #Nikolaev (248000/62000 POPS)
 970 = {
     aristocrats = {
@@ -3161,7 +3102,7 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 14375
+        size = 6000
     }
 	
     farmers = {
