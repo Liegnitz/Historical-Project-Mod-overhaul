@@ -216,7 +216,7 @@ unit_names = {
         Ägir Basilisk Beowulf Biene Bremse Brummer Camaeleon Crocodill Frithjof Hagen Heimdall Hildebrand Hummel Mosel Mücke Natter Odin Rhein Sachsen Salamander Scorpion Siegfried Viper Wespe
     }
     clipper_transport = {
-        America Elbe Europa Hansa Hela Hermann Hudson Neckar "New York" Nord-Amerika Pamir Pangani Passat Peking Petschili Pisagua Pitlochry Placilla Pola Pommern Potosi Preussen Priwall Rhein
+        Amerika Elbe Europa Hansa Hela Hermann Hudson Neckar "New York" Nord-Amerika Pamir Pangani Passat Peking Petschili Pisagua Pitlochry Placilla Pola Pommern Potosi Preussen Priwall Rhein
     }
     steam_transport = {
         Aachen Aller Answald Ausonia Berlin Bonn Braunschweig Breslau Bülow Choising Coblenz Coburg Cormoran Crefeld Danzig Delphin Eider Elbe Ems Hannover Havel Hermann Kleist Köln Libau Mark Mosel Neckar Nordsee Oder Oldenburg Oswald Rhein Roon Saale Salier Schleswig Seydlitz Skutari Spree Therapia Trave Trier Union Weser Willehad Wittekind Zieten
