@@ -38,7 +38,7 @@ border_policy = open_borders
 
 set_country_flag = protestant_country
 
-ruling_party = NGF_liberal
+ruling_party = NGF_liberal_4
 upper_house = {
     fascist = 0
     liberal = 55

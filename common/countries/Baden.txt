@@ -228,7 +228,7 @@ party = {
 
 party = {
     name = "BAD_communist_3" #KPD
-    start_date = 1919.1.1
+    start_date = 1915.1.1
     end_date = 2000.1.1
 
     ideology = communist

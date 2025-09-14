@@ -258,7 +258,7 @@ party = {
 
 party = {
     name = "BAY_fascist_2" #NSDAP
-    start_date = 1920.1.1
+    start_date = 1915.1.1
     end_date = 2000.1.1
 
     ideology = fascist

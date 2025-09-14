@@ -38,13 +38,13 @@ border_policy = open_borders
 set_country_flag = protestant_country
 set_country_flag = exempt_from_vassal_contribution
 
-ruling_party = HAN_conservative_2
+ruling_party = HAN_conservative
 upper_house = {
     fascist = 0
-    liberal = 37
+    liberal = 35
     conservative = 58
     reactionary = 5
-    anarcho_liberal = 0
+    anarcho_liberal = 2
     socialist = 0
     communist = 0
 }
