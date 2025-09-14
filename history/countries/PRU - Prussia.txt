@@ -47,12 +47,12 @@ set_country_flag = prussian_germany
 
 decision = literacy_PRU
 
-ruling_party = PRU_conservative_2
+ruling_party = PRU_reactionary
 upper_house = {
     fascist = 0
-    liberal = 35
-    conservative = 55
-    reactionary = 10
+    liberal = 10
+    conservative = 35
+    reactionary = 55
     anarcho_liberal = 0
     socialist = 0
     communist = 0

@@ -107,7 +107,7 @@ party = {
 }
 
 party = {
-    name = "BAD_socialist2" #spd
+    name = "BAD_socialist_2" #spd
     start_date = 1890.1.1
     end_date = 2000.1.1
 
@@ -137,7 +137,7 @@ party = {
 }
 
 party = {
-    name = "BAD_reactionary2" #dkp
+    name = "BAD_reactionary_2" #dkp
     start_date = 1876.1.1
     end_date = 2000.1.1
 
@@ -212,7 +212,7 @@ party = {
 }
 
 party = {
-    name = "BAD_communist2" #USPD
+    name = "BAD_communist_2" #USPD
     start_date = 1900.1.1
     end_date = 1930.1.1
 
@@ -227,7 +227,7 @@ party = {
 }
 
 party = {
-    name = "BAD_communist3" #KPD
+    name = "BAD_communist_3" #KPD
     start_date = 1919.1.1
     end_date = 2000.1.1
 
@@ -257,7 +257,7 @@ party = {
 }
 
 party = {
-    name = "BAD_fascist2" #NSDAP
+    name = "BAD_fascist_2" #NSDAP
     start_date = 1920.1.1
     end_date = 2000.1.1
 

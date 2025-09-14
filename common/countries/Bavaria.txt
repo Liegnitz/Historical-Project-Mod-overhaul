@@ -212,13 +212,13 @@ party = {
 }
 
 party = {
-    name = "BAY_communist2" #USPD
+    name = "BAY_communist_2" #USPD
     start_date = 1900.1.1
-    end_date = 1920.1.1
+    end_date = 1930.1.1
 
     ideology = communist
 
-    social_policy = populist_welfare
+    social_policy = welfare_state
     economic_policy = planned_economy
     trade_policy = protectionism
     religious_policy = pro_atheism
@@ -227,8 +227,8 @@ party = {
 }
 
 party = {
-    name = "BAY_communist3" #KPD
-    start_date = 1919.1.1
+    name = "BAY_communist_3" #KPD
+    start_date = 1915.1.1
     end_date = 2000.1.1
 
     ideology = communist
@@ -257,7 +257,7 @@ party = {
 }
 
 party = {
-    name = "BAY_fascist2" #NSDAP
+    name = "BAY_fascist_2" #NSDAP
     start_date = 1920.1.1
     end_date = 2000.1.1
 
