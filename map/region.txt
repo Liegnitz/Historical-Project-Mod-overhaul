@@ -329,7 +329,7 @@ AUS_626 = { 627 628 629 630 632 803 } #Moravia/Sudetes
 
 AUS_627 = { 684 688 689 685 } #Upper Silesia
 
-AUS_633 = { 636 633 634 635 637 638 } #Slovakia
+AUS_633 = { 636 633 634 638 } #Slovakia
 
 AUS_641 = { 641 645 646 } #Central Hungary
 
@@ -363,7 +363,9 @@ AUS_777 = { 779 793 777 2538 } #Slavonia
 
 AUS_780 = { 780 781 782 774 2582 } #Dalmatia
 
-AUS_2538 = { 648 649 650 950 } #Transtisia
+AUS_2538 = { 648 649 650 } #Transtisia
+
+AUS_2539 = { 637 635 950 } #North Danubian Plains
 
 
 ### Italy
