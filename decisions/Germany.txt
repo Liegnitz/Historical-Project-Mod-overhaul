@@ -1115,4 +1115,92 @@ core_heligoland = {
 #            629 = { secede_province = THIS }
 #        }
 #    }
+
+	dalwigk_putsches_gov = {
+		picture = marching_soldiers
+        potential = {
+            tag = HES
+            OR = {
+                government = prussian_constitutionalism
+                government = hms_government
+            }
+            NOT = { has_country_flag = dalwigk_putsch
+					nationalism_n_imperialism = 1
+			}	
+        }
+
+        allow = { year = 1850 }
+
+        effect = {
+            political_reform = none_voting
+            political_reform = state_press
+            political_reform = appointed
+            political_reform = state_controlled
+            political_reform = underground_parties
+            government = absolute_monarchy
+            ruling_party_ideology = reactionary
+
+            clr_country_flag = election_started
+            clr_country_flag = conservative_party_in_power
+            clr_country_flag = liberal_party_in_power
+            clr_country_flag = reactionary_party_in_power
+            clr_country_flag = socialist_party_in_power
+            clr_country_flag = communist_party_in_power
+            clr_country_flag = fascist_party_in_power
+            clr_country_flag = anarcho_liberal_party_in_power
+
+            any_pop = {	militancy = 2 }
+
+            set_country_flag = dalwigk_putsch
+			
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+
+    hassenpflug_putsches_gov = {
+		picture = marching_soldiers
+        potential = {
+            tag = HEK
+            OR = {
+                government = prussian_constitutionalism
+                government = hms_government
+            }
+            NOT = { has_country_flag = hassenpflug_putsch
+					nationalism_n_imperialism = 1
+			}	
+        }
+
+        allow = { year = 1850 }
+
+        effect = {
+            political_reform = none_voting
+            political_reform = state_press
+            political_reform = appointed
+            political_reform = state_controlled
+            political_reform = underground_parties
+            government = absolute_monarchy
+            ruling_party_ideology = reactionary
+
+            clr_country_flag = election_started
+            clr_country_flag = conservative_party_in_power
+            clr_country_flag = liberal_party_in_power
+            clr_country_flag = reactionary_party_in_power
+            clr_country_flag = socialist_party_in_power
+            clr_country_flag = communist_party_in_power
+            clr_country_flag = fascist_party_in_power
+            clr_country_flag = anarcho_liberal_party_in_power
+
+            any_pop = {	militancy = 2 }
+
+            set_country_flag = hassenpflug_putsch
+        }
+        ai_will_do = {
+            factor = 1
+        }
+		
+    }
+
 }
