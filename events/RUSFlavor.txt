@@ -1129,7 +1129,7 @@ country_event = {
             secede_province = FIN
         }
         ai_chance = {
-            factor = 85
+            factor = 75
             modifier = { factor = 100 badboy = 0.15 }
         }
     }
@@ -1139,7 +1139,7 @@ country_event = {
         badboy = 3
         FROM = { country_event = 32516 }
         ai_chance = {
-            factor = 15
+            factor = 25
             modifier = { factor = 0 badboy = 0.8 }
         }
 		3325 = { secede_province = FIN }

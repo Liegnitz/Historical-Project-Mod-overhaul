@@ -15363,7 +15363,7 @@
     }
 
     building_rotation = {
-        naval_base = 5.410520
+        naval_base = 3.877386
     }
 
 } # Kotka
@@ -27549,18 +27549,23 @@
 } # Zalaegerszeg
 
 639 = {
-    unit = {
-        x = 3068.000000
-        y = 1566.000000
-    }
-
     text_position = {
         x = 3068.300049
         y = 1562.699951
     }
 
     text_rotation = 6.283185
-    text_scale = 1.900000
+    text_scale = 1.800000
+    unit = {
+        x = 3068.000000
+        y = 1566.000000
+    }
+
+    factory = {
+        x = 3072.000000
+        y = 1571.800049
+    }
+
     building_construction = {
         x = 3074.199951
         y = 1566.000000
@@ -27571,15 +27576,15 @@
         y = 1560.000000
     }
 
-    factory = {
-        x = 3072.000000
-        y = 1571.800049
-    }
-
     building_position = {
         fort = {
             x = 3061.800049
             y = 1566.900024
+        }
+
+        railroad = {
+            x = 3069.750000
+            y = 1568.150000
         }
 
     }
@@ -42468,6 +42473,10 @@
 
     }
 
+    building_rotation = {
+        naval_base = 1.585795
+    }
+
 } # Vologda
 
 989 = {
@@ -42770,25 +42779,35 @@
 } # Gdov
 
 997 = {
-    unit = {
-        x = 3254.000000
-        y = 1814.000000
-    }
-
     text_position = {
         x = 3254.000000
         y = 1807.599976
     }
 
     text_scale = 3.799999
-    building_construction = {
-        x = 3244.300049
-        y = 1819.000000
+    unit = {
+        x = 3254.000000
+        y = 1814.000000
+    }
+
+    city = {
+        x = 3247.775000
+        y = 1828.383333
     }
 
     factory = {
         x = 3266.000000
         y = 1807.000000
+    }
+
+    building_construction = {
+        x = 3244.300049
+        y = 1819.000000
+    }
+
+    military_construction = {
+        x = 3248.691667
+        y = 1809.775000
     }
 
     building_position = {
@@ -42797,28 +42816,20 @@
             y = 1826.000000
         }
 
+        railroad = {
+            x = 3248.600000
+            y = 1823.250000
+        }
+
         naval_base = {
-            x = 3241.699951
-            y = 1835.000000
-        }
-
-    }
-
-    spawn_railway_track = {
-        {
-            x = 3241.000000
-            y = 1824.000000
-        }
-
-        {
-            x = 3242.000000
-            y = 1809.000000
+            x = 3243.558333
+            y = 1839.383333
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.785398
+        naval_base = 2.444305
     }
 
 } # Tver
@@ -111144,7 +111155,7 @@
     }
 
     building_rotation = {
-        naval_base = 1.832596
+        naval_base = 2.469186
     }
 
 } # Shoyna - Tsushima
@@ -123929,6 +123940,59 @@
         railroad = {
             x = 3294.330000
             y = 1941.760000
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 5.672319
+    }
+
+}
+
+# Muraszombat
+3326 = {
+    text_position = {
+        x = 3058.300000
+        y = 1562.450000
+    }
+
+    text_rotation = 5.451557
+    text_scale = 0.8299999
+    unit = {
+        x = 3061.550000
+        y = 1561.650000
+    }
+
+    city = {
+        x = 3058.000000
+        y = 1564.550000
+    }
+
+    factory = {
+        x = 3058.000000
+        y = 1564.550000
+    }
+
+    building_construction = {
+        x = 3059.900000
+        y = 1563.750000
+    }
+
+    military_construction = {
+        x = 3060.500000
+        y = 1562.850000
+    }
+
+    building_position = {
+        fort = {
+            x = 3061.750000
+            y = 1560.750000
+        }
+
+        railroad = {
+            x = 3057.000000
+            y = 1563.650000
         }
 
     }

@@ -10689,20 +10689,20 @@
 3325 = {
     clergymen = {
         culture = finnish
-        religion = protestant
+        religion = orthodox
         size = 25
     }
 
     artisans = {
         culture = finnish
-        religion = protestant
+        religion = orthodox
         size = 150
     }
 
     farmers = {
         culture = finnish
-        religion = protestant
-        size = 2000
+        religion = orthodox
+        size = 2300
     }
 }
 

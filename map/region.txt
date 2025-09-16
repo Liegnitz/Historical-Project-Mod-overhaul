@@ -355,7 +355,7 @@ AUS_734 = { 734 735 } #South Tirol
 
 AUS_736 = { 623 624 2584 } #Burgenland
 
-AUS_768 = { 768 767 769 } #Slovenia
+AUS_768 = { 768 767 769 3326 } #Slovenia
 
 AUS_771 = { 771 772 773 775 776 } #Croatia
 

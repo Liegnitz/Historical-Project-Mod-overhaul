@@ -452,14 +452,14 @@ political_decisions = {
 
         allow = {
             war = no
-            owns = 633
+			owns = AUS_633
             NOT = {
                 any_owned_province = { is_core = SLV }
             }
         }
 
         effect = {
-            capital = 633
+            capital = 636
             prestige = 5
             primary_culture = slovak
             remove_accepted_culture = czech

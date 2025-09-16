@@ -193,3 +193,43 @@
     }
 
 }
+
+#Muraszombat
+3326 = {
+    clergymen = {
+        culture = slovene
+        religion = catholic
+        size = 150
+    }
+
+    artisans = {
+        culture = slovene
+        religion = catholic
+        size = 750
+    }
+
+    soldiers = {
+        culture = slovene
+        religion = catholic
+        size = 150
+    }
+
+    farmers = {
+        culture = slovene
+        religion = catholic
+        size = 13000
+    }
+
+    serfs = {
+        culture = hungarian
+        religion = catholic
+        size = 3000
+    }
+	
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 450
+    }
+	
+}

@@ -1718,6 +1718,7 @@ political_decisions = {
             OR = {
                 982 = { owner = { NOT = { truce_with = THIS } } }
                 339 = { owner = { NOT = { truce_with = THIS } } }
+				3325 = { owner = { NOT = { truce_with = THIS } } }
             }
             OR = {
                 government = proletarian_dictatorship
@@ -1739,6 +1740,7 @@ political_decisions = {
             random_country = { limit = { exists = yes neighbour = THIS tag = FIN } THIS = { badboy = 5 } }
             982 = { add_core = THIS }
             339 = { add_core = THIS }
+			3325 = { owner = { NOT = { truce_with = THIS } } }
         }
 
         ai_will_do = {

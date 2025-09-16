@@ -277,7 +277,13 @@
     farmers = {
         culture = hungarian
         religion = catholic
-        size = 100000
+        size = 88000
+    }
+	
+    serfs = {
+        culture = hungarian
+        religion = catholic
+        size = 90000
     }
 
     serfs = {
@@ -352,28 +358,10 @@
         size = 2800
     }
 
-    clergymen = {
+    farmers = {
         culture = slovene
         religion = catholic
-        size = 150
-    }
-
-    artisans = {
-        culture = slovene
-        religion = catholic
-        size = 750
-    }
-
-    soldiers = {
-        culture = slovene
-        religion = catholic
-        size = 150
-    }
-
-    serfs = {
-        culture = slovene
-        religion = catholic
-        size = 13950
+        size = 950
     }
 
     clergymen = {
