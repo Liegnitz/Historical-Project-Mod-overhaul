@@ -1122,7 +1122,7 @@ country_event = {
             relation = { who = THIS value = -25 }
         }
         diplomatic_influence = { who = FIN value = 200 }
-        339 = { remove_core = RUS }
+		3325 = { remove_core = FIN }
         982 = {
             remove_core = RUS
             add_core = FIN
@@ -1142,6 +1142,7 @@ country_event = {
             factor = 15
             modifier = { factor = 0 badboy = 0.8 }
         }
+		3325 = { secede_province = FIN }
     }
 }
 
@@ -1164,9 +1165,8 @@ country_event = {
             }
             militancy = 3
         }
-        339 = { secede_province = RUS
-        change_province_name = "Vyborg"
-        }
+		3325 = { secede_province = RUS }
+		
     }
 
     option = {

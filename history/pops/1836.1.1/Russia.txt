@@ -1195,7 +1195,7 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 500
+        size = 200
     }
 
     clergymen = {
@@ -1219,7 +1219,7 @@
     farmers = {
         culture = ugrian
         religion = orthodox
-        size = 500
+        size = 800
     }
 }
 #Povyents (28000/7000 POPS)
@@ -1233,7 +1233,7 @@
     artisans = {
         culture = russian
         religion = orthodox
-        size = 2150
+        size = 150
     }
 
     soldiers = {
@@ -1245,7 +1245,7 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 2500
+        size = 1600
     }
 
     clergymen = {
@@ -1269,7 +1269,7 @@
     farmers = {
         culture = finnish
         religion = orthodox
-        size = 4000
+        size = 1900
     }
 }
 #Kola (2200/550 POPS)
@@ -1283,7 +1283,7 @@
     farmers = {
         culture = sami
         religion = orthodox
-        size = 240
+        size = 640
     }
 
     clergymen = {
@@ -1295,7 +1295,7 @@
     farmers = {
         culture = finnish
         religion = orthodox
-        size = 300
+        size = 400
     }
 }
 #Onega (22000/5500 POPS)
@@ -1327,13 +1327,13 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 4200
+        size = 3200
     }
 
     farmers = {
         culture = ugrian
         religion = orthodox
-        size = 1000
+        size = 2000
     }
 }
 #Mezen Region (54000)
@@ -2088,7 +2088,7 @@
     clergymen = {
         culture = russian
         religion = orthodox
-        size = 150
+        size = 100
     }
 
     artisans = {
@@ -2106,13 +2106,13 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 12000
+        size = 5000
     }
 
     clergymen = {
         culture = finnish
         religion = orthodox
-        size = 100
+        size = 150
     }
 
     artisans = {
@@ -2124,7 +2124,7 @@
     farmers = {
         culture = finnish
         religion = orthodox
-        size = 11500
+        size = 18500
     }
 }
 #Luga (132000/33000 POPS)
@@ -10682,6 +10682,27 @@
         culture = gypsy
         religion = orthodox
         size = 175
+    }
+}
+
+#Repola
+3325 = {
+    clergymen = {
+        culture = finnish
+        religion = protestant
+        size = 25
+    }
+
+    artisans = {
+        culture = finnish
+        religion = protestant
+        size = 150
+    }
+
+    farmers = {
+        culture = finnish
+        religion = protestant
+        size = 2000
     }
 }
 
