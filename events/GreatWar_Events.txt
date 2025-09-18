@@ -610,7 +610,6 @@ country_event = {
             set_global_flag = czechoslovakia_formed
             BOH = { all_core = { add_core = CZH } }
             SLV = { all_core = { add_core = CZH } }
-            2584 = { add_core = CZH }
             689 = { add_core = CZH }
             all_core = {
                 limit = {
@@ -8117,7 +8116,6 @@ country_event = {
             set_global_flag = czechoslovakia_formed
             BOH = { all_core = { add_core = CZH } }
             SLV = { all_core = { add_core = CZH } }
-            2584 = { add_core = CZH }
             689 = { add_core = CZH }
             all_core = {
                 limit = {

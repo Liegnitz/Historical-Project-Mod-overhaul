@@ -29,13 +29,13 @@
     clergymen = {
         culture = north_italian
         religion = catholic
-        size = 2325
+        size = 2225
     }
 
     artisans = {
         culture = north_italian
         religion = catholic
-        size = 10000
+        size = 9750
     }
 
     craftsmen = {
@@ -59,7 +59,25 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 199900
+        size = 191000
+    }
+	
+    clergymen = {
+        culture = french
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = french
+        religion = catholic
+        size = 250
+    }
+
+    farmers = {
+        culture = french
+        religion = catholic
+        size = 8900
     }
 
     ######Jews
@@ -96,18 +114,6 @@
 
     ########Swiss Pops
     capitalists = {
-        culture = swiss
-        religion = catholic
-        size = 100
-    }
-
-    soldiers = {
-        culture = swiss
-        religion = catholic
-        size = 100
-    }
-
-    clergymen = {
         culture = swiss
         religion = catholic
         size = 100
@@ -183,7 +189,7 @@
     }
 	
     farmers = {
-        culture = south_german
+        culture = swiss
         religion = catholic
         size = 950
     }

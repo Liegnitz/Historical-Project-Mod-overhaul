@@ -365,7 +365,7 @@ AUS_780 = { 780 781 782 774 2582 } #Dalmatia
 
 AUS_2538 = { 648 649 650 } #Transtisia
 
-AUS_2539 = { 637 635 950 } #North Danubian Plains
+AUS_2539 = { 637 635 950 } #West Carpathian Slopes
 
 
 ### Italy
