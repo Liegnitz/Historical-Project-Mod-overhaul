@@ -6064,7 +6064,7 @@
         size = 900
     }
 }
-#Nizhnevartovsk (4000/1000 POPS) => Nyagan
+#Vartovsky Yar (4000/1000 POPS) 
 1065 = {
     aristocrats = {
         culture = ugrian
@@ -6093,35 +6093,11 @@
     farmers = {
         culture = ugrian
         religion = animist
-        size = 500
+        size = 700
     }
 }
-#Ases Igan (4000/1000 POPS) => Surgut
+#Filinskoye (4000/1000 POPS) => Surgut
 2646 = {
-    aristocrats = {
-        culture = russian
-        religion = orthodox
-        size = 10
-    }
-
-    clergymen = {
-        culture = russian
-        religion = orthodox
-        size = 125
-    }
-
-    soldiers = {
-        culture = russian
-        religion = orthodox
-        size = 150
-    }
-
-    farmers = {
-        culture = russian
-        religion = orthodox
-        size = 1900
-    }
-
     aristocrats = {
         culture = ugrian
         religion = animist
@@ -6149,7 +6125,7 @@
     farmers = {
         culture = ugrian
         religion = animist
-        size = 500
+        size = 1500
     }
 }
 #Bakchar (8500/2125 POPS) => Narym
@@ -6175,7 +6151,7 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 8800
+        size = 9300
     }
 
 

@@ -291,8 +291,8 @@ RUS_2590;Chukotka;;;;;;;;;;;;x
 RUS_1070;Yeniseysk;;;;;;;;;;;;x
 RUS_2694;Evenkiysk;;;;;;;;;;;;x
 RUS_2615;Northern Yeniseysk;;;;;;;;;;;;x
-RUS_1065;Yamalia;;;;;;;;;;;;x
-RUS_2653;Khanty-Mansi;;;;;;;;;;;;x
+RUS_1065;Ob;;;;;;;;;;;;x
+RUS_2653;Berezov;;;;;;;;;;;;x
 PROV2634;Ugolnaya Bay;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2661;Ayon;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2660;Seymchan;;;;;;;;;;;;;;;;;;;;;;;x
@@ -311,23 +311,23 @@ PROV2677;Ilimsk;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2675;Erbogachen;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2701;Kansk;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1070;Yeniseysk;;;;;;;;;;;;;;;;;;;;;;;x
-PROV2656;Baikit;;;;;;;;;;;;;;;;;;;;;;;x
+PROV2656;Poligus;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2651;Yerema;;;;;;;;;;;;;;;;;;;;;;;x
-PROV2674;Abakan;;;;;;;;;;;;;;;;;;;;;;;x
-PROV2682;Obdorsk;;;;;;;;;;;;;;;;;;;;;;;x
-PROV2646;Surgut;;;;;;;;;;;;;;;;;;;;;;;x
-PROV2690;Yugansk;;;;;;;;;;;;;;;;;;;;;;;x
+PROV2674;Ust-Abakanskoye;;;;;;;;;;;;;;;;;;;;;;;x
+PROV2682;Obdorskoye;;;;;;;;;;;;;;;;;;;;;;;x
+PROV2646;Filinskoye;;;;;;;;;;;;;;;;;;;;;;;x
+PROV2690;Surgut;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2685;Verkhoturye;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2614;Shadrinsk;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2658;Kurgan;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2683;Narym;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2613;Nadym;;;;;;;;;;;;;;;;;;;;;;;x
-PROV2659;Khalmer-Sede;;;;;;;;;;;;;;;;;;;;;;;x
+PROV2659;Tazovskoye;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2698;Kuznetsk;;;;;;;;;;;;;;;;;;;;;;;x
-PROV2691;Minusk;;;;;;;;;;;;;;;;;;;;;;;x
+PROV2691;Minusinsk;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2657;Dudinka;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2680;Volochanka;;;;;;;;;;;;;;;;;;;;;;;x
-PROV1065;Nyagan;;;;;;;;;;;;;;;;;;;;;;;x
+PROV1065;Vartovsky Yar;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2686;Kainsk;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1696;Cape Juby;;;;;;;;;;;;x
 ENG_1251;West Bengal;;;;;;;;;;;;x
@@ -1053,3 +1053,6 @@ PROV2650;Elgyai;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2655;Monastyrskoye;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2653;Nordvik;;;;;;;;;;;;x
 PROV2663;Aklansk;;;;;;;;;;;;x
+PROV2694;Panovo;;;;;;;;;;;;x
+PROV2684;Salemal;;;;;;;;;;;;x
+PROV1058;Yekaterinburg;;;;;;;;;;;;x
