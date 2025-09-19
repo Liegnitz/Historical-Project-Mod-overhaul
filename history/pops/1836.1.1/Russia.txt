@@ -1108,7 +1108,7 @@
         size = 3325
     }
 }
-#Pestamo (2700/675 POPS)
+#Petsamo (2700/675 POPS)
 982 = {
 
     clergymen = {
@@ -1120,13 +1120,13 @@
     farmers = {
         culture = sami
         religion = orthodox
-        size = 150
+        size = 450
     }
 
     farmers = {
         culture = finnish
         religion = orthodox
-        size = 400
+        size = 350
     }
 }
 #Kandalasksha (7200/1800 POPS)
@@ -1151,7 +1151,7 @@
     farmers = {
         culture = russian
         religion = orthodox
-        size = 375
+        size = 175
     }
 
     farmers = {
@@ -1169,10 +1169,10 @@
     farmers = {
         culture = sami
         religion = orthodox
-        size = 290
+        size = 500
     }
 }
-#Kostomuksha (20000/5000 POPS)
+#Sorotskaya (20000/5000 POPS)
 984 = {
     clergymen = {
         culture = russian
@@ -8954,7 +8954,7 @@
         size = 230
     }
 }
-#Korf/Tilichiki (1000/250 POPS)
+#Apuka (1000/250 POPS)
 2616 = {
     aristocrats = {
         culture = siberian
@@ -8986,7 +8986,7 @@
         size = 230
     }
 }
-#Palana/Ossora (1000/250 POPS)
+#Tigil (1000/250 POPS)
 2633 = {
     aristocrats = {
         culture = siberian
@@ -9007,15 +9007,15 @@
     }
 
     soldiers = {
-        culture = siberian
-        religion = animist
-        size = 3
+        culture = russian
+        religion = orthodox
+        size = 15
     }
 
     farmers = {
         culture = siberian
         religion = animist
-        size = 230
+        size = 240
     }
 }
 #Yevensk (2000/500 POPS) => Gizhiga
@@ -9102,7 +9102,7 @@
         size = 230
     }
 }
-#Novo Mariinsk (2000/500 POPS) #inuit = chukchi   }
+#Ust-Belaya (2000/500 POPS)
 2637 = {
     aristocrats = {
         culture = inuit
@@ -9220,15 +9220,15 @@
     }
 
     soldiers = {
-        culture = siberian
-        religion = animist
-        size = 2
+        culture = russian
+        religion = orthodox
+        size = 25
     }
 
     farmers = {
         culture = siberian
         religion = animist
-        size = 135
+        size = 145
     }
 }
 #Krasnoyarsk Region (232000)

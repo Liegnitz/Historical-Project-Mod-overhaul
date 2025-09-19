@@ -40,7 +40,13 @@
     farmers = {
         culture = norwegian
         religion = protestant
-        size = 31250
+        size = 27850
+    }
+	
+    farmers = {
+        culture = sami
+        religion = protestant
+        size = 3400
     }
 }
 #Bodo (56000/14000 POPS)
@@ -72,13 +78,13 @@
     farmers = {
         culture = norwegian
         religion = protestant
-        size = 13100
+        size = 9500
     }
 
     farmers = {
-        culture = finnish
+        culture = sami
         religion = protestant
-        size = 1100
+        size = 4700
     }
 }
 #Hammerfest (36000/9000 POPS)
@@ -98,7 +104,7 @@
     artisans = {
         culture = norwegian
         religion = protestant
-        size = 500
+        size = 200
     }
 
     soldiers = {
@@ -110,19 +116,31 @@
     farmers = {
         culture = norwegian
         religion = protestant
-        size = 5000
+        size = 3000
+    }
+	
+    artisans = {
+        culture = sami
+        religion = protestant
+        size = 100
     }
 
     farmers = {
         culture = sami
         religion = protestant
-        size = 2400
+        size = 3400
+    }
+	
+    artisans = {
+        culture = finnish
+        religion = protestant
+        size = 200
     }
 
     farmers = {
         culture = finnish
         religion = protestant
-        size = 2000
+        size = 3000
     }
 }
 #Alesund (72000/18000 POPS)

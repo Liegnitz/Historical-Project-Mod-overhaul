@@ -1940,3 +1940,29 @@ country_event = {
         }
 	}
 }
+
+#AI Prussia diplomatic influence
+country_event = {
+        id = 69420
+        title = "EVTNAME69420"
+        desc = "EVTDESC69420"
+        picture = "treaty"
+
+        trigger = {
+			tag = PRU
+			year = 1836
+            ai = yes
+        }
+		
+		fire_only_once = yes
+		
+		mean_time_to_happen = { days = 7 }
+
+        option = {
+            name = "EVT69420OPTA"
+			add_country_modifier = {
+				name = AI_Prussia_influence
+				duration = 8700
+			}
+        }
+    }

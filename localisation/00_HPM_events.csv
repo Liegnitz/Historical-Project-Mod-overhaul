@@ -5303,3 +5303,6 @@ EVTOPT31321B;Perhaps it would be better to not let them join.;;;;;;;;;;;;;
 EVTNAME33046;The lands South of the Main;;;;;;;;;;;;;
 EVTDESC33046;Foreign pressure is mounting over the inclusion of Hesse-Darmsadt into our federation. Our enemies are requesting the secession of Hesse-Darmstadt territories south of the Main river, or we'll face dire consequences.;;;;;;;;;;;;;
 EVT33046OPTA;We will get them later.;;;;;;;;;;;;;
+EVTNAME69420;AI Prussia Event;;;;;;;;;;;;;
+EVTDESC69420;Boosts diplomatic influence for 8700 days to help AI Prussia form Germany.;;;;;;;;;;;;;
+EVT69420OPTA;Nice.;;;;;;;;;;;;;

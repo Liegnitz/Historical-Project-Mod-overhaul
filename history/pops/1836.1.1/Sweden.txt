@@ -106,6 +106,12 @@
         religion = protestant
         size = 1100
     }
+	
+    labourers = {
+        culture = sami
+        religion = protestant
+        size = 100
+    }
 }
 #Umea (56000/14000 POPS)
 320 = {
@@ -130,13 +136,13 @@
     labourers = {
         culture = swedish
         religion = protestant
-        size = 11925
+        size = 9075
     }
-
+	
     farmers = {
-        culture = finnish
+        culture = sami
         religion = protestant
-        size = 1100
+        size = 3950
     }
 }
 #Lulea (44000/11000 POPS)
@@ -162,7 +168,7 @@
     labourers = {
         culture = swedish
         religion = protestant
-        size = 6050
+        size = 4050
     }
 
     artisans = {
@@ -174,7 +180,7 @@
     farmers = {
         culture = sami
         religion = protestant
-        size = 2200
+        size = 4200
     }
 
     farmers = {

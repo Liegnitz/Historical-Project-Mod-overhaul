@@ -1593,6 +1593,10 @@ prussian_general_staff = {
     icon = 15
 }
 
+AI_Prussia_influence = {
+	influence_modifier = 0.2
+}
+
 ##### Boer War #####
 trek_boers = {
     global_immigrant_attract = 4.1        #410%
