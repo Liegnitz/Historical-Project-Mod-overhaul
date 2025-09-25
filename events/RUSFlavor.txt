@@ -1273,7 +1273,7 @@ country_event = {
         war = no
         owns = 1086 #Pogobi
         owns = 1088 #Shumshu
-        1087 = { #Otomari
+        1087 = { #Kushunkotan
             owner = {
                 primary_culture = japanese
                 civilized = yes
@@ -1307,7 +1307,7 @@ country_event = {
         badboy = -2
         random_country = {
             limit = {
-                owns = 1087 #Otomari
+                owns = 1087 #Kushunkotan
             }
             country_event = 32523
         }
@@ -1349,7 +1349,7 @@ country_event = {
         treasury = -20000
         random_country = {
             limit = {
-                owns = 1087 #Otomari
+                owns = 1087 #Kushunkotan
             }
             country_event = 32524
         }
@@ -1367,7 +1367,7 @@ country_event = {
         badboy = 3
         random_country = {
             limit = {
-                owns = 1087 #Ootomari
+                owns = 1087 #Kushunkotan
             }
             leave_alliance = THIS
             relation = { who = THIS value = -100 }
@@ -1461,7 +1461,7 @@ country_event = {
             change_province_name = "Shumushu"
             secede_province = THIS
         }
-        1087 = { #Otomari
+        1087 = { #Kushunkotan
             remove_core = THIS
             change_province_name = "Korsakov"
             secede_province = FROM
@@ -1536,7 +1536,7 @@ country_event = {
     option = {
         name = "EVT32525OPTA"
         prestige_factor = -0.1
-        1087 = { #Otomari
+        1087 = { #Kushunkotan
             remove_core = THIS
             change_province_name = "Korsakov"
             secede_province = FROM
@@ -1663,7 +1663,7 @@ country_event = {
             target = FROM
             attacker_goal = {
                 casus_belli = acquire_any_state
-                state_province_id = 1087 #Otomari
+                state_province_id = 1087 #Kushunkotan
             }
         }
         random_owned = {
@@ -1788,7 +1788,7 @@ country_event = {
     trigger = {
         tag = RUS
         has_country_flag = fought_for_sakhalin
-        1087 = { #Otomari
+        1087 = { #Kushunkotan
             owner = {
                 NOT = { tag = THIS }
                 primary_culture = japanese
@@ -1815,7 +1815,7 @@ country_event = {
         }
         random_country = {
             limit = {
-                owns = 1087 #Otomari
+                owns = 1087 #Kushunkotan
             }
             country_event = 32529
         }
@@ -1853,7 +1853,7 @@ country_event = {
     trigger = {
         tag = RUS
         has_country_flag = fought_for_sakhalin
-        owns = 1087 #Otomari
+        owns = 1087 #Kushunkotan
         owns = 1089 #Etorofu
         OR = {
             JAP = {

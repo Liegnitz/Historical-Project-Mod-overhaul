@@ -1839,7 +1839,7 @@ political_decisions = {
                     is_capital = yes
                     NOT = { life_rating = 38 }
                 }
-                633 = { #Bratislava, Slovakia
+                2584 = { #Bratislava, Slovakia
                     owned_by = THIS
                     is_capital = yes
                     NOT = { life_rating = 38 }
@@ -1926,7 +1926,7 @@ political_decisions = {
                         province_id = 834
                         province_id = 771
                         province_id = 768
-                        province_id = 633
+                        province_id = 2584
                         province_id = 625
                         province_id = 372
                         province_id = 375
