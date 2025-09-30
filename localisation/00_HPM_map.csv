@@ -99,7 +99,7 @@ PROV12;Sado;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV1531;Tombara;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2537;Birara;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV158;Grand Portage;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV29;Kyzylkum;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV29;Shapurkam;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2595;Nunavut;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV25;Old Bow Fort;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV6;Selkirk;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -151,7 +151,7 @@ PROV106;Bent's Fort;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2702;Alty-Kuduk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV1210;Kunduz;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV1196;Gurgench;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV686;Merv;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV686;Tejend;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 BUR_1334;Mandalay;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2623;Midway and Wake Islands;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV2524;Kirikiriroa;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -280,11 +280,11 @@ PROV2580;Novaya Ladoga;;;;;;;;;;;;x
 PROV995;Petrozavodsk;;;;;;;;;;;;x
 PROV965;Aleshki;;;;;;;;;;;;x
 PROV1048;Yekaterinodar;;;;;;;;;;;;x
-PROV1045;Migulinskaya;;;;;;;;;;;;x
+PROV1045;Millerovo;;;;;;;;;;;;x
 PROV950;Ungvár;;;;;;;;;;;;x
 RUS_1185;Zhetysu;;;;;;;;;;;;x
 PROV1201;Khujand;;;;;;;;;;;;x
-PROV1206;Amul;;;;;;;;;;;;x
+PROV1206;Chardzhou;;;;;;;;;;;;x
 RUS_2618;Okhotsk;;;;;;;;;;;;x
 RUS_2621;Kolyma;;;;;;;;;;;;x
 RUS_2590;Chukotka;;;;;;;;;;;;x
@@ -303,12 +303,12 @@ PROV1080;Chumikan;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2671;Barguzin;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2670;Verkhneudinsk;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2662;Animas;;;;;;;;;;;;;;;;;;;;;;;x
-PROV1073;Gizhiginsk;;;;;;;;;;;;;;;;;;;;;;;x
+PROV1073;Gizhiga;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1076;Nizhneudinsk;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2645;Perevoz;;;;;;;;;;;;;;;;;;;;;;;x
-PROV2693;Essey;;;;;;;;;;;;;;;;;;;;;;;x
+PROV2693;Yessey;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2677;Ilimsk;;;;;;;;;;;;;;;;;;;;;;;x
-PROV2675;Erbogachen;;;;;;;;;;;;;;;;;;;;;;;x
+PROV2675;Yerbogachen;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2701;Kansk;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1070;Yeniseysk;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2656;Poligus;;;;;;;;;;;;;;;;;;;;;;;x
@@ -342,15 +342,14 @@ PROV2414;Jezira;;;;;;;;;;;;x
 PROV914;Trablos;;;;;;;;;;;;x
 PROV1469;Uriankhai;;;;;;;;;;;;x
 PROV1181;Akmolinsk;;;;;;;;;;;;;;;;;;;;;;x
-PROV1205;Kyzyl-Su;;;;;;;;;;;;;;;;;;;;;;;x
+PROV1205;Krasnovodsk;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1204;Ashkhabad;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1194;Novopetrovskoye;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1197;Chimkent;;;;;;;;;;;;;;;;;;;;;;;x
-PROV1185;Turkistan;;;;;;;;;;;;;;;;;;;;;;;x
+PROV1185;Aulye-Ata;;;;;;;;;;;;;;;;;;;;;;;x
 PROV3106;Lake Balkhash;;;;;;;;;;;;;;;;;;;;;;;x
-PROV1186;Zhetysu;;;;;;;;;;;;;;;;;;;;;;;x
+PROV1186;Fort Zailyskoye;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1193;Ak-Mechet;;;;;;;;;;;;;;;;;;;;;;;x
-PROV2606;Balkhash;;;;;;;;;;;;;;;;;;;;;;;x
 ARG_2384;Córdoba de Argentina;;;;;;;;;;;;;;;;;;;;;;;x
 ARG_2393;La Pampa;;;;;;;;;;;;;;;;;;;;;;;x
 PROV1391;Kota Kubang Labu;;;;;;;;;;;;;;;;;;;;;;;x
@@ -364,7 +363,7 @@ PROV1178;Sana'a;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV969;Starodub;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV972;Yekaterinoslav;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV974;Bakhmut;;;;;;;;;;;;;;;;;;;x;
-PROV1041;Elista;;;;;;;;;;;;;;;;;;;x;
+PROV1041;Chilgir;;;;;;;;;;;;;;;;;;;x;
 PROV745;Leghorn;;;;;;;;;;;;;;;;;;;x;
 PROV2436;Salvador da Bahia;;;;;;;;;;;;;;;;;;;x;
 BRZ_2408;Grão - Pará;;;;;;;;;;;;;;;;;;;x;
@@ -483,7 +482,7 @@ TUR_890;Van;;;;;;;;;;;;x
 TUR_893;Diyarbakir;;;;;;;;;;;;x
 TUR_894;Adana;;;;;;;;;;;;x
 RUS_940;Pinsk;;;;;;;;;;;;x
-RUS_968;Poltava;;;;;;;;;;;;x
+RUS_968;Kharkov;;;;;;;;;;;;x
 RUS_978;Taurida;;;;;;;;;;;;x
 RUS_979;Don Host;;;;;;;;;;;;x
 PROV1082;Haishenwai;;;;;;;;;;;;x
@@ -697,7 +696,6 @@ AUS_702;Galicia-Lodomeria;;;;;;;;;;;;x
 PROV704;Nowy Sacz;;;;;;;;;;;;x
 RUS_706;Masovia;;;;;;;;;;;;x
 PROV711;Siedlce;;;;;;;;;;;;x
-RUS_715;West Galicia;;;;;;;;;;;;x
 PROV748;Grosseto;;;;;;;;;;;;x
 FRA_801;Tahiti;;;;;;;;;;;;x
 TUR_805;Southern Macedonia;;;;;;;;;;;;x
@@ -709,16 +707,7 @@ TUR_876;Ankara;;;;;;;;;;;;x
 TUR_880;Kastamonu;;;;;;;;;;;;x
 TUR_882;Trabizond;;;;;;;;;;;;x
 TUR_890;Van;;;;;;;;;;;;x
-TUR_893;Diyarbakir;;;;;;;;;;;;x
 TUR_894;Adana;;;;;;;;;;;;x
-RUS_940;Pinsk;;;;;;;;;;;;x
-RUS_955;Podillia;;;;;;;;;;;;x
-RUS_968;Transnistria;;;;;;;;;;;;x
-RUS_978;Kharkov;;;;;;;;;;;;x
-PROV1082;Haishenwai;;;;;;;;;;;;x
-JAP_1086;Sakhalin;;;;;;;;;;;;x
-PROV1087;Otomari;;;;;;;;;;;;x
-JAP_1088;Ezo;;;;;;;;;;;;x
 AST_1097;New Caledonia;;;;;;;;;;;;x
 PER_1116;Mazandaran;;;;;;;;;;;;x
 PER_1128;Lorestan;;;;;;;;;;;;x
@@ -999,8 +988,8 @@ PROV628;Außig;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV546;Stargard;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV547;Stettin;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV50;Port Arthur;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV984;Sorotskaya;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV986;Pechenga;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV984;Soroka;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV986;Pustozersk;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV803;Znaim;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV791;Pilsen;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV705;Rzeszów;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
@@ -1051,8 +1040,38 @@ PROV2619;Russkoye Ustye;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2672;Kystatyam;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2650;Elgyai;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2655;Monastyrskoye;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV2653;Nordvik;;;;;;;;;;;;x
-PROV2663;Aklansk;;;;;;;;;;;;x
-PROV2694;Panovo;;;;;;;;;;;;x
-PROV2684;Salemal;;;;;;;;;;;;x
-PROV1058;Yekaterinburg;;;;;;;;;;;;x
+PROV2653;Nordvik;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2663;Aklansk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2694;Panovo;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2684;Salemal;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1058;Yekaterinburg;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2606;Karkaralinsk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2612;Ulutavsky;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1184;Petropavlovsk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2611;Torgay;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1183;Irgiz;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1192;Kungrad;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1190;Karakol;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1208;Qal'a-i-Khum;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2688;Kozhva;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1023;Kostroma;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV990;Veliky Ustyug;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2700;Troitsko-Pechorsk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV2689;Ust-Shchugor;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1040;Bezrodnoye;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1046;Tsimlyanskaya;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1022;Ivanovo-Voznesensk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV993;Vytegra;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1051;Batalpashinskaya;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1055;Groznaya;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1103;Kuba;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1104;Shaki;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1107;Lenkoran;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1105;Shusha;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1098;Yerivan;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1099;Alexandropol;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1090;Tiflis;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1091;Gori;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1093;Akhaltsikh;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1092;Kutais;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV1095;Sukhum;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,

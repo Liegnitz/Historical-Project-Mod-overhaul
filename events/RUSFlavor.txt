@@ -2412,24 +2412,25 @@ country_event = {
         owns = 1192
         owns = 1194
         owns = 2612
+        owns = 2702
     }
 
     fire_only_once = yes
-
 
     mean_time_to_happen = { months = 6 }
 
     option = {
         name = "EVT32536OPTA"
-            2606 = { change_province_name = "Zhambyl" remove_core = RUS }
             1193 = { change_province_name = "Perovsk" remove_core = RUS }
-            1188 = { change_province_name = "Taldy-Kurgan" remove_core = RUS }
-            1186 = { change_province_name = "Verniy" remove_core = RUS }
-            1187 = { change_province_name = "Semipalatinsk" remove_core = RUS }
+            1188 = { change_province_name = "Sergiopol" remove_core = RUS }
+            1186 = { change_province_name = "Verny" remove_core = RUS }
+            1194 = { change_province_name = "Fort Alexandrovsky" remove_core = RUS }
+            2606 = { remove_core = RUS }
+            1187 = { remove_core = RUS }
             1190 = { remove_core = RUS }
-            1194 = { remove_core = RUS change_province_name = "Fort Alexandrovsky" }
             1192 = { remove_core = RUS }
             2612 = { remove_core = RUS }
+            2702 = { change_province_name = "Aralsky" }
             1186 = { state_scope = { change_region_name = "Semireche" } }
     }
 }

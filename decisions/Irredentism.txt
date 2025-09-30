@@ -508,10 +508,13 @@ political_decisions = {
             677 = { add_core = UKR }
             663 = { add_core = UKR }
             3324 = { add_core = UKR }
-            705 = { add_core = UKR }
             977 = { add_core = UKR }
             1018 = { add_core = UKR }
             1019 = { add_core = UKR }
+            940 = { add_core = UKR }
+            942 = { add_core = UKR }
+            949 = { add_core = UKR }
+            1056 = { add_core = UKR }
             any_country = {
                 limit = {
                     NOT = { tag = THIS }

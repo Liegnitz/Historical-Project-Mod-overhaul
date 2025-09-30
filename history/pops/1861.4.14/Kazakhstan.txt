@@ -421,7 +421,7 @@
         size = 18797.5
     }
 }
-#Qaratal (108000/27000 POPS)
+#Quaratal (108000/27000 POPS)
 1188 = {
     aristocrats = {
         culture = kazak
