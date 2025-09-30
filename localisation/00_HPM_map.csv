@@ -690,7 +690,6 @@ SPA_610;Caroline Islands;;;;;;;;;;;;x
 AUS_652;Banat;;;;;;;;;;;;x
 AUS_654;Western Transylvania;;;;;;;;;;;;x
 AUS_657;Eastern Transylvania;;;;;;;;;;;;x
-MOL_676;Bessarabia;;;;;;;;;;;;x
 PRU_684;Upper Silesia;;;;;;;;;;;;x
 AUS_702;Galicia-Lodomeria;;;;;;;;;;;;x
 PROV704;Nowy Sacz;;;;;;;;;;;;x
@@ -1075,3 +1074,5 @@ PROV1091;Gori;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV1093;Akhaltsikh;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV1092;Kutais;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV1095;Sukhum;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV676;Kishinev;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV677;Beltsy;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
