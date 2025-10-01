@@ -278,4 +278,485 @@ political_decisions = {
 
         ai_will_do = { factor = 1 }
     }
+
+
+	move_capital_to_vilnius = {
+	picture = old_vilnius
+		potential = {
+			tag = LIT
+			owns = 360
+			NOT = { capital = 360 }
+		}   
+
+		allow = {
+			controls = 360
+			NOT = { capital = 360 }
+		}
+
+		effect = {
+			capital = 360
+		}
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+###State Renames###
+
+###Lithuania###
+
+	name_lit_lit = {
+		potential = {
+			tag = LIT
+			owns = 361
+			owns = 362
+			owns = 363
+			owns = 364
+			owns = 365
+			NOT = {
+				has_global_flag = lithuania_renamed_lithuania
+			}
+		}
+
+		effect = {
+            361 = { change_province_name = "Kaunas" }
+            362 = { change_province_name = "Marijampole" }
+            363 = { change_province_name = "Panevezys" }
+            364 = { change_province_name = "Siauliai" }
+            365 = { change_province_name = "Kretinga" }
+			clr_global_flag = germany_renamed_lithuania
+			clr_global_flag = poland_renamed_lithuania
+			clr_global_flag = russia_renamed_lithuania
+			set_global_flag = lithuania_renamed_lithuania
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_lit_pol = {
+		potential = {
+			OR = {
+				tag = POL
+				tag = CPL
+			}	
+			owns = 361
+			owns = 362
+			owns = 363
+			owns = 364
+			owns = 365
+			NOT = {
+				has_global_flag = poland_renamed_lithuania
+			}
+		}
+		
+		effect = {
+            361 = { change_province_name = "Kowno" }
+            362 = { change_province_name = "Mariampol" }
+            363 = { change_province_name = "Poniewiez" }
+            364 = { change_province_name = "Szawle" }
+            365 = { change_province_name = "Kretynga" }
+			clr_global_flag = germany_renamed_lithuania
+			clr_global_flag = lithuania_renamed_lithuania
+			clr_global_flag = russia_renamed_lithuania
+			set_global_flag = poland_renamed_lithuania
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_lit_ger = {
+		potential = {
+			OR = {
+				tag = GER
+				tag = NGF
+				tag = PRU
+				tag = SGF
+				tag = AUS
+			}
+			owns = 361
+			owns = 362
+			owns = 363
+			owns = 364
+			owns = 365
+			NOT = {
+				has_global_flag = germany_renamed_lithuania
+			}
+		}
+
+		effect = {
+            361 = { change_province_name = "Kaunen" }
+            362 = { change_province_name = "Mariampol" }
+            363 = { change_province_name = "Ponewiesch" }
+            364 = { change_province_name = "Schaulen" }
+            365 = { change_province_name = "Krottingen" }
+			clr_global_flag = lithuania_renamed_lithuania
+			clr_global_flag = poland_renamed_lithuania
+			clr_global_flag = russia_renamed_lithuania
+			set_global_flag = germany_renamed_lithuania
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_lit_rus = {
+		potential = {
+			tag = RUS
+			owns = 361
+			owns = 362
+			owns = 363
+			owns = 364
+			owns = 365
+			OR = {
+			has_global_flag = germany_renamed_lithuania
+			has_global_flag = poland_renamed_lithuania
+			has_global_flag = lithuania_renamed_lithuania
+			}
+			NOT = {
+				has_global_flag = russia_renamed_lithuania
+			}
+		}
+		
+		effect = {
+            361 = { change_province_name = "Kovno" }
+            362 = { change_province_name = "Marympol" }
+            363 = { change_province_name = "Ponevezh" }
+            364 = { change_province_name = "Shavli" }
+            365 = { change_province_name = "Kretingen" }
+			clr_global_flag = germany_renamed_lithuania
+			clr_global_flag = poland_renamed_lithuania
+			clr_global_flag = lithuania_renamed_lithuania
+			set_global_flag = russia_renamed_lithuania
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+###Vilnius###
+
+	name_vilna_lit = {
+		potential = {
+			tag = LIT
+			owns = 360
+			owns = 707
+			owns = 719
+			owns = 936
+			owns = 3323
+			NOT = {
+				has_global_flag = lithuania_renamed_vilna
+			}
+		}
+
+		effect = {
+            360 = { change_province_name = "Vilnius" }
+            707 = { change_province_name = "Suvalkai" }
+            719 = { change_province_name = "Balstoge" }
+            936 = { change_province_name = "Gardinas" }
+            3323 = { change_province_name = "Valkaviskas" }
+            360 = { state_scope = { change_region_name = "Vilnius" } }
+			clr_global_flag = germany_renamed_vilna
+			clr_global_flag = poland_renamed_vilna
+			clr_global_flag = russia_renamed_vilna
+			set_global_flag = lithuania_renamed_vilna
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_vilna_pol = {
+		potential = {
+			OR = {
+				tag = POL
+				tag = CPL
+			}	
+			owns = 360
+			owns = 707
+			owns = 719
+			owns = 936
+			owns = 3323
+			NOT = {
+				has_global_flag = poland_renamed_vilna
+			}
+		}
+		
+		effect = {
+            360 = { change_province_name = "Wilno" }
+            707 = { change_province_name = "Suwałki" }
+            719 = { change_province_name = "Białystok" }
+            936 = { change_province_name = "Grodno" }
+            3323 = { change_province_name = "Wołkowysk" }
+            360 = { state_scope = { change_region_name = "Wilno" } }
+			clr_global_flag = belorussia_renamed_vilna
+			clr_global_flag = poland_renamed_vilna
+			clr_global_flag = russia_renamed_vilna
+			set_global_flag = lithuania_renamed_vilna
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_vilna_bye = {
+		potential = {
+			tag = BYE
+			owns = 360
+			owns = 707
+			owns = 719
+			owns = 936
+			owns = 3323
+			NOT = {
+				has_global_flag = belorussia_renamed_vilna
+			}
+		}
+
+		effect = {
+            360 = { change_province_name = "Vilnia" }
+            707 = { change_province_name = "Suvalki" }
+            719 = { change_province_name = "Belastok" }
+            936 = { change_province_name = "Hrodna" }
+            3323 = { change_province_name = "Vaukavysk" }
+            360 = { state_scope = { change_region_name = "Vilnia" } }
+			clr_global_flag = lithuania_renamed_vilna
+			clr_global_flag = poland_renamed_vilna
+			clr_global_flag = russia_renamed_vilna
+			set_global_flag = belorussia_renamed_vilna
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_vilna_rus = {
+		potential = {
+			tag = RUS
+			owns = 360
+			owns = 707
+			owns = 719
+			owns = 936
+			owns = 3323
+			OR = {
+			has_global_flag = lithuania_renamed_vilna
+			has_global_flag = belorussia_renamed_vilna
+			has_global_flag = poland_renamed_vilna
+			}
+			NOT = {
+				has_global_flag = russia_renamed_vilna
+			}
+		}
+		
+		effect = {
+            360 = { change_province_name = "Vilna" }
+            707 = { change_province_name = "Suvalki" }
+            719 = { change_province_name = "Belostok" }
+            936 = { change_province_name = "Grodno" }
+            3323 = { change_province_name = "Volkovysk" }
+            360 = { state_scope = { change_region_name = "Vilna" } }
+			clr_global_flag = belorussia_renamed_vilna
+			clr_global_flag = poland_renamed_vilna
+			clr_global_flag = lithuania_renamed_vilna
+			set_global_flag = russia_renamed_vilna
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+###Latvia###
+
+	name_lat_lat = {
+		potential = {
+			tag = LAT
+			owns = 355
+			owns = 356
+			owns = 357
+			owns = 358
+			owns = 359
+			NOT = {
+				has_global_flag = latvia_renamed_latvia
+			}
+		}
+
+		effect = {
+            355 = { change_province_name = "Valmiera" }
+            356 = { change_province_name = "Daugavpils" }
+            357 = { change_province_name = "Jelgava" }
+            358 = { change_province_name = "Ventspils" }
+            359 = { change_province_name = "Liepaja" }
+			clr_global_flag = germany_renamed_latvia
+			clr_global_flag = russia_renamed_latvia
+			set_global_flag = latvia_renamed_latvia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_lat_ger = {
+		potential = {
+			OR = {
+				tag = GER
+				tag = NGF
+				tag = PRU
+				tag = SGF
+				tag = AUS
+				tag = SWE
+				tag = SCA
+			}
+			owns = 355
+			owns = 356
+			owns = 357
+			owns = 358
+			owns = 359
+			NOT = {
+				has_global_flag = germany_renamed_latvia
+			}
+		}
+
+		effect = {
+            355 = { change_province_name = "Wolmar" }
+            356 = { change_province_name = "Dünaburg" }
+            357 = { change_province_name = "Mitau" }
+            358 = { change_province_name = "Windau" }
+            359 = { change_province_name = "Libau" }
+			clr_global_flag = latvia_renamed_latvia
+			clr_global_flag = russia_renamed_latvia
+			set_global_flag = germany_renamed_latvia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}	
+
+	name_lat_rus = {
+		potential = {
+			tag = RUS
+			owns = 355
+			owns = 356
+			owns = 357
+			owns = 358
+			owns = 359
+			OR = {
+				has_global_flag = germany_renamed_latvia
+				has_global_flag = latvia_renamed_latvia
+			}
+			allow = { mass_politics = 1 }
+			NOT = { has_global_flag = russia_renamed_latvia }
+		}
+		
+		effect = {
+            355 = { change_province_name = "Volmar" }
+            356 = { change_province_name = "Dvinsk" }
+            357 = { change_province_name = "Mitava" }
+            358 = { change_province_name = "Vindava" }
+            359 = { change_province_name = "Libava" }
+			clr_global_flag = germany_renamed_latvia
+			clr_global_flag = latvia_renamed_latvia
+			set_global_flag = russia_renamed_latvia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+###Estonia###
+
+	name_est_est = {
+		potential = {
+			tag = EST
+			owns = 349
+			owns = 350
+			owns = 351
+			owns = 352
+			owns = 353
+			NOT = {
+				has_global_flag = estonia_renamed_estonia
+			}
+		}
+
+		effect = {
+            349 = { change_province_name = "Tallinn" }
+            350 = { change_province_name = "Narva" }
+            351 = { change_province_name = "Pärnu" }
+            352 = { change_province_name = "Tartu" }
+            353 = { change_province_name = "Saaremaa" }
+			clr_global_flag = germany_renamed_estonia
+			clr_global_flag = russia_renamed_estonia
+			set_global_flag = estonia_renamed_estonia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_est_ger = {
+		potential = {
+			OR = {
+				tag = GER
+				tag = NGF
+				tag = PRU
+				tag = SGF
+				tag = AUS
+				tag = SWE
+				tag = SCA
+			}
+			owns = 349
+			owns = 350
+			owns = 351
+			owns = 352
+			owns = 353
+			NOT = {
+				has_global_flag = germany_renamed_estonia
+			}
+		}
+
+		effect = {
+            349 = { change_province_name = "Reval" }
+            350 = { change_province_name = "Narwa" }
+            351 = { change_province_name = "Pernau" }
+            352 = { change_province_name = "Dorpat" }
+            353 = { change_province_name = "Ösel" }
+			clr_global_flag = estonia_renamed_estonia
+			clr_global_flag = russia_renamed_estonia
+			set_global_flag = germany_renamed_estonia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}	
+
+	name_est_rus = {
+		potential = {
+			tag = RUS
+			owns = 349
+			owns = 350
+			owns = 351
+			owns = 352
+			owns = 353
+			OR = {
+				has_global_flag = germany_renamed_estonia
+				has_global_flag = estonia_renamed_estonia
+			}
+			allow = { mass_politics = 1 }
+			NOT = { has_global_flag = russia_renamed_estonia }
+		}
+		
+		effect = {
+            349 = { change_province_name = "Revel" }
+            350 = { change_province_name = "Narva" }
+            351 = { change_province_name = "Pernov" }
+            352 = { change_province_name = "Yuryev" }
+            353 = { change_province_name = "Ezel" }
+			clr_global_flag = germany_renamed_estonia
+			clr_global_flag = estonia_renamed_estonia
+			set_global_flag = russia_renamed_estonia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
 }

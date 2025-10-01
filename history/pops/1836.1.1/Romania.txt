@@ -1,6 +1,6 @@
 #Partium Region (1288000) #See Hungary.txt for balance of region
 #under the rule of Austria in 1836
-#Oradea (844000/211000 POPS) #part of Romania today
+#Nagyvarad (844000/211000 POPS) #part of Romania today
 647 = {
     clergymen = {
         culture = romanian
@@ -170,7 +170,7 @@
         size = 5425
     }
 }
-#Szatmare (444000/111000 POPS) #part of Romania today
+#Szatmar (444000/111000 POPS) #part of Romania today
 651 = {
     clergymen = {
         culture = romanian
@@ -632,7 +632,7 @@
 }
 #Transylvania Region (2060000)
 #under the rule of Austria in 1836
-#Cluj (156000/44000 POPS)
+#Klausenburg (156000/44000 POPS)
 654 = {
     clergymen = {
         culture = romanian
@@ -1130,7 +1130,7 @@
         size = 1175
     }
 }
-#Nagyszeben/Sibiu (276000/69000 POPS)
+#Nagyszeben/Sibiu/Hermannstadt (276000/69000 POPS)
 657 = {
     clergymen = {
         culture = romanian
@@ -1294,7 +1294,7 @@
         size = 1075
     }
 }
-#Brasso/Brasov (168000/42000 POPS)
+#Brasso/Brasov/Kronstadt (168000/42000 POPS)
 659 = {
     clergymen = {
         culture = romanian
@@ -2451,7 +2451,19 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 91450
+        size = 83450
+    }
+	
+    farmers = {
+        culture = romanian
+        religion = catholic
+        size = 3000
+    }
+	
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 5000
     }
 
     slaves = {

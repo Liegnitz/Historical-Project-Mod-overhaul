@@ -1,0 +1,24 @@
+political_decisions = {
+
+	move_capital_to_pressburg = {
+	picture = old_vilnius
+		potential = {
+			tag = SLV
+			owns = 2584
+			NOT = { capital = 2584 }
+		}   
+
+		allow = {
+			controls = 2584
+			NOT = { capital = 2584 }
+		}
+
+		effect = {
+			capital = 2584
+		}
+		ai_will_do = {
+            factor = 1
+        }
+	}
+
+}

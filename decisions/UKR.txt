@@ -393,7 +393,7 @@ political_decisions = {
             954 = { change_province_name = "Vinnytsia" }
             968 = { change_province_name = "Odesa" }
             970 = { change_province_name = "Mykolaiv" }
-            971 = { change_province_name = "Krivoy Rih" }
+            971 = { change_province_name = "Kryvyi Rih" }
 			clr_global_flag = russia_renamed_kherson
 			set_global_flag = ukraine_renamed_kherson
 		}
