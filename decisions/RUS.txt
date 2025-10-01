@@ -911,415 +911,6 @@ political_decisions = {
         }
     }
 
-    names_of_the_revolution = {
-        picture = names_of_the_rev
-        potential = {
-            tag = RUS
-            government = proletarian_dictatorship
-            NOT = { has_country_flag = names_of_the_revolution }
-			owns = 987
-            owns = 994
-            owns = 996
-			owns = 997
-            owns = 998
-            owns = 1020
-			owns = 1026
-            owns = 1028
-			owns = 1033
-            owns = 1034
-            owns = 1039
-			owns = 1044
-        }
-
-        allow = {
-			owns = 987
-            owns = 994
-            owns = 996
-			owns = 997
-            owns = 998
-            owns = 1020
-			owns = 1026
-            owns = 1028
-			owns = 1033
-            owns = 1034
-            owns = 1039
-			owns = 1044
-        }
-
-        effect = {
-            set_country_flag = names_of_the_revolution
-            994 = { change_province_name = "Leningrad" }
-            987 = { change_province_name = "Syktyvkar" }
-            996 = { change_province_name = "Leningradsky" }
-            997 = { change_province_name = "Kingisepp" }			
-            998 = { change_province_name = "Kalinin" }
-            998 = { state_scope = { change_region_name = "Kalinin Oblast" } }
-            1020 = { change_province_name = "Gorky" }
-            1026 = { change_province_name = "Molotov" }
-            1028 = { change_province_name = "Kirov" }
-            1033 = { change_province_name = "Ulyanovsk" }
-            1034 = { change_province_name = "Kuybyshev" }
-            1039 = { change_province_name = "Stalingrad" }
-            1044 = { change_province_name = "Chkalov" }
-        }
-        ai_will_do = { factor = 1 }
-    }
-
-    remove_names_of_the_revolution = {
-        picture = names_of_the_rev
-        potential = {
-            tag = RUS
-            NOT = { government = proletarian_dictatorship }
-            has_country_flag = names_of_the_revolution
-			owns = 987
-            owns = 994
-            owns = 996
-			owns = 997
-            owns = 998
-            owns = 1020
-			owns = 1026
-            owns = 1028
-			owns = 1033
-            owns = 1034
-            owns = 1039
-			owns = 1044
-        }
-
-        allow = {
-			owns = 987
-            owns = 994
-            owns = 996
-			owns = 997
-            owns = 998
-            owns = 1020
-			owns = 1026
-            owns = 1028
-			owns = 1033
-            owns = 1034
-            owns = 1039
-			owns = 1044
-        }
-
-        effect = {
-            clr_country_flag = names_of_the_revolution
-            994 = { change_province_name = "Petrograd" }
-            987 = { change_province_name = "Ust-Sysolsk" }
-            996 = { change_province_name = "Luga" }
-            997 = { change_province_name = "Yamburg" }
-            998 = { change_province_name = "Tver" }
-            998 = { state_scope = { change_region_name = "Tver" } }
-            1020 = { change_province_name = "Nizhni Novgorod" }
-            1026 = { change_province_name = "Perm" }
-            1028 = { change_province_name = "Vyatka" }
-            1033 = { change_province_name = "Simbirsk" }
-            1034 = { change_province_name = "Samara" }
-            1039 = { change_province_name = "Tsaritsyn" }
-            1044 = { change_province_name = "Orenburg" }
-            }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    names_of_the_revolution_ukraine = {
-        picture = names_of_the_rev
-        potential = {
-            tag = RUS
-            government = proletarian_dictatorship
-            NOT = { has_global_flag = names_of_the_revolution_ukraine }
-            owns = 975
-            owns = 974
-			owns = 972
-			owns = 965
-        }
-
-        allow = {
-            owns = 975
-            owns = 974
-			owns = 972
-			owns = 965
-        }
-
-        effect = {
-            set_global_flag = names_of_the_revolution_ukraine
-            975 = { change_province_name = "Zaporozhe" } 
-            974 = { change_province_name = "Artemovsk" }
-            972 = { change_province_name = "Dnipropetrovsk" }
-			965 = { change_province_name = "Tsiurupynsk" }
-            972 = { state_scope = { change_region_name = "Dnipropetrovsk" } }
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    remove_names_of_the_revolution_ukraine = {
-        picture = names_of_the_rev
-        potential = {
-            NOT = { government = proletarian_dictatorship }
-            has_global_flag = names_of_the_revolution_ukraine
-            owns = 974
-			owns = 972
-			owns = 965
-        }
-
-        allow = {
-            owns = 974
-			owns = 972
-			owns = 965
-            }
-
-        effect = {
-            clr_global_flag = names_of_the_revolution_ukraine
-            974 = { change_province_name = "Bakhmut" }
-            972 = { change_province_name = "Yekaterinoslav" }
-			965 = { change_province_name = "Aleshki" }
-            972 = { state_scope = { change_region_name = "Yekaterinoslav" } }
-            }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-    names_of_the_revolution_ca = {
-        picture = names_of_the_rev
-        potential = {
-            tag = RUS
-            government = proletarian_dictatorship
-            NOT = { has_global_flag = names_of_the_revolution_ca }
-            owns = 1185
-			owns = 1186
-            owns = 1188
-			owns = 1189
-			owns = 1193
-			owns = 1194
-			owns = 1201
-			owns = 1204
-			owns = 1206 
-        }
-
-        allow = {
-            owns = 1185
-			owns = 1186
-            owns = 1188
-			owns = 1189
-			owns = 1193
-			owns = 1194
-			owns = 1201
-			owns = 1204
-			owns = 1206 
-        }
-
-        effect = {
-            set_global_flag = names_of_the_revolution_ca
-            1185 = { change_province_name = "Mirzoyan" } 
-            1186 = { change_province_name = "Alma-Ata" }
-            1188 = { change_province_name = "Ayagoz" }
-			1189 = { change_province_name = "Frunze" }
-            1193 = { change_province_name = "Kzyl-Orda" } 
-            1194 = { change_province_name = "Fort Shevchenko" }
-            1201 = { change_province_name = "Leninabad" }
-			1204 = { change_province_name = "Poltoratsk" }
-            1206 = { change_province_name = "Leninsk" }
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    remove_names_of_the_revolution_ca = {
-        picture = names_of_the_rev
-        potential = {
-            NOT = { government = proletarian_dictatorship }
-            has_global_flag = names_of_the_revolution_ca
-            owns = 1185
-			owns = 1186
-            owns = 1188
-			owns = 1189
-			owns = 1193
-			owns = 1194
-			owns = 1201
-			owns = 1204
-			owns = 1206 
-        }
-
-        allow = {
-            owns = 1185
-			owns = 1186
-            owns = 1188
-			owns = 1189
-			owns = 1193
-			owns = 1194
-			owns = 1201
-			owns = 1204
-			owns = 1206 
-            }
-
-        effect = {
-            clr_global_flag = names_of_the_revolution_ca
-            1185 = { change_province_name = "Auliye-Ata" } 
-            1186 = { change_province_name = "Alma-Ata" }
-            1188 = { change_province_name = "Sergiopol" }
-			1189 = { change_province_name = "Bishkek" }
-            1193 = { change_province_name = "Perovsk" } 
-            1194 = { change_province_name = "Fort Alexandrovsk" }
-            1201 = { change_province_name = "Khujand" }
-			1204 = { change_province_name = "Ashkabad" }
-            1206 = { change_province_name = "Chardzhou" }
-            }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-    names_of_the_revolution_siberia = {
-        picture = names_of_the_rev
-        potential = {
-            tag = RUS
-            government = proletarian_dictatorship
-            NOT = { has_global_flag = names_of_the_revolution_siberia }
-            owns = 1058
-            owns = 1065
-			owns = 1068
-			owns = 2643
-			owns = 2655
-			owns = 2670
-			owns = 2682
-			owns = 2686
-			owns = 2698
-        }
-
-        allow = {
-            owns = 1058
-            owns = 1065
-			owns = 1068
-			owns = 2643
-			owns = 2655
-			owns = 2670
-			owns = 2682
-			owns = 2686
-			owns = 2698
-        }
-
-        effect = {
-            set_global_flag = names_of_the_revolution_siberia
-            1058 = { change_province_name = "Sverdlovsk" } 
-            1065 = { change_province_name = "Nizhnevartovsk" } #stays
-            1068 = { change_province_name = "Oyrot-Tura" } 
-            2643 = { change_province_name = "Khonuu" } #stays
-            2655 = { change_province_name = "Novo-Turukhansk" } 
-            2670 = { change_province_name = "Ulan-Ude" } 
-            2682 = { change_province_name = "Salekhard" } 
-            2686 = { change_province_name = "Kuybyshev" } 
-            2698 = { change_province_name = "Stalinsk" } 
-            1065 = { state_scope = { change_region_name = "Yamalia" } }
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    remove_names_of_the_revolution_siberia = {
-        picture = names_of_the_rev
-        potential = {
-            NOT = { government = proletarian_dictatorship }
-            has_global_flag = names_of_the_revolution_siberia
-            owns = 1058
-			owns = 1068
-			owns = 2655
-			owns = 2670
-			owns = 2682
-			owns = 2686
-			owns = 2698
-        }
-
-        allow = {
-            owns = 1058
-			owns = 1068
-			owns = 2655
-			owns = 2670
-			owns = 2682
-			owns = 2686
-			owns = 2698
-            }
-
-        effect = {
-            clr_global_flag = names_of_the_revolution_siberia 
-            1058 = { change_province_name = "Yekaterinburg" } 
-            1068 = { change_province_name = "Oyrot-Tura" } 
-            2655 = { change_province_name = "Monastyrskoye" } 
-            2670 = { change_province_name = "Verkhneudinsk" } 
-            2682 = { change_province_name = "Obdorsk" } 
-            2686 = { change_province_name = "Kainsk" } 
-            2698 = { change_province_name = "Kuznetsk" } 
-            1065 = { state_scope = { change_region_name = "Ob" } }
-            }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-    names_of_the_revolution_caucasus = {
-        picture = names_of_the_rev
-        potential = {
-            tag = RUS
-            government = proletarian_dictatorship
-            NOT = { has_global_flag = names_of_the_revolution_caucasus }
-            owns = 1048
-            owns = 1050
-			owns = 1054
-			owns = 1099
-        }
-
-        allow = {
-            owns = 1048
-            owns = 1050
-			owns = 1054
-			owns = 1099
-        }
-
-        effect = {
-            set_global_flag = names_of_the_revolution_caucasus
-            1048 = { change_province_name = "Krasnodar" } 
-            1050 = { change_province_name = "Voroshilovsk" }
-            1054 = { change_province_name = "Ordzhonikidze" }
-			1099 = { change_province_name = "Leninakan" }
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    remove_names_of_the_revolution_caucasus = {
-        picture = names_of_the_rev
-        potential = {
-            NOT = { government = proletarian_dictatorship }
-            has_global_flag = names_of_the_revolution_caucasus
-            owns = 1048
-            owns = 1050
-			owns = 1054
-			owns = 1099
-        }
-
-        allow = {
-            owns = 1048
-            owns = 1050
-			owns = 1054
-			owns = 1099
-            }
-
-        effect = {
-            clr_global_flag = names_of_the_revolution_caucasus
-            1048 = { change_province_name = "Yekaterinodar" } 
-            1050 = { change_province_name = "Stavropol" }
-            1054 = { change_province_name = "Vladikavkaz" }
-			1099 = { change_province_name = "Alexandropol" }
-            }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
     expel_the_poles_GLM = {
         picture = polish_expelled
         potential = {
@@ -2133,4 +1724,615 @@ political_decisions = {
 
         ai_will_do = { factor = 1 }
     }
+	
+###State Renames###
+
+#Revolutionary Names
+    names_of_the_revolution = {
+        picture = names_of_the_rev
+        potential = {
+            tag = RUS
+            government = proletarian_dictatorship
+            NOT = { has_country_flag = names_of_the_revolution }
+			owns = 987
+            owns = 994
+            owns = 996
+			owns = 997
+            owns = 998
+            owns = 1020
+			owns = 1026
+            owns = 1028
+			owns = 1033
+            owns = 1034
+            owns = 1039
+			owns = 1044
+        }
+
+        allow = {
+			owns = 987
+            owns = 994
+            owns = 996
+			owns = 997
+            owns = 998
+            owns = 1020
+			owns = 1026
+            owns = 1028
+			owns = 1033
+            owns = 1034
+            owns = 1039
+			owns = 1044
+        }
+
+        effect = {
+            set_country_flag = names_of_the_revolution
+            994 = { change_province_name = "Leningrad" }
+            987 = { change_province_name = "Syktyvkar" }
+            996 = { change_province_name = "Leningradsky" }
+            997 = { change_province_name = "Kingisepp" }			
+            998 = { change_province_name = "Kalinin" }
+            998 = { state_scope = { change_region_name = "Kalinin Oblast" } }
+            1020 = { change_province_name = "Gorky" }
+            1026 = { change_province_name = "Molotov" }
+            1028 = { change_province_name = "Kirov" }
+            1033 = { change_province_name = "Ulyanovsk" }
+            1034 = { change_province_name = "Kuybyshev" }
+            1039 = { change_province_name = "Stalingrad" }
+            1044 = { change_province_name = "Chkalov" }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    remove_names_of_the_revolution = {
+        picture = names_of_the_rev
+        potential = {
+            tag = RUS
+            NOT = { government = proletarian_dictatorship }
+            has_country_flag = names_of_the_revolution
+			owns = 987
+            owns = 994
+            owns = 996
+			owns = 997
+            owns = 998
+            owns = 1020
+			owns = 1026
+            owns = 1028
+			owns = 1033
+            owns = 1034
+            owns = 1039
+			owns = 1044
+        }
+
+        allow = {
+			owns = 987
+            owns = 994
+            owns = 996
+			owns = 997
+            owns = 998
+            owns = 1020
+			owns = 1026
+            owns = 1028
+			owns = 1033
+            owns = 1034
+            owns = 1039
+			owns = 1044
+        }
+
+        effect = {
+            clr_country_flag = names_of_the_revolution
+            994 = { change_province_name = "Petrograd" }
+            987 = { change_province_name = "Ust-Sysolsk" }
+            996 = { change_province_name = "Luga" }
+            997 = { change_province_name = "Yamburg" }
+            998 = { change_province_name = "Tver" }
+            998 = { state_scope = { change_region_name = "Tver" } }
+            1020 = { change_province_name = "Nizhni Novgorod" }
+            1026 = { change_province_name = "Perm" }
+            1028 = { change_province_name = "Vyatka" }
+            1033 = { change_province_name = "Simbirsk" }
+            1034 = { change_province_name = "Samara" }
+            1039 = { change_province_name = "Tsaritsyn" }
+            1044 = { change_province_name = "Orenburg" }
+            }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    names_of_the_revolution_ukraine = {
+        picture = names_of_the_rev
+        potential = {
+            tag = RUS
+            government = proletarian_dictatorship
+            NOT = { has_global_flag = names_of_the_revolution_ukraine }
+            owns = 975
+            owns = 974
+			owns = 972
+			owns = 965
+        }
+
+        allow = {
+            owns = 975
+            owns = 974
+			owns = 972
+			owns = 965
+        }
+
+        effect = {
+            set_global_flag = names_of_the_revolution_ukraine
+            975 = { change_province_name = "Zaporozhe" } 
+            974 = { change_province_name = "Artemovsk" }
+            972 = { change_province_name = "Dnipropetrovsk" }
+			965 = { change_province_name = "Tsiurupynsk" }
+            972 = { state_scope = { change_region_name = "Dnipropetrovsk" } }
+			975 = { state_scope = { change_region_name = "Zaporozhe" } }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    remove_names_of_the_revolution_ukraine = {
+        picture = names_of_the_rev
+        potential = {
+            NOT = { government = proletarian_dictatorship }
+            has_global_flag = names_of_the_revolution_ukraine
+            owns = 974
+			owns = 972
+			owns = 965
+        }
+
+        allow = {
+            owns = 974
+			owns = 972
+			owns = 965
+            }
+
+        effect = {
+            clr_global_flag = names_of_the_revolution_ukraine
+            974 = { change_province_name = "Bakhmut" }
+            972 = { change_province_name = "Yekaterinoslav" }
+			965 = { change_province_name = "Aleshki" }
+            972 = { state_scope = { change_region_name = "Yekaterinoslav" } }
+            }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    names_of_the_revolution_ca = {
+        picture = names_of_the_rev
+        potential = {
+            tag = RUS
+            government = proletarian_dictatorship
+            NOT = { has_global_flag = names_of_the_revolution_ca }
+            owns = 1185
+			owns = 1186
+            owns = 1188
+			owns = 1189
+			owns = 1193
+			owns = 1194
+			owns = 1201
+			owns = 1204
+			owns = 1206 
+        }
+
+        allow = {
+            owns = 1185
+			owns = 1186
+            owns = 1188
+			owns = 1189
+			owns = 1193
+			owns = 1194
+			owns = 1201
+			owns = 1204
+			owns = 1206 
+        }
+
+        effect = {
+            set_global_flag = names_of_the_revolution_ca
+            1185 = { change_province_name = "Mirzoyan" } 
+            1186 = { change_province_name = "Alma-Ata" }
+            1188 = { change_province_name = "Ayagoz" }
+			1189 = { change_province_name = "Frunze" }
+            1193 = { change_province_name = "Kzyl-Orda" } 
+            1194 = { change_province_name = "Fort Shevchenko" }
+            1201 = { change_province_name = "Leninabad" }
+			1204 = { change_province_name = "Poltoratsk" }
+            1206 = { change_province_name = "Leninsk" }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    remove_names_of_the_revolution_ca = {
+        picture = names_of_the_rev
+        potential = {
+            NOT = { government = proletarian_dictatorship }
+            has_global_flag = names_of_the_revolution_ca
+            owns = 1185
+			owns = 1186
+            owns = 1188
+			owns = 1189
+			owns = 1193
+			owns = 1194
+			owns = 1201
+			owns = 1204
+			owns = 1206 
+        }
+
+        allow = {
+            owns = 1185
+			owns = 1186
+            owns = 1188
+			owns = 1189
+			owns = 1193
+			owns = 1194
+			owns = 1201
+			owns = 1204
+			owns = 1206 
+            }
+
+        effect = {
+            clr_global_flag = names_of_the_revolution_ca
+            1185 = { change_province_name = "Auliye-Ata" } 
+            1186 = { change_province_name = "Alma-Ata" }
+            1188 = { change_province_name = "Sergiopol" }
+			1189 = { change_province_name = "Bishkek" }
+            1193 = { change_province_name = "Perovsk" } 
+            1194 = { change_province_name = "Fort Alexandrovsk" }
+            1201 = { change_province_name = "Khujand" }
+			1204 = { change_province_name = "Ashkabad" }
+            1206 = { change_province_name = "Chardzhou" }
+            }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    names_of_the_revolution_siberia = {
+        picture = names_of_the_rev
+        potential = {
+            tag = RUS
+            government = proletarian_dictatorship
+            NOT = { has_global_flag = names_of_the_revolution_siberia }
+            owns = 1058
+            owns = 1065
+			owns = 1068
+			owns = 2643
+			owns = 2655
+			owns = 2670
+			owns = 2682
+			owns = 2686
+			owns = 2698
+        }
+
+        allow = {
+            owns = 1058
+            owns = 1065
+			owns = 1068
+			owns = 2643
+			owns = 2655
+			owns = 2670
+			owns = 2682
+			owns = 2686
+			owns = 2698
+        }
+
+        effect = {
+            set_global_flag = names_of_the_revolution_siberia
+            1058 = { change_province_name = "Sverdlovsk" } 
+            1065 = { change_province_name = "Nizhnevartovsk" } #stays
+            1068 = { change_province_name = "Oyrot-Tura" } 
+            2643 = { change_province_name = "Khonuu" } #stays
+            2655 = { change_province_name = "Novo-Turukhansk" } 
+            2670 = { change_province_name = "Ulan-Ude" } 
+            2682 = { change_province_name = "Salekhard" } 
+            2686 = { change_province_name = "Kuybyshev" } 
+            2698 = { change_province_name = "Stalinsk" } 
+            2682 = { state_scope = { change_region_name = "Yamalia" } }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    remove_names_of_the_revolution_siberia = {
+        picture = names_of_the_rev
+        potential = {
+            NOT = { government = proletarian_dictatorship }
+            has_global_flag = names_of_the_revolution_siberia
+            owns = 1058
+			owns = 1068
+			owns = 2655
+			owns = 2670
+			owns = 2682
+			owns = 2686
+			owns = 2698
+        }
+
+        allow = {
+            owns = 1058
+			owns = 1068
+			owns = 2655
+			owns = 2670
+			owns = 2682
+			owns = 2686
+			owns = 2698
+            }
+
+        effect = {
+            clr_global_flag = names_of_the_revolution_siberia 
+            1058 = { change_province_name = "Yekaterinburg" } 
+            1068 = { change_province_name = "Oyrot-Tura" } 
+            2655 = { change_province_name = "Monastyrskoye" } 
+            2670 = { change_province_name = "Verkhneudinsk" } 
+            2682 = { change_province_name = "Obdorsk" } 
+            2686 = { change_province_name = "Kainsk" } 
+            2698 = { change_province_name = "Kuznetsk" } 
+            2682 = { state_scope = { change_region_name = "Ob" } }
+            }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    names_of_the_revolution_caucasus = {
+        picture = names_of_the_rev
+        potential = {
+            tag = RUS
+            government = proletarian_dictatorship
+            NOT = { has_global_flag = names_of_the_revolution_caucasus }
+#            owns = 1048
+#            owns = 1050
+			owns = 1054
+			owns = 1099
+        }
+
+        allow = {
+#            owns = 1048
+#            owns = 1050
+			owns = 1054
+			owns = 1099
+        }
+
+        effect = {
+            set_global_flag = names_of_the_revolution_caucasus
+#       	1048 = { change_province_name = "Krasnodar" } 
+#       	1050 = { change_province_name = "Voroshilovsk" }
+			1054 = { change_province_name = "Ordzhonikidze" }
+			1099 = { change_province_name = "Leninakan" }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    remove_names_of_the_revolution_caucasus = {
+        picture = names_of_the_rev
+        potential = {
+            NOT = { government = proletarian_dictatorship }
+            has_global_flag = names_of_the_revolution_caucasus
+#            owns = 1048
+#            owns = 1050
+			owns = 1054
+			owns = 1099
+        }
+
+        allow = {
+#            owns = 1048
+#            owns = 1050
+			owns = 1054
+			owns = 1099
+            }
+
+        effect = {
+            clr_global_flag = names_of_the_revolution_caucasus
+#            1048 = { change_province_name = "Yekaterinodar" } 
+#            1050 = { change_province_name = "Stavropol" }
+            1054 = { change_province_name = "Vladikavkaz" }
+			1099 = { change_province_name = "Alexandropol" }
+            }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+#Solo State Renames
+	name_kursk_ukr = {
+		potential = {
+			tag = UKR
+			owns = 977
+			owns = 1018
+			owns = 1019
+			NOT = {
+				has_global_flag = ukraine_renamed_kursk
+			}
+		}
+
+		effect = {
+            977 = { change_province_name = "Kurske" }
+            1018 = { change_province_name = "Bilhorod" }
+            1019 = { change_province_name = "Voronizh" }
+            977 = { state_scope = { change_region_name = "Kurske" } }
+			clr_global_flag = russia_renamed_kursk
+			set_global_flag = ukraine_renamed_kursk
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_kursk_rus = {
+		potential = {
+			tag = RUS
+			owns = 977
+			owns = 1018
+			owns = 1019
+			has_global_flag = ukraine_renamed_dhost
+			NOT = {
+				has_global_flag = russia_renamed_kursk
+			}
+		}
+		
+		effect = {
+            977 = { change_province_name = "Kursk" }
+            1018 = { change_province_name = "Belgorod" }
+            1019 = { change_province_name = "Voronezh" }
+            977 = { state_scope = { change_region_name = "Kursk" } }
+			clr_global_flag = ukraine_renamed_kursk
+			set_global_flag = russia_renamed_kursk
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_dhost_ukr = {
+		potential = {
+			OR = {
+				tag = UKR
+				tag = DON
+			}
+			owns = 979
+			owns = 1045
+			owns = 1046
+			owns = 1047
+			NOT = {
+				has_global_flag = ukraine_renamed_dhost
+			}
+		}
+
+		effect = {
+            979 = { change_province_name = "Rostiv" }
+            1045 = { change_province_name = "Millerove" }
+            1046 = { change_province_name = "Tsymlyanskaya" }
+            1047 = { change_province_name = "Oziv" }
+			clr_global_flag = russia_renamed_dhost
+			set_global_flag = ukraine_renamed_dhost
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_dhost_rus = {
+		potential = {
+			tag = RUS
+			has_global_flag = ukraine_renamed_dhost
+			owns = 979
+			owns = 1045
+			owns = 1046
+			owns = 1047
+			NOT = {
+				has_global_flag = russia_renamed_dhost
+			}
+		}
+		
+		effect = {
+            979 = { change_province_name = "Rostov" }
+            1045 = { change_province_name = "Millerove" }
+            1046 = { change_province_name = "Tsimlyanskaya" }
+            1047 = { change_province_name = "Azov" }
+			clr_global_flag = ukraine_renamed_dhost
+			set_global_flag = russia_renamed_dhost
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_yekaterinodar_ukr = {
+		potential = {
+			OR = {
+				tag = UKR
+				tag = DON
+			}
+			owns = 1048
+			owns = 1049
+			owns = 1050
+			owns = 1051
+			owns = 1056
+			NOT = {
+				has_global_flag = ukraine_renamed_yekaterinodar
+			}
+		}
+
+		effect = {
+            1048 = { change_province_name = "Nova Sich" }
+            1049 = { change_province_name = "Novoukrainsk" }
+            1050 = { change_province_name = "Stavropil" }
+            1056 = { change_province_name = "Pyathirsk" }
+            1048 = { state_scope = { change_region_name = "Nova Sich" } }
+			clr_global_flag = russia_renamed_yekaterinodar
+			clr_global_flag = russia_renamed_yekaterinodar_bolshevik
+			set_global_flag = ukraine_renamed_yekaterinodar
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_yekaterinodar_rus = {
+		potential = {
+			tag = RUS
+			OR = {
+			has_global_flag = ukraine_renamed_yekaterinodar
+			has_global_flag = russia_renamed_yekaterinodar_bolshevik
+			}
+			owns = 1048
+			owns = 1049
+			owns = 1050
+			owns = 1051
+			owns = 1056
+			NOT = {
+				has_global_flag = russia_renamed_yekaterinodar
+				government = proletarian_dictatorship
+			}
+		}
+		
+		effect = {
+            1048 = { change_province_name = "Yekaterinodar" }
+            1049 = { change_province_name = "Novorossiysk" }
+            1050 = { change_province_name = "Stavropol" }
+            1056 = { change_province_name = "Pyatigorsk" }
+            1048 = { state_scope = { change_region_name = "Yekaterinodar" } }
+			clr_global_flag = ukraine_renamed_yekaterinodar
+			clr_global_flag = russia_renamed_yekaterinodar_bolshevik
+			set_global_flag = russia_renamed_yekaterinodar
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_yekaterinodar_rus_bolshevik = {
+		potential = {
+			tag = RUS
+            government = proletarian_dictatorship
+			owns = 1048
+			owns = 1049
+			owns = 1050
+			owns = 1051
+			owns = 1056
+			NOT = {
+				has_global_flag = russia_renamed_yekaterinodar_bolshevik
+			}
+		}
+	
+		effect = {
+            1048 = { change_province_name = "Krasnodar" }
+            1049 = { change_province_name = "Novorossiysk" }
+            1050 = { change_province_name = "Voroshilovsk" }
+            1056 = { change_province_name = "Pyatigorsk" }
+            1048 = { state_scope = { change_region_name = "Krasnodar" } }
+			clr_global_flag = ukraine_renamed_yekaterinodar
+			clr_global_flag = russia_renamed_yekaterinodar
+			set_global_flag = russia_renamed_yekaterinodar_bolshevik
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
 }

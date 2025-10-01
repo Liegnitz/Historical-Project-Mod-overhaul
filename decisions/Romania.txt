@@ -20,11 +20,13 @@ political_decisions = {
             676 = { change_province_name = "Chisinau" }
             677 = { change_province_name = "Balti" }
             678 = { change_province_name = "Cetatea Alba" }
-			prestige = 3
 			clr_global_flag = russia_renamed_bes1
 			clr_global_flag = ukraine_renamed_bes1
 			set_global_flag = romania_renamed_bes1
 		}
+        ai_will_do = {
+            factor = 1
+        }
 	}
 	
 	claim_bes_rus = {
@@ -46,11 +48,13 @@ political_decisions = {
             676 = { change_province_name = "Kishinev" }
             677 = { change_province_name = "Beltsy" }
             678 = { change_province_name = "Akkerman" }
-			prestige = 3
 			clr_global_flag = romania_renamed_bes1
 			clr_global_flag = ukraine_renamed_bes1
 			set_global_flag = russia_renamed_bes1
 		}
+        ai_will_do = {
+            factor = 1
+        }
 	}
 	
 	claim_bes_ukr = {
@@ -68,11 +72,13 @@ political_decisions = {
             676 = { change_province_name = "Kyshyniv" }
             677 = { change_province_name = "Biltsi" }
             678 = { change_province_name = "Akkerman" }
-			prestige = 3
 			clr_global_flag = russia_renamed_bes1
 			clr_global_flag = romania_renamed_bes1
 			set_global_flag = ukraine_renamed_bes1
 		}
+        ai_will_do = {
+            factor = 1
+        }
 	}
 	
 }

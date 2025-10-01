@@ -1,5 +1,6 @@
 political_decisions = {
-    national_awakening = {
+    
+	national_awakening = {
         picture = names_of_the_rev
         potential = {
             OR = {
@@ -63,4 +64,494 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
+
+
+###UKR State renames### #bessarabia in the romania folder#
+
+	name_crimea_ukr = {
+		potential = {
+			tag = UKR
+			owns = 964
+			owns = 967
+			NOT = {
+				has_global_flag = ukraine_renamed_crimea
+			}
+		}
+		
+		effect = {
+            964 = { change_province_name = "Simferopil" }
+            967 = { change_province_name = "Sevastopil" }
+			clr_global_flag = russia_renamed_crimea
+			set_global_flag = ukraine_renamed_crimea
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_crimea_rus = {
+		potential = {
+			tag = RUS
+			has_global_flag = ukraine_renamed_crimea
+			owns = 964
+			owns = 967
+			NOT = {
+				has_global_flag = russia_renamed_crimea
+			}
+		}
+		
+		effect = {
+            964 = { change_province_name = "Simferopol" }
+            967 = { change_province_name = "Sevastopol" }
+			clr_global_flag = ukraine_renamed_crimea
+			set_global_flag = russia_renamed_crimea
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_lodomeria_ukr = {
+		potential = {
+			tag = UKR
+			owns = 702
+			owns = 951
+			owns = 952
+			owns = 953
+			NOT = {
+				has_global_flag = ukraine_renamed_galicia
+			}
+		}
+		
+		effect = {
+            702 = { change_province_name = "Lviv" }
+            951 = { change_province_name = "Drohobych" }
+            952 = { change_province_name = "Ternopil" }
+            953 = { change_province_name = "Kolomyia" }
+			clr_global_flag = russia_renamed_galicia
+			clr_global_flag = poland_renamed_galicia
+			set_global_flag = ukraine_renamed_galicia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_lodomeria_rus = {
+		potential = {
+			tag = RUS
+			owns = 702
+			owns = 951
+			owns = 952
+			owns = 953
+			NOT = {
+				has_global_flag = russia_renamed_galicia
+			}
+		}
+		
+		effect = {
+            702 = { change_province_name = "Lvov" }
+            951 = { change_province_name = "Drogobych" }
+            952 = { change_province_name = "Tarnopol" }
+            953 = { change_province_name = "Kolomyia" }
+			clr_global_flag = ukraine_renamed_galicia
+			clr_global_flag = poland_renamed_galicia
+			set_global_flag = russia_renamed_galicia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_lodomeria_pol = {
+		potential = {
+			OR = {
+				tag = POL
+				tag = CPL
+			}
+			owns = 702
+			owns = 951
+			owns = 952
+			owns = 953
+			NOT = {
+				has_global_flag = poland_renamed_galicia
+			}
+		}
+		
+		effect = {
+            702 = { change_province_name = "Lwów" }
+            951 = { change_province_name = "Drohobycz" }
+            952 = { change_province_name = "Tarnopol" }
+            953 = { change_province_name = "Stanislavov" }
+			clr_global_flag = ukraine_renamed_galicia
+			clr_global_flag = russia_renamed_galicia
+			set_global_flag = poland_renamed_galicia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_yekaterinoslav_ukr = {
+		potential = {
+			tag = UKR
+			owns = 972
+			owns = 974
+			owns = 976
+			owns = 980
+			NOT = {
+				has_global_flag = ukraine_renamed_yekaterinoslav
+			}
+		}	
+
+		effect = {
+            972 = { change_province_name = "Sicheslav" }
+            974 = { change_province_name = "Bakhmut" }
+            976 = { change_province_name = "Mariupil" }
+            980 = { change_province_name = "Starobilsk" }
+            972 = { state_scope = { change_region_name = "Sicheslav" } }
+			clr_global_flag = russia_renamed_yekaterinoslav
+			clr_global_flag = russia_renamed_yekaterinoslav_bolshevik
+			set_global_flag = ukraine_renamed_yekaterinoslav
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_yekaterinoslav_rus = {
+		potential = {
+			tag = RUS
+			owns = 972
+			owns = 974
+			owns = 976
+			owns = 980
+			OR = {
+				has_global_flag = ukraine_renamed_yekaterinoslav
+				has_global_flag = russia_renamed_yekaterinoslav_bolshevik
+			}
+			NOT = {
+				has_global_flag = russia_renamed_yekaterinoslav
+				government = proletarian_dictatorship
+			}
+		}
+		
+		effect = {
+            972 = { change_province_name = "Yekaterinoslav" }
+            974 = { change_province_name = "Bakhmut" }
+            976 = { change_province_name = "Mariupol" }
+            980 = { change_province_name = "Starobelsk" }
+            972 = { state_scope = { change_region_name = "Yekaterinoslav" } }
+			clr_global_flag = ukraine_renamed_yekaterinoslav
+			clr_global_flag = russia_renamed_yekaterinoslav_bolshevik
+			set_global_flag = russia_renamed_yekaterinoslav
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_yekaterinoslav_rus_bolshevik = {
+		potential = {
+			tag = RUS
+            government = proletarian_dictatorship
+			owns = 972
+			owns = 974
+			owns = 976
+			owns = 980
+			NOT = {
+				has_global_flag = russia_renamed_yekaterinoslav_bolshevik
+			}
+		}
+		
+		effect = {
+            972 = { change_province_name = "Dnipropetrovsk" }
+            974 = { change_province_name = "Artemovsk" }
+            976 = { change_province_name = "Mariupol" }
+            980 = { change_province_name = "Starobelsk" }
+            972 = { state_scope = { change_region_name = "Dnipropetrovsk" } }
+			clr_global_flag = ukraine_renamed_yekaterinoslav
+			clr_global_flag = russia_renamed_yekaterinoslav
+			set_global_flag = russia_renamed_yekaterinoslav_bolshevik
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_kharkov_ukr = {
+		potential = {
+			tag = UKR
+			owns = 978
+			owns = 962
+			owns = 963
+			NOT = {
+				has_global_flag = ukraine_renamed_kharkov
+			}
+		}
+
+		effect = {
+            978 = { change_province_name = "Kharkiv" }
+            962 = { change_province_name = "Chernihiv" }
+            978 = { state_scope = { change_region_name = "Kharkiv" } }
+			clr_global_flag = russia_renamed_kharkov
+			set_global_flag = ukraine_renamed_kharkov
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_kharkov_rus = {
+		potential = {
+			tag = RUS
+			owns = 978
+			owns = 962
+			owns = 963
+			has_global_flag = ukraine_renamed_kharkov
+			NOT = {
+				has_global_flag = russia_renamed_kharkov
+			}
+		}
+		
+		effect = {
+            978 = { change_province_name = "Kharkov" }
+            962 = { change_province_name = "Chernigov" }
+            968 = { state_scope = { change_region_name = "Kharkov" } }
+			clr_global_flag = ukraine_renamed_kharkov
+			set_global_flag = russia_renamed_kharkov
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_kiev_ukr = {
+		potential = {
+			tag = UKR
+			owns = 958
+			owns = 959
+			owns = 960
+			owns = 961
+			NOT = {
+				has_global_flag = ukraine_renamed_kiev
+			}
+		}
+
+		effect = {
+            958 = { change_province_name = "Kyiv" }
+            960 = { change_province_name = "Zhytomyr" }
+            961 = { change_province_name = "Cherkasy" }
+            958 = { state_scope = { change_region_name = "Kyiv" } }
+			clr_global_flag = russia_renamed_kiev
+			set_global_flag = ukraine_renamed_kiev
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_kiev_rus = {
+		potential = {
+			tag = RUS
+			owns = 958
+			owns = 959
+			owns = 960
+			owns = 961
+			has_global_flag = ukraine_renamed_kiev
+			NOT = {
+				has_global_flag = russia_renamed_kiev
+			}
+		}
+		
+		effect = {
+            958 = { change_province_name = "Kiev" }
+            960 = { change_province_name = "Zhitomir" }
+            961 = { change_province_name = "Cherkassy" }
+            958 = { state_scope = { change_region_name = "Kiev" } }
+			clr_global_flag = ukraine_renamed_kiev
+			set_global_flag = russia_renamed_kiev
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_kherson_ukr = {
+		potential = {
+			tag = UKR
+			owns = 954
+			owns = 968
+			owns = 970
+			owns = 971
+			NOT = {
+				has_global_flag = ukraine_renamed_kherson
+			}
+		}
+
+		effect = {
+            954 = { change_province_name = "Vinnytsia" }
+            968 = { change_province_name = "Odesa" }
+            970 = { change_province_name = "Mykolaiv" }
+            971 = { change_province_name = "Krivoy Rih" }
+			clr_global_flag = russia_renamed_kherson
+			set_global_flag = ukraine_renamed_kherson
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_kherson_rus = {
+		potential = {
+			tag = RUS
+			owns = 954
+			owns = 968
+			owns = 970
+			owns = 971
+			has_global_flag = ukraine_renamed_kherson
+			NOT = {
+				has_global_flag = russia_renamed_kherson
+			}
+		}
+		
+		effect = {
+            954 = { change_province_name = "Vinnitsa" }
+            968 = { change_province_name = "Odessa" }
+            970 = { change_province_name = "Nikolaev" }
+            971 = { change_province_name = "Krivoy Rog" }
+			clr_global_flag = ukraine_renamed_kherson
+			set_global_flag = russia_renamed_kherson
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_taurida_ukr = {
+		potential = {
+			tag = UKR
+			owns = 965
+			owns = 973
+			owns = 975
+			NOT = {
+				has_global_flag = ukraine_renamed_taurida
+			}
+		}
+
+		effect = {
+            965 = { change_province_name = "Oleshky" }
+            973 = { change_province_name = "Melytopil" }
+            975 = { change_province_name = "Zaporizhzhia" }
+            975 = { state_scope = { change_region_name = "Zaporizhzhia" } }
+			clr_global_flag = russia_renamed_taurida
+			clr_global_flag = russia_renamed_taurida_bolshevik
+			set_global_flag = ukraine_renamed_taurida
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_taurida_rus = {
+		potential = {
+			tag = RUS
+			owns = 965
+			owns = 973
+			owns = 975
+			OR = {
+			has_global_flag = ukraine_renamed_taurida
+			has_global_flag = russia_renamed_taurida_bolshevik
+			}
+			NOT = {
+				has_global_flag = russia_renamed_taurida
+				government = proletarian_dictatorship
+			}
+		}
+		
+		effect = {
+            965 = { change_province_name = "Aleshki" }
+            973 = { change_province_name = "Melitopol" }
+            975 = { change_province_name = "Zaporozhe" }
+            975 = { state_scope = { change_region_name = "Zaporozhe" } }
+			clr_global_flag = ukraine_renamed_taurida
+			clr_global_flag = russia_renamed_taurida_bolshevik
+			set_global_flag = russia_renamed_taurida
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_taurida_rus_bolshevik = {
+		potential = {
+			tag = RUS
+            government = proletarian_dictatorship
+			owns = 965
+			owns = 973
+			owns = 975
+			NOT = {
+				has_global_flag = russia_renamed_taurida_bolshevik
+			}
+		}
+		
+		effect = {
+            965 = { change_province_name = "Tsiupirinsk" }
+            973 = { change_province_name = "Melitopol" }
+            975 = { change_province_name = "Zaporozhe" }
+            975 = { state_scope = { change_region_name = "Zaporozhe" } }
+			clr_global_flag = ukraine_renamed_taurida
+			clr_global_flag = russia_renamed_taurida
+			set_global_flag = russia_renamed_taurida_bolshevik
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_volhynia_ukr = {
+		potential = {
+			tag = UKR
+			owns = 955
+			owns = 956
+			owns = 957
+			NOT = {
+				has_global_flag = ukraine_renamed_volhynia
+			}
+		}
+
+		effect = {
+            955 = { change_province_name = "Proskuriv" }
+            956 = { change_province_name = "Rivne" }
+			clr_global_flag = russia_renamed_volhynia
+			set_global_flag = ukraine_renamed_volhynia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_volhynia_rus = {
+		potential = {
+			tag = RUS
+			owns = 955
+			owns = 956
+			owns = 957
+			has_global_flag = ukraine_renamed_volhynia
+			NOT = {
+				has_global_flag = russia_renamed_volhynia
+			}
+		}
+		
+		effect = {
+            955 = { change_province_name = "Proskurov" }
+            956 = { change_province_name = "Rovne" }
+			clr_global_flag = ukraine_renamed_volhynia
+			set_global_flag = russia_renamed_volhynia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
 }
