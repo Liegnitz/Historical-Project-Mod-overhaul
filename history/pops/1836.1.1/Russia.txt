@@ -10666,19 +10666,19 @@
     artisans = {
         culture = ukrainian
         religion = orthodox
-        size = 1900
+        size = 1750
     }
 
     soldiers = {
         culture = ukrainian
         religion = orthodox
-        size = 4100
+        size = 3100
     }
 
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 58800
+        size = 48800
     }
 
     aristocrats = {
@@ -10696,19 +10696,19 @@
     artisans = {
         culture = byelorussian
         religion = orthodox
-        size = 750
+        size = 1000
     }
 
     soldiers = {
         culture = byelorussian
         religion = orthodox
-        size = 2000
+        size = 3000
     }
 
     serfs = {
         culture = byelorussian
         religion = orthodox
-        size = 40000
+        size = 50000
     }
 
     clergymen = {

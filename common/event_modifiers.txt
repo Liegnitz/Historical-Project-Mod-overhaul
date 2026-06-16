@@ -1594,7 +1594,7 @@ prussian_general_staff = {
 }
 
 AI_Prussia_influence = {
-	influence_modifier = 0.2
+	influence_modifier = 0.15
 }
 
 ##### Boer War #####

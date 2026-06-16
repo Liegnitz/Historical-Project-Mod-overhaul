@@ -31,8 +31,8 @@ BRE = {
     military_access = yes
 }
 COB = {
-    value = 50
-	level = 3
+    value = 150
+	level = 4
 	influence_value = 0
     military_access = yes
 }
@@ -55,14 +55,14 @@ HAN = {
     military_access = yes
 }
 HEK = {
-    value = 100
-	level = 3
+    value = 150
+	level = 4
 	influence_value = 0
     military_access = yes
 }
 HES = {
-    value = 125
-	level = 3
+    value = 150
+	level = 4
 	influence_value = 0
     military_access = yes
 }
@@ -85,13 +85,13 @@ MEC = {
     military_access = yes
 }
 MEI = {
-    value = 25
-	level = 3
+    value = 125
+	level = 4
 	influence_value = 0
     military_access = yes
 }
 NAS = {
-    value = 125
+    value = 100
 	level = 3
 	influence_value = 0
     military_access = yes
@@ -115,7 +115,7 @@ WEI = {
     military_access = yes
 }
 BAV = {
-    value = 75
+    value = 50
     level = 3
     influence_value = 0
     military_access = yes
@@ -127,7 +127,7 @@ BAD = {
     military_access = yes
 }
 WUR = {
-    value = 100
+    value = 50
     level = 3
     influence_value = 0
     military_access = yes

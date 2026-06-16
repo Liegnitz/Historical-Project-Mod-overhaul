@@ -390,7 +390,7 @@ political_decisions = {
             362 = { change_province_name = "Mariampol" }
             363 = { change_province_name = "Ponewiesch" }
             364 = { change_province_name = "Schaulen" }
-            365 = { change_province_name = "Krottingen" }
+            365 = { change_province_name = "Crottingen" }
 			clr_global_flag = lithuania_renamed_lithuania
 			clr_global_flag = poland_renamed_lithuania
 			clr_global_flag = russia_renamed_lithuania
@@ -485,10 +485,10 @@ political_decisions = {
 		
 		effect = {
             360 = { change_province_name = "Wilno" }
-            707 = { change_province_name = "Suwałki" }
-            719 = { change_province_name = "Białystok" }
+            707 = { change_province_name = "Suwalki" }
+            719 = { change_province_name = "Bialystok" }
             936 = { change_province_name = "Grodno" }
-            3323 = { change_province_name = "Wołkowysk" }
+            3323 = { change_province_name = "Wolkowysk" }
             360 = { state_scope = { change_region_name = "Wilno" } }
 			clr_global_flag = belorussia_renamed_vilna
 			clr_global_flag = poland_renamed_vilna
@@ -618,7 +618,7 @@ political_decisions = {
 
 		effect = {
             355 = { change_province_name = "Wolmar" }
-            356 = { change_province_name = "Dünaburg" }
+            356 = { change_province_name = "D�naburg" }
             357 = { change_province_name = "Mitau" }
             358 = { change_province_name = "Windau" }
             359 = { change_province_name = "Libau" }
@@ -680,7 +680,7 @@ political_decisions = {
 		effect = {
             349 = { change_province_name = "Tallinn" }
             350 = { change_province_name = "Narva" }
-            351 = { change_province_name = "Pärnu" }
+            351 = { change_province_name = "P�rnu" }
             352 = { change_province_name = "Tartu" }
             353 = { change_province_name = "Saaremaa" }
 			clr_global_flag = germany_renamed_estonia
@@ -718,7 +718,7 @@ political_decisions = {
             350 = { change_province_name = "Narwa" }
             351 = { change_province_name = "Pernau" }
             352 = { change_province_name = "Dorpat" }
-            353 = { change_province_name = "Ösel" }
+            353 = { change_province_name = "�sel" }
 			clr_global_flag = estonia_renamed_estonia
 			clr_global_flag = russia_renamed_estonia
 			set_global_flag = germany_renamed_estonia
