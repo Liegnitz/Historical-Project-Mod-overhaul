@@ -437,45 +437,6 @@ political_decisions = {
         ai_will_do = { factor = 1 }
     }
 
-    release_silesia = {
-        potential = {
-            OR = {
-                tag = AUS
-                tag = KUK
-            }
-            owns = 2584
-            ai = yes
-            NOT = {
-                exists = SLS
-                has_country_flag = released_silesia
-            }
-        }
-
-        allow = {
-            NOT = { owns = 632 }
-            NOT = { owns = 685 }
-            NOT = { owns = 714 }
-            NOT = { owns = 634 }
-        }
-
-        effect = {
-            set_country_flag = released_silesia
-            prestige = 5
-            any_owned = {
-                limit = { is_core = SLS }
-                secede_province = SLS
-            }
-            create_vassal = SLS
-            create_alliance = SLS
-            diplomatic_influence = { who = SLS value = 200 }
-            relation = { who = SLS value = 200 }
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
     release_dalmatia = {
         potential = {
             OR = {

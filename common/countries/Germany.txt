@@ -117,7 +117,7 @@ party = {
 
     social_policy = no_position_set
     economic_policy = interventionism
-    trade_policy = laissez_faire
+    trade_policy = free_trade
     religious_policy = pluralism
     citizenship_policy = limited_citizenship
     war_policy = anti_military

@@ -651,7 +651,9 @@ political_decisions = {
             set_country_flag = italian_balkans
             AUS_734 = { add_core = ITA } #South Tirol
             AUS_733 = { add_core = ITA } #Litoral
+			769 = { add_core = ITA } #Postojna
             781 = { add_core = ITA } #Zadar
+			
         }
     }
 

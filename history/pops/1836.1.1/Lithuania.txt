@@ -242,7 +242,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 7550
+        size = 5250
     }
 
     clergymen = {
@@ -480,7 +480,7 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 1625
+        size = 3925
     }
 	
     farmers = {
