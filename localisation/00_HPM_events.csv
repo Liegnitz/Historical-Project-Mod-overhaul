@@ -1551,7 +1551,7 @@ EVTDESC443025;Fascists sympathetic to our government march in $FROMCOUNTRY$ capi
 EVT443025OPTA;Arm them and get the secret police to undermine the $FROMCOUNTRY_ADJ$ government.;;;;;;;;;;;;;
 EVT443025OPTB;We are not interested in $FROMCOUNTRY_ADJ$ internal affairs.;;;;;;;;;;;;;
 EVTNAME96093;The French Border;;;;;;;;;;;;;
-EVTDESC96093;As a result of losing the Great War and per the Treaty of Paris of $YEAR$, the French are being punished by being forced to cede several territories with a Picard population or that share a border with us.;;;;;;;;;;;;;
+EVTDESC96093;As a result of losing the Great War and per the Treaty of Paris of $YEAR$, the French are being punished by being forced to cede several territories that share a border with us.;;;;;;;;;;;;;
 EVT96093OPTA;Well deserved.;;;;;;;;;;;;;
 EVTNAME15100;Landowners Incite The Peasantry;;;;;;;;;;;;;
 EVTDESC15100;'So take arms! Impoverished, starved and hungry brethren of $PROVINCENAME$. In name of our Lord and in defense of eternal rights, let us drive the occupiers out of our native land!' Local landowners in $PROVINCENAME$ are arguing revolution against our rule. We could confront them now, but then again it might be better to wait for another opportunity.;;;;;;;;;;;;;

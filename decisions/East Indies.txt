@@ -1574,7 +1574,7 @@ political_decisions = {
                 }
                 AND = {
                     OR = {
-                        is_culture_group = french
+                        tag = FRA
                         primary_culture = french_canadian
                     }
                     NOT = { has_global_flag = bismarck_islands_french }
@@ -1593,10 +1593,7 @@ political_decisions = {
                     NOT = { has_global_flag = bismarck_islands_dutch }
                 }
                 AND = {
-                    OR = {
-                        primary_culture = wallonian
-                        primary_culture = flemish
-                    }
+					tag = BEL
                     NOT = { has_global_flag = bismarck_islands_belgian }
                 }
                 AND = {
@@ -1660,7 +1657,7 @@ political_decisions = {
                 limit = {
                     owner = {
                         OR = {
-                            is_culture_group = french
+                            tag = FRA
                             primary_culture = french_canadian
                         }
                     }
@@ -1698,14 +1695,7 @@ political_decisions = {
             }
 
             random_owned = {
-                limit = {
-                    owner = {
-                        OR = {
-                            primary_culture = wallonian
-                            primary_culture = flemish
-                        }
-                    }
-                }
+				tag = BEL
                 1531 = { change_province_name = "New Wallonia" }
                 2537 = { change_province_name = "New Flanders" }
                 owner = { set_global_flag = bismarck_islands_belgian }

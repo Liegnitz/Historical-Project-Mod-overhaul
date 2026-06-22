@@ -1,7 +1,6 @@
 capital = 387
-primary_culture = wallonian
+primary_culture = french
 culture = flemish
-culture = picard
 religion = catholic
 government = hms_government
 plurality = 25.0

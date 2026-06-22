@@ -62,63 +62,63 @@
         size = 72028
     }
 	
-    ###### Wallonian Catholic
+    ###### French Catholic
     aristocrats = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 1293
     }
 	
     capitalists = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 63
     }
 	
     officers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 227
     }
 	
     bureaucrats = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 2110
     }
 	
     clergymen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 539
     }
 	
     artisans = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 3834
     }
 	
     clerks = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 410
     }
 	
     soldiers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 2175
     }
 	
     craftsmen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 2821
     }
 	
     labourers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 41771
     }
@@ -217,22 +217,21 @@
         religion = catholic
         size = 108088
     }
-	
-    ###### Picard Catholic
+
     artisans = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 654
     }
 	
     craftsmen = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 305
     }
 	
     labourers = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 3076
     }
@@ -413,217 +412,199 @@
 ### Wallonia Region (1,451,520 / 362,880 POPS)
 #Namur (232,327 / 58,082 POPS)
 392 = {
-    ###### Wallonian Catholic
+    ###### french Catholic
     aristocrats = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 1240
     }
 	
     clergymen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 749
     }
 	
     artisans = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 5106
     }
 	
     clerks = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 434
     }
 	
     soldiers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 1816
     }
 	
     craftsmen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 3234
     }
 	
     labourers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 45503
     }
 }
 #Tournai (308,553 / 77,138 POPS)
 393 = {
-    ###### Wallonian Catholic
+    ###### french Catholic
     aristocrats = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 951
     }
 	
     clergymen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 679
     }
 	
     artisans = {
-        culture = wallonian
+        culture = french
         religion = catholic
-        size = 6542
+        size = 6955
     }
 	
     clerks = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 321
     }
 	
     soldiers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 2452
     }
 	
     craftsmen = {
-        culture = wallonian
+        culture = french
         religion = catholic
-        size = 7991
+        size = 8495
     }
 	
     labourers = {
-        culture = wallonian
+        culture = french
         religion = catholic
-        size = 53889
+        size = 57287
     }
-	
-    ###### Picard Catholic
-    artisans = {
-        culture = picard
-        religion = catholic
-        size = 413
-    }
-	
-    craftsmen = {
-        culture = picard
-        religion = catholic
-        size = 504
-    }
-	
-    labourers = {
-        culture = picard
-        religion = catholic
-        size = 3398
-    }
+
 }
 #Charleroi (341,636 / 85,409 POPS)
 394 = {
-    ###### Wallonian Catholic
+    ###### french Catholic
     aristocrats = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 1053
     }
 	
     clergymen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 752
     }
 	
     artisans = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 7701
     }
 	
     clerks = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 354
     }
 	
     soldiers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 2715
     }
 	
     craftsmen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 9405
     }
 	
     labourers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 63429
     }
 }
 #Liege (402,605/ 100,651 POPS)
 395 = {
-    ###### Wallonian Catholic
+    ###### french Catholic
     aristocrats = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 1286
     }
 	
     capitalists = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 197
     }
 	
     officers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 258
     }
 	
     bureaucrats = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 3812
     }
 	
     clergymen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 1070
     }
 	
     artisans = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 6287
     }
 	
     clerks = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 1230
     }
 	
     soldiers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 1904
     }
 	
     craftsmen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 10700
     }
 	
     labourers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 61386
     }
@@ -710,45 +691,45 @@
 }
 #Arlon (166,399 / 41,600 POPS)
 398 = {
-    ###### Wallonian Catholic
+    ###### french Catholic
     aristocrats = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 362
     }
 	
     clergymen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 711
     }
 	
     artisans = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 4449
     }
 	
     clerks = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 137
     }
 	
     soldiers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 599
     }
 	
     craftsmen = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 910
     }
 	
     labourers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 28675
     }
@@ -800,7 +781,7 @@
     }
 	
     artisans = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 139
     }
@@ -812,7 +793,7 @@
     }
 	
     farmers = {
-        culture = wallonian
+        culture = french
         religion = catholic
         size = 2072
     }

@@ -4,73 +4,73 @@
     aristocrats = {
         culture = french
         religion = catholic
-        size = 1400
+        size = 1700
     }
 
     officers = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 750
     }
 
     bureaucrats = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 1750
     }
 
     clergymen = {
-        culture = picard
+        culture = french
         religion = catholic
-        size = 1500
+        size = 1750
     }
 
     artisans = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 10000
     }
 
     artisans = {
-        culture = picard
+        culture = french
         religion = catholic
-        size = 7000
+        size = 9000
     }
 
     soldiers = {
-        culture = picard
-        religion = catholic
-        size = 3000
-    }
-
-    soldiers = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 3000
     }
 
     soldiers = {
-        culture = picard
+        culture = french
+        religion = catholic
+        size = 3000
+    }
+
+    soldiers = {
+        culture = french
         religion = catholic
         size = 3000
     }
 
     labourers = {
-        culture = picard
+        culture = french
         religion = catholic
-        size = 119700
+        size = 140500
     }
 	
     labourers = {
@@ -78,30 +78,8 @@
         religion = catholic
         size = 800
     }
-	
-    aristocrats = {
-        culture = french
-        religion = catholic
-        size = 300
-    }
 
-    clergymen = {
-        culture = french
-        religion = catholic
-        size = 250
-    }
-
-    artisans = {
-        culture = french
-        religion = catholic
-        size = 2000
-    }
 	
-	labourers = {
-        culture = french
-        religion = catholic
-        size = 20800
-    }
 }
 #Calais (396000/99000 POPS)
 400 = {
@@ -112,7 +90,7 @@
     }
 
     clergymen = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 750
     }
@@ -130,7 +108,7 @@
     }
 
     farmers = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 62550
     }
@@ -156,7 +134,7 @@
     }
 
     artisans = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 5750
     }
@@ -170,14 +148,9 @@
     farmers = {
         culture = french
         religion = catholic
-        size = 60200
+        size = 90325
     }
 
-    farmers = {
-        culture = picard
-        religion = catholic
-        size = 30125
-    }
 }
 #Amiens (552000/138000 POPS)
 402 = {
@@ -188,7 +161,7 @@
     }
 
     clergymen = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 1175
     }
@@ -196,13 +169,7 @@
     artisans = {
         culture = french
         religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = picard
-        religion = catholic
-        size = 1100
+        size = 11100
     }
 
     soldiers = {
@@ -214,13 +181,7 @@
     farmers = {
         culture = french
         religion = catholic
-        size = 102875
-    }
-
-    farmers = {
-        culture = picard
-        religion = catholic
-        size = 13075
+        size = 115950
     }
 }
 #Beauvais (392000/98000 POPS)
@@ -234,17 +195,11 @@
     clergymen = {
         culture = french
         religion = catholic
-        size = 500
-    }
-
-    clergymen = {
-        culture = picard
-        religion = catholic
-        size = 200
+        size = 700
     }
 
     artisans = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 5000
     }
@@ -258,13 +213,7 @@
     farmers = {
         culture = french
         religion = catholic
-        size = 80450
-    }
-
-    farmers = {
-        culture = picard
-        religion = catholic
-        size = 9450
+        size = 89900
     }
 
 }
@@ -3725,15 +3674,15 @@
     }
 	
     clergymen = {
-        culture = picard
+        culture = french
         religion = catholic
         size = 100
     }
 	
     farmers = {
-        culture = picard
+        culture = french
         religion = catholic
-        size = 1000
+        size = 1250
     }
 
     artisans = {
@@ -3746,12 +3695,6 @@
         culture = french
         religion = catholic
         size = 200
-    }
-	
-    farmers = {
-        culture = french
-        religion = catholic
-        size = 250
     }
 
 }

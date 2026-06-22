@@ -1502,7 +1502,6 @@ political_decisions = {
             OR = {
                 primary_culture = breton
                 primary_culture = occitan
-                primary_culture = picard
                 primary_culture = maltese
                 is_culture_group = american_cultures
             }

@@ -1,6 +1,5 @@
 capital = 395
-primary_culture = wallonian
-culture = picard
+primary_culture = french
 religion = catholic
 government = absolute_monarchy
 plurality = 0.05

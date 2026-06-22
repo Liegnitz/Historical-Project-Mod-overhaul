@@ -1,7 +1,6 @@
 capital = 425
 primary_culture = french
 culture = french_canadian
-culture = picard
 culture = breton
 religion = catholic
 government = hms_government

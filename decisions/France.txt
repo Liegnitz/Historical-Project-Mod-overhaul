@@ -530,7 +530,6 @@ political_decisions = {
 
         effect = {
             set_country_flag = enacted_french_schooling
-            remove_accepted_culture = picard
             remove_accepted_culture = occitan
             remove_accepted_culture = breton
             remove_accepted_culture = french_canadian
@@ -539,7 +538,6 @@ political_decisions = {
                     OR = {
                         is_core = BRT
                         is_core = OCC
-                        culture = picard
                     }
                 }
                 add_province_modifier = {
