@@ -29774,7 +29774,7 @@
 
     }
 
-} # Königsberg
+} # Koenigsberg
 
 695 = {
     text_position = {
@@ -29782,8 +29782,8 @@
         y = 1722.313333
     }
 
-    text_rotation = 0.274167
-    text_scale = 3.400000
+    text_rotation = 0.074167
+    text_scale = 3.100000
     unit = {
         x = 3133.000000
         y = 1728.000000
@@ -42745,7 +42745,7 @@
         y = 1820.699951
     }
 
-    text_scale = 4.299998
+    text_scale = 3.899998
     building_construction = {
         x = 3276.000000
         y = 1818.000000
