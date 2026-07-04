@@ -9,10 +9,12 @@ country_event = {
     trigger = {
         war = no
         has_country_flag = crown_from_the_gutter
+		NOT = { tag = FRA }
+		NOT = { tag = BEL }
         NOT = { has_country_flag = post_colonial_country }
         NOT = {
             cultural_union = { exists = yes }
-            is_culture_group = germanic
+			is_culture_group = germanic
         }
     }
 
@@ -78,6 +80,7 @@ country_event = {
                 war = no
                 NOT = { tag = THIS }
                 NOT = { tag = UBD }
+				NOT = { tag = BEL }
                 NOT = { has_country_flag = post_colonial_country }
                 is_culture_group = THIS
                 is_greater_power = no
@@ -199,6 +202,7 @@ country_event = {
                     NOT = { tag = MOL }
                     NOT = { tag = SIE }
                     NOT = { tag = LUX }
+					NOT = { is_culture_group = french }
                     NOT = { is_culture_group = south_asian }
                     NOT = { is_culture_group = scandinavian }
                     NOT = { is_culture_group = arab }

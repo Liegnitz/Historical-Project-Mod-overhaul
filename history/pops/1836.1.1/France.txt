@@ -76,7 +76,7 @@
     labourers = {
         culture = flemish
         religion = catholic
-        size = 800
+        size = 1200
     }
 
 	
@@ -116,7 +116,7 @@
     farmers = {
         culture = flemish
         religion = catholic
-        size = 200
+        size = 225
     }
 }
 #Arras (428000/107000 POPS)

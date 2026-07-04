@@ -29336,7 +29336,7 @@
 
     }
 
-} # Kattowitz
+} # PLeß
 
 685 = {
     text_position = {
@@ -29345,7 +29345,7 @@
     }
 
     text_rotation = 6.283185
-    text_scale = 1.800000
+    text_scale = 2.350000
     unit = {
         x = 3098.000000
         y = 1632.000000

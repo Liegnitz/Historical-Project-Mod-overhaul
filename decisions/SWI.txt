@@ -178,6 +178,39 @@ political_decisions = {
             prestige = 10
         }
     }
+	
+    embrace_helveticism = {
+        picture = declare_neutrality
+        potential = {
+            tag = SWI
+            exists = yes
+			NOT = { has_country_flag = helveticism }
+        }
+
+        allow = {
+			year = 1848
+        }
+
+        effect = {
+			prestige = 20
+            SWI = {
+                primary_culture = swiss
+                remove_accepted_culture = south_german
+			}
+				any_owned = {
+					limit = {
+						is_core = SWI
+                    }
+                }
+                add_province_modifier = {
+                    name = swiss_cultural_unity
+                    duration = -1
+                }
+				set_country_flag = helveticism
+		}
+        ai_will_do = { factor = 1 }
+		}
+    }
 
     sign_the_geneva_convention = {
         alert = no
@@ -415,4 +448,27 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
+	
+    claim_annecy = {
+        picture = SAR_appoint_camillo_cavour
+        potential = {
+            tag = SWI
+            465 = { NOT = { is_core = SWI } }
+        }
+
+        allow = {
+            465 = { owned_by = FRA }
+			war_with = FRA
+            OR = {
+                war_policy = jingoism
+                war_policy = pro_military
+            }
+        }
+
+        effect = {
+            465 = { add_core = SWI }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
 }

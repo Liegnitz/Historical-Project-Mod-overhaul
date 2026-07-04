@@ -1479,5 +1479,51 @@ political_decisions = {
             854 = { add_core = ITA }
         }
     }
+	
+	#State Renames
+	name_nizza_fra = {
+		potential = {
+			is_culture_group = french 	
+            NOT = { tag = ALS }
+			owns = 472
+			NOT = {
+				has_global_flag = france_renamed_nizza
+			}
+		}
+
+		effect = {
+            472 = { change_province_name = "Nice" }
+			clr_global_flag = italy_renamed_nizza
+			set_global_flag = france_renamed_nizza
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_nizza_ita = {
+		potential = {
+            OR = {
+			is_culture_group = germanic
+			is_culture_group = italian
+			}
+			owns = 472
+			has_global_flag = france_renamed_nizza
+			NOT = {
+				has_global_flag = italy_renamed_nizza
+			}
+		}
+		
+		effect = {
+            472 = { change_province_name = "Nizza" }
+			clr_global_flag = france_renamed_nizza
+			set_global_flag = italy_renamed_nizza
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+}
 
 }

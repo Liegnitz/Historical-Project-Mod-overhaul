@@ -189,7 +189,7 @@
     }
 	
     farmers = {
-        culture = swiss
+        culture = south_german
         religion = catholic
         size = 950
     }

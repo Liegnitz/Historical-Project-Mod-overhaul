@@ -2565,3 +2565,9 @@ emergency_tax_measures2 = {
     global_pop_militancy_modifier = 0.10
     icon = 10
 }
+
+### Swiss Events ###
+swiss_cultural_unity = {
+    assimilation_rate = 0.5
+    icon = 19
+}

@@ -1238,5 +1238,56 @@ political_decisions = {
             }
         }
     }
+	
+	#State Renames
+	name_ardennes_ger = {
+		potential = {
+            is_culture_group = germanic
+            NOT = { tag = ALS }
+			owns = 413
+			owns = 411
+			owns = 414
+			NOT = {
+				has_global_flag = germany_renamed_ardennes
+			}
+		}
+
+		effect = {
+            413 = { change_province_name = "Verden" }
+            411 = { change_province_name = "Nanzig" }
+            414 = { change_province_name = "Spinal" }
+            411 = { state_scope = { change_region_name = "Oberlothringen" } }
+			clr_global_flag = france_renamed_ardennes
+			set_global_flag = germany_renamed_ardennes
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_ardennes_fra = {
+		potential = {
+			is_culture_group = french 		
+			owns = 413
+			owns = 411
+			owns = 414
+			has_global_flag = germany_renamed_ardennes
+			NOT = {
+				has_global_flag = france_renamed_ardennes
+			}
+		}
+		
+		effect = {
+            413 = { change_province_name = "Verdun" }
+            411 = { change_province_name = "Nancy" }
+            414 = { change_province_name = "Epinal" }
+            411 = { state_scope = { change_region_name = "Ardennes" } }
+			clr_global_flag = germany_renamed_ardennes
+			set_global_flag = france_renamed_ardennes
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
 
 }

@@ -408,6 +408,12 @@
         religion = catholic
         size = 3251
     }
+	
+    labourers = {
+        culture = french
+        religion = catholic
+        size = 225
+    }
 }
 ### Wallonia Region (1,451,520 / 362,880 POPS)
 #Namur (232,327 / 58,082 POPS)
@@ -498,6 +504,12 @@
         culture = french
         religion = catholic
         size = 57287
+    }
+	
+    labourers = {
+        culture = flemish
+        religion = catholic
+        size = 425
     }
 
 }
