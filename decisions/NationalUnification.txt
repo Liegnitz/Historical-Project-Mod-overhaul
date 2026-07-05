@@ -1026,63 +1026,6 @@ political_decisions = {
         }
     }
 
-    reichsland_elsass = {
-        potential = {
-            is_culture_group = germanic
-            NOT = { tag = ALS }
-            owns = 410
-            owns = 409
-            owns = 412
-            NOT = { has_global_flag = germany_has_renamed_elsass }
-        }
-
-        allow = {
-            prestige = 10
-        }
-
-        effect = {
-            410 = {
-                change_province_name = "Mülhausen"
-            }
-            409 = {
-                change_province_name = "Straßburg"
-                state_scope = {
-                    change_region_name = "Elsaß-Lothringen"
-                }
-            }
-            prestige = 5
-            set_global_flag = germany_has_renamed_elsass
-        }
-    }
-
-    restore_alsace = {
-        potential = {
-            is_culture_group = french
-            has_global_flag = germany_has_renamed_elsass
-            owns = 410
-            owns = 409
-            owns = 412
-        }
-
-        allow = {
-            prestige = 10
-        }
-
-        effect = {
-            410 = {
-                change_province_name = "Mulhouse"
-            }
-            409 = {
-                change_province_name = "Strasbourg"
-                state_scope = {
-                    change_region_name = "Alsace-Lorraine"
-                }
-            }
-            prestige = 10
-            clr_global_flag = germany_has_renamed_elsass
-        }
-    }
-
     form_north_german_confederation2 = {
         picture = form_north_german_confederation
         potential = {

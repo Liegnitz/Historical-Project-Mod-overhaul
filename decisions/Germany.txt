@@ -1159,7 +1159,6 @@ core_heligoland = {
         }
     }
 
-
     hassenpflug_putsches_gov = {
 		picture = marching_soldiers
         potential = {
@@ -1202,5 +1201,249 @@ core_heligoland = {
         }
 		
     }
+
+### State Renames###
+    rename_posen = {
+        potential = {
+			OR =  { is_culture_group = polish_culture_group
+					primary_culture = russian
+			}
+            owns = 699
+            owns = 700
+            owns = 701
+            NOT = { has_global_flag = polish_posen }
+        }
+
+        effect = {
+            699 = { change_province_name = "Poznan" }
+            700	= { change_province_name = "Bydgoszcz" }
+            701	= { change_province_name = "Gniezno" }
+            699 = { state_scope = { change_region_name = "Wielkopolska" } }
+            set_global_flag = polish_posen
+        }
+    }
+
+    restore_posen = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = polish_posen
+            owns = 699
+            owns = 700
+            owns = 701
+        }
+
+        effect = {
+            699 = { change_province_name = "Posen" }
+            700	= { change_province_name = "Bromberg" }
+            701	= { change_province_name = "Gnesen" }
+            699 = { state_scope = { change_region_name = "Posen" } }
+            clr_global_flag = polish_posen
+        }
+    }
+	
+    rename_oppeln = {
+        potential = {
+			OR =  { is_culture_group = polish_culture_group
+					primary_culture = russian
+			}
+            owns = 684
+            owns = 685
+            NOT = { has_global_flag = polish_oppeln }
+        }
+
+        effect = {
+            684 = { change_province_name = "Opole" }
+            685	= { change_province_name = "Pszczyna" }
+            set_global_flag = polish_oppeln
+        }
+    }
+
+    restore_oppeln = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = polish_oppeln
+            owns = 684
+            owns = 685
+        }
+
+        effect = {
+            684 = { change_province_name = "Oppeln" }
+            685	= { change_province_name = "Pleß"}
+            clr_global_flag = polish_oppeln
+        }
+    }
+	
+    rename_corridor = {
+        potential = {
+			OR =  { is_culture_group = polish_culture_group
+					primary_culture = russian
+			}
+            owns = 694
+            owns = 691
+            NOT = { has_global_flag = polish_corridor }
+        }
+
+        effect = {
+            694 = { change_province_name = "Torun" }
+            691	= { change_province_name = "Chojnice" }
+            set_global_flag = polish_corridor
+        }
+    }
+
+    restore_corridor = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = polish_corridor
+            owns = 694
+            owns = 691
+        }
+
+        effect = {
+            694 = { change_province_name = "Thorn" }
+            691	= { change_province_name = "Konitz"}
+            clr_global_flag = polish_corridor
+        }
+    }
+
+    rename_wprussia = {
+        potential = {
+			OR =  { is_culture_group = polish_culture_group
+					primary_culture = russian
+			}
+            owns = 690
+            owns = 693
+            owns = 692
+            NOT = { has_global_flag = polish_wprussia }
+        }
+
+        effect = {
+            690 = { change_province_name = "Gdansk" }
+            693	= { change_province_name = "Elblag" }
+            692	= { change_province_name = "Pila" }
+            690 = { state_scope = { change_region_name = "Pomerelia" } }
+            set_global_flag = polish_wprussia
+        }
+    }
+
+    restore_wprussia = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = polish_wprussia
+            owns = 690
+            owns = 693
+            owns = 692
+        }
+
+        effect = {
+            690 = { change_province_name = "Danzig" }
+            693	= { change_province_name = "Elbing" }
+            692	= { change_province_name = "Schneidemühl" }
+            690 = { state_scope = { change_region_name = "West Prussia" } }
+            clr_global_flag = polish_wprussia
+        }
+    }
+	
+    rename_eprussia = {
+        potential = {
+			is_culture_group = polish_culture_group
+            owns = 695
+            owns = 697
+            owns = 696
+            NOT = { has_global_flag = polish_eprussia }
+        }
+
+        effect = {
+            695 = { change_province_name = "Krolewiec" }
+            699 = { change_province_name = "Gabin" }
+            696	= { change_province_name = "Olsztyn" }
+            695 = { state_scope = { change_region_name = "Prusy" } }
+            set_global_flag = polish_eprussia
+        }
+    }
+
+    restore_eprussia = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = polish_eprussia
+            owns = 695
+            owns = 697
+            owns = 696
+        }
+
+        effect = {
+            695 = { change_province_name = "Königsberg" }
+            697 = { change_province_name = "Gumbinnen" }
+            696	= { change_province_name = "Allenstein" }
+            695 = { state_scope = { change_region_name = "East Prussia" } }
+            clr_global_flag = polish_eprussia
+        }
+    }
+
+	lit_memel = {
+		potential = {
+			OR = {
+				tag = LIT
+				primary_culture = russian
+			}
+			owns = 698
+			NOT = {
+				has_global_flag = lit_memel
+			}
+		}
+		
+		effect = {
+            698 = { change_province_name = "Klaipeda" }
+			clr_global_flag = ger_memel
+			clr_global_flag = pol_memel
+			set_global_flag = lit_memel
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	pol_memel = {
+		potential = {
+			is_culture_group = polish_culture_group
+			owns = 698
+			NOT = {
+				has_global_flag = pol_memel
+			}
+		}
+		
+		effect = {
+            698 = { change_province_name = "Klajpeda" }
+			clr_global_flag = lit_memel
+			clr_global_flag = ger_memel
+			set_global_flag = pol_memel
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	ger_memel = {
+		potential = {
+            is_culture_group = germanic
+			OR = {
+			has_global_flag = lit_memel
+			has_global_flag = pol_memel
+			}
+			owns = 698
+			NOT = {
+				has_global_flag = ger_memel
+			}
+		}
+		
+		effect = {
+            698 = { change_province_name = "Memel" }
+			clr_global_flag = lit_memel
+			clr_global_flag = pol_memel
+			set_global_flag = ger_memel
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
 
 }

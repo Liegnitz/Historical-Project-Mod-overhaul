@@ -15050,7 +15050,7 @@
 
     }
 
-} # Malmö
+} # Malmoe
 
 334 = {
     unit = {
@@ -17795,7 +17795,7 @@
 
     }
 
-} # Spa - now Eupen-Malmedy
+} # Spa - Malmedy
 
 396 = {
     text_position = {
@@ -17804,9 +17804,9 @@
     }
 
     text_rotation = 4.722439
-    text_scale = 1.000000
+    text_scale = 1.400000
     unit = {
-        x = 2903.025000
+        x = 2902.025000
         y = 1639.300000
     }
 
@@ -27098,11 +27098,11 @@
 
 628 = {
     text_position = {
-        x = 3034.199951
+        x = 3031.199951
         y = 1641.500000
     }
 
-    text_scale = 2.600000
+    text_scale = 2.500000
     unit = {
         x = 3032.000000
         y = 1643.000000
@@ -27183,7 +27183,7 @@
 
     }
 
-} # Budejovice
+} # Budweis
 
 630 = {
     text_position = {
@@ -27192,7 +27192,7 @@
     }
 
     text_rotation = 12.283185
-    text_scale = 2.000000
+    text_scale = 1.900000
     unit = {
         x = 3026.458333
         y = 1605.641667
@@ -29336,7 +29336,7 @@
 
     }
 
-} # PLeÃŸ
+} # Pless
 
 685 = {
     text_position = {
@@ -29345,7 +29345,7 @@
     }
 
     text_rotation = 6.283185
-    text_scale = 2.350000
+    text_scale = 2.200000
     unit = {
         x = 3098.000000
         y = 1632.000000
@@ -29841,10 +29841,10 @@
 696 = {
     text_position = {
         x = 3135.125000
-        y = 1704.795000
+        y = 1702.975000
     }
 
-    text_scale = 2.500000
+    text_scale = 2.900000
     unit = {
         x = 3135.000000
         y = 1709.000000

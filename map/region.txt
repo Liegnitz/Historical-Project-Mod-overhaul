@@ -308,7 +308,7 @@ SWI_603 = { 603 606 2568 611 } #Eastern Switzerland
 
 PRU_682 = { 682 683 687 } #Lower Silesia
 
-PRU_690 = { 690 691 694 693 692 } #Westpreuﬂen
+PRU_690 = { 690 694 691 693 692 } #Westpreuﬂen
 
 PRU_695 = { 695 696 697 698 } #Ostpreuﬂen
 

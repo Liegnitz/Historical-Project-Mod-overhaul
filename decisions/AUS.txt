@@ -1080,5 +1080,229 @@ political_decisions = {
             }
         }
     }
+	
+###State Renames###
+	
+	pol_troppau = {
+		potential = {
+			is_culture_group = polish_culture_group
+			owns = 688
+			NOT = {
+				has_global_flag = pol_troppau
+			}
+		}
+		
+		effect = {
+            688 = { change_province_name = "Opawa" }
+			clr_global_flag = ger_troppau
+			clr_global_flag = cze_troppau
+			set_global_flag = pol_troppau
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	cze_troppau = {
+		potential = {
+			OR = { 
+				tag = CZH
+				tag = BOH
+			}
+			owns = 688
+			NOT = {
+				has_global_flag = cze_troppau
+			}
+		}
+		
+		effect = {
+            688 = { change_province_name = "Opava" }
+			clr_global_flag = pol_troppau
+			clr_global_flag = ger_troppau
+			set_global_flag = cze_troppau
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	ger_troppau = {
+		potential = {
+            is_culture_group = germanic
+			OR = {
+			has_global_flag = pol_troppau
+			has_global_flag = cze_troppau
+			}
+			owns = 688
+			NOT = {
+				has_global_flag = ger_troppau
+			}
+		}
+		
+		effect = {
+            688 = { change_province_name = "Troppau" }
+			clr_global_flag = pol_troppau
+			clr_global_flag = cze_troppau
+			set_global_flag = ger_troppau
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	pol_teschen = {
+		potential = {
+			is_culture_group = polish_culture_group
+			owns = 689
+			NOT = {
+				has_global_flag = pol_teschen
+			}
+		}
+		
+		effect = {
+            689 = { change_province_name = "Cieszyn" }
+			clr_global_flag = ger_teschen
+			clr_global_flag = cze_teschen
+			set_global_flag = pol_teschen
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	cze_teschen = {
+		potential = {
+			OR = { 
+				tag = CZH
+				tag = BOH
+			}
+			owns = 689
+			NOT = {
+				has_global_flag = cze_teschen
+			}
+		}
+		
+		effect = {
+            689 = { change_province_name = "Tešín" }
+			clr_global_flag = pol_teschen
+			clr_global_flag = ger_teschen
+			set_global_flag = cze_teschen
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	ger_teschen = {
+		potential = {
+            is_culture_group = germanic
+			OR = {
+			has_global_flag = pol_teschen
+			has_global_flag = cze_teschen
+			}
+			owns = 689
+			NOT = {
+				has_global_flag = ger_teschen
+			}
+		}
+		
+		effect = {
+            689 = { change_province_name = "Teschen" }
+			clr_global_flag = pol_teschen
+			clr_global_flag = cze_teschen
+			set_global_flag = ger_teschen
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+    rename_sudetes = {
+        potential = {
+			OR = {
+				tag = BOH
+				tag = CZH
+			}
+            owns = 627
+            owns = 628
+            owns = 629
+			owns = 630
+			owns = 632
+			owns = 803
+            NOT = { has_global_flag = czech_sudetes }
+        }
+
+        effect = {
+            627 = { change_province_name = "Karlovy Vary" }
+            628 = { change_province_name = "Ústí nad Labem" }
+            629	= { change_province_name = "Tachov" }
+            630 = { change_province_name = "Ceské Budejovice" }
+            632 = { change_province_name = "Olomouc" }
+            803	= { change_province_name = "Znojmo" }
+            695 = { state_scope = { change_region_name = "Sudetes" } }
+            set_global_flag = czech_sudetes
+        }
+    }
+
+    restore_sudetes = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = czech_sudetes
+            owns = 627
+            owns = 628
+            owns = 629
+			owns = 630
+			owns = 632
+			owns = 803
+        }
+
+        effect = {
+            627 = { change_province_name = "Karlsbad" }
+            628 = { change_province_name = "Außig" }
+            629	= { change_province_name = "Tachau" }
+            630 = { change_province_name = "Budweis" }
+            632 = { change_province_name = "Olmütz" }
+            803	= { change_province_name = "Znaim" }
+            627 = { state_scope = { change_region_name = "German Bohemia" } }
+            clr_global_flag = czech_sudetes
+        }
+    }
+	
+    rename_bohemia = {
+        potential = {
+			OR = {
+				tag = BOH
+				tag = CZH
+			}
+            owns = 626
+            owns = 631
+            owns = 791
+            NOT = { has_global_flag = czech_bohemia }
+        }
+
+        effect = {
+            626 = { change_province_name = "Hradec Králové" }
+            631 = { change_province_name = "Brno" }
+            791	= { change_province_name = "Plzen" }
+            set_global_flag = czech_bohemia
+        }
+    }
+
+    restore_bohemia = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = czech_bohemia
+            owns = 626
+            owns = 631
+            owns = 791
+        }
+
+        effect = {
+            626 = { change_province_name = "Königgrätz" }
+            631 = { change_province_name = "Brünn" }
+            791	= { change_province_name = "Pilsen" }
+            clr_global_flag = czech_bohemia
+        }
+    }
 
 }
