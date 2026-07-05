@@ -1304,5 +1304,307 @@ political_decisions = {
             clr_global_flag = czech_bohemia
         }
     }
+	
+	name_lodomeria_ukr = {
+		potential = {
+			tag = UKR
+			owns = 702
+			owns = 951
+			owns = 952
+			owns = 953
+			NOT = {
+				has_global_flag = ukraine_renamed_galicia
+			}
+		}
+		
+		effect = {
+            702 = { change_province_name = "Lviv" }
+            951 = { change_province_name = "Drohobych" }
+            952 = { change_province_name = "Ternopil" }
+            953 = { change_province_name = "Kolomyia" }
+			clr_global_flag = russia_renamed_galicia
+			clr_global_flag = poland_renamed_galicia
+			set_global_flag = ukraine_renamed_galicia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_lodomeria_rus = {
+		potential = {
+			tag = RUS
+			owns = 702
+			owns = 951
+			owns = 952
+			owns = 953
+			NOT = {
+				has_global_flag = russia_renamed_galicia
+			}
+		}
+		
+		effect = {
+            702 = { change_province_name = "Lvov" }
+            951 = { change_province_name = "Drogobych" }
+            952 = { change_province_name = "Tarnopol" }
+            953 = { change_province_name = "Kolomyia" }
+			clr_global_flag = ukraine_renamed_galicia
+			clr_global_flag = poland_renamed_galicia
+			set_global_flag = russia_renamed_galicia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_lodomeria_pol = {
+		potential = {
+			is_culture_group = polish_culture_group
+			owns = 702
+			owns = 951
+			owns = 952
+			owns = 953
+			NOT = {
+				has_global_flag = poland_renamed_galicia
+			}
+		}
+		
+		effect = {
+            702 = { change_province_name = "Lwów" }
+            951 = { change_province_name = "Drohobycz" }
+            952 = { change_province_name = "Tarnopol" }
+            953 = { change_province_name = "Stanislavov" }
+			clr_global_flag = ukraine_renamed_galicia
+			clr_global_flag = russia_renamed_galicia
+			set_global_flag = poland_renamed_galicia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_slovenia = {
+        potential = {
+			is_culture_group = south_slavic
+            owns = 768
+            owns = 767
+            NOT = { has_global_flag = slav_slovenia }
+        }
+
+        effect = {
+            768 = { change_province_name = "Ljubljana" }
+            767 = { change_province_name = "Maribor" }
+            set_global_flag = slav_slovenia
+        }
+    }
+
+    restore_slovenia = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = slav_slovenia
+            owns = 768
+            owns = 767
+        }
+
+        effect = {
+            768 = { change_province_name = "Laibach" }
+            767 = { change_province_name = "Marburg" }
+            clr_global_flag = slav_slovenia
+        }
+    }
+	
+	slo_adel = {
+		potential = {
+			is_culture_group = south_slavic
+			owns = 769
+			NOT = {
+				has_global_flag = slo_adel
+			}
+		}
+		
+		effect = {
+            769 = { change_province_name = "Postojna" }
+			clr_global_flag = ger_adel
+			clr_global_flag = ita_adel
+			set_global_flag = slo_adel
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ita_adel = {
+		potential = {
+			is_culture_group = italian
+			owns = 769
+			NOT = {
+				has_global_flag = ita_adel
+			}
+		}
+		
+		effect = {
+            769 = { change_province_name = "Postumia" }
+			clr_global_flag = slo_adel
+			clr_global_flag = ger_adel
+			set_global_flag = ita_adel
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	ger_adel = {
+		potential = {
+            is_culture_group = germanic
+			OR = {
+			has_global_flag = slo_adel
+			has_global_flag = ita_adel
+			}
+			owns = 769
+			NOT = {
+				has_global_flag = ger_adel
+			}
+		}
+		
+		effect = {
+            769 = { change_province_name = "Adelsberg" }
+			clr_global_flag = slo_adel
+			clr_global_flag = ita_adel
+			set_global_flag = ger_adel
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_pola = {
+        potential = {
+			is_culture_group = south_slavic
+            owns = 770
+            NOT = { has_global_flag = slav_pola }
+        }
+
+        effect = {
+            770 = { change_province_name = "Pula" }
+            set_global_flag = slav_pola
+        }
+    }
+
+    restore_pola = {
+        potential = {
+			OR = {
+			is_culture_group = italian
+            is_culture_group = germanic
+			}
+            has_global_flag = slav_pola
+            owns = 770
+        }
+
+        effect = {
+            770 = { change_province_name = "Pola" }
+            clr_global_flag = slav_pola
+        }
+    }
+	
+	slo_lit = {
+		potential = {
+			is_culture_group = south_slavic
+			owns = 736
+			owns = 737
+			NOT = {
+				has_global_flag = slo_lit
+			}
+		}
+		
+		effect = {
+            736 = { change_province_name = "Trst" }
+            737 = { change_province_name = "Gorica" }
+            736 = { state_scope = { change_region_name = "Primorska" } }
+			clr_global_flag = ger_lit
+			clr_global_flag = ita_lit
+			set_global_flag = slo_lit
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ita_lit = {
+		potential = {
+			is_culture_group = italian
+			owns = 736
+			owns = 737
+			NOT = {
+				has_global_flag = ita_lit
+			}
+		}
+		
+		effect = {
+            736 = { change_province_name = "Trieste" }
+            737 = { change_province_name = "Gorizia" }
+			736 = { state_scope = { change_region_name = "Venezia Giulia" } }
+			clr_global_flag = slo_lit
+			clr_global_flag = ger_lit
+			set_global_flag = ita_lit
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	ger_lit = {
+		potential = {
+            is_culture_group = germanic
+			OR = {
+			has_global_flag = slo_lit
+			has_global_flag = ita_lit
+			}
+			owns = 736
+			owns = 737
+			NOT = {
+				has_global_flag = ger_lit
+			}
+		}
+		
+		effect = {
+            736 = { change_province_name = "Triest" }
+            737 = { change_province_name = "Görz" }
+            736 = { state_scope = { change_region_name = "Küstenland" } }
+			clr_global_flag = slo_lit
+			clr_global_flag = ita_lit
+			set_global_flag = ger_lit
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_bozen = {
+        potential = {
+			is_culture_group = italian
+            owns = 735
+            NOT = { has_global_flag = ita_bozen }
+        }
+
+        effect = {
+            735 = { change_province_name = "Bolzano" }
+            735 = { state_scope = { change_region_name = "Alto Adige" } }
+            set_global_flag = ita_bozen
+        }
+    }
+
+    restore_bozen = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = ita_bozen
+            owns = 735
+        }
+
+        effect = {
+            735 = { change_province_name = "Bozen" }
+            735 = { state_scope = { change_region_name = "South Tyrol" } }
+            clr_global_flag = ita_bozen
+        }
+    }
 
 }

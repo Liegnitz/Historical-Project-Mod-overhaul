@@ -307,7 +307,10 @@ political_decisions = {
 
 	name_lit_lit = {
 		potential = {
-			tag = LIT
+			OR = { 	
+				tag = LIT
+				tag = PLC
+			}
 			owns = 361
 			owns = 362
 			owns = 363
@@ -368,13 +371,7 @@ political_decisions = {
 	
 	name_lit_ger = {
 		potential = {
-			OR = {
-				tag = GER
-				tag = NGF
-				tag = PRU
-				tag = SGF
-				tag = AUS
-			}
+            is_culture_group = germanic
 			owns = 361
 			owns = 362
 			owns = 363
@@ -472,6 +469,7 @@ political_decisions = {
 			OR = {
 				tag = POL
 				tag = CPL
+				tag = PLC
 			}	
 			owns = 360
 			owns = 707
@@ -598,11 +596,7 @@ political_decisions = {
 	name_lat_ger = {
 		potential = {
 			OR = {
-				tag = GER
-				tag = NGF
-				tag = PRU
-				tag = SGF
-				tag = AUS
+				is_culture_group = germanic
 				tag = SWE
 				tag = SCA
 			}
@@ -695,11 +689,7 @@ political_decisions = {
 	name_est_ger = {
 		potential = {
 			OR = {
-				tag = GER
-				tag = NGF
-				tag = PRU
-				tag = SGF
-				tag = AUS
+				is_culture_group = germanic
 				tag = SWE
 				tag = SCA
 			}
