@@ -120,6 +120,7 @@ political_decisions = {
         }
 
         effect = {
+            prestige = 5
             badboy = 5
             set_country_flag = artois_claimed
             FRA_404 = { add_core = NET }
@@ -127,73 +128,6 @@ political_decisions = {
                 who = FRA
                 value = -400
             }
-        }
-
-        ai_will_do = { factor = 1 }
-    }
-
-    rename_artois_NET = {
-        picture = NET_claim_artois
-        potential = {
-            tag = NET
-                owns = 399 #Lille
-                owns = 400 #Calais
-                owns = 401 #Arras
-                owns = 404 #St. Quentin
-				owns = 778 #Dunkirk
-            NOT = { has_global_flag = dutch_artois }
-        }
-
-        allow = {
-            is_greater_power = yes
-            nationalism_n_imperialism = 1
-        }
-
-        effect = {
-            prestige = 5
-            399 = { change_province_name = "Rijsel" }
-            400 = { change_province_name = "Kales" }
-            401 = { change_province_name = "Atrecht" }
-			778 = { change_province_name = "Duinkerke" }
-            404 = {
-                change_province_name = "Sint-Kwintens"
-                state_scope = {    change_region_name = "Artesie"    }
-            }
-            set_global_flag = dutch_artois
-        }
-
-        ai_will_do = { factor = 1 }
-    }
-
-    rename_artois_FRA = {
-        picture = FRA_rename_artois
-        potential = {
-            tag = FRA
-                owns = 399 #Lille
-                owns = 400 #Dunkirk
-                owns = 401 #Arras
-                owns = 404 #St. Quentin
-				owns = 778 #Dunkirk
-            has_global_flag = dutch_artois
-        }
-
-        allow = {
-            is_greater_power = yes
-            nationalism_n_imperialism = 1
-        }
-
-        effect = {
-            prestige = 5
-            set_global_flag = french_artois
-            399 = { change_province_name = "Lille" }
-            400 = { change_province_name = "Calais" }
-            401 = { change_province_name = "Arras" }
-			778 = { change_province_name = "Dunkerque" }
-            404 = {
-                change_province_name = "Saint Quentin"
-                state_scope = {    change_region_name = "Artois"    }
-            }
-            clr_global_flag = dutch_artois
         }
 
         ai_will_do = { factor = 1 }

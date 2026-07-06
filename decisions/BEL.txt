@@ -737,4 +737,188 @@ political_decisions = {
 
         ai_will_do = { factor = 1 }
     }
+	
+###State Renames###
+    dutch_wallonia = {
+        picture = become_wallonia
+        potential = {
+			tag = NET 
+            owns = 392
+            owns = 393
+            owns = 395
+            owns = 398
+            NOT = { has_global_flag = dutch_wallonia }
+        }
+
+        effect = {
+			set_global_flag = dutch_wallonia
+                395 = { change_province_name = "Luik" }
+                392 = { change_province_name = "Namen" }
+                398 = { change_province_name = "Aarlen" }
+                393 = { change_province_name = "Doornik" }
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+    german_wallonia = {
+        picture = become_wallonia
+        potential = {
+            is_culture_group = germanic
+            owns = 392
+            owns = 393
+            owns = 395
+            owns = 398
+            NOT = { has_global_flag = german_wallonia }
+        }
+
+        effect = {
+			set_global_flag = german_wallonia
+                395 = { change_province_name = "Lüttich" }
+                392 = { change_province_name = "Namen" }
+                398 = { change_province_name = "Arel" }
+                393 = { change_province_name = "Dornick" }
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+    french_wallonia = {
+        picture = become_wallonia
+        potential = {
+            OR = {
+				is_culture_group = french
+				tag = BEL
+			}				
+            owns = 392
+            owns = 393
+            owns = 395
+            owns = 398
+            OR = { 
+				has_global_flag = dutch_wallonia
+				has_global_flag = german_wallonia
+			}
+        }
+
+        effect = {
+			set_global_flag = french_wallonia
+                395 = { change_province_name = "Liége" }
+                392 = { change_province_name = "Namur" }
+                398 = { change_province_name = "Arlon" }
+                393 = { change_province_name = "Tournai" }
+		    clr_global_flag = dutch_wallonia
+			clr_global_flag = german_wallonia
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+    french_flanders = {
+        picture = become_belgium
+        potential = {
+			tag = FRA
+            owns = 387 #Brussel
+            owns = 388 #Brugge 
+            owns = 389 #Ghent 
+            owns = 390 #Antwerp
+            NOT = { has_global_flag = french_flanders }
+        }
+
+        effect = {
+			set_global_flag = french_flanders
+                387 = { change_province_name = "Bruxelles" }
+                388 = { change_province_name = "Bruges" }
+                389 = { change_province_name = "Gand" }
+                390 = { change_province_name = "Anvers" }
+		    clr_global_flag = dutch_flanders
+			clr_global_flag = german_flanders
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+    german_flanders = {
+        picture = become_belgium
+        potential = {
+            is_culture_group = germanic
+            owns = 387 #Brussel
+            owns = 388 #Brugge 
+            owns = 389 #Ghent 
+            owns = 390 #Antwerp
+            NOT = { has_global_flag = german_flanders }
+        }
+
+        effect = {
+			set_global_flag = german_flanders
+                387 = { change_province_name = "Brüssel" }
+                388 = { change_province_name = "Brügge" }
+                389 = { change_province_name = "Gent" }
+                390 = { change_province_name = "Antwerpen" }
+		    clr_global_flag = french_flanders
+			clr_global_flag = dutch_flanders
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+    dutch_flanders = {
+        picture = become_belgium
+        potential = {
+            OR = {
+				tag = FLA
+				tag = NET
+				tag = BEL
+			}				
+            owns = 387 #Brussel
+            owns = 388 #Brugge 
+            owns = 389 #Ghent 
+            owns = 390 #Antwerp
+            OR = { 
+				has_global_flag = french_flanders
+				has_global_flag = german_flanders
+			}
+        }
+
+        effect = {
+			set_global_flag = dutch_flanders
+                387 = { change_province_name = "Brussel" }
+                388 = { change_province_name = "Brugge" }
+                389 = { change_province_name = "Gent" }
+                390 = { change_province_name = "Antwerpen" }
+		    clr_global_flag = french_flanders
+			clr_global_flag = german_flanders
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	
+    rename_lxb = {
+        potential = {
+			OR = {
+				is_culture_group = germanic
+				tag = NET
+			}
+            owns = 397
+            NOT = { has_global_flag = german_lxb }
+        }
+
+        effect = {
+            397 = { change_province_name = "Luxemburg" }
+            set_global_flag = german_lxb
+        }
+    }
+
+    restore_lxb = {
+        potential = {
+            is_culture_group = french
+            has_global_flag = german_lxb
+            owns = 397
+        }
+
+        effect = {
+            397 = { change_province_name = "Luxembourg" }
+            clr_global_flag = german_lxb
+        }
+    }
+
 }

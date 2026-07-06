@@ -1606,5 +1606,31 @@ political_decisions = {
             clr_global_flag = ita_bozen
         }
     }
+	
+    rename_klagenfurt = {
+        potential = {
+			is_culture_group = south_slavic
+            owns = 618
+            NOT = { has_global_flag = slav_klagenfurt }
+        }
+
+        effect = {
+            618 = { change_province_name = "Celovec" }
+            set_global_flag = slav_klagenfurt
+        }
+    }
+
+    restore_klagenfurt = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = slav_klagenfurt
+            owns = 618
+        }
+
+        effect = {
+            618 = { change_province_name = "Klagenfurt" }
+            clr_global_flag = slav_klagenfurt
+        }
+    }
 
 }

@@ -1445,5 +1445,141 @@ core_heligoland = {
             factor = 1
         }
 	}
+	
+    rename_schleswig = {
+        potential = {
+			OR = {
+				tag = DEN
+				tag = SCH
+				tag = SCA
+			}
+            owns = 370
+            owns = 371
+            NOT = { has_global_flag = danish_schleswig }
+        }
+
+        effect = {
+            370 = { change_province_name = "Flensborg" }
+            371 = { change_province_name = "Aabenraa" }
+            370 = { state_scope = { change_region_name = "Slesvig" } }
+            set_global_flag = danish_schleswig
+        }
+    }
+
+    restore_schleswig = {
+        potential = {
+            is_culture_group = germanic
+            has_global_flag = danish_schleswig
+            owns = 370
+            owns = 371
+        }
+
+        effect = {
+            370 = { change_province_name = "Flensburg" }
+            371 = { change_province_name = "Apenrade" }
+            370 = { state_scope = { change_region_name = "Schleswig" } }
+            clr_global_flag = danish_schleswig
+        }
+    }
+	
+    rename_mainz = {
+        potential = {
+			tag = FRA
+            owns = 570
+            NOT = { has_global_flag = french_mainz }
+        }
+
+        effect = {
+            570 = { change_province_name = "Mayence" }
+            set_global_flag = french_mainz
+        }
+    }
+
+    restore_mainz = {
+        potential = {
+			is_culture_group = germanic
+            has_global_flag = french_mainz
+            owns = 570
+        }
+
+        effect = {
+            570 = { change_province_name = "Mainz" }
+            clr_global_flag = french_mainz
+        }
+    }
+	
+    rename_nrhineland = {
+        potential = {
+            tag = FRA
+            owns = 575 #Coln
+            owns = 576 #Aachen
+            owns = 577 #Cleve
+            NOT = { has_global_flag = french_nrhine }
+        }
+
+        effect = {
+            575 = { change_province_name = "Cologne" }
+            576 = { change_province_name = "Aix-la-Chapelle" }
+            577 = { change_province_name = "Clèves" }
+            set_global_flag = french_nrhine
+        }
+    }
+
+    restore_nrhineland = {
+        potential = {
+            is_culture_group = germanic
+            owns = 575 #Coln
+            owns = 576 #Aachen
+            owns = 577 #Cleve
+            has_global_flag = french_nrhine
+        }
+
+        effect = {
+            575 = { change_province_name = "Cöln" }
+            576 = { change_province_name = "Aachen" }
+            577 = { change_province_name = "Cleve" }
+            clr_global_flag = french_nrhine
+        }
+    }
+	
+    rename_srhineland = {
+        potential = {
+            tag = FRA
+            owns = 571 #Kaiserslautern
+            owns = 572 #Trier
+            owns = 573 #Saarbrucken
+            owns = 574 #Coblenz
+            NOT = { has_global_flag = french_srhine }
+        }
+
+        effect = {
+            571 = { change_province_name = "Caseloutre" }
+            572 = { change_province_name = "Trèves" }
+            573 = { change_province_name = "Sarrebruck" }
+            574 = { change_province_name = "Coblence" }
+			574 = { state_scope = { change_region_name = "Sarre" } }
+            set_global_flag = french_srhine
+        }
+    }
+
+    restore_srhineland = {
+        potential = {
+            is_culture_group = germanic
+            owns = 571 #Kaiserslautern
+            owns = 572 #Trier
+            owns = 573 #Saarbrucken
+            owns = 574 #Coblenz
+            has_global_flag = french_srhine
+        }
+
+        effect = {
+            571 = { change_province_name = "Kaiserslautern" }
+            572 = { change_province_name = "Trier" }
+            573 = { change_province_name = "Saarbrücken" }
+            574 = { change_province_name = "Coblenz" }
+			574 = { state_scope = { change_region_name = "Southern Rhineland" } }
+            clr_global_flag = french_srhine
+        }
+    }
 
 }
