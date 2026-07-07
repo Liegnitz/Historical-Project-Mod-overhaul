@@ -985,7 +985,7 @@ political_decisions = {
     south_tirol_compromise = {
         picture = south_tirol_propaganda
         potential = {
-            owns = 734 #Trentin
+            owns = 734 #Trentino
             owns = 735 #Bozen
             OR = {
                 734 = { is_core = THIS }
@@ -1152,7 +1152,10 @@ political_decisions = {
 	
 	pol_teschen = {
 		potential = {
-			is_culture_group = polish_culture_group
+			OR = {
+				is_culture_group = polish_culture_group
+				tag = DNB
+			}
 			owns = 689
 			NOT = {
 				has_global_flag = pol_teschen
@@ -1197,12 +1200,13 @@ political_decisions = {
 		potential = {
             is_culture_group = germanic
 			OR = {
-			has_global_flag = pol_teschen
-			has_global_flag = cze_teschen
+				has_global_flag = pol_teschen
+				has_global_flag = cze_teschen
 			}
 			owns = 689
 			NOT = {
 				has_global_flag = ger_teschen
+				tag = DNB
 			}
 		}
 		
@@ -1273,6 +1277,7 @@ political_decisions = {
 			OR = {
 				tag = BOH
 				tag = CZH
+				tag = DNB
 			}
             owns = 626
             owns = 631
@@ -1291,6 +1296,7 @@ political_decisions = {
     restore_bohemia = {
         potential = {
             is_culture_group = germanic
+			NOT = { tag = DNB }
             has_global_flag = czech_bohemia
             owns = 626
             owns = 631
@@ -1307,7 +1313,7 @@ political_decisions = {
 	
 	name_lodomeria_ukr = {
 		potential = {
-			tag = UKR
+			primary_culture = ukrainian
 			owns = 702
 			owns = 951
 			owns = 952
@@ -1333,7 +1339,7 @@ political_decisions = {
 	
 	name_lodomeria_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			owns = 702
 			owns = 951
 			owns = 952
@@ -1359,7 +1365,10 @@ political_decisions = {
 	
 	name_lodomeria_pol = {
 		potential = {
-			is_culture_group = polish_culture_group
+			OR = { 	
+				tag = DNB
+				is_culture_group = polish_culture_group
+			}
 			owns = 702
 			owns = 951
 			owns = 952
@@ -1385,7 +1394,10 @@ political_decisions = {
 	
     rename_slovenia = {
         potential = {
-			is_culture_group = south_slavic
+			OR = {
+					is_culture_group = south_slavic
+					tag = DNB
+			}
             owns = 768
             owns = 767
             NOT = { has_global_flag = slav_slovenia }
@@ -1401,6 +1413,7 @@ political_decisions = {
     restore_slovenia = {
         potential = {
             is_culture_group = germanic
+			NOT = { tag = DNB }
             has_global_flag = slav_slovenia
             owns = 768
             owns = 767
@@ -1415,7 +1428,10 @@ political_decisions = {
 	
 	slo_adel = {
 		potential = {
-			is_culture_group = south_slavic
+			OR = {
+				is_culture_group = south_slavic
+				tag = DNB
+			}
 			owns = 769
 			NOT = {
 				has_global_flag = slo_adel
@@ -1463,6 +1479,7 @@ political_decisions = {
 			owns = 769
 			NOT = {
 				has_global_flag = ger_adel
+				tag = DNB
 			}
 		}
 		
@@ -1479,7 +1496,10 @@ political_decisions = {
 	
     rename_pola = {
         potential = {
-			is_culture_group = south_slavic
+			OR = {
+				is_culture_group = south_slavic
+				tag = DNB
+			}
             owns = 770
             NOT = { has_global_flag = slav_pola }
         }
@@ -1498,6 +1518,7 @@ political_decisions = {
 			}
             has_global_flag = slav_pola
             owns = 770
+			NOT = { tag = DNB }
         }
 
         effect = {
@@ -1508,7 +1529,10 @@ political_decisions = {
 	
 	slo_lit = {
 		potential = {
-			is_culture_group = south_slavic
+			OR = {
+				is_culture_group = south_slavic
+				tag = DNB
+			}
 			owns = 736
 			owns = 737
 			NOT = {
@@ -1563,6 +1587,7 @@ political_decisions = {
 			owns = 737
 			NOT = {
 				has_global_flag = ger_lit
+				tag = DNB
 			}
 		}
 		
@@ -1632,5 +1657,281 @@ political_decisions = {
             clr_global_flag = slav_klagenfurt
         }
     }
+	
+    rename_krakow = {
+        potential = {
+            is_culture_group = germanic
+            owns = 703
+			owns = 704
+            NOT = { 
+				has_global_flag = ger_krakow
+				tag = DNB
+			}
+        }
+
+        effect = {
+            703 = { change_province_name = "Krakau" }
+            704 = { change_province_name = "Neu Sandez" }
+            set_global_flag = ger_krakow
+        }
+    }
+
+    restore_krakow = {
+        potential = {
+			OR = {	
+				is_culture_group = polish_culture_group
+				primary_culture = russian
+				tag = DNB
+			}
+            has_global_flag = ger_krakow
+            owns = 703
+			owns = 704
+        }
+
+        effect = {
+            703 = { change_province_name = "Kraków" }
+            704 = { change_province_name = "Nowy Sacz" }
+            clr_global_flag = ger_krakow
+        }
+    }
+	
+    rename_dalmatia = {
+        potential = {
+			OR = {	
+				is_culture_group = south_slavic
+				tag = DNB
+			}
+            owns = 780
+			owns = 781
+            owns = 782
+			owns = 2582 
+            NOT = { has_global_flag = slav_dalmatia }
+        }
+
+        effect = {
+            780 = { change_province_name = "Split" }
+            781 = { change_province_name = "Zadar" }
+            782 = { change_province_name = "Dubrovnik" }
+            2582 = { change_province_name = "Kotor" }
+            set_global_flag = slav_dalmatia
+        }
+    }
+
+    restore_dalmatia = {
+        potential = {
+			OR = {	
+				is_culture_group = germanic
+				is_culture_group = italian
+			}
+			NOT = { tag = DNB }
+            owns = 780
+			owns = 781
+            owns = 782
+			owns = 2582 
+            has_global_flag = slav_dalmatia
+        }
+
+        effect = {
+            780 = { change_province_name = "Spalato" }
+            781 = { change_province_name = "Zara" }
+            782 = { change_province_name = "Ragusa" }
+            2582 = { change_province_name = "Cattaro" }
+            clr_global_flag = slav_dalmatia
+        }
+    }
+	
+	rom_czerno = {
+		potential = {
+			OR = {
+				is_culture_group = pan_romanian
+				tag = DNB
+			}
+			owns = 662
+			NOT = {
+				has_global_flag = rom_czerno
+			}
+		}
+		
+		effect = {
+            662 = { change_province_name = "Cernauti" }
+			clr_global_flag = ukr_czerno
+			clr_global_flag = pol_czerno
+			clr_global_flag = ger_czerno
+			clr_global_flag = rus_czerno
+			set_global_flag = rom_czerno
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ukr_czerno = {
+		potential = {
+			primary_culture = ukrainian
+			owns = 662
+			NOT = {
+				has_global_flag = ukr_czerno
+			}
+		}
+		
+		effect = {
+            662 = { change_province_name = "Chernovytsi" }
+			clr_global_flag = rom_czerno
+			clr_global_flag = pol_czerno
+			clr_global_flag = ger_czerno
+			clr_global_flag = rus_czerno
+			set_global_flag = ukr_czerno
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	pol_czerno = {
+		potential = {
+			is_culture_group = polish_culture_group
+			owns = 662
+			NOT = {
+				has_global_flag = pol_czerno
+			}
+		}
+		
+		effect = {
+            662 = { change_province_name = "Czerniowce" }
+			clr_global_flag = ukr_czerno
+			clr_global_flag = rom_czerno
+			clr_global_flag = ger_czerno
+			clr_global_flag = rus_czerno
+			set_global_flag = pol_czerno
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	rus_czerno = {
+		potential = {
+			primary_culture = russian
+			owns = 662
+			NOT = {
+				has_global_flag = rus_czerno
+			}
+		}
+		
+		effect = {
+            662 = { change_province_name = "Chernovitsy" }
+			clr_global_flag = ukr_czerno
+			clr_global_flag = pol_czerno
+			clr_global_flag = ger_czerno
+			clr_global_flag = rom_czerno
+			set_global_flag = rus_czerno
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	ger_czerno = {
+		potential = {
+            is_culture_group = germanic
+			OR = {
+			has_global_flag = ukr_czerno
+			has_global_flag = pol_czerno
+			has_global_flag = rom_czerno
+			has_global_flag = rus_czerno
+			}
+			owns = 662
+			NOT = {
+				has_global_flag = ger_czerno
+				tag = DNB
+			}
+		}
+		
+		effect = {
+            662 = { change_province_name = "Czernowitz" }
+			clr_global_flag = ukr_czerno
+			clr_global_flag = pol_czerno
+			clr_global_flag = rom_czerno
+			clr_global_flag = rus_czerno
+			set_global_flag = ger_czerno
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	rom_suceava = {
+		potential = {
+			OR = {
+				is_culture_group = pan_romanian
+				tag = DNB
+			}
+			owns = 663
+			NOT = {
+				has_global_flag = rom_suceava
+			}
+		}
+		
+		effect = {
+            663 = { change_province_name = "Suceava" }
+			clr_global_flag = ukr_suceava
+			clr_global_flag = ger_suceava
+			set_global_flag = rom_suceava
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ukr_suceava = {
+		potential = {
+			OR = {
+				primary_culture = russian
+				tag = UKR
+			}
+			owns = 663
+			NOT = {
+				has_global_flag = ukr_suceava
+			}
+		}
+		
+		effect = {
+            663 = { change_province_name = "Sucava" }
+			clr_global_flag = ger_suceava
+			clr_global_flag = rom_suceava
+			set_global_flag = ukr_suceava
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	ger_suceava = {
+		potential = {
+			OR = {
+				is_culture_group = germanic
+				is_culture_group = polish_culture_group
+			}
+			OR = {
+			has_global_flag = ukr_suceava
+			has_global_flag = rom_suceava
+			}
+			owns = 663
+			NOT = {
+				has_global_flag = ger_suceava
+				tag = DNB
+			}
+		}
+		
+		effect = {
+            663 = { change_province_name = "Suczawa" }
+			clr_global_flag = ukr_suceava
+			clr_global_flag = rom_suceava
+			set_global_flag = ger_suceava
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
 
 }

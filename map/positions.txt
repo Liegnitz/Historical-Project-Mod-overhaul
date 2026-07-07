@@ -33973,17 +33973,19 @@
 } # Pancevo
 
 792 = {
-    text_position = {
-        x = 3132.070370
-        y = 1531.598148
-    }
+	unit=
+	{
+		x=3130.000000
+		y=1531.000000
+	}
 
-    text_rotation = 6.283184
-    text_scale = 2.400000
-    unit = {
-        x = 3130.000000
-        y = 1531.000000
-    }
+	text_position=
+	{
+		x=3131.600098
+		y=1527.900024
+	}
+	text_rotation=6.283184
+	text_scale=2.400000
 
     factory = {
         x = 3125.000000

@@ -359,11 +359,11 @@ AUS_736 = { 623 624 2584 } #Burgenland
 
 AUS_768 = { 768 767 769 3326 } #Slovenia
 
-AUS_771 = { 771 772 773 775 776 } #Croatia
+AUS_771 = { 771 772 773 774 775 776 } #Croatia
 
 AUS_777 = { 779 793 777 2538 } #Slavonia
 
-AUS_780 = { 780 781 782 774 2582 } #Dalmatia
+AUS_780 = { 780 781 782 2582 } #Dalmatia
 
 AUS_2538 = { 648 649 650 } #Transtisia
 

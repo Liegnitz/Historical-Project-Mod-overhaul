@@ -942,10 +942,6 @@ political_decisions = {
 
         effect = {
             set_global_flag = poles_expelled
-            952 = { change_province_name = "Ternopil" }
-            953 = { change_province_name = "Kolomyja" }
-            702 = { change_province_name = "Lviv" }
-			951 = { change_province_name = "Drohobych" }
 
             702 = { remove_core = POL }
             702 = { remove_core = GLM }
