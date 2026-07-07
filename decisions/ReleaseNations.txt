@@ -118,27 +118,7 @@ political_decisions = {
                         relation = { who = UTI value = 200 }
                 }
         ai_will_do = { factor = 0 }
-} 
- ReleaseOCC= {
-        picture = dreams_of_empire
-        potential = {
-                NOT = { exists = OCC}  has_country_flag = utilitymod_enable_release_nations any_owned_province = { is_core =OCC }
-        }        
-        allow = {
-                ai = no                
-        }
-                effect = {                        
-                        badboy = -2
-                        any_owned = {
-                                limit = { AND = {is_core = OCC NOT = {is_core = THIS}}} 
-                                secede_province = OCC }
-                        create_vassal = OCC
-                        create_alliance = OCC
-                        diplomatic_influence = { who = OCC value = 200 }
-                        relation = { who = OCC value = 200 }
-                }
-        ai_will_do = { factor = 0 }
-} 
+}
  ReleaseACA= {
         picture = dreams_of_empire
         potential = {

@@ -27323,21 +27323,16 @@
 } # Bratislava
 
 633 = {
+    text_position = {
+        x = 3075.650000
+        y = 1598.700000
+    }
+
+    text_rotation = 6.268111
+    text_scale = 2.300000
     unit = {
         x = 3077.000000
         y = 1597.000000
-    }
-
-    text_position = {
-        x = 3075.600098
-        y = 1599.099976
-    }
-
-    text_rotation = 5.497786
-    text_scale = 2.300000
-    building_construction = {
-        x = 3084.100098
-        y = 1588.199951
     }
 
     factory = {
@@ -27345,28 +27340,20 @@
         y = 1602.400024
     }
 
+    building_construction = {
+        x = 3084.100098
+        y = 1588.199951
+    }
+
+    military_construction = {
+        x = 3077.050000
+        y = 1604.200000
+    }
+
     building_position = {
         fort = {
             x = 3075.000000
             y = 1593.099976
-        }
-
-    }
-
-    spawn_railway_track = {
-        {
-            x = 0.000000
-            y = 0.000000
-        }
-
-        {
-            x = 3073.000000
-            y = 1583.700317
-        }
-
-        {
-            x = 3064.099121
-            y = 1585.299683
         }
 
     }
@@ -33222,7 +33209,7 @@
         y = 1520.900024
     }
 
-    text_scale = 2.500000
+    text_scale = 2.100000
     unit = {
         x = 3047.000000
         y = 1524.000000
@@ -33247,6 +33234,11 @@
         fort = {
             x = 3050.000000
             y = 1525.000000
+        }
+
+        railroad = {
+            x = 3050.573333
+            y = 1523.213333
         }
 
         naval_base = {
@@ -33973,20 +33965,18 @@
 } # Pancevo
 
 792 = {
-	unit=
-	{
-		x=3130.000000
-		y=1531.000000
-	}
+    unit = {
+        x = 3130.000000
+        y = 1531.000000
+    }
 
-	text_position=
-	{
-		x=3131.600098
-		y=1527.900024
-	}
-	text_rotation=6.283184
-	text_scale=2.400000
+    text_position = {
+        x = 3131.600098
+        y = 1527.900024
+    }
 
+    text_rotation = 6.283184
+    text_scale = 2.400000
     factory = {
         x = 3125.000000
         y = 1543.000000

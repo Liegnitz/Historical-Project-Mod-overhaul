@@ -70,7 +70,7 @@ political_decisions = {
 
 	name_crimea_ukr = {
 		potential = {
-			tag = UKR
+			primary_culture = ukrainian
 			owns = 964
 			owns = 967
 			NOT = {
@@ -91,7 +91,7 @@ political_decisions = {
 	
 	name_crimea_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			has_global_flag = ukraine_renamed_crimea
 			owns = 964
 			owns = 967
@@ -113,7 +113,7 @@ political_decisions = {
 	
 	name_yekaterinoslav_ukr = {
 		potential = {
-			tag = UKR
+			primary_culture = russian
 			owns = 972
 			owns = 974
 			owns = 976
@@ -140,7 +140,7 @@ political_decisions = {
 	
 	name_yekaterinoslav_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			owns = 972
 			owns = 974
 			owns = 976
@@ -200,7 +200,7 @@ political_decisions = {
 	
 	name_kharkov_ukr = {
 		potential = {
-			tag = UKR
+			primary_culture = ukrainian
 			owns = 978
 			owns = 962
 			owns = 963
@@ -223,7 +223,7 @@ political_decisions = {
 	
 	name_kharkov_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			owns = 978
 			owns = 962
 			owns = 963
@@ -247,7 +247,7 @@ political_decisions = {
 	
 	name_kiev_ukr = {
 		potential = {
-			tag = UKR
+			primary_culture = ukrainian
 			owns = 958
 			owns = 959
 			owns = 960
@@ -272,7 +272,7 @@ political_decisions = {
 
 	name_kiev_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			owns = 958
 			owns = 959
 			owns = 960
@@ -298,7 +298,7 @@ political_decisions = {
 
 	name_kherson_ukr = {
 		potential = {
-			tag = UKR
+			primary_culture = ukrainian
 			owns = 954
 			owns = 968
 			owns = 970
@@ -323,7 +323,7 @@ political_decisions = {
 
 	name_kherson_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			owns = 954
 			owns = 968
 			owns = 970
@@ -349,7 +349,7 @@ political_decisions = {
 
 	name_taurida_ukr = {
 		potential = {
-			tag = UKR
+			primary_culture = ukrainian
 			owns = 965
 			owns = 973
 			owns = 975
@@ -374,7 +374,7 @@ political_decisions = {
 
 	name_taurida_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			owns = 965
 			owns = 973
 			owns = 975
@@ -430,7 +430,7 @@ political_decisions = {
 	
 	name_volhynia_ukr = {
 		potential = {
-			tag = UKR
+			primary_culture = ukrainian
 			owns = 955
 			owns = 956
 			owns = 957
@@ -442,8 +442,34 @@ political_decisions = {
 		effect = {
             955 = { change_province_name = "Proskuriv" }
             956 = { change_province_name = "Rivne" }
+            957 = { change_province_name = "Kovel" }
 			clr_global_flag = russia_renamed_volhynia
+			clr_global_flag = poland_renamed_volhynia
 			set_global_flag = ukraine_renamed_volhynia
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	name_volhynia_pol = {
+		potential = {
+			is_culture_group = polish_culture_group
+			owns = 955
+			owns = 956
+			owns = 957
+			NOT = {
+				has_global_flag = poland_renamed_volhynia
+			}
+		}
+
+		effect = {
+            955 = { change_province_name = "Ploskirów" }
+            956 = { change_province_name = "Równe" }
+            957 = { change_province_name = "Kowel" }
+			clr_global_flag = russia_renamed_volhynia
+			clr_global_flag = ukraine_renamed_volhynia
+			set_global_flag = poland_renamed_volhynia
 		}
         ai_will_do = {
             factor = 1
@@ -452,7 +478,7 @@ political_decisions = {
 	
 	name_volhynia_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			owns = 955
 			owns = 956
 			owns = 957
@@ -465,7 +491,9 @@ political_decisions = {
 		effect = {
             955 = { change_province_name = "Proskurov" }
             956 = { change_province_name = "Rovne" }
+            957 = { change_province_name = "Kovel" }
 			clr_global_flag = ukraine_renamed_volhynia
+			clr_global_flag = poland_renamed_volhynia
 			set_global_flag = russia_renamed_volhynia
 		}
         ai_will_do = {

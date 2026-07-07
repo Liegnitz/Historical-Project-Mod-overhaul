@@ -193,6 +193,7 @@ political_decisions = {
     }
 
 ####Disable Trade Policy setting
+
     disable_trade_policy_globally = {
         picture = starting_options
         alert = no

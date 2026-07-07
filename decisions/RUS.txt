@@ -2137,7 +2137,7 @@ political_decisions = {
 #Solo State Renames
 	name_kursk_ukr = {
 		potential = {
-			tag = UKR
+			primary_culture = ukrainian
 			owns = 977
 			owns = 1018
 			owns = 1019
@@ -2161,7 +2161,7 @@ political_decisions = {
 
 	name_kursk_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			owns = 977
 			owns = 1018
 			owns = 1019
@@ -2186,10 +2186,7 @@ political_decisions = {
 	
 	name_dhost_ukr = {
 		potential = {
-			OR = {
-				tag = UKR
-				tag = DON
-			}
+			primary_culture = ukrainian
 			owns = 979
 			owns = 1045
 			owns = 1046
@@ -2214,7 +2211,7 @@ political_decisions = {
 
 	name_dhost_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			has_global_flag = ukraine_renamed_dhost
 			owns = 979
 			owns = 1045
@@ -2240,10 +2237,7 @@ political_decisions = {
 	
 	name_yekaterinodar_ukr = {
 		potential = {
-			OR = {
-				tag = UKR
-				tag = DON
-			}
+			primary_culture = ukrainian
 			owns = 1048
 			owns = 1049
 			owns = 1050
@@ -2271,7 +2265,7 @@ political_decisions = {
 
 	name_yekaterinodar_rus = {
 		potential = {
-			tag = RUS
+			primary_culture = russian
 			OR = {
 			has_global_flag = ukraine_renamed_yekaterinodar
 			has_global_flag = russia_renamed_yekaterinodar_bolshevik

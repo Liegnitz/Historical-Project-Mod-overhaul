@@ -1444,7 +1444,6 @@ political_decisions = {
             is_cultural_union = no
             OR = {
                 primary_culture = breton
-                primary_culture = occitan
                 primary_culture = maltese
                 is_culture_group = american_cultures
             }

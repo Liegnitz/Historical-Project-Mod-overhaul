@@ -112,7 +112,6 @@ GLM        = "countries/Galicia-Lodomeria.txt"
 LOR        = "countries/Lorraine.txt"
 MCD        = "countries/Macedonia.txt"
 MLT        = "countries/Malta.txt"
-OCC        = "countries/Occitania.txt"
 RMG        = "countries/Romagna.txt"
 SPC        = "countries/Carlist Spain.txt"
 SRD        = "countries/Sardinia.txt"
@@ -557,8 +556,7 @@ BAB        ="countries/Babylonia.txt"
 #new for AHD
 TPG        ="countries/Taiping.txt"
 
-##EIC
-EIC        ="countries/East India Company.txt"
+##UTI
 UTI        ="countries/Utility Tag.txt"
 ##
 

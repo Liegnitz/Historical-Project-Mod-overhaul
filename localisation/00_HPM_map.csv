@@ -281,7 +281,7 @@ PROV995;Petrozavodsk;;;;;;;;;;;;x
 PROV965;Aleshki;;;;;;;;;;;;x
 PROV1048;Yekaterinodar;;;;;;;;;;;;x
 PROV1045;Millerovo;;;;;;;;;;;;x
-PROV950;Ungvár;;;;;;;;;;;;x
+PROV950;Ungwar;;;;;;;;;;;;x
 RUS_1185;Zhetysu;;;;;;;;;;;;x
 PROV1201;Khujand;;;;;;;;;;;;x
 PROV1206;Chardzhou;;;;;;;;;;;;x
@@ -687,12 +687,7 @@ PRU_578;Eastern Rheinland;;;;;;;;;;;;x
 BAV_595;Franconia;;;;;;;;;;;;x
 BAV_599;Upper Bavaria;;;;;;;;;;;;x
 SPA_610;Caroline Islands;;;;;;;;;;;;x
-AUS_652;Banat;;;;;;;;;;;;x
-AUS_654;Western Transylvania;;;;;;;;;;;;x
-AUS_657;Eastern Transylvania;;;;;;;;;;;;x
 PRU_684;Upper Silesia;;;;;;;;;;;;x
-AUS_702;Galicia-Lodomeria;;;;;;;;;;;;x
-PROV704;Nowy Sacz;;;;;;;;;;;;x
 RUS_706;Masovia;;;;;;;;;;;;x
 PROV711;Siedlce;;;;;;;;;;;;x
 PROV748;Grosseto;;;;;;;;;;;;x
@@ -741,7 +736,6 @@ NET_1418;East Java;;;;;;;;;;;;x
 NET_1423;East Borneo;;;;;;;;;;;;x
 NET_1426;South Borneo;;;;;;;;;;;;x
 NET_1446;Timor;;;;;;;;;;;;x
-NET_1449;Celebes;;;;;;;;;;;;x
 CHI_1465;Eastern Mongolia;;;;;;;;;;;;x
 CHI_1468;Western Mongolia;;;;;;;;;;;;x
 PROV1469;Uriankhai;;;;;;;;;;;;x
@@ -785,7 +779,6 @@ PROV1612;Baoding;;;;;;;;;;;;x
 CHI_1612;Baoding;;;;;;;;;;;;x
 PROV1616;Peking;;;;;;;;;;;;x
 CHI_1616;Peking;;;;;;;;;;;;x
-PROV1643;Ishikari;;;;;;;;;;;;x
 JAP_1649;Kanto;;;;;;;;;;;;x
 JAP_1654;Bonin Islands;;;;;;;;;;;;x
 JAP_1655;Kansai;;;;;;;;;;;;x
@@ -875,7 +868,7 @@ PROV18;New Caledonia;;;;;;;;;;;;x
 PROV129;Guymon;;;;;;;;;;;;x
 PROV128;Hugoton;;;;;;;;;;;;x
 PROV158;Duluth;;;;;;;;;;;;x
-PROV638;Prešov;;;;;;;;;;;;x
+PROV638;Eperies;;;;;;;;;;;;x
 AUS_626;Sudetes;;;;;;;;;;;;x
 PROV2630;Tok;;;;;;;;;;;;x
 PROV84;Sacramento;;;;;;;;;;;;x
@@ -967,11 +960,10 @@ PROV623;Ödenburg;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV633;Tyrnau;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV662;Czernowitz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV659;Kronstadt;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV647;Nagyvárad;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV647;Großwardein;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV657;Hermannstadt;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV647;Nagyvárad;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV860;Kostantiniyye;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV2533;Marosvásárhely;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV2533;Neumarkt;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV630;Budweis;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV654;Klausenburg;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV679;Colberg;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -1018,9 +1010,9 @@ PROV799;Vranje;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 AUS_2539;West Carpathian Slopes;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3325;Repola;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV997;Yamburg;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV3326;Muraszombat;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV637;Kassa;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV635;Érsekújvár;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3326;Olsnitz;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV637;Kaschau;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV635;Neuhäusel;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2615;Nyaryi Mache;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2687;Vaygach;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2633;Tigil;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
@@ -1092,3 +1084,34 @@ PROV780;Spalato;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV781;Zara;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV782;Ragusa;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV663;Suczawa;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV634;Trenczin;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV636;Neusohl;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV648;Debrezin;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV649;Szegedin;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV650;Tschabe;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV777;Poschegg;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV779;Esseg;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV793;Mitrowitz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV2538;Neusatz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV771;Agram;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV772;Sissek;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV773;Karlstadt;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV774;Gospitsch;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV775;Warasdin;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV776;Bjelowar;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV651;Sathmar;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV652;Temeschwar;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV653;Reschitz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV792;Werschetz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV703;Cracow;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV660;Oderhellen;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV655;Karlsburg;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV656;Diemrich;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV661;Bistritz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV645;Ketschkemet;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV646;Mischkolz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV643;Stuhlweißenburg;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV640;Fünfkirchen;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV642;Raab;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV639;Egersee;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV644;Kopisch;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
