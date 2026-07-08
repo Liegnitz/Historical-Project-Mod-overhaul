@@ -1205,14 +1205,17 @@ core_heligoland = {
 ### State Renames###
     rename_posen = {
         potential = {
-			OR =  { is_culture_group = polish_culture_group
-					primary_culture = russian
+			OR =  { 
+			is_culture_group = polish_culture_group
+			primary_culture = russian
 			}
             owns = 699
             owns = 700
             owns = 701
             NOT = { has_global_flag = polish_posen }
         }
+		
+		allow = { }
 
         effect = {
             699 = { change_province_name = "Poznan" }
@@ -1231,6 +1234,8 @@ core_heligoland = {
             owns = 700
             owns = 701
         }
+		
+		allow = { }
 
         effect = {
             699 = { change_province_name = "Posen" }
@@ -1243,13 +1248,16 @@ core_heligoland = {
 	
     rename_oppeln = {
         potential = {
-			OR =  { is_culture_group = polish_culture_group
-					primary_culture = russian
+			OR =  { 
+			is_culture_group = polish_culture_group
+			primary_culture = russian
 			}
             owns = 684
             owns = 685
             NOT = { has_global_flag = polish_oppeln }
         }
+		
+		allow = { }
 
         effect = {
             684 = { change_province_name = "Opole" }
@@ -1265,6 +1273,8 @@ core_heligoland = {
             owns = 684
             owns = 685
         }
+		
+		allow = { }
 
         effect = {
             684 = { change_province_name = "Oppeln" }
@@ -1275,13 +1285,16 @@ core_heligoland = {
 	
     rename_corridor = {
         potential = {
-			OR =  { is_culture_group = polish_culture_group
-					primary_culture = russian
+			OR =  { 
+			is_culture_group = polish_culture_group
+			primary_culture = russian
 			}
             owns = 694
             owns = 691
             NOT = { has_global_flag = polish_corridor }
         }
+		
+		allow = { }
 
         effect = {
             694 = { change_province_name = "Torun" }
@@ -1297,6 +1310,8 @@ core_heligoland = {
             owns = 694
             owns = 691
         }
+		
+		allow = { }
 
         effect = {
             694 = { change_province_name = "Thorn" }
@@ -1315,6 +1330,8 @@ core_heligoland = {
             owns = 692
             NOT = { has_global_flag = polish_wprussia }
         }
+		
+		allow = { }
 
         effect = {
             690 = { change_province_name = "Gdansk" }
@@ -1333,6 +1350,8 @@ core_heligoland = {
             owns = 693
             owns = 692
         }
+		
+		allow = { }
 
         effect = {
             690 = { change_province_name = "Danzig" }
@@ -1351,6 +1370,8 @@ core_heligoland = {
             owns = 696
             NOT = { has_global_flag = polish_eprussia }
         }
+		
+		allow = { }
 
         effect = {
             695 = { change_province_name = "Krolewiec" }
@@ -1369,6 +1390,8 @@ core_heligoland = {
             owns = 697
             owns = 696
         }
+		
+		allow = { }
 
         effect = {
             695 = { change_province_name = "Königsberg" }
@@ -1391,6 +1414,8 @@ core_heligoland = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             698 = { change_province_name = "Klaipeda" }
 			clr_global_flag = ger_memel
@@ -1410,6 +1435,8 @@ core_heligoland = {
 				has_global_flag = pol_memel
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             698 = { change_province_name = "Klajpeda" }
@@ -1435,6 +1462,8 @@ core_heligoland = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             698 = { change_province_name = "Memel" }
 			clr_global_flag = lit_memel
@@ -1457,6 +1486,8 @@ core_heligoland = {
             owns = 371
             NOT = { has_global_flag = danish_schleswig }
         }
+		
+		allow = { }
 
         effect = {
             370 = { change_province_name = "Flensborg" }
@@ -1473,6 +1504,8 @@ core_heligoland = {
             owns = 370
             owns = 371
         }
+		
+		allow = { }
 
         effect = {
             370 = { change_province_name = "Flensburg" }
@@ -1488,6 +1521,8 @@ core_heligoland = {
             owns = 570
             NOT = { has_global_flag = french_mainz }
         }
+		
+		allow = { }
 
         effect = {
             570 = { change_province_name = "Mayence" }
@@ -1501,6 +1536,8 @@ core_heligoland = {
             has_global_flag = french_mainz
             owns = 570
         }
+		
+		allow = { }
 
         effect = {
             570 = { change_province_name = "Mainz" }
@@ -1516,6 +1553,8 @@ core_heligoland = {
             owns = 577 #Cleve
             NOT = { has_global_flag = french_nrhine }
         }
+		
+		allow = { }
 
         effect = {
             575 = { change_province_name = "Cologne" }
@@ -1533,6 +1572,8 @@ core_heligoland = {
             owns = 577 #Cleve
             has_global_flag = french_nrhine
         }
+		
+		allow = { }
 
         effect = {
             575 = { change_province_name = "Cöln" }
@@ -1551,6 +1592,8 @@ core_heligoland = {
             owns = 574 #Coblenz
             NOT = { has_global_flag = french_srhine }
         }
+		
+		allow = { }
 
         effect = {
             571 = { change_province_name = "Caseloutre" }
@@ -1571,6 +1614,8 @@ core_heligoland = {
             owns = 574 #Coblenz
             has_global_flag = french_srhine
         }
+		
+		allow = { }
 
         effect = {
             571 = { change_province_name = "Kaiserslautern" }

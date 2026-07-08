@@ -1744,20 +1744,7 @@ political_decisions = {
 			owns = 1044
         }
 
-        allow = {
-			owns = 987
-            owns = 994
-            owns = 996
-			owns = 997
-            owns = 998
-            owns = 1020
-			owns = 1026
-            owns = 1028
-			owns = 1033
-            owns = 1034
-            owns = 1039
-			owns = 1044
-        }
+		allow = { }
 
         effect = {
             set_country_flag = names_of_the_revolution
@@ -1798,20 +1785,7 @@ political_decisions = {
 			owns = 1044
         }
 
-        allow = {
-			owns = 987
-            owns = 994
-            owns = 996
-			owns = 997
-            owns = 998
-            owns = 1020
-			owns = 1026
-            owns = 1028
-			owns = 1033
-            owns = 1034
-            owns = 1039
-			owns = 1044
-        }
+		allow = { }
 
         effect = {
             clr_country_flag = names_of_the_revolution
@@ -1846,12 +1820,7 @@ political_decisions = {
 			owns = 965
         }
 
-        allow = {
-            owns = 975
-            owns = 974
-			owns = 972
-			owns = 965
-        }
+		allow = { }
 
         effect = {
             set_global_flag = names_of_the_revolution_ukraine
@@ -1877,11 +1846,7 @@ political_decisions = {
 			owns = 965
         }
 
-        allow = {
-            owns = 974
-			owns = 972
-			owns = 965
-            }
+		allow = { }
 
         effect = {
             clr_global_flag = names_of_the_revolution_ukraine
@@ -1912,17 +1877,7 @@ political_decisions = {
 			owns = 1206 
         }
 
-        allow = {
-            owns = 1185
-			owns = 1186
-            owns = 1188
-			owns = 1189
-			owns = 1193
-			owns = 1194
-			owns = 1201
-			owns = 1204
-			owns = 1206 
-        }
+		allow = { }
 
         effect = {
             set_global_flag = names_of_the_revolution_ca
@@ -1957,17 +1912,7 @@ political_decisions = {
 			owns = 1206 
         }
 
-        allow = {
-            owns = 1185
-			owns = 1186
-            owns = 1188
-			owns = 1189
-			owns = 1193
-			owns = 1194
-			owns = 1201
-			owns = 1204
-			owns = 1206 
-            }
+		allow = { }
 
         effect = {
             clr_global_flag = names_of_the_revolution_ca
@@ -2003,17 +1948,7 @@ political_decisions = {
 			owns = 2698
         }
 
-        allow = {
-            owns = 1058
-            owns = 1065
-			owns = 1068
-			owns = 2643
-			owns = 2655
-			owns = 2670
-			owns = 2682
-			owns = 2686
-			owns = 2698
-        }
+		allow = { }
 
         effect = {
             set_global_flag = names_of_the_revolution_siberia
@@ -2047,15 +1982,7 @@ political_decisions = {
 			owns = 2698
         }
 
-        allow = {
-            owns = 1058
-			owns = 1068
-			owns = 2655
-			owns = 2670
-			owns = 2682
-			owns = 2686
-			owns = 2698
-            }
+		allow = { }
 
         effect = {
             clr_global_flag = names_of_the_revolution_siberia 
@@ -2085,12 +2012,7 @@ political_decisions = {
 			owns = 1099
         }
 
-        allow = {
-#            owns = 1048
-#            owns = 1050
-			owns = 1054
-			owns = 1099
-        }
+		allow = { }
 
         effect = {
             set_global_flag = names_of_the_revolution_caucasus
@@ -2115,12 +2037,7 @@ political_decisions = {
 			owns = 1099
         }
 
-        allow = {
-#            owns = 1048
-#            owns = 1050
-			owns = 1054
-			owns = 1099
-            }
+		allow = { }
 
         effect = {
             clr_global_flag = names_of_the_revolution_caucasus
@@ -2145,6 +2062,8 @@ political_decisions = {
 				has_global_flag = ukraine_renamed_kursk
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             977 = { change_province_name = "Kurske" }
@@ -2171,6 +2090,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             977 = { change_province_name = "Kursk" }
             1018 = { change_province_name = "Belgorod" }
@@ -2195,6 +2116,8 @@ political_decisions = {
 				has_global_flag = ukraine_renamed_dhost
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             979 = { change_province_name = "Rostiv" }
@@ -2222,6 +2145,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             979 = { change_province_name = "Rostov" }
             1045 = { change_province_name = "Millerove" }
@@ -2247,6 +2172,8 @@ political_decisions = {
 				has_global_flag = ukraine_renamed_yekaterinodar
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             1048 = { change_province_name = "Nova Sich" }
@@ -2281,6 +2208,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             1048 = { change_province_name = "Yekaterinodar" }
             1049 = { change_province_name = "Novorossiysk" }
@@ -2309,6 +2238,8 @@ political_decisions = {
 				has_global_flag = russia_renamed_yekaterinodar_bolshevik
 			}
 		}
+		
+		allow = { }
 	
 		effect = {
             1048 = { change_province_name = "Krasnodar" }

@@ -1246,12 +1246,12 @@ political_decisions = {
 
         effect = {
             410 = {
-                change_province_name = "MÃ¼lhausen"
+                change_province_name = "Mülhausen"
             }
             409 = {
-                change_province_name = "StraÃŸburg"
+                change_province_name = "Straßburg"
                 state_scope = {
-                    change_region_name = "ElsaÃŸ-Lothringen"
+                    change_region_name = "Elsaß-Lothringen"
                 }
             }
             prestige = 5
@@ -1298,6 +1298,8 @@ political_decisions = {
 				has_global_flag = germany_renamed_ardennes
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             413 = { change_province_name = "Verden" }
@@ -1324,6 +1326,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             413 = { change_province_name = "Verdun" }
             411 = { change_province_name = "Nancy" }
@@ -1347,6 +1351,8 @@ political_decisions = {
                 owns = 404 #St. Quentin
             NOT = { has_global_flag = dutch_artois }
         }
+		
+		allow = { }
 
         effect = {
             399 = { change_province_name = "Rijsel" }
@@ -1374,6 +1380,8 @@ political_decisions = {
                 owns = 404 #St. Quentin
             NOT = { has_global_flag = german_artois }
         }
+		
+		allow = { }
 
         effect = {
             399 = { change_province_name = "Ryssel" }
@@ -1404,6 +1412,8 @@ political_decisions = {
 				has_global_flag = german_artois
 			}
         }
+		
+		allow = { }
 
         effect = {
             399 = { change_province_name = "Lille" }
@@ -1430,6 +1440,8 @@ political_decisions = {
 			owns = 778 #Dunkirk
             NOT = { has_global_flag = dutch_dkirk }
         }
+		
+		allow = { }
 
         effect = {
 			778 = { change_province_name = "Duinkerke" }
@@ -1446,6 +1458,8 @@ political_decisions = {
 			owns = 778 #Dunkirk
             NOT = { has_global_flag = german_dkirk }
         }
+		
+		allow = { }
 
         effect = {
 			778 = { change_province_name = "Dünkirchen" }
@@ -1465,6 +1479,8 @@ political_decisions = {
 				has_global_flag = german_dkirk
 			}
         }
+		
+		allow = { }
 
         effect = {
 			778 = { change_province_name = "Dunkerque" }

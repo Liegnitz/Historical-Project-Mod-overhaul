@@ -78,6 +78,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             964 = { change_province_name = "Simferopil" }
             967 = { change_province_name = "Sevastopil" }
@@ -100,6 +102,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             964 = { change_province_name = "Simferopol" }
             967 = { change_province_name = "Sevastopol" }
@@ -121,7 +125,9 @@ political_decisions = {
 			NOT = {
 				has_global_flag = ukraine_renamed_yekaterinoslav
 			}
-		}	
+		}
+
+		allow = { }		
 
 		effect = {
             972 = { change_province_name = "Sicheslav" }
@@ -155,6 +161,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             972 = { change_province_name = "Yekaterinoslav" }
             974 = { change_province_name = "Bakhmut" }
@@ -183,6 +191,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             972 = { change_province_name = "Dnipropetrovsk" }
             974 = { change_province_name = "Artemovsk" }
@@ -208,6 +218,8 @@ political_decisions = {
 				has_global_flag = ukraine_renamed_kharkov
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             978 = { change_province_name = "Kharkiv" }
@@ -233,6 +245,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             978 = { change_province_name = "Kharkov" }
             962 = { change_province_name = "Chernigov" }
@@ -244,7 +258,7 @@ political_decisions = {
             factor = 1
         }
 	}
-	
+		
 	name_kiev_ukr = {
 		potential = {
 			primary_culture = ukrainian
@@ -256,6 +270,8 @@ political_decisions = {
 				has_global_flag = ukraine_renamed_kiev
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             958 = { change_province_name = "Kyiv" }
@@ -283,6 +299,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             958 = { change_province_name = "Kiev" }
             960 = { change_province_name = "Zhitomir" }
@@ -307,6 +325,8 @@ political_decisions = {
 				has_global_flag = ukraine_renamed_kherson
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             954 = { change_province_name = "Vinnytsia" }
@@ -334,6 +354,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             954 = { change_province_name = "Vinnitsa" }
             968 = { change_province_name = "Odessa" }
@@ -357,6 +379,8 @@ political_decisions = {
 				has_global_flag = ukraine_renamed_taurida
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             965 = { change_province_name = "Oleshky" }
@@ -388,6 +412,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             965 = { change_province_name = "Aleshki" }
             973 = { change_province_name = "Melitopol" }
@@ -414,6 +440,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             965 = { change_province_name = "Tsiupirinsk" }
             973 = { change_province_name = "Melitopol" }
@@ -438,6 +466,8 @@ political_decisions = {
 				has_global_flag = ukraine_renamed_volhynia
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             955 = { change_province_name = "Proskuriv" }
@@ -462,6 +492,8 @@ political_decisions = {
 				has_global_flag = poland_renamed_volhynia
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             955 = { change_province_name = "Ploskirów" }
@@ -487,6 +519,8 @@ political_decisions = {
 				has_global_flag = russia_renamed_volhynia
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             955 = { change_province_name = "Proskurov" }

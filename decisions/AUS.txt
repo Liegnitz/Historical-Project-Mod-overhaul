@@ -1092,6 +1092,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             688 = { change_province_name = "Opawa" }
 			clr_global_flag = ger_troppau
@@ -1114,6 +1116,8 @@ political_decisions = {
 				has_global_flag = cze_troppau
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             688 = { change_province_name = "Opava" }
@@ -1139,6 +1143,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             688 = { change_province_name = "Troppau" }
 			clr_global_flag = pol_troppau
@@ -1162,6 +1168,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             689 = { change_province_name = "Cieszyn" }
 			clr_global_flag = ger_teschen
@@ -1184,6 +1192,8 @@ political_decisions = {
 				has_global_flag = cze_teschen
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             689 = { change_province_name = "Tešín" }
@@ -1210,6 +1220,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             689 = { change_province_name = "Teschen" }
 			clr_global_flag = pol_teschen
@@ -1235,6 +1247,8 @@ political_decisions = {
 			owns = 803
             NOT = { has_global_flag = czech_sudetes }
         }
+		
+		allow = { }
 
         effect = {
             627 = { change_province_name = "Karlovy Vary" }
@@ -1259,6 +1273,8 @@ political_decisions = {
 			owns = 632
 			owns = 803
         }
+		
+		allow = { }
 
         effect = {
             627 = { change_province_name = "Karlsbad" }
@@ -1284,6 +1300,8 @@ political_decisions = {
             owns = 791
             NOT = { has_global_flag = czech_bohemia }
         }
+		
+		allow = { }
 
         effect = {
             626 = { change_province_name = "Hradec Králové" }
@@ -1302,6 +1320,8 @@ political_decisions = {
             owns = 631
             owns = 791
         }
+		
+		allow = { }
 
         effect = {
             626 = { change_province_name = "Königgrätz" }
@@ -1322,6 +1342,8 @@ political_decisions = {
 				has_global_flag = ukraine_renamed_galicia
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             702 = { change_province_name = "Lviv" }
@@ -1348,6 +1370,8 @@ political_decisions = {
 				has_global_flag = russia_renamed_galicia
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             702 = { change_province_name = "Lvov" }
@@ -1378,6 +1402,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             702 = { change_province_name = "Lwów" }
             951 = { change_province_name = "Drohobycz" }
@@ -1402,6 +1428,8 @@ political_decisions = {
             owns = 767
             NOT = { has_global_flag = slav_slovenia }
         }
+		
+		allow = { }
 
         effect = {
             768 = { change_province_name = "Ljubljana" }
@@ -1418,6 +1446,8 @@ political_decisions = {
             owns = 768
             owns = 767
         }
+		
+		allow = { }
 
         effect = {
             768 = { change_province_name = "Laibach" }
@@ -1438,6 +1468,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             769 = { change_province_name = "Postojna" }
 			clr_global_flag = ger_adel
@@ -1457,6 +1489,8 @@ political_decisions = {
 				has_global_flag = ita_adel
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             769 = { change_province_name = "Postumia" }
@@ -1483,6 +1517,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             769 = { change_province_name = "Adelsberg" }
 			clr_global_flag = slo_adel
@@ -1503,6 +1539,8 @@ political_decisions = {
             owns = 770
             NOT = { has_global_flag = slav_pola }
         }
+		
+		allow = { }
 
         effect = {
             770 = { change_province_name = "Pula" }
@@ -1540,6 +1578,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             736 = { change_province_name = "Trst" }
             737 = { change_province_name = "Gorica" }
@@ -1562,6 +1602,8 @@ political_decisions = {
 				has_global_flag = ita_lit
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             736 = { change_province_name = "Trieste" }
@@ -1591,6 +1633,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             736 = { change_province_name = "Triest" }
             737 = { change_province_name = "Görz" }
@@ -1610,6 +1654,8 @@ political_decisions = {
             owns = 735
             NOT = { has_global_flag = ita_bozen }
         }
+		
+		allow = { }
 
         effect = {
             735 = { change_province_name = "Bolzano" }
@@ -1624,6 +1670,8 @@ political_decisions = {
             has_global_flag = ita_bozen
             owns = 735
         }
+		
+		allow = { }
 
         effect = {
             735 = { change_province_name = "Bozen" }
@@ -1638,6 +1686,8 @@ political_decisions = {
             owns = 618
             NOT = { has_global_flag = slav_klagenfurt }
         }
+		
+		allow = { }
 
         effect = {
             618 = { change_province_name = "Celovec" }
@@ -1651,6 +1701,8 @@ political_decisions = {
             has_global_flag = slav_klagenfurt
             owns = 618
         }
+		
+		allow = { }
 
         effect = {
             618 = { change_province_name = "Klagenfurt" }
@@ -1668,6 +1720,8 @@ political_decisions = {
 				tag = DNB
 			}
         }
+		
+		allow = { }
 
         effect = {
             703 = { change_province_name = "Krakau" }
@@ -1687,6 +1741,8 @@ political_decisions = {
             owns = 703
 			owns = 704
         }
+		
+		allow = { }
 
         effect = {
             703 = { change_province_name = "Kraków" }
@@ -1707,6 +1763,8 @@ political_decisions = {
 			owns = 2582 
             NOT = { has_global_flag = slav_dalmatia }
         }
+		
+		allow = { }
 
         effect = {
             780 = { change_province_name = "Split" }
@@ -1730,6 +1788,8 @@ political_decisions = {
 			owns = 2582 
             has_global_flag = slav_dalmatia
         }
+		
+		allow = { }
 
         effect = {
             780 = { change_province_name = "Spalato" }
@@ -1751,6 +1811,8 @@ political_decisions = {
 				has_global_flag = rom_czerno
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             662 = { change_province_name = "Cernauti" }
@@ -1774,6 +1836,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             662 = { change_province_name = "Chernovytsi" }
 			clr_global_flag = rom_czerno
@@ -1796,6 +1860,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             662 = { change_province_name = "Czerniowce" }
 			clr_global_flag = ukr_czerno
@@ -1817,6 +1883,8 @@ political_decisions = {
 				has_global_flag = rus_czerno
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             662 = { change_province_name = "Chernovitsy" }
@@ -1847,6 +1915,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             662 = { change_province_name = "Czernowitz" }
 			clr_global_flag = ukr_czerno
@@ -1872,6 +1942,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             663 = { change_province_name = "Suceava" }
 			clr_global_flag = ukr_suceava
@@ -1894,6 +1966,8 @@ political_decisions = {
 				has_global_flag = ukr_suceava
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             663 = { change_province_name = "Sucava" }
@@ -1922,6 +1996,8 @@ political_decisions = {
 				tag = DNB
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             663 = { change_province_name = "Suczawa" }

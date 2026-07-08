@@ -1490,6 +1490,8 @@ political_decisions = {
 				has_global_flag = france_renamed_nizza
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             472 = { change_province_name = "Nice" }
@@ -1513,6 +1515,8 @@ political_decisions = {
 				has_global_flag = italy_renamed_nizza
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             472 = { change_province_name = "Nizza" }

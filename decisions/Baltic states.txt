@@ -320,6 +320,8 @@ political_decisions = {
 				has_global_flag = lithuania_renamed_lithuania
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             361 = { change_province_name = "Kaunas" }
@@ -339,19 +341,19 @@ political_decisions = {
 
 	name_lit_pol = {
 		potential = {
-			OR = {
-				tag = POL
-				tag = CPL
-			}	
+			is_culture_group = polish_culture_group
 			owns = 361
 			owns = 362
 			owns = 363
 			owns = 364
 			owns = 365
 			NOT = {
+				tag = PLC
 				has_global_flag = poland_renamed_lithuania
 			}
 		}
+		
+		allow = { }
 		
 		effect = {
             361 = { change_province_name = "Kowno" }
@@ -381,6 +383,8 @@ political_decisions = {
 				has_global_flag = germany_renamed_lithuania
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             361 = { change_province_name = "Kaunen" }
@@ -416,6 +420,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             361 = { change_province_name = "Kovno" }
             362 = { change_province_name = "Marympol" }
@@ -446,6 +452,8 @@ political_decisions = {
 				has_global_flag = lithuania_renamed_vilna
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             360 = { change_province_name = "Vilnius" }
@@ -481,6 +489,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             360 = { change_province_name = "Wilno" }
             707 = { change_province_name = "Suwalki" }
@@ -510,6 +520,8 @@ political_decisions = {
 				has_global_flag = belorussia_renamed_vilna
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             360 = { change_province_name = "Vilnia" }
@@ -546,6 +558,8 @@ political_decisions = {
 			}
 		}
 		
+		allow = { }
+		
 		effect = {
             360 = { change_province_name = "Vilna" }
             707 = { change_province_name = "Suvalki" }
@@ -577,6 +591,8 @@ political_decisions = {
 				has_global_flag = latvia_renamed_latvia
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             355 = { change_province_name = "Valmiera" }
@@ -609,6 +625,8 @@ political_decisions = {
 				has_global_flag = germany_renamed_latvia
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             355 = { change_province_name = "Wolmar" }
@@ -641,6 +659,8 @@ political_decisions = {
 			NOT = { has_global_flag = russia_renamed_latvia }
 		}
 		
+		allow = { }
+		
 		effect = {
             355 = { change_province_name = "Volmar" }
             356 = { change_province_name = "Dvinsk" }
@@ -670,6 +690,8 @@ political_decisions = {
 				has_global_flag = estonia_renamed_estonia
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             349 = { change_province_name = "Tallinn" }
@@ -702,6 +724,8 @@ political_decisions = {
 				has_global_flag = germany_renamed_estonia
 			}
 		}
+		
+		allow = { }
 
 		effect = {
             349 = { change_province_name = "Reval" }
@@ -733,6 +757,8 @@ political_decisions = {
 			allow = { mass_politics = 1 }
 			NOT = { has_global_flag = russia_renamed_estonia }
 		}
+		
+		allow = { }
 		
 		effect = {
             349 = { change_province_name = "Revel" }
