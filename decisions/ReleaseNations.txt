@@ -118,7 +118,7 @@ political_decisions = {
                         relation = { who = UTI value = 200 }
                 }
         ai_will_do = { factor = 0 }
-}
+} 
  ReleaseACA= {
         picture = dreams_of_empire
         potential = {

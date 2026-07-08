@@ -658,7 +658,7 @@ political_decisions = {
     }
 
     conquest_of_the_adriatic = {
-    picture = conquest_adriatic
+		picture = conquest_adriatic
         potential = {
             tag = ITA
             NOT = { has_country_flag = conquest_adriatic_happened }
