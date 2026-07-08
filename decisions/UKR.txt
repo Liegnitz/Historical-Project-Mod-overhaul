@@ -117,7 +117,7 @@ political_decisions = {
 	
 	name_yekaterinoslav_ukr = {
 		potential = {
-			primary_culture = russian
+			primary_culture = ukrainian
 			owns = 972
 			owns = 974
 			owns = 976
