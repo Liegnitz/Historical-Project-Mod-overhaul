@@ -1593,7 +1593,10 @@ political_decisions = {
                     NOT = { has_global_flag = bismarck_islands_dutch }
                 }
                 AND = {
-					tag = BEL
+                    OR = {
+                        tag = BEL
+                        primary_culture = flemish
+                    }
                     NOT = { has_global_flag = bismarck_islands_belgian }
                 }
                 AND = {
@@ -1695,7 +1698,14 @@ political_decisions = {
             }
 
             random_owned = {
-				tag = BEL
+                limit = {
+                    owner = {
+                        OR = {
+                            tag = BEL
+                            primary_culture = flemish
+                        }
+                    }
+                }
                 1531 = { change_province_name = "New Wallonia" }
                 2537 = { change_province_name = "New Flanders" }
                 owner = { set_global_flag = bismarck_islands_belgian }

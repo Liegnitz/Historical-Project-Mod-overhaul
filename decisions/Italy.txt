@@ -595,10 +595,6 @@ political_decisions = {
                 remove_core = AUS
                 remove_core = KUK
             }
-            any_owned = {
-                limit = { is_core = FIU }
-                remove_core = FIU
-            }
         }
     }
 
@@ -1308,7 +1304,6 @@ political_decisions = {
                     is_core = LOM
                     is_core = RMG
                     is_core = SYC
-                    is_core = FIU
                     is_core = TRE
                     AND = {
                             region = AUS_733
@@ -1391,10 +1386,6 @@ political_decisions = {
                 add_core = ITA
                 remove_core = AUS
                 remove_core = KUK
-            }
-            any_owned = {
-                limit = { is_core = FIU }
-                remove_core = FIU
             }
         }
         ai_will_do = {

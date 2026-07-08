@@ -104,16 +104,16 @@ country_event = {
 		country_event = 980000
 		
 	}
-	option = {
-		name = "Enable Release Nation Decisions"
-		set_country_flag = utilitymod_enable_release_nations
-		
-	}
-	option = {
-		name = "Disable Release Decisions"
-		clr_country_flag = utilitymod_enable_release_nations
-		
-	}
+#	option = {
+#		name = "Enable Release Nation Decisions"
+#		set_country_flag = utilitymod_enable_release_nations
+#		
+#	}
+#	option = {
+#		name = "Disable Release Decisions"
+#		clr_country_flag = utilitymod_enable_release_nations
+#		
+#	}
 
 	option = {
 		name = "Actually we don't have any desire to do anything at this time"	

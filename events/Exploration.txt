@@ -385,13 +385,14 @@ country_event = {
         random_owned = { limit = { owner = { primary_culture = north_italian } } 3102 = { change_province_name = "Lake Vittorio" } }
         random_owned = { limit = { owner = { primary_culture = russian } } 3102 = { change_province_name = "Lake Romanov" } }
         random_owned = { limit = { owner = { primary_culture = spanish } } 3102 = { change_province_name = "Lake Carlos" } }
-        random_owned = { limit = { owner = { primary_culture = french } } 3102 = { change_province_name = "Lake Bourbon" } }
+        random_owned = { limit = { owner = { capital = 425 } } 3102 = { change_province_name = "Lake Bourbon" } }
         random_owned = { limit = { owner = { primary_culture = turkish } } 3102 = { change_province_name = "Lake Osmanli" } }
         random_owned = { limit = { owner = { primary_culture = dutch } } 3102 = { change_province_name = "Lake Orange" } }
         random_owned = { limit = { owner = { primary_culture = south_italian } } 3102 = { change_province_name = "Lake Francesco" } }
         random_owned = { limit = { owner = { primary_culture = portuguese } } 3102 = { change_province_name = "Lake Afonso" } }
         random_owned = { limit = { owner = { primary_culture = swedish } } 3102 = { change_province_name = "Lake Gustavus" } }
         random_owned = { limit = { owner = { primary_culture = danish } } 3102 = { change_province_name = "Lake Frederick" } }
+        random_owned = { limit = { owner = { capital = 387 } } 3102 = { change_province_name = "Lake Ludwig" } }
         random_owned = {
             limit = { owner = { NOT = { capital = 1745 } is_culture_group = arab } }
             3102 = { change_province_name = "Lake al-Idrisi" }
@@ -412,12 +413,13 @@ country_event = {
                             capital = 599
                             primary_culture = russian
                             primary_culture = spanish
-                            primary_culture = french
+                            capital = 425
                             primary_culture = turkish
                             primary_culture = dutch
                             primary_culture = portuguese
                             primary_culture = swedish
                             primary_culture = danish
+							capital = 387
                             is_culture_group = arab
                         }
                     }
@@ -441,13 +443,14 @@ country_event = {
         random_owned = { limit = { owner = { primary_culture = north_italian } } 3102 = { change_province_name = "Lake Cavour" } }
         random_owned = { limit = { owner = { primary_culture = russian } } 3102 = { change_province_name = "Lake Yekaterina" } }
         random_owned = { limit = { owner = { primary_culture = spanish } } 3102 = { change_province_name = "Lake Isabella" } }
-        random_owned = { limit = { owner = { primary_culture = french } } 3102 = { change_province_name = "Lake Napoleon" } }
+        random_owned = { limit = { owner = { capital = 425 } } 3102 = { change_province_name = "Lake Napoleon" } }
         random_owned = { limit = { owner = { primary_culture = turkish } } 3102 = { change_province_name = "Lake Mehmed" } }
         random_owned = { limit = { owner = { primary_culture = dutch } } 3102 = { change_province_name = "Lake Nassau" } }
         random_owned = { limit = { owner = { primary_culture = south_italian } } 3102 = { change_province_name = "Lake Ferdinando" } }
         random_owned = { limit = { owner = { primary_culture = portuguese } } 3102 = { change_province_name = "Lake Bragança" } }
         random_owned = { limit = { owner = { primary_culture = swedish } } 3102 = { change_province_name = "Lake Vasa" } }
         random_owned = { limit = { owner = { primary_culture = danish } } 3102 = { change_province_name = "Lake Reventlow" } }
+        random_owned = { limit = { owner = { capital = 387 } } 3102 = { change_province_name = "Lake Saxe-Cobourg" } }
         random_owned = { limit = { owner = { is_culture_group = arab } } 3102 = { change_province_name = "Lake al-Walid" } }
         random_owned = { limit = { owner = { capital = 599 } } 3102 = { change_province_name = "Lake Wittelsbach" } }
 
@@ -464,12 +467,13 @@ country_event = {
                             capital = 599
                             primary_culture = russian
                             primary_culture = spanish
-                            primary_culture = french
+                            capital = 425
                             primary_culture = turkish
                             primary_culture = dutch
                             primary_culture = portuguese
                             primary_culture = swedish
                             primary_culture = danish
+							capital = 387
                             is_culture_group = arab
                         }
                     }
@@ -495,12 +499,13 @@ country_event = {
         }
         random_owned = { limit = { owner = { primary_culture = russian } } 3102 = { change_province_name = "Lake Pyotr" } }
         random_owned = { limit = { owner = { primary_culture = spanish } } 3102 = { change_province_name = "Lake Castile" } }
-        random_owned = { limit = { owner = { primary_culture = french } } 3102 = { change_province_name = "Lake Descartes" } }
+        random_owned = { limit = { owner = { capital = 425 } } 3102 = { change_province_name = "Lake Descartes" } }
         random_owned = { limit = { owner = { primary_culture = turkish } } 3102 = { change_province_name = "Lake Arslan" } }
         random_owned = { limit = { owner = { primary_culture = dutch } } 3102 = { change_province_name = "Lake Willem" } }
         random_owned = { limit = { owner = { primary_culture = portuguese } } 3102 = { change_province_name = "Lake Sebastião" } }
         random_owned = { limit = { owner = { primary_culture = swedish } } 3102 = { change_province_name = "Lake Eric" } }
         random_owned = { limit = { owner = { primary_culture = danish } } 3102 = { change_province_name = "Lake Harthacnut" } }
+		random_owned = { limit = { owner = { capital = 387 } } 3102 = { change_province_name = "Lake Mercator" } }
         random_owned = { limit = { owner = { is_culture_group = arab } } 3102 = { change_province_name = "Lake Arabia" } }
         random_owned = { limit = { owner = { capital = 599 } } 3102 = { change_province_name = "Lake Boniface" } }
 
@@ -517,12 +522,13 @@ country_event = {
                             capital = 599
                             primary_culture = russian
                             primary_culture = spanish
-                            primary_culture = french
+                            capital = 425
                             primary_culture = turkish
                             primary_culture = dutch
                             primary_culture = portuguese
                             primary_culture = swedish
                             primary_culture = danish
+							capital = 387
                             is_culture_group = arab
                         }
                     }
@@ -548,7 +554,7 @@ country_event = {
         }
         random_owned = { limit = { owner = { primary_culture = russian } } 3102 = { change_province_name = "Lake Russia" } }
         random_owned = { limit = { owner = { primary_culture = spanish } } 3102 = { change_province_name = "Lake Hispania" } }
-        random_owned = { limit = { owner = { primary_culture = french } } 3102 = { change_province_name = "Lake Burgundy" } }
+        random_owned = { limit = { owner = { capital = 425 } } 3102 = { change_province_name = "Lake Marianne" } }
         random_owned = {
             limit = { owner = { OR = { primary_culture = turkish is_culture_group = arab } } }
             3102 = { change_province_name = "Lake Fatimah" }
@@ -557,6 +563,7 @@ country_event = {
         random_owned = { limit = { owner = { primary_culture = portuguese } } 3102 = { change_province_name = "Lake Lusitania" } }
         random_owned = { limit = { owner = { primary_culture = swedish } } 3102 = { change_province_name = "Lake Svea" } }
         random_owned = { limit = { owner = { primary_culture = danish } } 3102 = { change_province_name = "Lake Holger" } }
+		random_owned = { limit = { owner = { capital = 387 } } 3102 = { change_province_name = "Lake Belgica" } }
         random_owned = { limit = { owner = { capital = 599 } } 3102 = { change_province_name = "Lake Bayern" } }
 
         random_owned = {
@@ -572,12 +579,13 @@ country_event = {
                             capital = 599
                             primary_culture = russian
                             primary_culture = spanish
-                            primary_culture = french
+                            capital = 425
                             primary_culture = turkish
                             primary_culture = dutch
                             primary_culture = portuguese
                             primary_culture = swedish
                             primary_culture = danish
+							capital = 387
                             is_culture_group = arab
                         }
                     }
@@ -603,12 +611,13 @@ country_event = {
         }
         random_owned = { limit = { owner = { primary_culture = russian } } 3102 = { change_province_name = "Lake Moscow" } }
         random_owned = { limit = { owner = { primary_culture = spanish } } 3102 = { change_province_name = "Lake Madrid" } }
-        random_owned = { limit = { owner = { primary_culture = french } } 3102 = { change_province_name = "Lake Louis" } }
+        random_owned = { limit = { owner = { capital = 425 } } 3102 = { change_province_name = "Lake Paris" } }
         random_owned = { limit = { owner = { primary_culture = turkish } } 3102 = { change_province_name = "Lake Istanbul" } }
         random_owned = { limit = { owner = { primary_culture = dutch } } 3102 = { change_province_name = "Lake Amsterdam" } }
         random_owned = { limit = { owner = { primary_culture = portuguese } } 3102 = { change_province_name = "Lake Lisbon" } }
         random_owned = { limit = { owner = { primary_culture = swedish } } 3102 = { change_province_name = "Lake Stockholm" } }
         random_owned = { limit = { owner = { primary_culture = danish } } 3102 = { change_province_name = "Lake Copenhagen" } }
+		random_owned = { limit = { owner = { capital = 387 } } 3102 = { change_province_name = "Lake Bruxelles" } }
         random_owned = { limit = { owner = { is_culture_group = arab } } 3102 = { change_province_name = "Lake Makkah" } }
         random_owned = { limit = { owner = { capital = 599 } } 3102 = { change_province_name = "Lake Munich" } }
 
@@ -625,12 +634,13 @@ country_event = {
                             capital = 599
                             primary_culture = russian
                             primary_culture = spanish
-                            primary_culture = french
+                            capital = 425
                             primary_culture = turkish
                             primary_culture = dutch
                             primary_culture = portuguese
                             primary_culture = swedish
                             primary_culture = danish
+							capital = 387
                             is_culture_group = arab
                         }
                     }

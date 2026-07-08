@@ -749,6 +749,8 @@ political_decisions = {
             owns = 398
             NOT = { has_global_flag = dutch_wallonia }
         }
+		
+		allow = { }
 
         effect = {
 			set_global_flag = dutch_wallonia
@@ -771,6 +773,8 @@ political_decisions = {
             owns = 398
             NOT = { has_global_flag = german_wallonia }
         }
+		
+		allow = { }
 
         effect = {
 			set_global_flag = german_wallonia
@@ -799,6 +803,8 @@ political_decisions = {
 				has_global_flag = german_wallonia
 			}
         }
+		
+		allow = { }
 
         effect = {
 			set_global_flag = french_wallonia
@@ -823,6 +829,8 @@ political_decisions = {
             owns = 390 #Antwerp
             NOT = { has_global_flag = french_flanders }
         }
+		
+		allow = { }
 
         effect = {
 			set_global_flag = french_flanders
@@ -847,6 +855,8 @@ political_decisions = {
             owns = 390 #Antwerp
             NOT = { has_global_flag = german_flanders }
         }
+		
+		allow = { }
 
         effect = {
 			set_global_flag = german_flanders
@@ -878,6 +888,8 @@ political_decisions = {
 				has_global_flag = german_flanders
 			}
         }
+		
+		allow = { }
 
         effect = {
 			set_global_flag = dutch_flanders
@@ -901,6 +913,8 @@ political_decisions = {
             owns = 397
             NOT = { has_global_flag = german_lxb }
         }
+		
+		allow = { }
 
         effect = {
             397 = { change_province_name = "Luxemburg" }
@@ -914,6 +928,8 @@ political_decisions = {
             has_global_flag = german_lxb
             owns = 397
         }
+		
+		allow = { }
 
         effect = {
             397 = { change_province_name = "Luxembourg" }
