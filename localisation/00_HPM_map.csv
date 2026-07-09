@@ -458,7 +458,7 @@ BAV_599;Upper Bavaria;;;;;;;;;;;;x
 SPA_610;Caroline Islands;;;;;;;;;;;;x
 AUS_652;Banat;;;;;;;;;;;;x
 AUS_654;Partium;;;;;;;;;;;;x
-AUS_657;Transylvania;;;;;;;;;;;;x
+AUS_657;Siebenbürgen;;;;;;;;;;;;x
 MOL_676;Bessarabia;;;;;;;;;;;;x
 PRU_682;Lower Silesia;;;;;;;;;;;;x
 AUS_702;West Galicia;;;;;;;;;;;;x
@@ -662,7 +662,7 @@ BRZ_2461;Santa Catarina;;;;;;;;;;;;x
 SPA_2517;Mariana Islands;;;;;;;;;;;;x
 AST_2534;Solomon Islands;;;;;;;;;;;;x
 AST_2535;Melanesian Islands;;;;;;;;;;;;x
-AUS_2538;Transtisia;;;;;;;;;;;;x
+AUS_2538;Transtisza;;;;;;;;;;;;x
 TON_2540;Tonga;;;;;;;;;;;;x
 USA_2543;Samoa;;;;;;;;;;;;x
 PROV2554;Misiones;;;;;;;;;;;;x
@@ -1098,7 +1098,7 @@ PROV772;Sissek;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV773;Karlstadt;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV774;Gospitsch;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV775;Warasdin;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-PROV776;Bjelowar;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+PROV776;Bellowar;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV651;Sathmar;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV652;Temeschwar;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV653;Reschitz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -1115,3 +1115,4 @@ PROV640;Fünfkirchen;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV642;Raab;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV639;Egersee;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV644;Kopisch;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+AUS_633;Carpathians;;;;;;;;;;;;x

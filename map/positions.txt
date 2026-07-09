@@ -27320,16 +27320,16 @@
 
     }
 
-} # Bratislava
+} # Tyrnau
 
 633 = {
     text_position = {
-        x = 3075.650000
+        x = 3075.000000
         y = 1598.700000
     }
 
-    text_rotation = 6.268111
-    text_scale = 2.300000
+    text_rotation = 5.551117
+    text_scale = 1.800000
     unit = {
         x = 3077.000000
         y = 1597.000000
@@ -27366,7 +27366,7 @@
         y = 1602.699951
     }
 
-    text_rotation = 0.698132
+    text_rotation = 5.593578
     text_scale = 2.600000
     unit = {
         x = 3093.625000
@@ -27405,7 +27405,7 @@
     }
 
     text_rotation = 6.283185
-    text_scale = 2.700000
+    text_scale = 2.600000
     factory = {
         x = 3078.750000
         y = 1590.625000
@@ -27939,26 +27939,26 @@
 } # Szatmar
 
 651 = {
+    text_position = {
+        x = 3163.150000
+        y = 1579.900000
+    }
+
+    text_rotation = 6.283185
+    text_scale = 2.300000
     unit = {
         x = 3164.000000
         y = 1581.000000
     }
 
-    text_position = {
-        x = 3163.399902
-        y = 1577.699951
-    }
-
-    text_rotation = 6.283185
-    text_scale = 2.700000
-    building_construction = {
-        x = 3164.199951
-        y = 1574.900024
-    }
-
     factory = {
         x = 3168.899902
         y = 1584.000000
+    }
+
+    building_construction = {
+        x = 3164.199951
+        y = 1574.900024
     }
 
     building_position = {
@@ -28091,7 +28091,7 @@
     }
 
     text_rotation = 6.283185
-    text_scale = 2.200000
+    text_scale = 2.500000
     unit = {
         x = 3173.000000
         y = 1558.000000
@@ -28288,7 +28288,7 @@
     }
 
     text_rotation = 5.323254
-    text_scale = 2.600000
+    text_scale = 2.500000
     unit = {
         x = 3211.700000
         y = 1551.713333
@@ -33157,7 +33157,7 @@
     }
 
     text_rotation = 6.283185
-    text_scale = 2.500000
+    text_scale = 2.300000
     building_construction = {
         x = 3060.899902
         y = 1535.099976
@@ -33205,8 +33205,8 @@
 
 774 = {
     text_position = {
-        x = 3047.399902
-        y = 1520.900024
+        x = 3047.266667
+        y = 1523.053333
     }
 
     text_scale = 2.100000
@@ -33962,7 +33962,7 @@
 
     }
 
-} # Pancevo
+} # Werschetz
 
 792 = {
     unit = {
@@ -34004,14 +34004,15 @@
 
 793 = {
     text_position = {
-        x = 3106.250000
-        y = 1530.150000
+        x = 3107.650000
+        y = 1530.200000
     }
 
+    text_rotation = 6.013851
     text_scale = 2.200000
     unit = {
-        x = 3112.950000
-        y = 1530.900000
+        x = 3111.000000
+        y = 1531.050000
     }
 
     city = {
@@ -108777,7 +108778,7 @@
         y = 1555.950000
     }
 
-    text_scale = 2.000000
+    text_scale = 2.100000
     factory = {
         x = 3192.000000
         y = 1566.800049
@@ -108994,7 +108995,7 @@
     }
 
     text_rotation = 6.283185
-    text_scale = 2.100000
+    text_scale = 2.300000
     unit = {
         x = 3111.000000
         y = 1543.000000
