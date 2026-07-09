@@ -427,7 +427,7 @@ GRE_837 = { 837 836 835 838 845 827 } #Attica - Central Greece
 
 EGY_843 = { 848 843 844 846 847 } #Aegean Islands
 
-TUR_853 = { 849 853 852 851 850 } #Albania
+TUR_853 = { 849 851 852 850 853 } #Albania
 
 TUR_855 = { 855 856 857 } #Cyprus
 

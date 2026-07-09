@@ -1,5 +1,78 @@
 political_decisions = {
 
+	partition_Banat_ROM = {
+		picture = return_cores_img
+        potential = {
+			tag = ROM
+			owns = 652
+			owns = 653
+			owns = 792
+			exists = YUG
+			NOT = { OR = {
+							has_global_flag = serb_banat_exchange
+							has_global_flag = romanian_banat_exchange2 
+						}
+			}
+			
+		allow = { 			
+			great_wars_enabled = yes
+				war = no
+				any_neighbor_country = {
+					NOT = { truce_with = ROM }
+					war = no
+				}
+		}
+	
+		effect = {
+			prestige = 5
+			792 = { remove_core = ROM }
+			792 = { secede_province = YUG }
+			652 = { remove_core = YUG }
+			653 = { remove_core = YUG }
+			652 = { remove_core = SER }
+			653 = { remove_core = SER }
+			set_global_flag = romanian_banat_exchange
+		}
+	}
+	
+	partition_Banat_ROM2 = {
+		picture = return_cores_img
+        potential = {
+			tag = ROM
+			owns = 652
+			owns = 653
+			owns = 792
+			exists = SER
+			NOT = { OR = { 
+					has_global_flag = serb_banat_exchange
+					has_global_flag = romanian_banat_exchange 
+				    }
+			}
+		}
+			
+		allow = { 			
+			great_wars_enabled = yes
+				war = no
+				any_neighbor_country = {
+					NOT = { truce_with = ROM }
+					war = no
+				}
+		}
+	
+		effect = {
+			prestige = 5
+			792 = { remove_core = ROM }
+			792 = { secede_province = SER }
+			652 = { remove_core = SER }
+			653 = { remove_core = SER }
+			652 = { remove_core = YUG }
+			653 = { remove_core = YUG }
+			set_global_flag = romanian_banat_exchange2
+		}
+	}
+
+###State Renames
+
 	claim_bes_rom = {
 		potential = {
 			OR = {

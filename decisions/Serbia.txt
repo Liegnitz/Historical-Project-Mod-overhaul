@@ -1,0 +1,129 @@
+political_decisions = {
+
+    move_capital_to_belgrade = {
+        picture = belgrade_view
+        potential = {
+            tag = SER
+            owns = 794
+            NOT = { capital = 794 }
+        }
+
+        allow = {
+            war = no
+            NOT = { in_sphere = TUR }
+            state_n_government = 1
+        }
+
+        effect = {
+            capital = 794
+            prestige = 1
+            random_owned = {
+                limit = {
+                    province_id = 794
+                    NOT = { life_rating = 36 }
+                }
+                life_rating = 1
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+}
+
+    greater_serbia = {
+    picture = greater_serbia
+        potential = {
+            tag = SER
+            NOT = { has_country_flag = claimed_greater_serbia }
+        }
+
+        allow = {
+            war = no
+            is_vassal = no
+            is_disarmed = no
+            war_policy = jingoism
+            SER = {
+                all_core = { owned_by = SER }
+            }
+        }
+
+        effect = {
+            set_country_flag = claimed_greater_serbia
+            prestige = 10
+            AUS_777 = { add_core = SER }
+            TUR_788 = { add_core = SER }
+            MON_2582 = { add_core = SER }
+            AUS_780 = { add_core = SER }
+            776 = { add_core = SER }
+            772 = { add_core = SER }
+            774 = { add_core = SER }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    
+	partition_Banat_SER = {
+		picture = return_cores_img
+        potential = {
+            OR = {
+                tag = SER
+                tag = YUG
+            }
+			owns = 652
+			owns = 653
+			owns = 792
+			exists = ROM
+			NOT = { OR = { 
+					has_global_flag = romanian_banat_exchange
+					has_global_flag = romanian_banat_exchange2 
+				    }
+		}
+	
+		allow = { 
+			great_wars_enabled = yes
+			war = no
+			any_neighbor_country = {
+				NOT = { truce_with = ROM }
+				war = no
+			}
+		}
+	
+		effect = {
+			prestige = 5
+			653 = { remove_core = SER }
+			653 = { remove_core = YUG }
+			653 = { secede_province = ROM }
+			652 = { remove_core = ROM }
+			792 = { remove_core = ROM }
+			set_global_flag = serb_banat_exchange
+		}
+	}
+	
+    montenegro_borders = {
+        picture = map_montenegro
+        potential = {
+            NOT = { tag = CRO }
+            NOT = { tag = BOS }
+            any_owned_province = { is_core = MON }
+            NOT = { has_global_flag = montenegro_organized }
+            year = 1870
+        }
+
+        allow = {
+            war = no
+            MON = { all_core = { owned_by = THIS } }
+            nationalism_n_imperialism = 1
+        }
+
+        effect = {
+            set_global_flag = montenegro_organized
+            MON = { all_core = { remove_core = BOS } }
+            MON = { all_core = { remove_core = CRO } }
+            MON = { all_core = { remove_core = DLM } }
+            MON = { all_core = { remove_core = KUK } }
+        }
+        ai_will_do = { factor = 1 }
+    }
+	
+}

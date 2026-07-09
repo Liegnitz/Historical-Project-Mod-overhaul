@@ -377,40 +377,6 @@ political_decisions = {
         }
     }
 
-    greater_serbia = {
-    picture = greater_serbia
-        potential = {
-            tag = SER
-            NOT = { has_country_flag = claimed_greater_serbia }
-        }
-
-        allow = {
-            war = no
-            is_vassal = no
-            is_disarmed = no
-            war_policy = jingoism
-            SER = {
-                all_core = { owned_by = SER }
-            }
-        }
-
-        effect = {
-            set_country_flag = claimed_greater_serbia
-            prestige = 10
-            AUS_777 = { add_core = SER }
-            TUR_788 = { add_core = SER }
-            MON_2582 = { add_core = SER }
-            AUS_780 = { add_core = SER }
-            776 = { add_core = SER }
-            772 = { add_core = SER }
-            774 = { add_core = SER }
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
     reclaim_croatia = {
     picture = reclaim_croatia
         potential = {
