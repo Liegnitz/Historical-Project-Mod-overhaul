@@ -2857,7 +2857,7 @@ political_decisions = {
 			owns = 995 #petrozavodsk
 			owns = 988 #povyents
 			owns = 2587 #kola
-			has_global_flag = fin_karelia
+			NOT = { has_global_flag = fin_karelia }
         }
 		
 		allow = { }
@@ -2868,6 +2868,7 @@ political_decisions = {
             995 = { change_province_name = "Petroskoi" }
             988 = { change_province_name = "Poventsa" }
             2587 = { change_province_name = "Kuola" }
+			3315 = { change_province_name = "Lake Seesjärvi" }
             set_global_flag = fin_karelia
         }
     }
@@ -2891,6 +2892,7 @@ political_decisions = {
             995 = { change_province_name = "Petrozavodsk" }
             988 = { change_province_name = "Povyents" }
             2587 = { change_province_name = "Kola" }
+            3315 = { change_province_name = "Lake Segozero" }
             clr_global_flag = fin_karelia
         }
     }

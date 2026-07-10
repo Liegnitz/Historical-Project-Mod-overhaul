@@ -786,8 +786,9 @@ political_decisions = {
 			owns = 351
 			owns = 352
 			owns = 353
-			NOT = {
-				has_global_flag = germany_renamed_estonia
+			OR = { 
+				has_global_flag = estonia_renamed_estonia
+				has_global_flag = russia_renamed_estonia
 			}
 		}
 		
