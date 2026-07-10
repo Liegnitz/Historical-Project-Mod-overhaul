@@ -2741,4 +2741,158 @@ political_decisions = {
         }
     }
 	
+    rename_repola = {
+        potential = {
+			OR = { 
+				primary_culture = finnish
+				is_culture_group = scandinavian
+			}
+            owns = 3325
+            NOT = { has_global_flag = fin_repola }
+        }
+		
+		allow = { }
+
+        effect = {
+            3325 = { change_province_name = "Repola" }
+            set_global_flag = fin_repola
+        }
+    }
+
+    restore_repola = {
+        potential = {
+			primary_culture = russian
+            owns = 3325
+            has_global_flag = fin_repola
+        }
+		
+		allow = { }
+
+        effect = {
+            3325 = { change_province_name = "Reboly" }
+            clr_global_flag = fin_repola
+        }
+    }
+	
+    rename_vyborg = {
+        potential = { 
+			OR = { 
+				primary_culture = russian
+				is_culture_group = scandinavian
+			}
+            owns = 339
+            NOT = { 
+				has_global_flag = fin_vyborg
+				tag = SCA
+			}
+        }
+		
+		allow = { }
+
+        effect = {
+            339 = { change_province_name = "Vyborg" }
+            set_global_flag = fin_vyborg
+        }
+    }
+
+    restore_vyborg = {
+        potential = {
+			OR = { 
+				primary_culture = finnish
+				tag = SCA
+			}
+            owns = 339
+            has_global_flag = fin_vyborg
+        }
+		
+		allow = { }
+
+        effect = {
+            339 = { change_province_name = "Viipuri" }
+            clr_global_flag = fin_vyborg
+        }
+    }
+	
+    rename_petsamo = {
+        potential = {
+			OR = { 
+				primary_culture = finnish
+				is_culture_group = scandinavian
+			}
+            owns = 982
+			has_global_flag = fin_petsamo
+        }
+		
+		allow = { }
+
+        effect = {
+            982 = { change_province_name = "Petsamo" }
+            set_global_flag = fin_petsamo
+        }
+    }
+
+    restore_petsamo = {
+        potential = {
+			primary_culture = russian
+            owns = 982
+            has_global_flag = fin_petsamo
+        }
+		
+		allow = { }
+
+        effect = {
+            982 = { change_province_name = "Pechenga" }
+            clr_global_flag = fin_petsamo
+        }
+    }
+	
+    rename_karelia = {
+        potential = {
+			OR = { 
+				primary_culture = finnish
+				is_culture_group = scandinavian
+			}
+            owns = 983 #kandalaksha
+			owns = 984 #soroka
+			owns = 995 #petrozavodsk
+			owns = 988 #povyents
+			owns = 2587 #kola
+			has_global_flag = fin_karelia
+        }
+		
+		allow = { }
+
+        effect = {
+            983 = { change_province_name = "Kannanlahti" }
+            984 = { change_province_name = "Sorokka" }
+            995 = { change_province_name = "Petroskoi" }
+            988 = { change_province_name = "Poventsa" }
+            2587 = { change_province_name = "Kuola" }
+            set_global_flag = fin_karelia
+        }
+    }
+
+    restore_karelia = {
+        potential = {
+			primary_culture = russian
+            owns = 983 #kandalaksha
+			owns = 984 #soroka
+			owns = 995 #petrozavodsk
+			owns = 988 #povyents
+			owns = 2587 #kola
+            has_global_flag = fin_karelia
+        }
+		
+		allow = { }
+
+        effect = {
+            983 = { change_province_name = "Kandalaksha" }
+            984 = { change_province_name = "Soroka" }
+            995 = { change_province_name = "Petrozavodsk" }
+            988 = { change_province_name = "Povyents" }
+            2587 = { change_province_name = "Kola" }
+            clr_global_flag = fin_karelia
+        }
+    }
+	
 }
