@@ -1079,5 +1079,29 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
+	
+    greater_belarus = {
+        picture = bulgarian_orthodox_church
+        potential = {
+            tag = BYE
+            NOT = { has_country_flag = greater_belarus }
+        }
+
+        allow = {
+            war = no
+            is_vassal = no
+            nationalism_n_imperialism = 1
+            is_secondary_power = yes
+        }
+
+        effect = {
+            set_country_flag = greater_belarus
+            943 = { add_core = BYE } #Smolensk
+            969 = { add_core = BYE } #Starodub
+            707 = { add_core = BYE } #Suvalki
+            1007 = { add_core = BYE } #Velikiye Luki
+        }
+        ai_will_do = { factor = 1 }
+    }
 
 }

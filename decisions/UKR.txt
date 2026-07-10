@@ -534,5 +534,38 @@ political_decisions = {
             factor = 1
         }
 	}
+	
+    rename_starodub = {
+        potential = {
+			tag = BYE
+            owns = 969
+            NOT = { has_global_flag = bye_starodub }
+        }
+		
+		allow = { }
+
+        effect = {
+            969 = { change_province_name = "Staradub" }
+            set_global_flag = bye_starodub
+        }
+    }
+
+    restore_starodub = {
+        potential = {
+			OR = {
+				primary_culture = russian
+				primary_culture = ukrainian
+			}
+            owns = 969
+            has_global_flag = bye_starodub
+        }
+		
+		allow = { }
+
+        effect = {
+            969 = { change_province_name = "Starodub" }
+            clr_global_flag = bye_starodub
+        }
+    }
 
 }

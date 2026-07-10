@@ -2050,8 +2050,389 @@ political_decisions = {
             factor = 1
         }
     }
+	
+	ukr_brest = {
+		potential = {
+			primary_culture = ukrainian
+			owns = 937
+			NOT = {
+				has_global_flag = ukr_brest
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            937 = { change_province_name = "Berestya" }
+			clr_global_flag = pol_brest
+			clr_global_flag = bel_brest
+			clr_global_flag = rus_brest
+			set_global_flag = ukr_brest
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	bel_brest = {
+		potential = {
+			tag = BYE
+			owns = 937
+			NOT = {
+				has_global_flag = bel_brest
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            937 = { change_province_name = "Bierascie" }
+			clr_global_flag = ukr_brest
+			clr_global_flag = pol_brest
+			clr_global_flag = rus_brest
+			set_global_flag = bel_brest
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	pol_brest = {
+		potential = {
+			is_culture_group = polish_culture_group
+			owns = 937
+			NOT = {
+				has_global_flag = pol_brest
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            937 = { change_province_name = "Brzesc Litewski" }
+			clr_global_flag = ukr_brest
+			clr_global_flag = bel_brest
+			clr_global_flag = rus_brest
+			set_global_flag = pol_brest
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
 
-#Solo State Renames
+	rus_brest = {
+		potential = {
+            primary_culture = russian
+			OR = {
+				has_global_flag = pol_brest
+				has_global_flag = bel_brest
+				has_global_flag = ukr_brest
+			}
+			owns = 937
+			NOT = {
+				has_global_flag = rus_brest
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            937 = { change_province_name = "Brest-Litovsk" }
+			clr_global_flag = ukr_brest
+			clr_global_flag = bel_brest
+			clr_global_flag = pol_brest
+			set_global_flag = rus_brest
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_minsk = {
+        potential = {
+			tag = BYE
+            owns = 718 #Minsk
+            owns = 941 #Slutsk
+            owns = 948 #Mogilev
+            owns = 946 #Lepel
+            NOT = { has_global_flag = bye_minsk }
+        }
+		
+		allow = { }
+
+        effect = {
+            718 = { change_province_name = "Miensk" }
+            941 = { change_province_name = "Slucak" }
+            946 = { change_province_name = "Lepiel" }
+            948 = { change_province_name = "Mahilou" }
+            718 = { state_scope = { change_region_name = "Miensk" } }
+            set_global_flag = bye_minsk
+        }
+    }
+
+    restore_minsk = {
+        potential = {
+            primary_culture = russian
+            owns = 718 #Minsk
+            owns = 941 #Slutsk
+            owns = 948 #Mogilev
+            owns = 946 #Polotsk
+            has_global_flag = bye_minsk
+        }
+		
+		allow = { }
+
+        effect = {
+            718 = { change_province_name = "Minsk" }
+            941 = { change_province_name = "Slutsk" }
+            946 = { change_province_name = "Lepel" }
+            948 = { change_province_name = "Mogilev" }
+            718 = { state_scope = { change_region_name = "Minsk" } }
+            clr_global_flag = bye_minsk
+        }
+    }
+	
+    rename_vitebsk = {
+        potential = {
+			tag = BYE
+            owns = 944 #Orsha
+            owns = 945 #Vitebsk
+            NOT = { has_global_flag = bye_vitebsk }
+        }
+		
+		allow = { }
+
+        effect = {
+            944 = { change_province_name = "Vorša" }
+            945 = { change_province_name = "Viciebsk" }
+            944 = { state_scope = { change_region_name = "Viciebsk" } }
+            set_global_flag = bye_vitebsk
+        }
+    }
+
+    restore_vitebsk = {
+        potential = {
+            primary_culture = russian
+            owns = 944 #Orsha
+            owns = 945 #Vitebsk
+            has_global_flag = bye_vitebsk
+        }
+		
+		allow = { }
+
+        effect = {
+            944 = { change_province_name = "Orsha" }
+            945 = { change_province_name = "Vitebsk" }
+            944 = { state_scope = { change_region_name = "Vitebsk" } }
+            clr_global_flag = bye_vitebsk
+        }
+    }
+
+	bel_lida = {
+		potential = {
+			tag = BYE
+			owns = 938 #novogrodek
+			owns = 939 #baranovichi
+			owns = 940 #pinsk
+			owns = 947 #pastavy
+			NOT = {
+				has_global_flag = bel_lida
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            938 = { change_province_name = "Navahradak" }
+            939 = { change_province_name = "Baranavicy" }
+            940 = { change_province_name = "Pinsk" }
+            947 = { change_province_name = "Pastavy" }
+			clr_global_flag = pol_lida
+			clr_global_flag = rus_lida
+			set_global_flag = bel_lida
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	pol_lida = {
+		potential = {
+			is_culture_group = polish_culture_group
+			owns = 938 #novogrodek
+			owns = 939 #baranovichi
+			owns = 940 #pinsk
+			owns = 947 #pastavy
+			NOT = {
+				has_global_flag = pol_lida
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            938 = { change_province_name = "Nowogródek" }
+            939 = { change_province_name = "Baranawiczy" }
+            940 = { change_province_name = "Pinsk" }
+            947 = { change_province_name = "Postawy" }
+			clr_global_flag = bel_lida
+			clr_global_flag = rus_lida
+			set_global_flag = pol_lida
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	rus_lida = {
+		potential = {
+            primary_culture = russian
+			OR = {
+				has_global_flag = pol_lida
+				has_global_flag = bel_lida
+			}
+			owns = 938 #novogrodek
+			owns = 939 #baranovichi
+			owns = 940 #pinsk
+			owns = 947 #pastavy
+			NOT = {
+				has_global_flag = rus_lida
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            938 = { change_province_name = "Novogrudok" }
+            939 = { change_province_name = "Baranovichi" }
+            940 = { change_province_name = "Pinsk" }
+            947 = { change_province_name = "Postavy" }
+			clr_global_flag = bel_lida
+			clr_global_flag = pol_lida
+			set_global_flag = rus_lida
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	bel_mozyr = {
+		potential = {
+			tag = BYE
+			owns = 942
+			NOT = {
+				has_global_flag = bel_mozyr
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            942 = { change_province_name = "Mazyr" }
+			clr_global_flag = ukr_mozyr
+			clr_global_flag = rus_mozyr
+			set_global_flag = bel_mozyr
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ukr_mozyr = {
+		potential = {
+			primary_culture = ukrainian
+			owns = 942
+			NOT = {
+				has_global_flag = ukr_mozyr
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            942 = { change_province_name = "Mozir" }
+			clr_global_flag = bel_mozyr
+			clr_global_flag = rus_mozyr
+			set_global_flag = ukr_mozyr
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	rus_mozyr = {
+		potential = {
+            primary_culture = russian
+			OR = {
+				has_global_flag = ukr_mozyr
+				has_global_flag = bel_mozyr
+			}
+			owns = 942
+			NOT = {
+				has_global_flag = rus_mozyr
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            942 = { change_province_name = "Mozyr" }
+			clr_global_flag = bel_mozyr
+			clr_global_flag = ukr_mozyr
+			set_global_flag = rus_mozyr
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ukr_pinsk = {
+		potential = {
+			primary_culture = ukrainian
+			owns = 940 #pinsk
+			NOT = {
+				has_global_flag = ukr_pinsk
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            940 = { change_province_name = "Pynsk" }
+			clr_global_flag = rus_pinsk
+			set_global_flag = ukr_pinsk
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	rus_pinsk = {
+		potential = {
+			OR = { 
+				tag = BYE 
+				primary_culture = russian
+				is_culture_group = polish_culture_group
+			}
+			has_global_flag = ukr_pinsk
+			owns = 940 #pinsk
+			NOT = {
+				has_global_flag = rus_pinsk
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            940 = { change_province_name = "Pinsk" }
+			clr_global_flag = bel_pinsk
+			set_global_flag = rus_pinsk
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
 	name_kursk_ukr = {
 		potential = {
 			primary_culture = ukrainian
@@ -2255,5 +2636,109 @@ political_decisions = {
             factor = 1
         }
 	}
+	
+	bel_gomel = {
+		potential = {
+			tag = BYE
+			owns = 949
+			NOT = {
+				has_global_flag = bel_gomel
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            949 = { change_province_name = "Homiel" }
+			clr_global_flag = ukr_gomel
+			clr_global_flag = rus_gomel
+			set_global_flag = bel_gomel
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ukr_gomel = {
+		potential = {
+			primary_culture = ukrainian
+			owns = 949
+			NOT = {
+				has_global_flag = ukr_gomel
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            949 = { change_province_name = "Homel" }
+			clr_global_flag = bel_gomel
+			clr_global_flag = rus_gomel
+			set_global_flag = ukr_gomel
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	rus_gomel = {
+		potential = {
+            primary_culture = russian
+			OR = {
+				has_global_flag = ukr_gomel
+				has_global_flag = bel_gomel
+			}
+			owns = 949
+			NOT = {
+				has_global_flag = rus_gomel
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            949 = { change_province_name = "Gomel" }
+			clr_global_flag = bel_gomel
+			clr_global_flag = ukr_gomel
+			set_global_flag = rus_gomel
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_smolensk = {
+        potential = {
+			tag = BYE
+            owns = 943
+			owns = 1007
+            NOT = { has_global_flag = bye_smolensk }
+        }
+		
+		allow = { }
+
+        effect = {
+            943 = { change_province_name = "Smaliensk" }
+            1007 = { change_province_name = "Vialikija Luki" }
+            set_global_flag = bye_smolensk
+        }
+    }
+
+    restore_smolensk = {
+        potential = {
+			primary_culture = russian
+            owns = 943
+			owns = 1007
+            has_global_flag = bye_smolensk
+        }
+		
+		allow = { }
+
+        effect = {
+            943 = { change_province_name = "Smolensk" }
+            1007 = { change_province_name = "Velikiye Luki" }
+            clr_global_flag = bye_smolensk
+        }
+    }
 	
 }

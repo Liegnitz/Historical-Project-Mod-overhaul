@@ -457,12 +457,11 @@ political_decisions = {
 
 		effect = {
             360 = { change_province_name = "Vilnius" }
-            707 = { change_province_name = "Suvalkai" }
             719 = { change_province_name = "Balstoge" }
             936 = { change_province_name = "Gardinas" }
             3323 = { change_province_name = "Valkaviskas" }
             360 = { state_scope = { change_region_name = "Vilnius" } }
-			clr_global_flag = germany_renamed_vilna
+			clr_global_flag = belorussia_renamed_vilna
 			clr_global_flag = poland_renamed_vilna
 			clr_global_flag = russia_renamed_vilna
 			set_global_flag = lithuania_renamed_vilna
@@ -474,11 +473,7 @@ political_decisions = {
 
 	name_vilna_pol = {
 		potential = {
-			OR = {
-				tag = POL
-				tag = CPL
-				tag = PLC
-			}	
+			is_culture_group = polish_culture_group
 			owns = 360
 			owns = 707
 			owns = 719
@@ -493,7 +488,6 @@ political_decisions = {
 		
 		effect = {
             360 = { change_province_name = "Wilno" }
-            707 = { change_province_name = "Suwalki" }
             719 = { change_province_name = "Bialystok" }
             936 = { change_province_name = "Grodno" }
             3323 = { change_province_name = "Wolkowysk" }
@@ -525,9 +519,8 @@ political_decisions = {
 
 		effect = {
             360 = { change_province_name = "Vilnia" }
-            707 = { change_province_name = "Suvalki" }
-            719 = { change_province_name = "Belastok" }
-            936 = { change_province_name = "Hrodna" }
+            719 = { change_province_name = "Bielastok" }
+            936 = { change_province_name = "Horadnia" }
             3323 = { change_province_name = "Vaukavysk" }
             360 = { state_scope = { change_region_name = "Vilnia" } }
 			clr_global_flag = lithuania_renamed_vilna
@@ -562,7 +555,6 @@ political_decisions = {
 		
 		effect = {
             360 = { change_province_name = "Vilna" }
-            707 = { change_province_name = "Suvalki" }
             719 = { change_province_name = "Belostok" }
             936 = { change_province_name = "Grodno" }
             3323 = { change_province_name = "Volkovysk" }
@@ -576,6 +568,81 @@ political_decisions = {
             factor = 1
         }
 	}
+
+	name_suvalki_lit = {
+		potential = {
+			tag = LIT
+			owns = 707
+			NOT = {
+				has_global_flag = lithuania_renamed_suvalki
+			}
+		}
+		
+		allow = { }
+
+		effect = {
+            707 = { change_province_name = "Suvalkai" }
+			clr_global_flag = poland_renamed_suvalki
+			clr_global_flag = russia_renamed_suvalki
+			set_global_flag = lithuania_renamed_suvalki
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_suvalki_pol = {
+		potential = {
+			is_culture_group = polish_culture_group
+			owns = 707
+			NOT = {
+				has_global_flag = poland_renamed_suvalki
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            707 = { change_province_name = "Suwalki" }
+			clr_global_flag = poland_renamed_suvalki
+			clr_global_flag = russia_renamed_suvalki
+			set_global_flag = lithuania_renamed_suvalki
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	name_suvalki_rus = {
+		potential = {
+			OR = { 
+				primary_culture = russian
+				tag = BYE
+			}
+			owns = 707
+			OR = {
+			has_global_flag = lithuania_renamed_suvalki
+			has_global_flag = belorussia_renamed_suvalki
+			has_global_flag = poland_renamed_suvalki
+			}
+			NOT = {
+				has_global_flag = russia_renamed_suvalki
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            707 = { change_province_name = "Suvalki" }
+			clr_global_flag = poland_renamed_suvalki
+			clr_global_flag = lithuania_renamed_suvalki
+			set_global_flag = russia_renamed_suvalki
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
 
 ###Latvia###
 
