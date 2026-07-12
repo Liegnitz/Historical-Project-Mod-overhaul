@@ -798,116 +798,116 @@ political_decisions = {
         ai_will_do = { factor = 0 }
     }
 
-    renamed_istanbul_constantinople = {
-        picture = constantinople
-        alert = no
-        potential = {
-            OR = {
-                is_culture_group = pan_albanian
-                is_culture_group = pan_romanian
-                is_culture_group = south_slavic
-                is_culture_group = east_slavic
-                is_culture_group = levantine
-                is_culture_group = czecho_slovak_culture_group
-            }
-            owns = 860
-            NOT = { has_global_flag = istanbul_named_constantinople }
-            NOT = { has_country_flag = istanbul_renamed }
-        }
-
-        allow = {
-            war = no
-            state_n_government = 1
-        }
-
-        effect = {
-            set_global_flag = istanbul_named_constantinople
-            clr_global_flag = istanbul_named_tsargrad
-            any_country = { clr_country_flag = istanbul_renamed }
-            set_country_flag = istanbul_renamed
-            prestige = 2
-            860 = {
-                change_province_name = "Constantinople"
-                any_pop = { limit = { is_culture_group = levantine } militancy = -1 }
-            }
-        }
-
-        ai_will_do = { factor = 1 }
-    }
-
-    renamed_istanbul_tsargrad = {
-        picture = constantinople
-        alert = no
-        potential = {
-            OR = {
-                is_culture_group = pan_albanian
-                is_culture_group = pan_romanian
-                is_culture_group = south_slavic
-                is_culture_group = east_slavic
-                is_culture_group = czecho_slovak_culture_group
-            }
-            owns = 860
-            NOT = { has_global_flag = istanbul_named_tsargrad }
-            NOT = { has_country_flag = istanbul_renamed }
-        }
-
-        allow = {
-            war = no
-            state_n_government = 1
-        }
-
-        effect = {
-            clr_global_flag = istanbul_named_constantinople
-            set_global_flag = istanbul_named_tsargrad
-            any_country = { clr_country_flag = istanbul_renamed }
-            set_country_flag = istanbul_renamed
-            prestige = 2
-            860 = {
-                change_province_name = "Tsargrad"
-                any_pop = {
-                limit = {
-                    OR = {
-                    is_culture_group = south_slavic
-                    is_culture_group = east_slavic
-                        }
-                    }
-                militancy = -1
-                }
-            }
-        }
-
-        ai_will_do = { factor = 1 }
-    }
-
-    renamed_istanbul_back = {
-        picture = constantinople
-        potential = {
-            is_culture_group = turko_semitic
-            owns = 860
-                OR = {
-                    has_global_flag = istanbul_named_constantinople
-                    has_global_flag = istanbul_named_tsargrad
-                }
-            }
-
-        allow = {
-            war = no
-            state_n_government = 1
-        }
-
-        effect = {
-            clr_global_flag = istanbul_named_constantinople
-            clr_global_flag = istanbul_named_tsargrad
-            any_country = { clr_country_flag = istanbul_renamed }
-            prestige = 2
-            860 = {
-                change_province_name = "Istanbul"
-                any_pop = { limit = { has_pop_culture = turkish } militancy = -4 }
-            }
-        }
-
-        ai_will_do = { factor = 1 }
-    }
+#    renamed_istanbul_constantinople = {
+#        picture = constantinople
+#        alert = no
+#        potential = {
+#            OR = {
+#                is_culture_group = pan_albanian
+#                is_culture_group = pan_romanian
+#                is_culture_group = south_slavic
+#                is_culture_group = east_slavic
+#                is_culture_group = levantine
+#                is_culture_group = czecho_slovak_culture_group
+#            }
+#            owns = 860
+#            NOT = { has_global_flag = istanbul_named_constantinople }
+#            NOT = { has_country_flag = istanbul_renamed }
+#        }
+#
+#        allow = {
+#            war = no
+#            state_n_government = 1
+#        }
+#
+#        effect = {
+#            set_global_flag = istanbul_named_constantinople
+#            clr_global_flag = istanbul_named_tsargrad
+#            any_country = { clr_country_flag = istanbul_renamed }
+#            set_country_flag = istanbul_renamed
+#            prestige = 2
+#            860 = {
+#                change_province_name = "Constantinople"
+#                any_pop = { limit = { is_culture_group = levantine } militancy = -1 }
+#            }
+#        }
+#
+#        ai_will_do = { factor = 1 }
+#    }
+#
+#    renamed_istanbul_tsargrad = {
+#        picture = constantinople
+#        alert = no
+#        potential = {
+#            OR = {
+#                is_culture_group = pan_albanian
+#                is_culture_group = pan_romanian
+#                is_culture_group = south_slavic
+#                is_culture_group = east_slavic
+#                is_culture_group = czecho_slovak_culture_group
+#            }
+#            owns = 860
+#            NOT = { has_global_flag = istanbul_named_tsargrad }
+#            NOT = { has_country_flag = istanbul_renamed }
+#        }
+#
+#        allow = {
+#            war = no
+#            state_n_government = 1
+#        }
+#
+#        effect = {
+#            clr_global_flag = istanbul_named_constantinople
+#            set_global_flag = istanbul_named_tsargrad
+#            any_country = { clr_country_flag = istanbul_renamed }
+#            set_country_flag = istanbul_renamed
+#            prestige = 2
+#            860 = {
+#                change_province_name = "Tsargrad"
+#                any_pop = {
+#                limit = {
+#                    OR = {
+#                    is_culture_group = south_slavic
+#                    is_culture_group = east_slavic
+#                        }
+#                    }
+#                militancy = -1
+#                }
+#            }
+#        }
+#
+#        ai_will_do = { factor = 1 }
+#    }
+#
+#    renamed_istanbul_back = {
+#        picture = constantinople
+#        potential = {
+#            is_culture_group = turko_semitic
+#            owns = 860
+#                OR = {
+#                    has_global_flag = istanbul_named_constantinople
+#                    has_global_flag = istanbul_named_tsargrad
+#                }
+#            }
+#
+#        allow = {
+#            war = no
+#            state_n_government = 1
+#        }
+#
+#        effect = {
+#            clr_global_flag = istanbul_named_constantinople
+#            clr_global_flag = istanbul_named_tsargrad
+#            any_country = { clr_country_flag = istanbul_renamed }
+#            prestige = 2
+#            860 = {
+#                change_province_name = "Istanbul"
+#                any_pop = { limit = { has_pop_culture = turkish } militancy = -4 }
+#            }
+#        }
+#
+#        ai_will_do = { factor = 1 }
+#    }
 
     turkish_tea = {
         picture = turkish_coffee_house
@@ -1408,4 +1408,1796 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
+	
+### State Renames ###
+
+	gre_thrace = {
+		potential = {
+			primary_culture = greek
+			owns = 860 #istanbul
+			owns = 828 #edrine
+			owns = 858 #kirkklise
+			owns = 859 #gelibolu
+			NOT = {
+				has_global_flag = gre_thrace
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+			prestige = 5
+            860 = { change_province_name = "Konstantinoupolis" }
+			828 = { change_province_name = "Adrianoúpolis" }
+            858 = { change_province_name = "Saránta Ekklisiés" }
+            859 = { change_province_name = "Kallípolis" }
+			any_pop = { limit = { is_culture_group = levantine } militancy = -1 }
+			clr_global_flag = tur_thrace
+			clr_global_flag = rus_thrace
+			clr_global_flag = bul_thrace
+			set_global_flag = gre_thrace
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	bul_thrace = {
+		potential = {
+			is_culture_group = south_slavic
+			owns = 860 #istanbul
+			owns = 828 #edrine
+			owns = 858 #kirkklise
+			owns = 859 #gelibolu
+			NOT = {
+				has_global_flag = bul_thrace
+				tag = YUG
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+			prestige = 5
+            860 = { change_province_name = "Tsarigard" }
+			828 = { change_province_name = "Odrin" }
+            858 = { change_province_name = "Lòzengrad" }
+            859 = { change_province_name = "Galipoli" }
+            any_pop = {
+                limit = {
+                    OR = {
+						is_culture_group = south_slavic
+						is_culture_group = east_slavic
+                    }
+                }
+					militancy = -1
+            }
+			clr_global_flag = gre_thrace
+			clr_global_flag = rus_thrace
+			clr_global_flag = tur_thrace
+			set_global_flag = bul_thrace
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	rus_thrace = {
+		potential = {
+			primary_culture = russian
+			owns = 860 #istanbul
+			owns = 828 #edrine
+			owns = 858 #kirkklise
+			owns = 859 #gelibolu
+			NOT = {
+				has_global_flag = rus_thrace
+				tag = YUG
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+			prestige = 5
+            860 = { change_province_name = "Tsargrad" }
+			828 = { change_province_name = "Odrin" }
+            858 = { change_province_name = "Lozengrad" }
+            859 = { change_province_name = "Galipoli" }
+            any_pop = {
+                limit = {
+                    OR = {
+						is_culture_group = south_slavic
+						is_culture_group = east_slavic
+                    }
+                }
+				militancy = -1
+            }
+			clr_global_flag = gre_thrace
+			clr_global_flag = bul_thrace
+			clr_global_flag = tur_thrace
+			set_global_flag = rus_thrace
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_thrace = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = bul_thrace
+				has_global_flag = rus_thrace
+				has_global_flag = gre_thrace
+			}
+			owns = 860 #istanbul
+			owns = 828 #edrine
+			owns = 858 #kirkklise
+			owns = 859 #gelibolu
+			NOT = {
+				has_global_flag = tur_thrace
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+			prestige = 5
+            860 = { change_province_name = "Kostantiniyye" }
+			828 = { change_province_name = "Edrine" }
+            858 = { change_province_name = "Kirkkilise" }
+            859 = { change_province_name = "Gelibolu" }
+            any_pop = { limit = { has_pop_culture = turkish } militancy = -4 }
+			clr_global_flag = gre_thrace
+			clr_global_flag = rus_thrace
+			clr_global_flag = bul_thrace
+			set_global_flag = tur_thrace
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_smyrna = {
+        potential = {
+			primary_culture = greek
+            owns = 869
+            owns = 870
+            owns = 872
+            NOT = { has_global_flag = gre_smyrna }
+        }
+		
+		allow = { }
+
+        effect = {
+            869 = { change_province_name = "Smýrna" }
+			869 = { state_scope = { change_region_name = "Ionía" } }
+            870 = { change_province_name = "Magnisía" }
+            872 = { change_province_name = "Moúgla" }
+            set_global_flag = gre_smyrna
+        }
+    }
+
+    restore_smyrna = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 869
+            owns = 870
+            owns = 872
+            has_global_flag = gre_smyrna
+        }
+		
+		allow = { }
+
+        effect = {
+            869 = { change_province_name = "Izmir" }
+			869 = { state_scope = { change_region_name = "Aidin" } }
+            870 = { change_province_name = "Manisa" }
+            872 = { change_province_name = "Mugla" }
+            clr_global_flag = gre_smyrna
+        }
+    }
+	
+    rename_smyrna2 = {
+        potential = {
+			primary_culture = greek
+            owns = 871
+            NOT = { has_global_flag = gre_smyrna2 }
+        }
+		
+		allow = { }
+
+        effect = {
+            871 = { change_province_name = "Filadélfeia" }
+            set_global_flag = gre_smyrna2
+        }
+    }
+
+    restore_smyrna2 = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 871
+            has_global_flag = gre_smyrna2
+        }
+		
+		allow = { }
+
+        effect = {
+            871 = { change_province_name = "Alesehir" }
+            clr_global_flag = gre_smyrna2
+        }
+    }
+	
+    rename_hudavendigar = {
+        potential = {
+			primary_culture = greek
+            owns = 863
+            owns = 861
+            owns = 862
+			owns = 864
+            owns = 865
+            NOT = { has_global_flag = gre_hudavendigar }
+        }
+		
+		allow = { }
+
+        effect = {
+            863 = { change_province_name = "Proúsa" }
+			863 = { state_scope = { change_region_name = "Opsíkion" } }
+            861 = { change_province_name = "Skoutárion" }
+            862 = { change_province_name = "Nikomídeia" }
+            864 = { change_province_name = "Palaiókastron" }
+            865 = { change_province_name = "Dardanéllia" }
+            set_global_flag = gre_hudavendigar
+        }
+    }
+
+    restore_hudavendigar = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 863
+            owns = 861
+            owns = 862
+			owns = 864
+            owns = 865
+            has_global_flag = gre_hudavendigar
+        }
+		
+		allow = { }
+
+        effect = {
+            863 = { change_province_name = "Bursa" }
+			863 = { state_scope = { change_region_name = "Hüdâvendigâr" } }
+            861 = { change_province_name = "Üsküdar" }
+            862 = { change_province_name = "Izmit" }
+            864 = { change_province_name = "Balikesir" }
+            865 = { change_province_name = "Çanakkale" }
+            clr_global_flag = gre_hudavendigar
+        }
+    }
+	
+    rename_hudavendigar2 = {
+        potential = {
+			primary_culture = greek
+            owns = 867
+            NOT = { has_global_flag = gre_hudavendigar2 }
+        }
+		
+		allow = { }
+
+        effect = {
+            867 = { change_province_name = "Kotyáeion" }
+            set_global_flag = gre_hudavendigar2
+        }
+    }
+
+    restore_hudavendigar2 = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 867
+            has_global_flag = gre_hudavendigar2
+        }
+		
+		allow = { }
+
+        effect = {
+            867 = { change_province_name = "Kütahya" }
+            clr_global_flag = gre_hudavendigar2
+        }
+    }
+	
+    rename_bulgaria = {
+        potential = {
+			is_culture_group = south_slavic
+            owns = 809 #Sofia
+            owns = 811 #Ruse
+            owns = 812 #Pleven
+			owns = 813 #Shumen
+            NOT = { has_global_flag = bul_bulgaria }
+        }
+		
+		allow = { }
+
+        effect = {
+            809 = { change_province_name = "Sofiya" }
+            811 = { change_province_name = "Ruse" }
+            812 = { change_province_name = "Pleven" }
+            813 = { change_province_name = "Shumen" }
+            809 = { state_scope = { change_region_name = "Bulgaria" } }
+            set_global_flag = bul_bulgaria
+        }
+    }
+
+    restore_bulgaria = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 809 #Sofia
+            owns = 811 #Ruse
+            owns = 812 #Pleven
+			owns = 813 #Shumen
+            has_global_flag = bul_bulgaria
+        }
+		
+		allow = { }
+
+        effect = {
+            809 = { change_province_name = "Sofya" }
+            811 = { change_province_name = "Rusçuk" }
+            812 = { change_province_name = "Plevne" }
+            813 = { change_province_name = "Sumnu" }
+            809 = { state_scope = { change_region_name = "Tuna" } }
+            clr_global_flag = bul_bulgaria
+        }
+    }
+
+    rename_rumelia = {
+        potential = {
+			is_culture_group = south_slavic
+            owns = 808 #Petrich
+            owns = 815 #Plovdiv
+            owns = 816 #StaraZagora
+			owns = 817 #Burgas
+            NOT = { has_global_flag = bul_rumelia }
+        }
+		
+		allow = { }
+
+        effect = {
+            808 = { change_province_name = "Petrich" }
+            815 = { change_province_name = "Plovdiv" }
+            816 = { change_province_name = "Stara Zagora" }
+            817 = { change_province_name = "Burgas" }
+            set_global_flag = bul_rumelia
+        }
+    }
+
+    restore_rumelia = {
+        potential = {
+			is_culture_group = turko_semitic
+            has_global_flag = bul_rumelia
+            owns = 809 #Sofia
+            owns = 811 #Ruse
+            owns = 812 #Pleven
+			owns = 813 #Shumen
+        }
+		
+		allow = { }
+
+        effect = {
+            808 = { change_province_name = "Petriç" }
+            815 = { change_province_name = "Filibe" }
+            816 = { change_province_name = "Eski Zagra" }
+            817 = { change_province_name = "Burgaz" }
+            clr_global_flag = bul_rumelia
+        }
+    }
+
+	alb_albania = {
+		potential = {
+			tag = ALB
+			owns = 849 #tirana
+			owns = 851 #dures
+			owns = 852 #vlore
+			owns = 850 #shkoder
+			NOT = {
+				has_global_flag = alb_albania
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            849 = { change_province_name = "Tirana" }
+            849 = { state_scope = { change_region_name = "Shqipëria" } }
+            851 = { change_province_name = "Durrësi" }
+            852 = { change_province_name = "Vlora" }
+            850 = { change_province_name = "Shkodra" }
+			clr_global_flag = tur_albania
+			clr_global_flag = ser_albania
+			set_global_flag = alb_albania
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ser_albania = {
+		potential = {
+			primary_culture = serbian
+			owns = 849 #tirana
+			owns = 851 #dures
+			owns = 852 #vlore
+			owns = 850 #shkoder
+			NOT = {
+				has_global_flag = ser_albania
+				tag = YUG
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            849 = { change_province_name = "Tirona" }
+            849 = { state_scope = { change_region_name = "Albanija" } }
+            851 = { change_province_name = "Drac" }
+            852 = { change_province_name = "Valona" }
+            850 = { change_province_name = "Skadar" }
+			clr_global_flag = alb_albania
+			clr_global_flag = tur_albania
+			set_global_flag = ser_albania
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_albania = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = ser_albania
+				has_global_flag = alb_albania
+			}
+			owns = 849 #tirana
+			owns = 851 #dures
+			owns = 852 #vlore
+			owns = 850 #shkoder
+			NOT = {
+				has_global_flag = tur_albania
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            849 = { change_province_name = "Terane" }
+            849 = { state_scope = { change_region_name = "Arnavud" } }
+            851 = { change_province_name = "Duraç" }
+            852 = { change_province_name = "Avlonya" }
+            850 = { change_province_name = "Iskenderiye" }
+			clr_global_flag = alb_albania
+			clr_global_flag = ser_albania
+			set_global_flag = tur_albania
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	gre_south_macedon = {
+		potential = {
+			primary_culture = greek
+			owns = 805 #Selanik
+			owns = 819 #Florina
+			owns = 820 #Grebene
+			owns = 821 #Vodina
+			owns = 822 #Polyroz
+			NOT = {
+				has_global_flag = gre_south_macedon
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            805 = { change_province_name = "Thessaloníki" }
+            819 = { change_province_name = "Flórina" }
+            820 = { change_province_name = "Grevená" }
+            821 = { change_province_name = "Vodená" }
+            822 = { change_province_name = "Polýgyros" }
+			clr_global_flag = tur_south_macedon
+			clr_global_flag = bul_south_macedon
+			set_global_flag = gre_south_macedon
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	bul_south_macedon = {
+		potential = {
+			is_culture_group = south_slavic
+			owns = 805 #Selanik
+			owns = 819 #Florina
+			owns = 820 #Grebene
+			owns = 821 #Vodina
+			owns = 822 #Polyroz
+			NOT = {
+				has_global_flag = bul_south_macedon
+				tag = YUG
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            805 = { change_province_name = "Solun" }
+            819 = { change_province_name = "Lerin" }
+            820 = { change_province_name = "Grebena" }
+            821 = { change_province_name = "Voden" }
+            822 = { change_province_name = "Poligiro" }
+			clr_global_flag = gre_south_macedon
+			clr_global_flag = tur_south_macedon
+			set_global_flag = bul_south_macedon
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_south_macedon = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = bul_south_macedon
+				has_global_flag = gre_south_macedon
+			}
+			owns = 805 #Selanik
+			owns = 819 #Florina
+			owns = 820 #Grebene
+			owns = 821 #Vodina
+			owns = 822 #Polyroz
+			NOT = {
+				has_global_flag = tur_south_macedon
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            805 = { change_province_name = "Selânik" }
+            819 = { change_province_name = "Filorina" }
+            820 = { change_province_name = "Grebene" }
+            821 = { change_province_name = "Vodina" }
+            822 = { change_province_name = "Polyroz" }
+			clr_global_flag = gre_south_macedon
+			clr_global_flag = bul_south_macedon
+			set_global_flag = tur_south_macedon
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ser_macedon = {
+		potential = {
+			is_culture_group = south_slavic
+			owns = 806
+			owns = 807
+			NOT = {
+				has_global_flag = ser_macedon
+				primary_culture = bulgarian
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            806 = { change_province_name = "Skoplje" }
+            807 = { change_province_name = "Bitolj" }
+			clr_global_flag = tur_macedon
+			clr_global_flag = bul_macedon
+			set_global_flag = ser_macedon
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	bul_macedon = {
+		potential = {
+			primary_culture = bulgarian
+			owns = 806
+			owns = 807
+			NOT = {
+				has_global_flag = bul_macedon
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            806 = { change_province_name = "Skopie" }
+            807 = { change_province_name = "Bitolya" }
+			clr_global_flag = ser_macedon
+			clr_global_flag = tur_macedon
+			set_global_flag = bul_macedon
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_macedon = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = bul_macedon
+				has_global_flag = ser_macedon
+			}
+			owns = 806
+			owns = 807
+			NOT = {
+				has_global_flag = tur_macedon
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            806 = { change_province_name = "Üsküb" }
+            807 = { change_province_name = "Manastir" }
+			clr_global_flag = ser_macedon
+			clr_global_flag = bul_macedon
+			set_global_flag = tur_macedon
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_bosna = {
+        potential = {
+			OR = {
+				is_culture_group = germanic
+				is_culture_group = south_slavic
+				primary_culture = hungarian
+			}
+            owns = 783 #sarajevo
+            owns = 784 #bihac
+            owns = 785 #banjaluka
+            owns = 787 #Foca
+            owns = 788 #mostar
+            owns = 789 #livno
+            NOT = { 
+				has_global_flag = ser_bosna
+			}
+        }
+		
+		allow = { }
+
+        effect = {
+            783 = { change_province_name = "Sarajevo" }
+            784 = { change_province_name = "Bihac" }
+            785 = { change_province_name = "Banja Luka" }
+            787 = { change_province_name = "Foca" }
+            788 = { change_province_name = "Mostar" }
+            789 = { change_province_name = "Livno" }
+            set_global_flag = ser_bosna
+        }
+    }
+
+    restore_bosna = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 783 #sarajevo
+            owns = 784 #bihac
+            owns = 785 #banjaluka
+            owns = 787 #Foca
+            owns = 788 #mostar
+            owns = 789 #livno
+            has_global_flag = ser_bosna
+        }
+		
+		allow = { }
+
+        effect = {
+            783 = { change_province_name = "Saraybosna" }
+            784 = { change_province_name = "Behke" }
+            785 = { change_province_name = "Banaluka" }
+            787 = { change_province_name = "Güzelhisar" }
+            788 = { change_province_name = "Köprü Hisar" }
+            789 = { change_province_name = "Mustafabeysehir" }
+            clr_global_flag = ser_bosna
+        }
+    }
+	
+	int_cyprus = {
+		potential = {
+			owns = 855
+			owns = 856
+			owns = 857
+			NOT = {
+				has_global_flag = int_cyprus
+				primary_culture = greek
+				primary_culture = turkish
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            856 = { change_province_name = "Limassol" }
+            857 = { change_province_name = "Famagusta" }
+            855 = { change_province_name = "Nicosia" }
+            855 = { state_scope = { change_region_name = "Cyprus" } }
+			clr_global_flag = tur_cyprus
+			clr_global_flag = gre_cyprus
+			set_global_flag = int_cyprus
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	gre_cyprus = {
+		potential = {
+			primary_culture = greek
+			owns = 855
+			owns = 856
+			owns = 857
+			NOT = {
+				has_global_flag = gre_cyprus
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            856 = { change_province_name = "Lemesos" }
+            857 = { change_province_name = "Ammókhostos" }
+            855 = { change_province_name = "Lefkosía" }
+            855 = { state_scope = { change_region_name = "Kýpros" } }
+			clr_global_flag = int_cyprus
+			clr_global_flag = tur_cyprus
+			set_global_flag = gre_cyprus
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_cyprus = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = gre_cyprus
+				has_global_flag = int_cyprus
+			}
+			owns = 855
+			owns = 856
+			owns = 857
+			NOT = {
+				has_global_flag = tur_cyprus
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            856 = { change_province_name = "Leymosun" }
+            857 = { change_province_name = "Magusa" }
+            855 = { change_province_name = "Lefkosa" }
+            855 = { state_scope = { change_region_name = "Kibris" } }
+			clr_global_flag = int_cyprus
+			clr_global_flag = gre_cyprus
+			set_global_flag = tur_cyprus
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_aegean = {
+        potential = {
+			primary_culture = greek
+            owns = 843 #chios
+            owns = 844 #midilli
+            owns = 846 #dodecanese
+            NOT = { has_global_flag = gre_aegean2 }
+        }
+		
+		allow = { }
+
+        effect = {
+            843 = { change_province_name = "Chíos" }
+            844 = { change_province_name = "Lésvos" }
+            846 = { change_province_name = "Dodekánisa" }
+            843 = { state_scope = { change_region_name = "Nísoi Aigaíou" } }
+            set_global_flag = gre_aegean2
+        }
+    }
+
+    restore_aegean = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 843 #chios
+            owns = 844 #midilli
+            owns = 846 #dodecanese
+            has_global_flag = gre_aegean2
+        }
+		
+		allow = { }
+
+        effect = {
+            843 = { change_province_name = "Saruhanlar" }
+            844 = { change_province_name = "Midilli" }
+            846 = { change_province_name = "On Iki Ada" }
+            843 = { state_scope = { change_region_name = "Ege Adalari" } }
+            clr_global_flag = gre_aegean2
+        }
+    }
+	
+    rename_thessaly = {
+        potential = {
+            owns = 831
+            owns = 832
+            owns = 833
+            owns = 825
+            NOT = { has_global_flag = gre_thessaly
+			is_culture_group = turko_semitic
+			}
+        }
+		
+		allow = { }
+
+        effect = {
+            831 = { change_province_name = "Lárisa" }
+            832 = { change_province_name = "Vólos" }
+            833 = { change_province_name = "Tríkala" }
+            825 = { change_province_name = "Árta" }
+            set_global_flag = gre_thessaly
+        }
+    }
+
+    restore_thessaly = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 831
+            owns = 832
+            owns = 833
+            owns = 825
+            has_global_flag = gre_thessaly
+        }
+		
+		allow = { }
+
+        effect = {
+            831 = { change_province_name = "Yenisehir" }
+            832 = { change_province_name = "Golos" }
+            833 = { change_province_name = "Tirhala" }
+            825 = { change_province_name = "Narda" }
+            clr_global_flag = gre_thessaly
+        }
+    }
+	
+	gre_east_macedon = {
+		potential = {
+			primary_culture = greek
+			owns = 830 #Dedeagac
+			owns = 829 #Iskece
+			NOT = {
+				has_global_flag = gre_east_macedon
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            830 = { change_province_name = "Alexandroúpolis" }
+            829 = { change_province_name = "Xánthi" }
+			clr_global_flag = tur_east_macedon
+			clr_global_flag = bul_east_macedon
+			set_global_flag = gre_east_macedon
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	bul_east_macedon = {
+		potential = {
+			is_culture_group = south_slavic
+			owns = 830 #Dedeagac
+			owns = 829 #Iskece
+			NOT = {
+				has_global_flag = bul_east_macedon
+				tag = YUG
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            830 = { change_province_name = "Dedeagach" }
+            829 = { change_province_name = "Skecha" }
+			clr_global_flag = gre_east_macedon
+			clr_global_flag = tur_east_macedon
+			set_global_flag = bul_east_macedon
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_east_macedon = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = bul_east_macedon
+				has_global_flag = gre_east_macedon
+			}
+			owns = 830 #Dedeagac
+			owns = 829 #Iskece
+			NOT = {
+				has_global_flag = tur_east_macedon
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            830 = { change_province_name = "Dedeagaç" }
+            829 = { change_province_name = "Iskeçe" }
+			clr_global_flag = gre_east_macedon
+			clr_global_flag = bul_east_macedon
+			set_global_flag = tur_east_macedon
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_crete = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 847 #Chania
+            owns = 848 #Iraklion
+            NOT = { has_global_flag = tur_crete }
+        }
+		
+		allow = { }
+
+        effect = {
+            847 = { change_province_name = "Hanya" }
+            848 = { change_province_name = "Kandiye" }
+            set_global_flag = tur_crete
+        }
+    }
+
+    restore_crete = {
+        potential = {
+            primary_culture = greek
+            owns = 847 #Chania
+            owns = 848 #Iraklion
+            has_global_flag = tur_crete
+        }
+		
+		allow = { }
+
+        effect = {
+            847 = { change_province_name = "Khaniá" }
+            848 = { change_province_name = "Iráklio" }
+            clr_global_flag = tur_crete
+        }
+    }
+	
+	alb_yanya = {
+		potential = {
+			tag = ALB
+			owns = 824
+			NOT = {
+				has_global_flag = alb_yanya
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            824 = { change_province_name = "Janinë" }
+			clr_global_flag = tur_yanya
+			clr_global_flag = gre_yanya
+			set_global_flag = alb_yanya
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	gre_yanya = {
+		potential = {
+			primary_culture = greek
+			owns = 824
+			NOT = {
+				has_global_flag = gre_yanya
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            824 = { change_province_name = "Ioánnina" }
+			clr_global_flag = alb_yanya
+			clr_global_flag = tur_yanya
+			set_global_flag = gre_yanya
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_yanya = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = gre_yanya
+				has_global_flag = alb_yanya
+			}
+			owns = 824
+			NOT = {
+				has_global_flag = tur_yanya
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            824 = { change_province_name = "Yanya" }
+			clr_global_flag = alb_yanya
+			clr_global_flag = gre_yanya
+			set_global_flag = tur_yanya
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	alb_ergiri = {
+		potential = {
+			tag = ALB
+			owns = 853
+			NOT = {
+				has_global_flag = alb_ergiri
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            853 = { change_province_name = "Gjirokastra" }
+			clr_global_flag = tur_ergiri
+			clr_global_flag = gre_ergiri
+			set_global_flag = alb_ergiri
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	gre_ergiri = {
+		potential = {
+			primary_culture = greek
+			owns = 853
+			NOT = {
+				has_global_flag = gre_ergiri
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            853 = { change_province_name = "Argyrokastro" }
+			clr_global_flag = alb_ergiri
+			clr_global_flag = tur_ergiri
+			set_global_flag = gre_ergiri
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_ergiri = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = gre_ergiri
+				has_global_flag = alb_ergiri
+			}
+			owns = 853
+			NOT = {
+				has_global_flag = tur_ergiri
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            853 = { change_province_name = "Ergiri Kasri" }
+			clr_global_flag = alb_ergiri
+			clr_global_flag = gre_ergiri
+			set_global_flag = tur_ergiri
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	alb_deber = {
+		potential = {
+			tag = ALB
+			owns = 1780
+			NOT = {
+				has_global_flag = alb_deber
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            1780 = { change_province_name = "Dibra" }
+			clr_global_flag = tur_deber
+			clr_global_flag = bul_deber
+			set_global_flag = alb_deber
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	bul_deber = {
+		potential = {
+			is_culture_group = south_slavic
+			owns = 1780
+			NOT = {
+				has_global_flag = bul_deber
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            1780 = { change_province_name = "Debar" }
+			clr_global_flag = alb_deber
+			clr_global_flag = tur_deber
+			set_global_flag = bul_deber
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_deber = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = bul_deber
+				has_global_flag = alb_deber
+			}
+			owns = 1780
+			NOT = {
+				has_global_flag = tur_deber
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            1780 = { change_province_name = "Debre" }
+			clr_global_flag = alb_deber
+			clr_global_flag = bul_deber
+			set_global_flag = tur_deber
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_kavala = {
+        potential = {
+			primary_culture = greek
+            owns = 823
+            NOT = { has_global_flag = tur_kavala }
+        }
+		
+		allow = { }
+
+        effect = {
+            823 = { change_province_name = "Kavála" }
+            set_global_flag = tur_kavala
+        }
+    }
+
+    restore_kavala = {
+        potential = { 
+			OR = {
+				is_culture_group = turko_semitic
+				is_culture_group = south_slavic
+			}
+            owns = 823
+            has_global_flag = tur_kavala
+        }
+		
+		allow = { }
+
+        effect = {
+            823 = { change_province_name = "Kavala" }
+            clr_global_flag = tur_kavala
+        }
+    }
+	
+	rom_tulcea = {
+		potential = {
+			primary_culture = romanian
+			owns = 675
+			NOT = {
+				has_global_flag = rom_tulcea
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            675 = { change_province_name = "Tulcea" }
+			clr_global_flag = tur_tulcea
+			clr_global_flag = bul_tulcea
+			set_global_flag = rom_tulcea
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	bul_tulcea = {
+		potential = {
+			OR = {
+				is_culture_group = south_slavic
+				is_culture_group = east_slavic
+			}
+			owns = 675
+			NOT = {
+				has_global_flag = bul_tulcea
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            675 = { change_province_name = "Tulcha" }
+			clr_global_flag = rom_tulcea
+			clr_global_flag = tur_tulcea
+			set_global_flag = bul_tulcea
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_tulcea = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = rom_tulcea
+				has_global_flag = bul_tulcea
+			}
+			owns = 675
+			NOT = {
+				has_global_flag = tur_tulcea
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            675 = { change_province_name = "Tulça" }
+			clr_global_flag = rom_tulcea
+			clr_global_flag = bul_tulcea
+			set_global_flag = tur_tulcea
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	rom_constanta = {
+		potential = {
+			primary_culture = romanian
+			owns = 674
+			NOT = {
+				has_global_flag = rom_constanta
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            674 = { change_province_name = "Constanta" }
+			clr_global_flag = tur_constanta
+			clr_global_flag = bul_constanta
+			set_global_flag = rom_constanta
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	bul_constanta = {
+		potential = {
+			OR = {
+				is_culture_group = south_slavic
+				is_culture_group = east_slavic
+			}
+			owns = 674
+			NOT = {
+				has_global_flag = bul_constanta
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            674 = { change_province_name = "Kyustendzha" }
+			clr_global_flag = rom_constanta
+			clr_global_flag = tur_constanta
+			set_global_flag = bul_constanta
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	tur_constanta = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = rom_constanta
+				has_global_flag = bul_constanta
+			}
+			owns = 674
+			NOT = {
+				has_global_flag = tur_constanta
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            674 = { change_province_name = "Köstence" }
+			clr_global_flag = rom_constanta
+			clr_global_flag = bul_constanta
+			set_global_flag = tur_constanta
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+    rename_silistre = {
+        potential = {
+            owns = 818 
+			OR = {
+				is_culture_group = south_slavic
+				is_culture_group = east_slavic
+				primary_culture = romanian
+		}
+            NOT = { has_global_flag = bul_silistre }
+        }
+		
+		allow = { }
+
+        effect = {
+            818 = { change_province_name = "Silistra" }
+            set_global_flag = bul_silistre
+        }
+    }
+
+    restore_silistre = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 818 
+            has_global_flag = bul_silistre
+        }
+		
+		allow = { }
+
+        effect = {
+            818 = { change_province_name = "Silistre" }
+            clr_global_flag = bul_silistre
+        }
+    }
+	
+    rename_pazar = {
+        potential = {
+			OR = { 
+				is_culture_group = south_slavic
+				is_culture_group = germanic
+			}
+            owns = 804
+            NOT = { 
+				has_global_flag = ser_pazar
+			}
+        }
+		
+		allow = { }
+
+        effect = {
+            804 = { change_province_name = "Novi Pazar" }
+            set_global_flag = ser_pazar
+        }
+    }
+	
+    restore_pazar = {
+        potential = {
+			OR = {
+				is_culture_group = turko_semitic
+				tag = ALB
+			}
+            owns = 804
+            has_global_flag = ser_pazar
+        }
+		
+		allow = { }
+
+        effect = {
+            804 = { change_province_name = "Yeni Pazar" }
+            clr_global_flag = ser_pazar
+        }
+    }
+	
+    rename_ulgun = {
+        potential = {
+			is_culture_group = south_slavic
+            owns = 800
+            NOT = { 
+				has_global_flag = ser_ulgun
+				tag = ALB
+			}
+        }
+		
+		allow = { }
+
+        effect = {
+            800 = { change_province_name = "Ulcinj" }
+			clr_global_flag = alb_ulgun
+			clr_global_flag = tur_ulgun
+            set_global_flag = ser_ulgun
+        }
+    }
+
+    restore_ulgun = {
+        potential = {
+			tag = ALB
+            owns = 800
+			NOT = { has_global_flag = alb_ulgun }
+        }
+		
+		allow = { }
+
+        effect = {
+            800 = { change_province_name = "Ulqini" }
+            clr_global_flag = ser_ulgun
+			clr_global_flag = tur_ulgun
+			set_global_flag = alb_ulgun
+        }
+    }
+	
+    restore_ulgun2 = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 800
+			OR = { 
+				has_global_flag = alb_ulgun
+				has_global_flag = ser_ulgun
+			}
+			NOT = { has_global_flag = tur_ulgun }
+        }
+		
+		allow = { }
+
+        effect = {
+            800 = { change_province_name = "Ülgün" }
+            clr_global_flag = ser_ulgun
+            clr_global_flag = alb_ulgun
+			set_global_flag = tur_ulgun
+        }
+    }
+	
+    rename_yablak = {
+        potential = {
+            owns = 2569
+            NOT = { 
+				has_global_flag = ser_yablak
+				is_culture_group = turko_semitic
+				tag = ALB
+			}
+        }
+		
+		allow = { }
+
+        effect = {
+            2569 = { change_province_name = "Žabljak" }
+            set_global_flag = ser_yablak
+        }
+    }
+	
+    restore_yablak = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 2569
+            has_global_flag = ser_yablak
+        }
+	
+		
+		allow = { }
+
+        effect = {
+            2569 = { change_province_name = "Yablak" }
+            clr_global_flag = ser_yablak
+        }
+    }
+	
+    rename_taslica = {
+        potential = {
+            owns = 2577
+            NOT = { 
+				has_global_flag = ser_taslica
+				is_culture_group = turko_semitic
+				tag = ALB
+			}
+        }
+		
+		allow = { }
+
+        effect = {
+            2577 = { change_province_name = "Pljevlja" }
+            set_global_flag = ser_taslica
+        }
+    }
+	
+    restore_taslica = {
+        potential = {
+			OR = {
+				is_culture_group = turko_semitic
+				tag = ALB
+			}
+            owns = 2577
+            has_global_flag = ser_taslica
+        }
+		
+		allow = { }
+
+        effect = {
+            2577 = { change_province_name = "Tasliça" }
+            clr_global_flag = ser_taslica
+        }
+    }
+	
+	bul_pristina = {
+		potential = {
+			OR = {
+				primary_culture = bulgarian
+				tag = ALB
+			}
+			owns = 802
+			NOT = {
+				has_global_flag = bul_pristina
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            802 = { change_province_name = "Prishtina" }
+			clr_global_flag = ser_pristina
+			clr_global_flag = tur_pristina
+			set_global_flag = bul_pristina
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ser_pristina = {
+		potential = {
+			is_culture_group = south_slavic
+			owns = 802
+			NOT = {
+				has_global_flag = ser_pristina
+				primary_culture = bulgarian
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            802 = { change_province_name = "Priština" }
+			clr_global_flag = bul_pristina
+			clr_global_flag = tur_pristina
+			set_global_flag = ser_pristina
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+
+	tur_pristina = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = bul_pristina
+				has_global_flag = ser_pristina
+			}
+			owns = 802
+			NOT = {
+				has_global_flag = tur_pristina
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            802 = { change_province_name = "Pristine" }
+			clr_global_flag = ser_pristina
+			clr_global_flag = bul_pristina
+			set_global_flag = tur_pristina
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	bul_nis = {
+		potential = {
+			primary_culture = bulgarian
+			owns = 798
+			NOT = {
+				has_global_flag = bul_nis
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            798 = { change_province_name = "Nish" }
+			clr_global_flag = ser_nis
+			clr_global_flag = tur_nis
+			set_global_flag = bul_nis
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ser_nis = {
+		potential = {
+			is_culture_group = south_slavic
+			owns = 798
+			NOT = {
+				has_global_flag = ser_nis
+				primary_culture = bulgarian
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            798 = { change_province_name = "Niš" }
+			clr_global_flag = bul_nis
+			clr_global_flag = tur_nis
+			set_global_flag = ser_nis
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+
+	tur_nis = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = bul_nis
+				has_global_flag = ser_nis
+			}
+			owns = 798
+			NOT = {
+				has_global_flag = tur_nis
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            798 = { change_province_name = "Nis" }
+			clr_global_flag = ser_nis
+			clr_global_flag = bul_nis
+			set_global_flag = tur_nis
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	bul_vranje = {
+		potential = {
+			primary_culture = bulgarian
+			owns = 799
+			NOT = {
+				has_global_flag = bul_vranje
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            799 = { change_province_name = "Vranya" }
+			clr_global_flag = ser_vranje
+			clr_global_flag = tur_vranje
+			set_global_flag = bul_vranje
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	ser_vranje = {
+		potential = {
+			is_culture_group = south_slavic
+			owns = 799
+			NOT = {
+				has_global_flag = ser_vranje
+				primary_culture = bulgarian
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            799 = { change_province_name = "Vranje" }
+			clr_global_flag = bul_vranje
+			clr_global_flag = tur_vranje
+			set_global_flag = ser_vranje
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+
+	tur_vranje = {
+		potential = {
+            is_culture_group = turko_semitic
+			OR = {
+				has_global_flag = bul_vranje
+				has_global_flag = ser_vranje
+			}
+			owns = 799
+			NOT = {
+				has_global_flag = tur_vranje
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            799 = { change_province_name = "Ivranye" }
+			clr_global_flag = ser_vranje
+			clr_global_flag = bul_vranje
+			set_global_flag = tur_vranje
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
 }

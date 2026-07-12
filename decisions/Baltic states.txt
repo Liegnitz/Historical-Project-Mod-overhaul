@@ -765,6 +765,7 @@ political_decisions = {
             351 = { change_province_name = "Pärnu" }
             352 = { change_province_name = "Tartu" }
             353 = { change_province_name = "Saaremaa" }
+			2713 = { change_province_name = "Peipsi Järv" }
 			clr_global_flag = germany_renamed_estonia
 			clr_global_flag = russia_renamed_estonia
 			set_global_flag = estonia_renamed_estonia
@@ -800,6 +801,7 @@ political_decisions = {
             351 = { change_province_name = "Pernau" }
             352 = { change_province_name = "Dorpat" }
             353 = { change_province_name = "Ösel" }
+			2713 = { change_province_name = "Lake Peipus" }
 			clr_global_flag = estonia_renamed_estonia
 			clr_global_flag = russia_renamed_estonia
 			set_global_flag = germany_renamed_estonia
@@ -832,6 +834,7 @@ political_decisions = {
             351 = { change_province_name = "Pernov" }
             352 = { change_province_name = "Yuryev" }
             353 = { change_province_name = "Ezel" }
+			2713 = { change_province_name = "Lake Peipus" }
 			clr_global_flag = germany_renamed_estonia
 			clr_global_flag = estonia_renamed_estonia
 			set_global_flag = russia_renamed_estonia

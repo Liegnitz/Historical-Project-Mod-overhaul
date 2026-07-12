@@ -126,4 +126,82 @@ political_decisions = {
         ai_will_do = { factor = 1 }
     }
 	
+###State Renames###
+
+    rename_serbia = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 794 #belgrade
+            owns = 797 #uzice
+            owns = 796 #kraguevac
+            NOT = { has_global_flag = tur_serbia }
+        }
+		
+		allow = { }
+
+        effect = {
+            794 = { change_province_name = "Belgrad" }
+			794 = { state_scope = { change_region_name = "Semendire" } }
+            797 = { change_province_name = "Özüçe" }
+            796 = { change_province_name = "Karacofça" }
+            set_global_flag = tur_serbia
+        }
+    }
+
+    restore_serbia = {
+        potential = { 
+			OR = {
+				is_culture_group = south_slavic
+				is_culture_group = germanic
+			}
+            owns = 794 #belgrade
+            owns = 797 #uzice
+            owns = 796 #kraguevac
+            has_global_flag = tur_serbia
+        }
+		
+		allow = { }
+
+        effect = {
+            794 = { change_province_name = "Belgrade" }
+			794 = { state_scope = { change_region_name = "Serbia" } }
+            797 = { change_province_name = "Užice" }
+            796 = { change_province_name = "Kragujevac" }
+            clr_global_flag = tur_serbia
+        }
+    }
+	
+    rename_cetine = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 2583
+            NOT = { has_global_flag = tur_crna }
+        }
+		
+		allow = { }
+
+        effect = {
+            2583 = { change_province_name = "Çetinye" }
+            set_global_flag = tur_crna
+        }
+    }
+
+    restore_cetine = {
+        potential = { 
+			OR = {
+				is_culture_group = south_slavic
+				is_culture_group = germanic
+			}
+            owns = 2583
+            has_global_flag = tur_crna
+        }
+		
+		allow = { }
+
+        effect = {
+            2583 = { change_province_name = "Cetine" }
+            clr_global_flag = tur_crna
+        }
+    }
+	
 }

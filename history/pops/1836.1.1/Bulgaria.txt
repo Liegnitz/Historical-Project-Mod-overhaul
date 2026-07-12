@@ -1187,7 +1187,7 @@
     farmers = {
         culture = bulgarian
         religion = orthodox
-        size = 24250
+        size = 28250
     }
 
     soldiers = {
@@ -1211,7 +1211,7 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 19625
+        size = 4625
     }
 
     aristocrats = {
@@ -1241,7 +1241,7 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 4100
+        size = 15100
     }
 
     aristocrats = {

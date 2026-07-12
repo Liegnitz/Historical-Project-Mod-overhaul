@@ -166,13 +166,7 @@ political_decisions = {
             800 = { #Ulcinj
                 add_core = ALB
             }
-            802 = { #Pristina
-                add_core = ALB
-            }
             807 = { #Bitola
-                add_core = ALB
-            }
-            824 = { #Janina
                 add_core = ALB
             }
         }
@@ -1070,7 +1064,9 @@ political_decisions = {
             set_country_flag = greater_bulgaria_claimed
             badboy = 15
             TUR_805 = { add_core = BUL } #Southern Macedonia
-            TUR_803 = { add_core = BUL } #Southern Serbia
+            798 = { add_core = BUL } #Nish
+            802 = { add_core = BUL } #Pristina
+            675 = { add_core = BUL } #Tulcea
             random_owned = {
                 limit = { owner = { NOT = { has_country_flag = bulgaria_exchange has_country_flag = eastern_rumelia_exchange } } }
                 TUR_860 = { add_core = BUL } #Thrace

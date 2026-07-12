@@ -303,7 +303,7 @@
     farmers = {
         culture = bulgarian
         religion = orthodox
-        size = 7000
+        size = 9000
     }
 
     aristocrats = {
@@ -339,7 +339,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 28175
+        size = 26175
     }
 
     ######Jews
@@ -393,7 +393,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 33100
+        size = 28100
     }
 
     soldiers = {
@@ -417,7 +417,7 @@
     farmers = {
         culture = bulgarian
         religion = orthodox
-        size = 4800
+        size = 9800
     }
 
     aristocrats = {
@@ -530,7 +530,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 33125
+        size = 29125
     }
 
     clergymen = {
@@ -554,7 +554,7 @@
     farmers = {
         culture = bulgarian
         religion = orthodox
-        size = 3800
+        size = 7800
     }
 
     aristocrats = {
@@ -1049,7 +1049,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 33350
+        size = 27350
     }
 
     soldiers = {
@@ -1073,7 +1073,7 @@
     farmers = {
         culture = bulgarian
         religion = orthodox
-        size = 2550
+        size = 8550
     }
 }
 #Dedeagatch (72000/18000 POPS)

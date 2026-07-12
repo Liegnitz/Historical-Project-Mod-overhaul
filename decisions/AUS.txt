@@ -68,6 +68,7 @@ political_decisions = {
                         has_pop_culture = romanian
                         has_pop_culture = ukrainian
                         has_pop_culture = czech
+                        has_pop_culture = bosniak
                     }
                 }
                 consciousness = 5
@@ -750,6 +751,7 @@ political_decisions = {
             remove_accepted_culture = romanian
             remove_accepted_culture = polish
             remove_accepted_culture = croat
+            remove_accepted_culture = bosniak
             AUS_612 = { add_core = AUS }
             AUS_613 = { add_core = AUS }
             AUS_619 = { add_core = AUS }
@@ -907,6 +909,57 @@ political_decisions = {
             }
             any_pop = {
                 limit = { has_pop_culture = croat }
+                militancy = -4
+                consciousness = -4
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    embrace_bosniak_minority = {
+        picture = embrace_minority
+        potential = {
+            OR = {
+                tag = KUK
+                tag = DNB
+            }
+            any_owned_province = { is_core = BOS }
+            NOT = {
+                accepted_culture = bosniak
+                has_country_flag = embraced_bosniak
+                has_country_flag = danube_proposal_in_progress
+            }
+            OR = {
+                accepted_culture = croat
+                NOT = { any_owned_province = { is_core = CRO } }
+            }
+        }
+        allow = {
+            year = 1890
+            prestige = 50
+            revolution_n_counterrevolution = 1
+            psychoanalysis = 1
+            social_science = 1
+			mass_politics = 1
+        }
+        effect = {
+            set_country_flag = embraced_bosniak
+            add_accepted_culture = bosniak
+            prestige = -25
+            any_pop = {
+                limit = {
+                    OR = {
+                        has_pop_culture = croat
+						has_pop_culture = serb
+                    }
+                }
+                militancy = 4
+                consciousness = 4
+            }
+            any_pop = {
+                limit = { has_pop_culture = bosniak }
                 militancy = -4
                 consciousness = -4
             }

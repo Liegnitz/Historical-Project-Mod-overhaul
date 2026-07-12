@@ -310,4 +310,270 @@ political_decisions = {
             }
         }
     }
+	834 842 839 840 841
+###State Renames###
+
+    rename_greece2 = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 834 #athens
+            owns = 842 #patras
+            owns = 839 #nafpilon
+            owns = 840 #corinth
+            owns = 841 #kalamata
+            NOT = { has_global_flag = tur_greece2 }
+        }
+		
+		allow = { }
+
+        effect = {
+            834 = { change_province_name = "Atina" }
+			834 = { state_scope = { change_region_name = "Mora Yarimadasi" } }
+            842 = { change_province_name = "Balya Badre" }
+            839 = { change_province_name = "Anabolu" }
+            840 = { change_province_name = "Gördös" }
+            841 = { change_province_name = "Kalamatya" }
+            set_global_flag = tur_greece2
+        }
+    }
+
+    restore_greece2 = {
+        potential = { 
+            owns = 834 #athens
+            owns = 842 #patras
+            owns = 839 #nafpilon
+            owns = 840 #corinth
+            owns = 841 #kalamata
+            has_global_flag = tur_greece2
+			NOT = { is_culture_group = turko_semitic }
+        }
+		
+		allow = { }
+
+        effect = {
+            834 = { change_province_name = "Athína" }
+			834 = { state_scope = { change_region_name = "Pelopónnisos" } }
+            842 = { change_province_name = "Pátrai" }
+            839 = { change_province_name = "Náfplion" }
+            840 = { change_province_name = "Kórinthos" }
+            841 = { change_province_name = "Kalamáta" }
+            clr_global_flag = tur_greece2
+        }
+    }
+
+    rename_greece1 = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 837 #missolonghi
+            owns = 836 #lamia
+            owns = 835 #amfissa
+            owns = 838 #khalkis
+            NOT = { has_global_flag = tur_greece }
+        }
+		
+		allow = { }
+
+        effect = {
+            837 = { change_province_name = "Mesalongi" }
+			837 = { state_scope = { change_region_name = "Rum-Ili" } }
+            836 = { change_province_name = "Izdin" }
+            835 = { change_province_name = "Saline" }
+            838 = { change_province_name = "Kara Baba" }
+            set_global_flag = tur_greece
+        }
+    }
+
+    restore_greece1 = {
+        potential = { 
+            owns = 837 #missolonghi
+            owns = 836 #lamia
+            owns = 835 #amfissa
+            owns = 838 #khalkis
+            has_global_flag = tur_greece
+			NOT = { is_culture_group = turko_semitic }
+        }
+		
+		allow = { }
+
+        effect = {
+            837 = { change_province_name = "Mesolóngi" }
+			837 = { state_scope = { change_region_name = "Stereá Elláda" } }
+            836 = { change_province_name = "Lamía" }
+            835 = { change_province_name = "Ámfissa" }
+            838 = { change_province_name = "Halkídha" }
+            clr_global_flag = tur_greece
+        }
+    }
+	
+    rename_cyclades = {
+        potential = {
+			is_culture_group = turko_semitic
+            owns = 845
+            NOT = { has_global_flag = tur_cyclades }
+        }
+		
+		allow = { }
+
+        effect = {
+            845 = { change_province_name = "Kiklatlar" }
+            set_global_flag = tur_cyclades
+        }
+    }
+
+    restore_cyclades = {
+        potential = { 
+			primary_culture = greek
+            owns = 845
+            has_global_flag = tur_cyclades
+			NOT = { is_culture_group = turko_semitic }
+        }
+		
+		allow = { }
+
+        effect = {
+            845 = { change_province_name = "Kykládes" }
+            clr_global_flag = tur_cyclades
+        }
+    }
+	
+	tur_zante = {
+		potential = {
+            is_culture_group = turko_semitic
+            owns = 827 #zanthe
+			NOT = {
+				has_global_flag = tur_zante
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            827 = { change_province_name = "Izakilise" }
+			clr_global_flag = eng_zante
+			clr_global_flag = gre_zante
+			set_global_flag = tur_zante
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	gre_zante = {
+		potential = {
+			primary_culture = greek
+			OR = {
+				has_global_flag = tur_zante
+				has_global_flag = eng_zante
+			}
+            owns = 827 #zanthe
+			NOT = {
+				has_global_flag = gre_zante
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            827 = { change_province_name = "Zákynthos" }
+			clr_global_flag = eng_zante
+			clr_global_flag = tur_zante
+			set_global_flag = gre_zante
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	eng_zante = {
+		potential = {
+            primary_culture = british
+            owns = 827 #zanthe
+			NOT = {
+				has_global_flag = eng_zante
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            827 = { change_province_name = "Zante" }
+			clr_global_flag = tur_zante
+			clr_global_flag = gre_zante
+			set_global_flag = eng_zante
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	tur_corfu = {
+		potential = {
+            is_culture_group = turko_semitic
+            owns = 826
+			NOT = {
+				has_global_flag = tur_corfu
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            826 = { change_province_name = "Kefere" }
+			clr_global_flag = eng_corfu
+			clr_global_flag = gre_corfu
+			set_global_flag = tur_corfu
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	gre_corfu = {
+		potential = {
+			primary_culture = greek
+			OR = {
+				has_global_flag = tur_corfu
+				has_global_flag = eng_corfu
+			}
+            owns = 826
+			NOT = {
+				has_global_flag = gre_corfu
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            826 = { change_province_name = "Kérkyra" }
+			clr_global_flag = eng_corfu
+			clr_global_flag = tur_corfu
+			set_global_flag = gre_corfu
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
+	eng_corfu = {
+		potential = {
+            primary_culture = british
+            owns = 826
+			NOT = {
+				has_global_flag = eng_corfu
+			}
+		}
+		
+		allow = { }
+		
+		effect = {
+            826 = { change_province_name = "Corfu" }
+			clr_global_flag = tur_corfu
+			clr_global_flag = gre_corfu
+			set_global_flag = eng_corfu
+		}
+        ai_will_do = {
+            factor = 1
+        }
+	}
+
 }
