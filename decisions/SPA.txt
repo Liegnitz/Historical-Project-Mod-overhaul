@@ -852,4 +852,46 @@ political_decisions = {
 #        }
 #    }
 
+###State Renames###
+
+    rename_catalonia = {
+        potential = {
+			primary_culture = french
+            owns = 498 #Barcelona
+            owns = 499 #Gerona
+			owns = 501 #Tarragonia
+            NOT = { has_global_flag = fra_catalonia }
+        }
+		
+		allow = { }
+
+        effect = {
+            498 = { change_province_name = "Barcelone" }
+            499 = { change_province_name = "Gérone" }
+            501 = { change_province_name = "Tarragone" }
+            498 = { state_scope = { change_region_name = "Catalogne" } }
+            set_global_flag = fra_catalonia
+        }
+    }
+
+    restore_catalonia = {
+        potential = {
+			primary_culture = spanish
+            owns = 498 #Barcelona
+            owns = 499 #Gerona
+			owns = 501 #Tarragonia
+            has_global_flag = fra_catalonia
+        }
+		
+		allow = { }
+
+        effect = {
+            498 = { change_province_name = "Barcelona" }
+            499 = { change_province_name = "Girona" }
+            501 = { change_province_name = "Tarragona" }
+            498 = { state_scope = { change_region_name = "Cataluña" } }
+            clr_global_flag = fra_catalonia
+        }
+    }
+
 }
