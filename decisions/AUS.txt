@@ -2374,6 +2374,7 @@ political_decisions = {
 				has_global_flag = hun_siebenburg
 				has_global_flag = dnb_siebenburg				
 			}
+			NOT = { tag = KUK }
 		}
 		
 		allow = { }
